@@ -1,0 +1,12 @@
+version: '3.4'
+services:
+  lol-telegram-bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./data:/app/data
+    environment:
+      - BOT_TOKEN=6685478865:AAGAFXcIfHboUsr5Q2qX4IfSOARx_xyrgRI
+    working_dir: /app
+    command: python telegram_bot.py

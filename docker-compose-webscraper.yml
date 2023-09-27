@@ -1,0 +1,10 @@
+version: '3.4'
+services:
+  lol-webscraper:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./data:/app/data
+    working_dir: /app
+    command: python scrap_headless.py
