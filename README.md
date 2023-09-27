@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # LoL Webscraper
 
 ## Installation
@@ -45,6 +44,4 @@ After the bot started, message it `/register` in any chat it can view to mark th
 Use `/unregister` to remove a chat from the new games subscribers
 
 **NOTE**: When registering, only new games will be sent into the chat, the ones previously collected will be ignored
-=======
-# lol-esports-webscraper
->>>>>>> 382d6f87077e773fd11ba37a7ed7cefa2c9ebcab
+
