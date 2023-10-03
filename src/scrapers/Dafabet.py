@@ -143,7 +143,7 @@ class DafabetWebscraper(Webscraper):
             total_barons=stats.get("Game 1 Total Barons", []),
             total_towers=stats.get("Game 1 Total Turrets Taken", []),
             kill_handicap=stats.get("Game 1 Kills Handicap", []),
-            total_dragons=stats.get("Game 1 First Dragon", []),  # Not the total, just to provide a value
+            first_dragon=stats.get("Game 1 First Dragon", []),  # Not the total, just to provide a value
             total_inhibitors=stats.get("Game 1 First To Take Inhibitor", [])  # Not the total, just to provide a value
         )
 

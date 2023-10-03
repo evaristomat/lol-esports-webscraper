@@ -1,0 +1,52 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Bet History
+{% endblock %}
+
+{% block main %}
+    <h1 class="mb-4 text-center">Bet History</h1>
+
+    <!-- Check if there are any bets to display -->
+    {% if bets %}
+        <table class="table table-hover table-striped">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>League</th>
+                    <th>T1</th>
+                    <th>T2</th>
+                    <th>Bet Type</th>
+                    <th>Bet Line</th>
+                    <th>ROI</th>
+                    <th>Odds</th>
+                    <th>House</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for bet in bets %}
+                    {% if bet.status != "Pending" %} <!-- Display only non-pending bets -->
+                        <tr>
+                            {% for cell in bet.data %}
+                                <td>{{ cell }}</td>
+                            {% endfor %}
+                            <td>{{ bet.status }}</td>
+                            <td>
+                                <!-- Add 'Remove' button -->
+                                <form action="{{ url_for('remove_bet') }}" method="post" class="d-inline">
+                                    <input type="hidden" name="bet_id" value="{{ bet.id }}">
+                                    <button type="submit" class="btn btn-danger btn-sm">Remove</button>
+                                </form>
+                            </td>
+                        </tr>
+                    {% endif %}
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p class="text-center">You have no bets in your history.</p>
+    {% endif %}
+{% endblock %}

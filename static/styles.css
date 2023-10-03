@@ -1,0 +1,44 @@
+body {
+    background-color: #1E1E1E;
+    color: #D4D4D4;
+}
+
+.container {
+    background-color: #1E1E1E;
+}
+
+.table {
+    background-color: #252526;
+}
+
+.table th, .table td {
+    border-color: #343435;
+}
+
+.btn-outline-dark {
+    border-color: #858587;
+    color: #C8C8C9;
+}
+
+.btn-outline-dark:hover {
+    background-color: #858587;
+    color: #1E1E1E;
+}
+
+select.form-control, button.btn {
+    background-color: #3C3C3C;
+    color: #D4D4D4;
+}
+
+select.form-control:focus, button.btn:focus {
+    border-color: #007ACC; /* This is a highlight color that VS Code uses */
+    box-shadow: none;
+}
+
+a {
+    color: #569CD6; /* This is a link color that VS Code uses */
+}
+
+a:hover {
+    text-decoration: underline;
+}

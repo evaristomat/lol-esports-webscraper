@@ -1,14 +1,20 @@
 import re
+import logging
 from datetime import datetime
 from typing import List, Dict
 
 import requests
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 from src.Dtos import GameDetailDto, GameOverviewDto, StatDto
 from src.ScrapingService import Webscraper
 from src.Utils import ScrollBox, parse_float, remove_duplicates
+
+# Setting up logging
+logging.basicConfig(level=logging.DEBUG)
 
 extract_number_regex = "[^0-9\-+]"
 
@@ -40,6 +46,7 @@ class PinnacleWebscraper(Webscraper):
         return "https://www.pinnacle.com/pt/esports/games/league-of-legends/matchups"
 
     def fetch_games(self) -> List[GameDetailDto]:
+        logging.debug("Sending matchups request")
         print(f"[DEBUG] Sending matchups request")
         data = request_matchups()
         lol_matchups = list(
@@ -49,6 +56,7 @@ class PinnacleWebscraper(Webscraper):
         dtos: List[GameDetailDto] = []
 
         for matchup in lol_matchups:
+            print(matchup['id'])
             if matchup["status"] != "pending":
                 continue
 
@@ -128,8 +136,8 @@ class PinnacleWebscraper(Webscraper):
                     not re.match(extract_number_regex, home[1])
                     and not re.match(extract_number_regex, away[1])
                 ):
-                    value = abs(parse_float(re.sub(extract_number_regex, "", home[1])))
-                stats[stat_name].append(StatDto(value, home[0], away[0]))
+                    value = abs(parse_float(re.sub(extract_number_regex, "", home[1]))) / 10.0  # Divide by 10 here
+                stats[stat_name].append(StatDto(value, home[0] / 10.0, away[0] / 10.0))  # Divide by 10 here
         return remove_duplicates(stats)
 
     def collect_detail_dto(self, overview_dto: GameOverviewDto) -> GameDetailDto:

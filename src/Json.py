@@ -43,7 +43,7 @@ def write_as_json_to_file(file_path: str, content: List[GameDetailDto]):
     with open(file_path, "w+") as f:
         print(file_path, content)
         print(GameDetailDto.schema().dumps(content, many=True))
-        f.write(GameDetailDto.schema().dumps(content, many=True))
+        f.write(GameDetailDto.schema().dumps(content, many=True, indent=4))
 
 
 def read_json(file_path) -> List[GameDetailDto]:
