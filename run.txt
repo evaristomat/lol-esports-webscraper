@@ -1,0 +1,14 @@
+Run the script
+bash.run
+
+Run update_dafa_dragons
+
+Run stats/main.py 
+(Generate bets.csv)
+
+
+-------------
+Flask
+
+Bets -> pandas bets.csv
+My bets and history -> database

@@ -1,0 +1,67 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    All Bets
+{% endblock %}
+
+{% block main %}
+    <h1 class="mb-4 text-center">All Bets</h1>
+
+    {% if bets %}
+        <table class="table table-hover table-striped">
+            <!-- Display Total Profit at the beginning of the table -->
+            <thead>
+                <tr>
+                    <th colspan="9" class="text-center">Total Profit: {{ total_profit }}</th>
+                </tr>
+                <tr>
+                    <th>Date</th>
+                    <th>Team 1</th>
+                    <th>Team 2</th>
+                    <th>Map</th>
+                    <th>Bet Line</th>
+                    <th>Bet Type</th>
+                    <th>Status</th>
+                    <th>Odd</th>
+                    <th>Profit</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for bet in bets %}
+                    <tr>
+                        <td>{{ bet['date'] }}</td>
+                        <td>{{ bet['t1'] }}</td>
+                        <td>{{ bet['t2'] }}</td>
+                        <td>{{ bet['game'] }}</td>
+                        <td>{{ bet['bet_type'] }}</td>
+                        <td>{{ bet['bet_line'] }}</td>
+                        <td>{{ bet['status'] }}</td>
+                        <td>{{ bet['odds'] }}</td>
+                        <td>{{ bet['profit'] }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        
+        <!-- <div class="chart-container">
+            <h3>Bet Type Win Rate</h3>
+            <canvas id="betTypeWinRateChart"></canvas>
+        </div>
+
+        <div class="chart-container">
+            <h3>Profitability by Bet Type</h3>
+            <canvas id="profitabilityChart"></canvas>
+        </div>
+
+        <div class="chart-container">
+            <h3>Most Profitable Odds Range</h3>
+            <canvas id="profitableOddsRangeChart"></canvas>
+        </div> -->
+
+        
+    {% else %}
+        <p class="text-center">No bets available at the moment.</p>
+    {% endif %}
+{% endblock %}

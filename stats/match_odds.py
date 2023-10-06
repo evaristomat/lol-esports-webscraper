@@ -86,6 +86,9 @@ class MatchOdds:
     def first_baron(self):
         return self._get_category_score('first_kill_baron')
 
+    def first_dragon(self):
+        return self._get_category_score('first_dragon')
+    
     def first_inhib(self):
         return self._get_category_score('first_destroy_inhibitor')
 
@@ -109,10 +112,10 @@ class MatchOdds:
 
 
 if __name__ == "__main__": 
-    with open(r'..\data\2023-09-26\games_Bet365Webscraper.json', 'r') as file:
+    with open(r'..\data\2023-10-03\games_DafabetWebscraper.json', 'r') as file:
         games = json.load(file)
     
-    game_data = games[4]  # or whatever index or method you're using to select the game
+    game_data = games[0]  # or whatever index or method you're using to select the game
     test = MatchOdds(game_data)
-    print(test.kill_handicap())
+    print(test.first_dragon())
     # '{'total_dragons': 4.5, 'over': 1.57, 'under': 2.25}'

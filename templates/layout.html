@@ -7,6 +7,8 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- ... other header items ... -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
 <body>
@@ -18,30 +20,33 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <!-- Navbar links -->
-        <div class="navbar-nav ml-auto" id="navbarNav">
+        <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <!-- Right-aligned Links -->
                 {% if current_user.is_authenticated %}
-                <!-- Adding a link to the Bets page -->
-                <li class="nav-item">
-                    <a class="nav-link" href="/">Bets</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/bets">My Bets</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/history">History</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/logout">Logout</a>
-                </li>
+                    <!-- Adding a link to the Bets page -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Bets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/bets">My Bets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/history">History</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/all_bets">All Bets</a>  <!-- Added link to "All Bets" -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/logout">Logout</a>
+                    </li>
                 {% else %}
-                <li class="nav-item">
-                    <a class="nav-link" href="/login">Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/register">Register</a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/login">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/register">Register</a>
+                    </li>
                 {% endif %}
             </ul>
         </div>

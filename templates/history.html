@@ -5,7 +5,7 @@
 {% endblock %}
 
 {% block main %}
-    <h1 class="mb-4 text-center">Bet History</h1>
+    <h1 class="mb-4 text-center">Bet History - Only Results from Map 1</h1>
 
     <!-- Check if there are any bets to display -->
     {% if bets %}
@@ -22,30 +22,35 @@
                     <th>Odds</th>
                     <th>House</th>
                     <th>Status</th>
+                    <th>Profit</th>
                     <th>Action</th>
-                </tr>
-            </thead>
+                </thead>
 
             <tbody>
                 {% for bet in bets %}
-                    {% if bet.status != "Pending" %} <!-- Display only non-pending bets -->
-                        <tr>
-                            {% for cell in bet.data %}
-                                <td>{{ cell }}</td>
-                            {% endfor %}
-                            <td>{{ bet.status }}</td>
-                            <td>
-                                <!-- Add 'Remove' button -->
-                                <form action="{{ url_for('remove_bet') }}" method="post" class="d-inline">
-                                    <input type="hidden" name="bet_id" value="{{ bet.id }}">
-                                    <button type="submit" class="btn btn-danger btn-sm">Remove</button>
-                                </form>
-                            </td>
-                        </tr>
-                    {% endif %}
+                    <!-- Display only non-pending bets -->
+                    <tr>
+                        {% for cell in bet.data %}
+                            <td>{{ cell }}</td>
+                        {% endfor %}
+                        <!-- 'Remove' button -->
+                        <td>
+                            <!-- Add 'Remove' button -->
+                            <form action="{{ url_for('remove_history_bet') }}" method="post" class="d-inline">
+                                <input type="hidden" name="bet_id" value="{{ bet.id }}">
+                                <button type="submit" class="btn btn-danger btn-sm" disabled>Remove</button>
+                            </form>
+                        </td>
+                    </tr>
                 {% endfor %}
-            </tbody>
+                <tr>
+                    <td colspan="10" style="text-align:right">Total Profit:</td>
+                    <td>{{ total_profit }}</td>
+                    <td></td>
+                </tr>
+            </tbody>            
         </table>
+
     {% else %}
         <p class="text-center">You have no bets in your history.</p>
     {% endif %}

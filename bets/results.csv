@@ -1,0 +1,23 @@
+date,t1,t2,game,bet_type,bet_line,status,odds,profit
+2023-10-04 16:06:07,Karmine Corp,Vitality.Bee,1,over,total_towers 11.5,win,1.57,0.57
+2023-10-04 16:55:52,Vitality.Bee,Karmine Corp,2,over,total_towers 11.5,win,1.57,0.57
+2023-10-04 17:48:38,Karmine Corp,Vitality.Bee,3,over,total_towers 11.5,win,1.57,0.57
+2023-10-04 18:50:12,Karmine Corp,Vitality.Bee,4,over,total_towers 11.5,win,1.57,0.57
+2023-10-04 16:06:07,Karmine Corp,Vitality.Bee,1,under,total_kills 30.5,win,1.83,0.83
+2023-10-04 16:55:52,Vitality.Bee,Karmine Corp,2,under,total_kills 30.5,win,1.83,0.83
+2023-10-04 17:48:38,Karmine Corp,Vitality.Bee,3,under,total_kills 30.5,loss,1.83,-1.0
+2023-10-04 18:50:12,Karmine Corp,Vitality.Bee,4,under,total_kills 30.5,win,1.83,0.83
+2023-10-05 16:05:23,Team du Sud,Atletec,1,under,total_dragons 4.5,win,1.53,0.53
+2023-10-05 16:51:25,Atletec,Team du Sud,2,under,total_dragons 4.5,win,1.53,0.53
+2023-10-05 17:34:57,Team du Sud,Atletec,3,under,total_dragons 4.5,win,1.53,0.53
+2023-10-05 18:28:42,Team du Sud,Atletec,4,under,total_dragons 4.5,win,1.53,0.53
+2023-10-05 16:05:23,Team du Sud,Atletec,1,under,total_kills 30.5,win,1.83,0.83
+2023-10-05 16:51:25,Atletec,Team du Sud,2,under,total_kills 30.5,loss,1.83,-1.0
+2023-10-05 17:34:57,Team du Sud,Atletec,3,under,total_kills 30.5,win,1.83,0.83
+2023-10-05 18:28:42,Team du Sud,Atletec,4,under,total_kills 30.5,loss,1.83,-1.0
+2023-10-05 16:05:23,Team du Sud,Atletec,1,FD,first_dragon Atletec,win,2.288,1.29
+2023-10-05 16:51:25,Atletec,Team du Sud,2,FD,first_dragon Atletec,loss,2.288,-1.0
+2023-10-05 17:34:57,Team du Sud,Atletec,3,FD,first_dragon Atletec,win,2.288,1.29
+2023-10-05 18:28:42,Team du Sud,Atletec,4,FD,first_dragon Atletec,loss,2.288,-1.0
+2023-10-05 17:50:15,Case Esports,Boavista FC,1,FD,first_dragon Case Esports,win,1.613,0.61
+2023-10-05 18:35:19,Case Esports,Boavista FC,2,FD,first_dragon Case Esports,win,1.613,0.61

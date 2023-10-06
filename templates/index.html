@@ -8,9 +8,16 @@
     <h1 class="mb-4 text-center">Bets</h1>
 
     <div class="card">
-        <div class="card-header bg-info text-white">
-            Bet Filter
+        <div class="card-header bg-info text-white d-flex justify-content-between">
+            <div>Bet Filter</div>
+            <div><strong>Last Database Update:</strong> {{ last_update_date }}</div>
         </div>
+        <!-- <div class="mb-4">
+            <strong>Last Database Update:</strong> {{ last_update_date }}
+        </div> -->
+        <form action="{{ url_for('update_bets') }}" method="post" class="mb-4">
+            <button type="submit" class="btn btn-warning">Update Bets</button>
+        </form>
         <div class="card-body">
 
             <form method="get" class="form-inline mb-4">
@@ -40,17 +47,19 @@
                         </th>
                         <th>Odds</th>
                         <th>House</th>
+                        <th>Status</th>
                         <th>Action</th>
                     </tr>
                 </thead>
                 <tbody>
                     {% for index, row in data %}
+                    {% if row['status'] == "pending" %}  {# Check the last column for the "Status" #}
                         <tr>
                             {% for cell in row %}
                                 <td>{{ cell }}</td>
                             {% endfor %}
                             <td>
-                                {% if row.data|join(',') not in added_bet_data %}
+                                {% if row|join(',') not in added_bet_data %}
                                     <form method="POST" action="/add_bet" class="d-inline">
                                         <input type="hidden" name="bet_id" value="{{ index }}">
                                         <button type="submit" class="btn btn-primary">Add</button>
@@ -60,7 +69,8 @@
                                 {% endif %}
                             </td>
                         </tr>
-                    {% endfor %}
+                    {% endif %}
+                {% endfor %}
                 </tbody>
             </table>
         </div>

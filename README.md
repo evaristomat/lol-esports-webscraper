@@ -1,5 +1,28 @@
 # LoL Webscraper
 
+## Introduction
+This project provides tools to assist League of Legends enthusiasts in making informed betting decisions. We scrape odds from popular betting sites and compare them against a historical database of match outcomes.
+
+## Features
+- **Web Scraping:** 
+  - Extracts betting odds for League of Legends matches from bet365, dafabet, and pinnacle.
+- **Odds Comparison:** 
+  - Analyzes the scraped odds.
+  - Cross-references with our database of past games to highlight the best bets.
+- **Past Results Analyzer:** 
+  - Evaluates the success of our past best bet recommendations against newer match results.
+- **Flask App:** 
+  - Displays the latest best bet recommendations.
+  - Facilitates user registration and login.
+  - Allows users to add bets to their personal list.
+  - Offers a detailed view of a user's betting history and cumulative profit.
+
+## How to Use
+1. Launch the Flask app and register.
+2. Log in to access the best bet recommendations.
+3. Add bets of interest to your personal list.
+4. Keep track of your betting history and profit through the app's user-friendly interface.
+
 ## Installation
 
 You will need docker installed to run the headless scrapers.
