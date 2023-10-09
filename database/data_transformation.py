@@ -1,10 +1,15 @@
 import pandas as pd
 from tqdm import tqdm
 import logging
+import os
+
 # Configure logging
 logging.basicConfig(filename='data_processing.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-data = pd.read_csv('database.csv')
+# Get the directory of the script
+script_dir = os.path.dirname(os.path.abspath(__file__))
+bets_path = os.path.join(script_dir, 'database.csv')
+data = pd.read_csv(bets_path)
 
 YELLOW = '\033[93m'
 ENDC = '\033[0m'

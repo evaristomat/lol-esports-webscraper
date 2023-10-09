@@ -15,9 +15,42 @@ date,t1,t2,game,bet_type,bet_line,status,odds,profit
 2023-10-05 16:51:25,Atletec,Team du Sud,2,under,total_kills 30.5,loss,1.83,-1.0
 2023-10-05 17:34:57,Team du Sud,Atletec,3,under,total_kills 30.5,win,1.83,0.83
 2023-10-05 18:28:42,Team du Sud,Atletec,4,under,total_kills 30.5,loss,1.83,-1.0
+2023-10-07 16:06:19,Team GO,BK ROG Esports,1,over,total_dragons 4.5,win,2.37,1.37
+2023-10-07 17:05:41,Team GO,BK ROG Esports,2,over,total_dragons 4.5,loss,2.37,-1.0
+2023-10-07 17:52:37,BK ROG Esports,Team GO,3,over,total_dragons 4.5,loss,2.37,-1.0
+2023-10-07 18:38:30,Team GO,BK ROG Esports,4,over,total_dragons 4.5,loss,2.37,-1.0
+2023-10-07 19:29:36,BK ROG Esports,Team GO,5,over,total_dragons 4.5,loss,2.37,-1.0
+2023-10-07 16:06:19,Team GO,BK ROG Esports,1,over,total_towers 11.5,loss,1.57,-1.0
+2023-10-07 17:05:41,Team GO,BK ROG Esports,2,over,total_towers 11.5,loss,1.57,-1.0
+2023-10-07 17:52:37,BK ROG Esports,Team GO,3,over,total_towers 11.5,win,1.57,0.57
+2023-10-07 18:38:30,Team GO,BK ROG Esports,4,over,total_towers 11.5,win,1.57,0.57
+2023-10-07 19:29:36,BK ROG Esports,Team GO,5,over,total_towers 11.5,loss,1.57,-1.0
+2023-10-07 16:06:19,Team GO,BK ROG Esports,1,over,total_kills 31.5,loss,1.83,-1.0
+2023-10-07 17:05:41,Team GO,BK ROG Esports,2,over,total_kills 31.5,loss,1.83,-1.0
+2023-10-07 17:52:37,BK ROG Esports,Team GO,3,over,total_kills 31.5,win,1.83,0.83
+2023-10-07 18:38:30,Team GO,BK ROG Esports,4,over,total_kills 31.5,win,1.83,0.83
+2023-10-07 19:29:36,BK ROG Esports,Team GO,5,over,total_kills 31.5,win,1.83,0.83
 2023-10-05 16:05:23,Team du Sud,Atletec,1,FD,first_dragon Atletec,win,2.288,1.29
 2023-10-05 16:51:25,Atletec,Team du Sud,2,FD,first_dragon Atletec,loss,2.288,-1.0
 2023-10-05 17:34:57,Team du Sud,Atletec,3,FD,first_dragon Atletec,win,2.288,1.29
 2023-10-05 18:28:42,Team du Sud,Atletec,4,FD,first_dragon Atletec,loss,2.288,-1.0
 2023-10-05 17:50:15,Case Esports,Boavista FC,1,FD,first_dragon Case Esports,win,1.613,0.61
 2023-10-05 18:35:19,Case Esports,Boavista FC,2,FD,first_dragon Case Esports,win,1.613,0.61
+2023-10-07 16:06:19,Team GO,BK ROG Esports,1,over,total_towers 12.5,loss,2.0,-1.0
+2023-10-07 17:05:41,Team GO,BK ROG Esports,2,over,total_towers 12.5,loss,2.0,-1.0
+2023-10-07 17:52:37,BK ROG Esports,Team GO,3,over,total_towers 12.5,loss,2.0,-1.0
+2023-10-07 18:38:30,Team GO,BK ROG Esports,4,over,total_towers 12.5,loss,2.0,-1.0
+2023-10-07 19:29:36,BK ROG Esports,Team GO,5,over,total_towers 12.5,loss,2.0,-1.0
+2023-10-08 16:05:46,Vitality.Bee,Team du Sud,1,under,total_dragons 4.5,win,1.53,0.53
+2023-10-08 17:01:36,Vitality.Bee,Team du Sud,2,under,total_dragons 4.5,win,1.53,0.53
+2023-10-08 17:47:00,Vitality.Bee,Team du Sud,3,under,total_dragons 4.5,loss,1.53,-1.0
+2023-10-08 16:05:46,Vitality.Bee,Team du Sud,1,under,total_kills 30.5,loss,1.83,-1.0
+2023-10-08 17:01:36,Vitality.Bee,Team du Sud,2,under,total_kills 30.5,loss,1.83,-1.0
+2023-10-08 17:47:00,Vitality.Bee,Team du Sud,3,under,total_kills 30.5,loss,1.83,-1.0
+2023-10-06 17:46:00,For The Win Esports,BWE Esports,1,under,total_kills 30.5,win,1.701,0.7
+2023-10-06 18:33:01,BWE Esports,For The Win Esports,2,under,total_kills 30.5,loss,1.701,-1.0
+2023-10-08 16:05:46,Vitality.Bee,Team du Sud,1,FD,first_dragon Vitality.Bee,win,1.694,0.69
+2023-10-08 17:01:36,Vitality.Bee,Team du Sud,2,FD,first_dragon Vitality.Bee,loss,1.694,-1.0
+2023-10-08 17:47:00,Vitality.Bee,Team du Sud,3,FD,first_dragon Vitality.Bee,loss,1.694,-1.0
+2023-10-08 17:45:06,Movistar Riders,Hurricane of Feathers,3,over,total_kills 29.5,win,1.917,0.92
+2023-10-08 17:45:06,Movistar Riders,Hurricane of Feathers,3,FD,first_dragon Hurricane of Feathers,win,2.104,1.1

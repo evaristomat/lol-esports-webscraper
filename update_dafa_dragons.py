@@ -3,8 +3,8 @@ import os
 import logging
 
 # Setup logging
-LOG_FILENAME = 'update_dafa_json.log'
-PROCESSED_FOLDERS_LOG = 'processed_folders.log'
+LOG_FILENAME = 'logs/update_dafa_json.log'
+PROCESSED_FOLDERS_LOG = 'logs/processed_folders.log'
 logging.basicConfig(filename=LOG_FILENAME, level=logging.INFO, 
                     format='%(asctime)s - %(levelname)s - %(message)s')
 

@@ -183,16 +183,17 @@ def history():
         
         total_profit += profit
         total_profit = round(total_profit, 2)  # Round the total profit after each addition
+
+        formatted_profit = f"{profit} U"  # Format the profit with the "U" prefix
         
         history_bets.append({
-            'data': [bet.date, bet.league, bet.t1, bet.t2, bet.bet_type, bet.bet_line, bet.ROI, bet.odds, bet.House, bet.status, profit],
+            'data': [bet.date, bet.league, bet.t1, bet.t2, bet.bet_type, bet.bet_line, bet.ROI, bet.odds, bet.House, bet.status, formatted_profit],
             'id': bet.id
         })
 
-    return render_template('history.html', bets=history_bets, total_profit=total_profit)
-    
-    return render_template('history.html', bets=history_bets, total_profit=total_profit)
+    formatted_total_profit = f"{total_profit} U"  # Format the total profit with the "U" prefix
 
+    return render_template('history.html', bets=history_bets, total_profit=formatted_total_profit)
 
 @app.route("/logout")
 @login_required
@@ -207,7 +208,7 @@ def logout():
 def index():
     # Load the CSV data into a DataFrame
     bets_df = pd.read_csv('bets/bets.csv')
-    last_update_date = get_last_db_update_date('database\data_processing.log')
+    last_update_date = get_last_db_update_date('database\logs\data_processing.log')
 
     houses = bets_df['House'].unique().tolist()
     selected_house = request.args.get('house', '')

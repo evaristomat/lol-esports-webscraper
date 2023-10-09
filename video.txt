@@ -1,0 +1,32 @@
+[Opening Scene]
+
+Visual: Exciting in-game scenes from a League of Legends match with champions battling it out.
+Narration: "Are you a League of Legends enthusiast eager to make the most out of your match predictions?"
+[Scene 1]
+
+Visual: Animation of web browsers with the logos of bet365, dafabet, and pinnacle.
+Narration: "We know the drill. Scouring sites like bet365, dafabet, and pinnacle for the best odds can be tedious."
+[Scene 2]
+
+Visual: Fast-paced montage of coding sequences and data crawling.
+Narration: "That's where our system steps in. We effortlessly scrape the latest betting odds for you."
+[Scene 3]
+
+Visual: Animated graphical representation of the odds from different sites flowing into a centralized database.
+Narration: "But we don't stop there. We analyze these odds..."
+[Scene 4]
+
+Visual: Flashbacks of iconic moments from past LoL matches intercut with data streams.
+Narration: "... and compare them against a vast historical database, pinpointing where you can get the edge!"
+[Scene 5]
+
+Visual: Split-screen showing a user making a bet based on recommendations and another screen showcasing the past results analyzer in action.
+Narration: "Our system even checks past recommendations, ensuring we learn, adapt, and sharpen our predictive prowess."
+[Scene 6]
+
+Visual: Close-ups of the Flask app interface: user registration, logging in, the best bets page, personal bet tracking, and user betting history.
+Narration: "And with our intuitive Flask app, everything you need is at your fingertips: From top bet recommendations to your personal betting history."
+[Closing Scene]
+
+Visual: A confident gamer wearing a headset, nodding in satisfaction while looking at betting data on a computer screen.
+Narration: "Level up your League of Legends betting strategy with our system. Dive in today and redefine how you place your bets!"

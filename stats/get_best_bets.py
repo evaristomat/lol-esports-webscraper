@@ -32,10 +32,11 @@ def build_row(best_bet, bet_line_key):
     }
 
 def main():
-    filename = '../database/data_transformed.csv'
+# Absolute paths
     project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '../'))
     data_folder = os.path.join(project_root, 'data')
-    processed_files_log = os.path.join(project_root, 'processed_files.log')
+    processed_files_log = os.path.join(project_root, 'logs/best_bets.log')
+    filename = os.path.join(project_root, 'database', 'data_transformed.csv')
 
     header = ['date', 'league', 't1', 't2', 'bet_type', 'bet_line', 'ROI', 'odds', 'House', 'status']
 
@@ -49,29 +50,29 @@ def main():
     csv_path = os.path.join(csv_folder, csv_filename)
 
     os.makedirs(csv_folder, exist_ok=True)
-    existing_rows = set()  # Using a set to store unique identifiers of the existing rows
+    existing_rows = set()
 
-    if os.path.exists(csv_path):
-        with open(csv_path, mode='r', newline='') as file:
-            reader = csv.DictReader(file)
-            rows = list(reader)
+    # Exception handling for CSV reading
+    try:
+        if os.path.exists(csv_path):
+            with open(csv_path, mode='r', newline='') as file:
+                reader = csv.DictReader(file)
+                rows = sorted(reader, key=lambda x: (datetime.strptime(x['date'], '%Y-%m-%d'), x['t1']))
+                for row in rows:
+                    existing_rows.add(row_identifier(row))
+    except Exception as e:
+        logging.error(f"Error reading CSV file {csv_path}: {e}")
+        return  # Exit the script if there's an error reading the CSV
 
-            # Convert date strings to datetime objects for sorting
-            rows = sorted(rows, key=lambda x: (datetime.strptime(x['date'], '%Y-%m-%d'), x['t1']))
+    all_new_rows = []
 
-            for row in rows:
-                existing_rows.add(row_identifier(row))
-
-    all_new_rows = []  # Store all new rows here for sorting
-
+    # Error handling for each JSON file
     for date_folder in os.listdir(data_folder):
         json_files = glob.glob(os.path.join(data_folder, date_folder, 'games_*.json'))
-
         for json_file_path in json_files:
             if json_file_path in processed_files:
-                logging.info(f"Skipping already processed file")
+                logging.info(f"Skipping already processed file: {json_file_path}")
                 continue
-
             try:
                 with open(json_file_path, 'r') as file:
                     games = json.load(file)
@@ -108,13 +109,16 @@ def main():
             with open(processed_files_log, 'a') as log_file:
                 log_file.write(json_file_path + '\n')
 
-    with open(csv_path, mode='a', newline='') as file:
-        writer = csv.DictWriter(file, fieldnames=header)
-        if file.tell() == 0:
-            writer.writeheader()
-
-        for row in all_new_rows:
-            writer.writerow(row)
+    # Writing to CSV, with error handling
+    try:
+        with open(csv_path, mode='a', newline='') as file:
+            writer = csv.DictWriter(file, fieldnames=header)
+            if file.tell() == 0:
+                writer.writeheader()
+            for row in all_new_rows:
+                writer.writerow(row)
+    except Exception as e:
+        logging.error(f"Error writing to CSV {csv_path}: {e}")
 
 if __name__ == "__main__":
     main()

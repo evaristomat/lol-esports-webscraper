@@ -2,8 +2,13 @@ import os
 import gdown
 import logging
 
+# Setup the path for logging
+log_directory = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'logs')
+os.makedirs(log_directory, exist_ok=True)  # Ensure the logs directory exists
+log_path = os.path.join(log_directory, 'data_processing.log')
+
 # Configure logging
-logging.basicConfig(filename='data_processing.log', level=logging.INFO, 
+logging.basicConfig(filename=log_path, level=logging.INFO, 
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 YELLOW = '\033[93m'

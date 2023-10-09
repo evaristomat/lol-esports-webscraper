@@ -132,7 +132,7 @@ class OddsComparator:
 if __name__ == "__main__":
     filename = '../database/data_transformed.csv'
     
-    with open(r'..\data\2023-10-03\games_DafabetWebscraper.json', 'r') as file:
+    with open(r'..\data\2023-10-03\games_Bet365Webscraper.json', 'r') as file:
         games = json.load(file)
     
     game_data = games[0]
@@ -142,11 +142,11 @@ if __name__ == "__main__":
     print(formatted_date)
     
     comparator = OddsComparator(filename, game_data)
-    # best = comparator.compare_dragon()
-    # print(best)
-    # best = comparator.compare_tower()
-    # print(best)
-    # best = comparator.compare_kills()
-    # print(best)
+    best = comparator.compare_dragon()
+    print(best)
+    best = comparator.compare_tower()
+    print(best)
+    best = comparator.compare_kills()
+    print(best)
     best = comparator.compare_first_drake()
     print(best)
