@@ -37,7 +37,6 @@
         ],
         "kill_handicap": [],
         "total_kills": [],
-        "total_towers": [],
         "total_barons": [],
         "total_inhibitors": [
             {
@@ -52,7 +51,8 @@
                 "home_team_score": 1.812,
                 "away_team_score": 1.893
             }
-        ]
+        ],
+        "first_tower": []
     },
     {
         "overview": {
@@ -92,7 +92,6 @@
         ],
         "kill_handicap": [],
         "total_kills": [],
-        "total_towers": [],
         "total_barons": [],
         "total_inhibitors": [
             {
@@ -107,6 +106,7 @@
                 "home_team_score": 1.986,
                 "away_team_score": 1.734
             }
-        ]
+        ],
+        "first_tower": []
     }
 ]

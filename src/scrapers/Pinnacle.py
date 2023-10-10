@@ -18,6 +18,21 @@ logging.basicConfig(level=logging.DEBUG)
 
 extract_number_regex = "[^0-9\-+]"
 
+# Variables for each stat name
+winner_stat_name = "Money Line - Mapa 1"
+first_blood_stat_name = "(Mapa 1) 1º sangue"
+first_kill_baron_stat_name = "(Mapa 1) 1º barão"
+first_destroy_inhibitor_stat_name = "(Mapa 1) 1º inibidor"
+total_kills_stat_name = "Total (Mortes) – Mapa 1"
+total_barons_stat_name = "(Mapa 1) Total de barões mortos"
+total_towers_stat_name = "(Mapa 1) Total de torres destruídas"
+kill_handicap_stat_name = "Handicap (Mortes) – Mapa 1"
+total_dragons_stat_name = "(Mapa 1) Total de dragões elementais mortos"
+total_inhibitors_stat_name = "YOUR_STRING_HERE_FOR_TOTAL_INHIBITORS"
+tower_handicap_stat_name = "(Mapa 1) Handicap de Torres"
+first_tower_stat_name = "(Mapa 1) 1ª Torre"
+first_dragon_stat_name = "(Mapa 1) 1º Dragão"
+duration_map_stat_name = "Game Duration"
 
 def request_matchups():
     url = "https://guest.api.arcadia.pinnacle.com/0.1/sports/12/matchups?withSpecials=false&brandId=0"
@@ -147,14 +162,18 @@ class PinnacleWebscraper(Webscraper):
 
         return GameDetailDto(
             overview=overview_dto,
-            winner=stats.get("Money Line - Mapa 1", []),
-            first_blood=stats.get("(Mapa 1) 1º sangue", []),
-            first_kill_baron=stats.get("(Mapa 1) 1º barão", []),
-            first_destroy_inhibitor=stats.get("(Mapa 1) 1º inibidor", []),
-            total_kills=stats.get("Total (Mortes) – Mapa 1", []),
-            total_barons=stats.get("(Mapa 1) Total de barões mortos", []),
-            total_towers=stats.get("(Mapa 1) Total de torres destruídas", []),
-            kill_handicap=stats.get("Handicap (Mortes) – Mapa 1", []),
-            total_dragons=stats.get("(Mapa 1) Total de dragões elementais mortos", []),
-            total_inhibitors=stats.get("", []),
+            winner=stats.get(winner_stat_name, []),
+            first_blood=stats.get(first_blood_stat_name, []),
+            first_kill_baron=stats.get(first_kill_baron_stat_name, []),
+            first_destroy_inhibitor=stats.get(first_destroy_inhibitor_stat_name, []),
+            total_kills=stats.get(total_kills_stat_name, []),
+            total_barons=stats.get(total_barons_stat_name, []),
+            total_towers=stats.get(total_towers_stat_name, []),
+            kill_handicap=stats.get(kill_handicap_stat_name, []),
+            total_dragons=stats.get(total_dragons_stat_name, []),
+            total_inhibitors=stats.get(total_inhibitors_stat_name, []),
+            game_duration=stats.get(duration_map_stat_name, []),
+            tower_handicap=stats.get(tower_handicap_stat_name, []),
+            first_tower=stats.get(first_tower_stat_name, []),
+            first_dragon=stats.get(first_dragon_stat_name, [])
         )

@@ -31,6 +31,27 @@ def build_row(best_bet, bet_line_key):
         'status': 'pending'
     }
 
+def remove_old_pending_bets(csv_path, header):
+    """Remove bets from more than 3 days ago with 'pending' status."""
+    today = datetime.today().date()
+    kept_rows = []
+
+    if os.path.exists(csv_path):
+        with open(csv_path, mode='r', newline='') as file:
+            reader = csv.DictReader(file)
+            for row in reader:
+                row_date = datetime.strptime(row['date'], '%Y-%m-%d').date()
+                days_difference = (today - row_date).days
+                if days_difference <= 2 or row['status'] != 'pending':
+                    kept_rows.append(row)
+
+        # Write the kept rows back to the CSV
+        with open(csv_path, mode='w', newline='') as file:
+            writer = csv.DictWriter(file, fieldnames=header)
+            writer.writeheader()
+            for row in kept_rows:
+                writer.writerow(row)
+
 def main():
 # Absolute paths
     project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '../'))
@@ -63,6 +84,9 @@ def main():
     except Exception as e:
         logging.error(f"Error reading CSV file {csv_path}: {e}")
         return  # Exit the script if there's an error reading the CSV
+    
+    # Before adding new rows, clean up old 'pending' rows
+    remove_old_pending_bets(csv_path, header)
 
     all_new_rows = []
 
@@ -88,11 +112,13 @@ def main():
                 best_tower = comparator.compare_tower()
                 best_kills = comparator.compare_kills()
                 best_fd = comparator.compare_first_drake()
+                bet_gameduration = comparator.compare_game_duration()
 
                 for bet, bet_line_key in [(best_dragon, 'total_dragons'),
                                           (best_tower, 'total_towers'),
                                           (best_kills, 'total_kills'),
-                                          (best_fd, 'first_dragon')]:
+                                          (best_fd, 'first_dragon'),
+                                          (bet_gameduration, 'game_duration')]:
                     if bet:
                         row = build_row(bet, bet_line_key)
                         row['House'] = house_name

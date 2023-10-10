@@ -37,7 +37,6 @@
         ],
         "kill_handicap": [],
         "total_kills": [],
-        "total_towers": [],
         "total_barons": [],
         "total_inhibitors": [
             {
@@ -52,7 +51,8 @@
                 "home_team_score": 1.794,
                 "away_team_score": 1.913
             }
-        ]
+        ],
+        "first_tower": []
     },
     {
         "overview": {
@@ -92,7 +92,6 @@
         ],
         "kill_handicap": [],
         "total_kills": [],
-        "total_towers": [],
         "total_barons": [],
         "total_inhibitors": [
             {
@@ -107,7 +106,8 @@
                 "home_team_score": 1.967,
                 "away_team_score": 1.749
             }
-        ]
+        ],
+        "first_tower": []
     },
     {
         "overview": {
@@ -147,7 +147,6 @@
         ],
         "kill_handicap": [],
         "total_kills": [],
-        "total_towers": [],
         "total_barons": [],
         "total_inhibitors": [
             {
@@ -162,7 +161,8 @@
                 "home_team_score": 1.83,
                 "away_team_score": 1.873
             }
-        ]
+        ],
+        "first_tower": []
     },
     {
         "overview": {
@@ -214,7 +214,6 @@
                 "away_team_score": 1.701
             }
         ],
-        "total_towers": [],
         "total_barons": [],
         "total_inhibitors": [
             {
@@ -229,7 +228,8 @@
                 "home_team_score": 1.815,
                 "away_team_score": 1.889
             }
-        ]
+        ],
+        "first_tower": []
     },
     {
         "overview": {
@@ -269,7 +269,6 @@
         ],
         "kill_handicap": [],
         "total_kills": [],
-        "total_towers": [],
         "total_barons": [],
         "total_inhibitors": [
             {
@@ -284,7 +283,8 @@
                 "home_team_score": 1.792,
                 "away_team_score": 1.915
             }
-        ]
+        ],
+        "first_tower": []
     },
     {
         "overview": {
@@ -306,9 +306,9 @@
         "first_destroy_inhibitor": [],
         "kill_handicap": [],
         "total_kills": [],
-        "total_towers": [],
         "total_barons": [],
         "total_inhibitors": [],
-        "first_dragon": []
+        "first_dragon": [],
+        "first_tower": []
     }
 ]

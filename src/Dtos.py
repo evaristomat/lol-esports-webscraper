@@ -51,9 +51,13 @@ class GameDetailDto:
     kill_handicap: List[StatDto]
     total_kills: List[StatDto]
     total_towers: List[StatDto]
+    tower_handicap: List[StatDto]
+    first_tower: List[StatDto]
     total_dragons: List[StatDto]
+    first_dragon: List[StatDto]
     total_barons: List[StatDto]
     total_inhibitors: List[StatDto]
+    game_duration: List[StatDto]
 
     def pretty_print(self):
         return (f"Game Date: {datetime.utcfromtimestamp(self.overview.game_date).strftime('%d, %b %Y')}"
@@ -62,11 +66,11 @@ class GameDetailDto:
                 f"\nWinner: {self.winner}\nFirst Blood: {self.first_blood}\nFirst Kill Baron: {self.first_kill_baron}"
                 f"\nFirst Destroy Inhibitor: {self.first_destroy_inhibitor}\nKill Handicap: {self.kill_handicap}"
                 f"\nTotal Kills: {self.total_kills}\nTotal Towers: {self.total_towers}\nTotal Dragons: {self.total_dragons}"
-                f"\nTotal Barons: {self.total_barons}\nTotal Inhibitors: {self.total_inhibitors}")
+                f"\nTotal Barons: {self.total_barons}\nTotal Inhibitors: {self.total_inhibitors}\n"
+                f"\nGame Duration: {self.game_duration}")
 
     def __hash__(self):
         return hash(self.overview)
-
 
 def date_converter(value):
     return date.fromisoformat(value)

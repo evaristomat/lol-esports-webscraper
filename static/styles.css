@@ -1,44 +1,75 @@
-body {
+Basic Styling for Dark Theme
+body, html {
     background-color: #1E1E1E;
-    color: #D4D4D4;
+    color: #EAEAEA;  /* Adjusted the general text color to be lighter for better visibility */
+    font-family: 'Lato', sans-serif;
 }
 
-.container {
-    background-color: #1E1E1E;
-}
-
-.table {
-    background-color: #252526;
-}
-
-.table th, .table td {
+.container, .card, .jumbotron, .modal-content {
+    background-color: #2A2B2D;
     border-color: #343435;
 }
 
-.btn-outline-dark {
-    border-color: #858587;
-    color: #C8C8C9;
+/* Navigation Styles */
+.navbar {
+    background-color: #2A2B2D;
+    border-bottom: 1px solid #343435;
 }
 
-.btn-outline-dark:hover {
-    background-color: #858587;
-    color: #1E1E1E;
+.navbar-brand, .navbar-nav .nav-link {
+    color: #EAEAEA !important;  /* Lightened color for better visibility */
 }
 
-select.form-control, button.btn {
+.navbar-nav .nav-link:hover {
+    color: #569CD6 !important;
+    background-color: #252526;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #FFFFFF;  /* Pure white for headings to make them stand out */
+}
+
+/* Button Styling */
+.btn {
     background-color: #3C3C3C;
-    color: #D4D4D4;
+    color: #EAEAEA;  /* Adjusted the button text color to be lighter for better visibility */
+    transition: background-color 0.3s;
 }
 
-select.form-control:focus, button.btn:focus {
-    border-color: #007ACC; /* This is a highlight color that VS Code uses */
-    box-shadow: none;
+.btn:hover {
+    background-color: #2A2B2D;
 }
 
-a {
-    color: #569CD6; /* This is a link color that VS Code uses */
+/* Form Input Fields */
+input, textarea {
+    background-color: #3C3C3C;
+    color: #EAEAEA;  /* Adjusted input text color to be lighter for better visibility */
+    border-color: #343435;
+    transition: border-color 0.3s, box-shadow 0.3s;
 }
 
-a:hover {
-    text-decoration: underline;
+input::placeholder, textarea::placeholder {
+    color: #858587;
+}
+
+input:focus, textarea:focus {
+    border-color: #007ACC;
+    box-shadow: 0 0 5px #007ACC;
+}
+
+/* Alerts */
+.alert {
+    color: #1E1E1E;
+    background-color: #D4D4D4;
+}
+
+/* Miscellaneous Styles */
+hr {
+    border-top-color: #343435;
+}
+
+/* Utility class for some padding around sections, if needed */
+.padded-section {
+    padding: 20px 0;
 }

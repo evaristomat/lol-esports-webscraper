@@ -25,6 +25,7 @@ first_destroy_inhibitor_stat_name = "Destruir Inibidor"
 first_kill_baron_stat_name = "Matar Barão"
 first_blood_stat_name = "First Blood"
 money_line = "Moneyline"
+duration_map_stat_name = "Mapa 1 - Duração do Mapa - 2 Opções"
 
 browser_redirect_wait = 1
 chrome_path = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
@@ -75,6 +76,33 @@ def create_detail_dto(url: str, overview_dto: GameOverviewDto) -> GameDetailDto:
         stat_groups = stat_element.find_elements(
             By.CSS_SELECTOR, ".gl-MarketGroupContainer > div > div"
         )
+
+        # Teste
+        if title == "Mapa 1 - Duração do Mapa - 2 Opções":
+            try:
+                # Extract the duration threshold (e.g. 29:30)
+                duration_threshold_str = stat_element.find_element(By.XPATH, './/div[contains(@class, "srb-ParticipantLabelCentered_Name")]').text
+                duration_to_float = lambda s: float(s.split(':')[0]) + float(s.split(':')[1])/60
+                duration_threshold = duration_to_float(duration_threshold_str)   
+
+                # Extract the "Mais de ou Exatamente" odds 
+                over_odds = float(stat_element.find_element(By.XPATH, './/div[contains(text(), "Mais de ou Exatamente")]/following-sibling::div/span').text)
+
+                # Extract the "Menos de" odds
+                under_odds = float(stat_element.find_element(By.XPATH, './/div[contains(text(), "Menos de")]/following-sibling::div/span').text)
+                
+                game_duration_stat = StatDto(
+                    total_amount=duration_threshold, 
+                    home_team_score=over_odds, 
+                    away_team_score=under_odds
+                )
+                stats[duration_map_stat_name] = [game_duration_stat]
+
+                continue  # skip the rest of the loop for this stat and move on to the next
+
+            except Exception as e:
+                print(f"Failed to extract {title} stat. Error: {e}")
+        # Teste
 
         labels = []
         table_index = 0
@@ -128,6 +156,7 @@ def create_detail_dto(url: str, overview_dto: GameOverviewDto) -> GameDetailDto:
                 home_team = False
 
     driver.close()
+
     return GameDetailDto(
         overview=overview_dto,
         winner=list(
@@ -139,11 +168,14 @@ def create_detail_dto(url: str, overview_dto: GameOverviewDto) -> GameDetailDto:
         total_kills=stats.get(total_kills_stat_name, []),
         total_barons=stats.get(total_barons_stat_name, []),
         total_towers=stats.get(total_towers_stat_name, []),
+        tower_handicap=stats.get('tower_handicap', []),
+        first_tower=stats.get('first_tower', []),
         kill_handicap=stats.get(kill_handicap_stat_name, []),
         total_dragons=stats.get(total_dragons_stat_name, []),
+        first_dragon=stats.get('first_dragon', []),
         total_inhibitors=stats.get(total_inhibitors_stat_name, []),
+        game_duration=stats.get(duration_map_stat_name, [])
     )
-
 
 class Bet365Webscraper(Webscraper):
     @staticmethod

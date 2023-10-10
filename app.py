@@ -3,6 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import LoginManager, UserMixin, login_user, logout_user, login_required, current_user
 import pandas as pd
+import json
 from datetime import datetime
 
 app = Flask(__name__)
@@ -210,25 +211,31 @@ def index():
     bets_df = pd.read_csv('bets/bets.csv')
     last_update_date = get_last_db_update_date('database\logs\data_processing.log')
 
+    # Ensure 'Date' column is in datetime format for correct sorting
+    bets_df['date'] = pd.to_datetime(bets_df['date'])
+    bets_df['date'] = bets_df['date'].dt.strftime('%Y-%m-%d')
+
     houses = bets_df['House'].unique().tolist()
     selected_house = request.args.get('house', '')
-    sort_order = request.args.get('sort_order', 'desc')
+    sort_order = request.args.get('sort_order', 'asc')
     sort_column = request.args.get('sort_column', 'ROI')
 
     if selected_house:
         bets_df = bets_df[bets_df['House'] == selected_house]
 
+    # Handle ROI as a float for proper sorting, then return it to its string representation afterwards
     if sort_column == "ROI":
         bets_df['ROI'] = bets_df['ROI'].str.rstrip('%').astype('float')
 
-    if sort_order == 'asc':
-        bets_df = bets_df.sort_values(by=sort_column, ascending=True)
-    else:
-        bets_df = bets_df.sort_values(by=sort_column, ascending=False)
+    # Sort the DataFrame
+    sorting_columns = ['date', 't1', 'ROI']
+    ascending_order = [True, True, True] if sort_order == 'asc' else [False, True, False]
+    bets_df = bets_df.sort_values(by=sorting_columns, ascending=ascending_order)
 
-    if sort_column == "ROI":
+    # Convert ROI back to a formatted string if needed
+    if 'ROI' in bets_df.columns:
         bets_df['ROI'] = bets_df['ROI'].map("{:.2f}%".format)
-    
+
     # Fetch bets added by the user
     user_bets_db = UserBet.query.filter_by(user_id=current_user.id, status="pending").all()
     added_bet_data = [','.join([str(bet.date), bet.league, bet.t1, bet.t2, bet.bet_type, bet.bet_line, bet.ROI, bet.odds, bet.House, bet.status]) for bet in user_bets_db]
@@ -257,14 +264,33 @@ def all_bets():
     # Read CSV data
     all_bets_df = pd.read_csv('bets/results.csv')
     
+    # Remove the '%' sign from the 'ROI' column and convert it to float
+    all_bets_df['ROI'] = all_bets_df['ROI'].str.rstrip('%').astype('float')
+
+    # Fetch the last 20 records
+    last_20_bets = all_bets_df.tail(10)
+    
     # Calculate and format total profit
     rounded_profit = round(all_bets_df['profit'].sum(), 2)
-    total_profit = f"{rounded_profit} U"
+    total_profit = f"{rounded_profit} U"    
     
     # Convert DataFrame to a list of dictionaries for easy rendering in templates
-    bets_list = all_bets_df.to_dict(orient='records')
-    
-    return render_template('all_bets.html', bets=bets_list, total_profit=total_profit)
+    bets_list = last_20_bets.to_dict(orient='records')
+
+    # Calculate profits by ROI range
+    profit_by_range = {
+        "0-10": all_bets_df[(all_bets_df['ROI'] > 0) & (all_bets_df['ROI'] <= 10)]['profit'].sum(),
+        "10+": all_bets_df[all_bets_df['ROI'] > 10]['profit'].sum(),
+        "20+": all_bets_df[all_bets_df['ROI'] > 20]['profit'].sum(),
+        "30+": all_bets_df[all_bets_df['ROI'] > 30]['profit'].sum()
+    }
+    profit_by_range_json = json.dumps(profit_by_range)
+    profit_by_league = all_bets_df.groupby('league')['profit'].sum().to_dict()
+
+    return render_template('all_bets.html', all_bets=all_bets_df, bets=bets_list,
+                            total_profit=total_profit,
+                            profit_by_range_json=profit_by_range_json,
+                            profit_by_league=profit_by_league)
 
 @app.route('/add_bet', methods=['POST'])
 @login_required

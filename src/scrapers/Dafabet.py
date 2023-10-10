@@ -141,10 +141,14 @@ class DafabetWebscraper(Webscraper):
             first_destroy_inhibitor=stats.get("Game 1 First To Take Inhibitor", []),
             total_kills=stats.get("Game 1 Total Kills", []),
             total_barons=stats.get("Game 1 Total Barons", []),
-            total_towers=stats.get("Game 1 Total Turrets Taken", []),
+            total_towers=stats.get("Game 1 Total Turrets Taken - OFF", []),
+            tower_handicap=stats.get("Game 1 Total Turrets", []),
+            first_tower=stats.get("Game 1 First Turret", []),
             kill_handicap=stats.get("Game 1 Kills Handicap", []),
+            total_dragons=stats.get("Game 1 Total Dragons", []),
             first_dragon=stats.get("Game 1 First Dragon", []),  # Not the total, just to provide a value
-            total_inhibitors=stats.get("Game 1 First To Take Inhibitor", [])  # Not the total, just to provide a value
+            total_inhibitors=stats.get("Game 1 First To Take Inhibitor", []),  # Not the total, just to provide a value
+            game_duration=stats.get("Game 1 Duration Minutes", [])
         )
 
     def map_element_to_overview_dto(self, league: str, element: WebElement) -> GameOverviewDto:

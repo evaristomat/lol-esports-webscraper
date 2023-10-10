@@ -39,14 +39,13 @@ class OddsComparator:
                 for team in [home_team, away_team]:
                     team_all_stats = TeamStatsCalculator(team, data_loader)
                     stats = team_all_stats.total_fd()
-
-                    if stats == "No odds":
-                        print(f"No odds available for {team}'s {line_key} stats.")
-                        continue
-
                     team_stats_dict[team] = stats / 100
 
                 dragon_odds = game.first_dragon()
+                if None in dragon_odds.values():
+                    print(f"No odds available for {team}'s {line_key}.")
+                    return None
+                
                 roi_home = self.calculate_roi(team_stats_dict[home_team], dragon_odds[home_team])
                 roi_away = self.calculate_roi(team_stats_dict[away_team], dragon_odds[away_team])
 
@@ -70,18 +69,18 @@ class OddsComparator:
                 for team in [home_team, away_team]:
                     team_all_stats = TeamStatsCalculator(team, data_loader)
                     stats = compare_func(team_all_stats, line_value_dict)
-
-                    if stats == "No odds":
-                        print(f"No odds available for {team}'s {line_key} stats.")
-                        continue
-
                     combined_stats += stats / 200  # Same as (stats / 100) / 2
 
                 line_match = line_value_func()
 
+                print(f"Over Stats: {combined_stats * 100}%")
+                print(line_match)
+
                 if combined_stats > 0:
                     roi_over_combined = self.calculate_roi(combined_stats, line_match['over'])
                     roi_under_combined = self.calculate_roi(1 - combined_stats, line_match['under'])
+                    print(f"ROI over: {round(roi_over_combined, 2)}")
+                    print(f"ROI under: {round(roi_under_combined, 2)}")
 
                     best_bet, best_roi = ('over', roi_over_combined) if roi_over_combined > roi_under_combined else ('under', roi_under_combined)
 
@@ -128,25 +127,34 @@ class OddsComparator:
             lambda: MatchOdds(self.game_data).first_dragon()
         )    
 
+    def compare_game_duration(self):
+        return self._compare(
+            lambda team_stats, line_value: team_stats.game_duration(line_value),
+            'game_duration',
+            lambda: MatchOdds(self.game_data).gamelength()
+        )
+    
 
 if __name__ == "__main__":
     filename = '../database/data_transformed.csv'
     
-    with open(r'..\data\2023-10-03\games_Bet365Webscraper.json', 'r') as file:
+    with open(r'..\data\2023-10-10\games_Bet365Webscraper.json', 'r') as file:
         games = json.load(file)
     
-    game_data = games[0]
+    game_data = games[1]
     timestamp = game_data['overview']['game_date']
     date = datetime.datetime.utcfromtimestamp(timestamp)
     formatted_date = date.strftime('%Y-%m-%d')
     print(formatted_date)
     
     comparator = OddsComparator(filename, game_data)
-    best = comparator.compare_dragon()
-    print(best)
-    best = comparator.compare_tower()
-    print(best)
-    best = comparator.compare_kills()
-    print(best)
-    best = comparator.compare_first_drake()
+    # best = comparator.compare_dragon()
+    # print(best)
+    # best = comparator.compare_tower()
+    # print(best)
+    # best = comparator.compare_kills()
+    # print(best)
+    # best = comparator.compare_first_drake()
+    # print(best)
+    best = comparator.compare_game_duration()
     print(best)

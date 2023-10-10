@@ -154,7 +154,8 @@ if __name__ == "__main__":
     log(f"Data_transformation.py initiated")
     with tqdm(total=total_rows, desc="Processing") as pbar:
         datatest = get_league_matchups_global(data)
-        datatest.to_csv("data_transformed.csv")
+        data_transformed_path = os.path.join(script_dir, 'data_transformed.csv')  # Determine the absolute path
+        datatest.to_csv(data_transformed_path)  # Use the absolute path
         print("")
         log(f"Transformation completed!")
         pbar.update(total_rows)  # Update the progress bar to completion

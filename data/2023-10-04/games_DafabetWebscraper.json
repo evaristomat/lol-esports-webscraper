@@ -37,7 +37,6 @@
         ],
         "kill_handicap": [],
         "total_kills": [],
-        "total_towers": [],
         "total_barons": [],
         "total_inhibitors": [
             {
@@ -52,7 +51,8 @@
                 "home_team_score": 1.812,
                 "away_team_score": 1.893
             }
-        ]
+        ],
+        "first_tower": []
     },
     {
         "overview": {
@@ -92,7 +92,6 @@
         ],
         "kill_handicap": [],
         "total_kills": [],
-        "total_towers": [],
         "total_barons": [],
         "total_inhibitors": [
             {
@@ -107,7 +106,8 @@
                 "home_team_score": 1.555,
                 "away_team_score": 2.288
             }
-        ]
+        ],
+        "first_tower": []
     },
     {
         "overview": {
@@ -147,7 +147,6 @@
         ],
         "kill_handicap": [],
         "total_kills": [],
-        "total_towers": [],
         "total_barons": [],
         "total_inhibitors": [
             {
@@ -162,7 +161,8 @@
                 "home_team_score": 1.613,
                 "away_team_score": 2.172
             }
-        ]
+        ],
+        "first_tower": []
     },
     {
         "overview": {
@@ -202,7 +202,6 @@
         ],
         "kill_handicap": [],
         "total_kills": [],
-        "total_towers": [],
         "total_barons": [],
         "total_inhibitors": [
             {
@@ -217,6 +216,7 @@
                 "home_team_score": 1.81,
                 "away_team_score": 1.895
             }
-        ]
+        ],
+        "first_tower": []
     }
 ]

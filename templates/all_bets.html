@@ -5,8 +5,10 @@
 {% endblock %}
 
 {% block main %}
-    <h1 class="mb-4 text-center">All Bets</h1>
-
+    <h1 class="mb-4 text-center">All Bets - Displaying Last 10</h1>
+    <div class="text-center mb-2">
+        <p>Total Bets: {{ all_bets|length }}</p>
+    </div>
     {% if bets %}
         <table class="table table-hover table-striped">
             <!-- Display Total Profit at the beginning of the table -->
@@ -19,14 +21,14 @@
                     <th>Team 1</th>
                     <th>Team 2</th>
                     <th>Map</th>
-                    <th>Bet Line</th>
                     <th>Bet Type</th>
+                    <th>Bet Line</th>
+                    <th>ROI</th>
                     <th>Status</th>
                     <th>Odd</th>
                     <th>Profit</th>
                 </tr>
             </thead>
-
             <tbody>
                 {% for bet in bets %}
                     <tr>
@@ -36,6 +38,7 @@
                         <td>{{ bet['game'] }}</td>
                         <td>{{ bet['bet_type'] }}</td>
                         <td>{{ bet['bet_line'] }}</td>
+                        <td>{{ bet['ROI'] }}</td>
                         <td>{{ bet['status'] }}</td>
                         <td>{{ bet['odds'] }}</td>
                         <td>{{ bet['profit'] }}</td>
@@ -44,23 +47,74 @@
             </tbody>
         </table>
 
+        <div class="table-container">
+            <h3>Profitability by League</h3>
+            <table class="table table-hover table-striped">
+                <thead>
+                    <tr>
+                        <th>League</th>
+                        <th>Profit</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for league, profit in profit_by_league.items()|sort(attribute='1', reverse=True) %}
+                        <tr>
+                            <td>{{ league }}</td>
+                            <td>{{ profit|round(2) }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
         
-        <!-- <div class="chart-container">
-            <h3>Bet Type Win Rate</h3>
-            <canvas id="betTypeWinRateChart"></canvas>
+        <div class="chart-container">
+            <h3>Profitability by ROI Range</h3>
+            <canvas id="roiRangeChart"></canvas>
         </div>
 
-        <div class="chart-container">
-            <h3>Profitability by Bet Type</h3>
-            <canvas id="profitabilityChart"></canvas>
-        </div>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script>
+            // Existing code for Profit by ROI Range
+            var profitData = {{ profit_by_range_json | safe }};
+            var ctx = document.getElementById('roiRangeChart').getContext('2d');
+            var myChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ["0-10", "10+", "20+", "30+"],
+                    datasets: [{
+                        label: 'Profit by ROI Range',
+                        data: [
+                            profitData["0-10"],
+                            profitData["10+"],
+                            profitData["20+"],
+                            profitData["30+"]
+                        ],
+                        backgroundColor: [
+                            'rgba(255, 99, 132, 0.2)',
+                            'rgba(54, 162, 235, 0.2)',
+                            'rgba(255, 206, 86, 0.2)',
+                            'rgba(75, 192, 192, 0.2)'
+                        ],
+                        borderColor: [
+                            'rgba(255, 99, 132, 1)',
+                            'rgba(54, 162, 235, 1)',
+                            'rgba(255, 206, 86, 1)',
+                            'rgba(75, 192, 192, 1)'
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
 
-        <div class="chart-container">
-            <h3>Most Profitable Odds Range</h3>
-            <canvas id="profitableOddsRangeChart"></canvas>
-        </div> -->
+        </script>
 
-        
     {% else %}
         <p class="text-center">No bets available at the moment.</p>
     {% endif %}

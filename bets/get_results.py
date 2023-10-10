@@ -14,7 +14,7 @@ bets_df = pd.read_csv(bets_path)
 game_results_df = pd.read_csv(game_results_path)
 
 # Create an empty DataFrame for the new results CSV
-results_df = pd.DataFrame(columns=['date', 't1', 't2', 'game', 'bet_type', 'bet_line', 'status'])
+results_df = pd.DataFrame(columns=['date', 'league', 't1', 't2', 'game', 'bet_type', 'bet_line', 'ROI', 'status'])
 
 # Iterate over each row in the bets DataFrame
 for index, bet in bets_df.iterrows():
@@ -78,12 +78,14 @@ for index, bet in bets_df.iterrows():
 
         new_row = pd.DataFrame({
             'date': [game['date']],
+            'league': [game['league']],
             't1': [game['t1']],
             't2': [game['t2']],
             'game': [game['game']],
             'bet_type': [bet['bet_type']],
             'bet_line': [bet['bet_line']],
             'odds': bet['odds'],
+            'ROI': bet['ROI'],
             'status': [status],
             'profit': profit
         })

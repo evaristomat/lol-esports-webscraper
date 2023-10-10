@@ -1,9 +1,9 @@
 date,league,t1,t2,bet_type,bet_line,ROI,odds,House,status
 2023-10-04,LOL - Coupe de France,Karmine Corp,Vitality.Bee,over,total_towers 11.5,2.05%,1.57,Bet365,win
 2023-10-04,LOL - Coupe de France,Karmine Corp,Vitality.Bee,under,total_kills 30.5,23.53%,1.83,Bet365,win
-2023-10-09,LOL - Worlds Qualifying Series,Team BDS,Golden Guardians,under,total_dragons 4.5,46.25%,2.25,Bet365,pending
-2023-10-09,LOL - Worlds Qualifying Series,Team BDS,Golden Guardians,under,total_towers 12.5,14.38%,1.83,Bet365,pending
-2023-10-09,LOL - Worlds Qualifying Series,Team BDS,Golden Guardians,under,total_kills 27.5,4.50%,1.9,Bet365,pending
+2023-10-09,LOL - Worlds Qualifying Series,Team BDS,Golden Guardians,under,total_dragons 4.5,46.25%,2.25,Bet365,win
+2023-10-09,LOL - Worlds Qualifying Series,Team BDS,Golden Guardians,under,total_towers 12.5,14.38%,1.83,Bet365,win
+2023-10-09,LOL - Worlds Qualifying Series,Team BDS,Golden Guardians,under,total_kills 27.5,4.50%,1.9,Bet365,win
 2023-10-10,LOL - World Champs Play-In,PSG Talon,Movistar R7,over,total_dragons 4.5,14.80%,2.5,Bet365,pending
 2023-10-10,LOL - World Champs Play-In,PSG Talon,Movistar R7,under,total_towers 11.5,2.25%,1.9,Bet365,pending
 2023-10-10,LOL - World Champs Play-In,PSG Talon,Movistar R7,over,total_kills 26.5,20.88%,1.83,Bet365,pending
@@ -11,7 +11,6 @@ date,league,t1,t2,bet_type,bet_line,ROI,odds,House,status
 2023-10-10,LOL - World Champs Play-In,GAM Esports,LOUD,under,total_kills 29.5,5.22%,1.83,Bet365,pending
 2023-10-11,LOL - World Champs Play-In,CTBC Flying Oyster,DetonatioN FocusMe,under,total_towers 11.5,36.50%,2.1,Bet365,pending
 2023-10-11,LOL - World Champs Play-In,CTBC Flying Oyster,DetonatioN FocusMe,over,total_kills 24.5,0.65%,1.83,Bet365,pending
-2023-10-03,Hitpoint Masters,Team UNiTY,EXILE esports,FD,first_dragon EXILE esports,23.86%,1.734,Dafabet,pending
 2023-10-05,LOL - Coupe de France,Atletec,Team Du Sud,under,total_dragons 4.5,37.70%,1.53,Bet365,win
 2023-10-05,LOL - Coupe de France,Atletec,Team Du Sud,under,total_kills 30.5,23.53%,1.83,Bet365,win
 2023-10-07,LOL - Coupe de France,Team GO,BK ROG Esports,over,total_dragons 4.5,6.65%,2.37,Bet365,win
@@ -22,9 +21,32 @@ date,league,t1,t2,bet_type,bet_line,ROI,odds,House,status
 2023-10-07,LOL - Coupe de France,Team GO,BK ROG Esports,over,total_towers 12.5,10.00%,2.0,Bet365,loss
 2023-10-08,LOL - Coupe de France,Vitality.Bee,Team Du Sud,under,total_dragons 4.5,26.22%,1.53,Bet365,win
 2023-10-08,LOL - Coupe de France,Vitality.Bee,Team Du Sud,under,total_kills 30.5,60.13%,1.83,Bet365,loss
-2023-10-06,Hitpoint Masters,Team UNiTY,Dynamo Eclot,FD,first_dragon Dynamo Eclot,5.36%,1.873,Dafabet,pending
 2023-10-06,Iberian Cup,For The Win Esports,BWE Esports,under,total_kills 30.5,27.58%,1.701,Dafabet,win
-2023-10-09,2023 World Championship Play-In,Golden Guardians,Team BDS,FD,first_dragon Golden Guardians,5.93%,1.926,Dafabet,pending
+2023-10-09,2023 World Championship Play-In,Golden Guardians,Team BDS,FD,first_dragon Golden Guardians,5.93%,1.926,Dafabet,loss
 2023-10-08,Coupe de France,Vitality.Bee,Team du Sud,FD,first_dragon Vitality.Bee,27.05%,1.694,Dafabet,win
 2023-10-08,Iberian Cup,Movistar Riders,Hurricane of Feathers,over,total_kills 29.5,54.04%,1.917,Dafabet,pending
 2023-10-08,Iberian Cup,Movistar Riders,Hurricane of Feathers,FD,first_dragon Hurricane of Feathers,20.23%,2.104,Dafabet,pending
+2023-10-10,LOL - World Champs Play-In,PSG Talon,Movistar R7,over,total_kills 24.5,25.69%,1.83,Bet365,pending
+2023-10-11,LOL - World Champs Play-In,Team BDS,Team Whales,over,total_towers 11.5,10.00%,2.2,Bet365,pending
+2023-10-11,LOL - World Champs Play-In,Team BDS,Team Whales,under,total_kills 23.5,5.22%,1.83,Bet365,pending
+2023-11-01,LOL - Coupe de France,Team GO,Team Du Sud,under,total_dragons 4.5,16.25%,1.5,Bet365,pending
+2023-11-01,LOL - Coupe de France,Team GO,Team Du Sud,under,total_kills 31.5,23.53%,1.83,Bet365,pending
+2023-10-10,2023 World Championship Play-In,PSG Talon,Movistar R7,over,total_kills 23.5,26.30%,1.771,Dafabet,pending
+2023-10-10,2023 World Championship Play-In,PSG Talon,Movistar R7,FD,first_dragon Movistar R7,31.88%,2.198,Dafabet,pending
+2023-10-09,Iberian Cup,Los Heretics,Erfolg Esports,under,total_kills 29.5,45.08%,1.801,Dafabet,pending
+2023-10-07,LOL - Coupe de France,Team GO,BK ROG Esports,under,total_towers 12.5,7.50%,1.72,Bet365,win
+2023-10-07,Iberian Cup,GTZ Esports,Ramboot Club,FD,first_dragon Ramboot Club,3.60%,2.072,Dafabet,loss
+2023-10-11,2023 World Championship Play-In,CTBC Flying Oyster,DetonatioN FocusMe,over,total_towers -1.0,83.70%,1.837,Dafabet,pending
+2023-10-11,2023 World Championship Play-In,CTBC Flying Oyster,DetonatioN FocusMe,over,total_kills 23.5,6.03%,1.844,Dafabet,pending
+2023-10-11,2023 World Championship Play-In,CTBC Flying Oyster,DetonatioN FocusMe,FD,first_dragon DetonatioN FocusMe,11.27%,2.023,Dafabet,pending
+2023-10-31,Coupe de France,Team GO,Team du Sud,over,total_kills 31.5,5.34%,1.832,Dafabet,pending
+2023-10-31,Coupe de France,Team GO,Team du Sud,FD,first_dragon Team du Sud,4.83%,1.906,Dafabet,pending
+2023-10-10,LOL - World Champs Play-In,GAM Esports,LOUD,under,total_kills 28.5,5.22%,1.83,Bet365,pending
+2023-10-12,LOL - World Champs Play-In,LOUD,PSG Talon,under,total_dragons 4.5,33.16%,2.0,Bet365,pending
+2023-10-12,LOL - World Champs Play-In,LOUD,PSG Talon,under,total_towers 12.5,8.11%,1.83,Bet365,pending
+2023-10-13,LOL - World Champs Play-In,GAM Esports,Movistar R7,over,total_kills 25.5,41.83%,1.83,Bet365,pending
+2023-10-11,LOL - World Champs Play-In,Team BDS,Team Whales,over,game_duration 27.5,13.30%,1.83,Bet365,pending
+2023-10-12,LOL - World Champs Play-In,LOUD,PSG Talon,under,game_duration 33.5,31.23%,1.83,Bet365,pending
+2023-10-13,LOL - World Champs Play-In,GAM Esports,Movistar R7,over,game_duration 29.5,9.80%,1.83,Bet365,pending
+2023-10-11,2023 World Championship Play-In,CTBC Flying Oyster,DetonatioN FocusMe,over,game_duration 30.0,8.21%,1.882,Dafabet,pending
+2023-10-31,Coupe de France,Team GO,Team du Sud,under,game_duration 31.0,22.14%,1.879,Dafabet,pending
