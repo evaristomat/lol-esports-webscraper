@@ -36,8 +36,8 @@ class TeamStatsCalculator:
         condition = self._last_n_games['total_dragons'] > dragon_threshold
         return self._calculate_percentage(condition)
 
-    def total_barons_over_1_5(self) -> float:
-        condition = self._last_n_games['total_barons'] > 1.5
+    def over_barons(self, baron_threshold: float) -> float:
+        condition = self._last_n_games['total_barons'] > baron_threshold
         return self._calculate_percentage(condition)
 
     def total_kills_over_threshold(self, total_kills_threshold: float = 27.5) -> float:
@@ -46,6 +46,10 @@ class TeamStatsCalculator:
     
     def game_duration(self, game_duration: float) -> float:
         condition = self._last_n_games['gamelength'] > game_duration
+        return self._calculate_percentage(condition)
+    
+    def total_inhibitors(self, total_inhibitors: float) -> float:
+        condition = self._last_n_games['total_inhibitors'] > total_inhibitors
         return self._calculate_percentage(condition)
     
     # Team Based Methods
@@ -72,20 +76,21 @@ class TeamStatsCalculator:
 
 if __name__ == "__main__":
     filename = '../database/data_transformed.csv'
-    team = "Team BDS"
+    team = "GAM Esports"
 
     try:
         data_loader = DatabaseLoader(filename)
         team_stats_calculator = TeamStatsCalculator(team, data_loader)
         num_games = team_stats_calculator.get_last_n_games_count()
-        
+        print("Games from last 3 patches")
         print(f"Towers over 11.5 in last {num_games} games for {team}: {team_stats_calculator.total_towers_over_threshold(11.5):.2f}%")
         print(f"Towers over 12.5 in last {num_games} games for {team}: {team_stats_calculator.total_towers_over_threshold(12.5):.2f}%")
-        print(f"Total barons over 1.5 in last {num_games} games for {team}: {team_stats_calculator.total_barons_over_1_5():.2f}%")
+        print(f"Total barons over 1.5 in last {num_games} games for {team}: {team_stats_calculator.over_barons(1.5):.2f}%")
         print(f"Dragons over 4.5 in last {num_games} games for {team}: {team_stats_calculator.over_dragons(4.5):.2f}%")
         print(f"Total kills over 21.5 in last {num_games} games for {team}: {team_stats_calculator.total_kills_over_threshold(21.5):.2f}%")
         print(f"First Dragon in last {num_games} games for {team}: {team_stats_calculator.total_fd():.2f}%")
-        print(f"Game Duration in last {num_games} games for {team}: {team_stats_calculator.game_duration(30.5):.2f}%")
+        print(f"Game Duration o30.5 in last {num_games} games for {team}: {team_stats_calculator.game_duration(30.5):.2f}%")
+        print(f"Total over 1.5 inhibitors in last {num_games} games for {team}: {team_stats_calculator.total_inhibitors(1.5):.2f}%")
         team_stats_calculator.print_last_n_games()
 
     except Exception as e:

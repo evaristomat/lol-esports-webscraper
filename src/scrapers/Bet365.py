@@ -245,18 +245,23 @@ class Bet365Webscraper(Webscraper):
 
                     home_team = team_elements[0].text
                     away_team = team_elements[1].text
-                    overview_dto = GameOverviewDto(
-                        date, self.driver.current_url, league, home_team, away_team
-                    )
+                    # overview_dto = GameOverviewDto(
+                    #     date, self.driver.current_url, league, home_team, away_team
+                    # )
 
                     click_element(self.driver, match_up)
                     url = self.driver.current_url
+                    print(url)
+
+                    overview_dto = GameOverviewDto(
+                        date, url , league, home_team, away_team
+                    )
 
                     self.driver.close()
                     time.sleep(browser_redirect_wait)
 
                     games.append(create_detail_dto(url, overview_dto))
-
+                    print(games)
                     # Tricking bet365
                     time.sleep(browser_redirect_wait)
                     self.driver = self.create_driver(Bet365Webscraper)

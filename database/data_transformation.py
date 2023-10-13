@@ -85,7 +85,9 @@ def get_league_matchups_global(df, league_name=None):
         "firstherald_y": "firstherald_t2",
         "firstbaron_y": "firstbaron_t2",
         "firsttower_y": "firsttower_t2",
-        "towers_y": "towers_t2"
+        "towers_y": "towers_t2",
+        "inhibitors_x": "inhibitors_t1",
+        "inhibitors_y": "inhibitors_t2"
     }
 
     # Filter and rename columns
@@ -100,6 +102,7 @@ def get_league_matchups_global(df, league_name=None):
     final_df['total_barons'] = final_df['barons_t1'] + final_df['barons_t2']
     final_df['total_towers'] = final_df['towers_t1'] + final_df['towers_t2']
     final_df['total_dragons'] = final_df['dragons_t1'] + final_df['dragons_t2']
+    final_df['total_inhibitors'] = final_df['inhibitors_t1'] + final_df['inhibitors_t2']
 
 
     return final_df

@@ -1,44 +1,56 @@
-Basic Styling for Dark Theme
 body, html {
-    background-color: #1E1E1E;
-    color: #EAEAEA;  /* Adjusted the general text color to be lighter for better visibility */
+    background-color: #17151f; /* Background Color */
+    color: #E1E1E6; /* Foreground Color */
     font-family: 'Lato', sans-serif;
 }
 
 .container, .card, .jumbotron, .modal-content {
-    background-color: #2A2B2D;
+    background-color: #1a1724; /* Current Line Color */
     border-color: #343435;
 }
 
 /* Navigation Styles */
 .navbar {
-    background-color: #2A2B2D;
+    background-color: #2a2d2a;
     border-bottom: 1px solid #343435;
 }
 
 .navbar-brand, .navbar-nav .nav-link {
-    color: #EAEAEA !important;  /* Lightened color for better visibility */
+    color: #EAEAEA; /* Light text color for navbar links */
 }
 
 .navbar-nav .nav-link:hover {
-    color: #569CD6 !important;
-    background-color: #252526;
+    color: #007ACC; /* Hover state color for links */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Add a subtle text-shadow on hover for emphasis */
+    transform: scale(1.05); /* Slightly scale up the link text on hover */
 }
 
+/* Change the background color of the .navbar-dark element */
+.navbar-dark {
+    background-color:  #008080; /* Replace 'yourDesiredColor' with the color code you want */
+}
+/* Change the background color and text color of the .card-header element */
+
+.card-header.bg-info.text-white.d-flex.justify-content-between {
+    background-color: #008080 !important; /* Replace 'yourBackgroundColor' with the color code you want */
+    color: #fff !important; /* White text color */
+}
 /* Headings */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, th, td {
     color: #FFFFFF;  /* Pure white for headings to make them stand out */
 }
 
-/* Button Styling */
+/* Button Styling with Improved Hover Effect */
 .btn {
     background-color: #3C3C3C;
-    color: #EAEAEA;  /* Adjusted the button text color to be lighter for better visibility */
-    transition: background-color 0.3s;
+    color: #EAEAEA; /* Adjusted the button text color to be lighter for better visibility */
+    transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .btn:hover {
     background-color: #2A2B2D;
+    transform: scale(1.05); /* Increase the button size slightly on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle box-shadow on hover for depth */
 }
 
 /* Form Input Fields */
@@ -72,4 +84,11 @@ hr {
 /* Utility class for some padding around sections, if needed */
 .padded-section {
     padding: 20px 0;
+}
+
+.line {
+    width: 100%;
+    height: 1px; /* You can adjust the height as needed */
+    background-color: #EAEAEA; /* Adjust the color to your preference */
+    margin: 10px 0; /* Add margin for spacing */
 }

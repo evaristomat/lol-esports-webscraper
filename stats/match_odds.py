@@ -70,14 +70,16 @@ class MatchOdds:
         return self._get_category_handicap('total_inhibitors')
     
     def gamelength(self):
-        return self._get_category_handicap('game_duration')
+        return self._get_category_handicap('game_duration')    
+        
 
 if __name__ == "__main__": 
     with open(r'..\data\2023-10-10\games_Bet365Webscraper.json', 'r') as file:
         games = json.load(file)
     
     game_data = games[1]  # or whatever index or method you're using to select the game
-    print(game_data)
+    #print(game_data)
     test = MatchOdds(game_data)
-    print(test.gamelength())
+    print(test.total_barons())
+
     # '{'total_dragons': 4.5, 'over': 1.57, 'under': 2.25}'

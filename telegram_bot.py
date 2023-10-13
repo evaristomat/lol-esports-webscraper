@@ -12,7 +12,6 @@ from src.Utils import get_current_folder
 
 token = os.getenv("BOT_TOKEN")
 
-
 class Chats:
     def __init__(self, path: str):
         self.path = path

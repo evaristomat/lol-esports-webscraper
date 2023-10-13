@@ -22,7 +22,7 @@ def main():
     print("[INFO] Starting scraper")
 
     # Use ThreadPoolExecutor to run the scraping functions concurrently
-    # scrap(PinnacleWebscraper)
+    #scrap(PinnacleWebscraper)
     scrap(DafabetWebscraper)
 
 

@@ -26,6 +26,10 @@ def parse_date(date_text: str, time_text: str) -> date:
     current_year = datetime.now().year
     return parsed_date.replace(year=current_year)
 
+def calculate_fair_odds(probability):
+    if probability == 0:  # Avoid division by zero
+        return float('inf')
+    return 1 / probability
 
 def map_element_to_stat_dto(stat: WebElement) -> Tuple[str, StatDto]:
     home_team_odds = parse_float(stat.find_element(By.CLASS_NAME, "itemTeamAContent_left")
@@ -142,12 +146,12 @@ class DafabetWebscraper(Webscraper):
             total_kills=stats.get("Game 1 Total Kills", []),
             total_barons=stats.get("Game 1 Total Barons", []),
             total_towers=stats.get("Game 1 Total Turrets Taken - OFF", []),
-            tower_handicap=stats.get("Game 1 Total Turrets", []),
+            tower_handicap=stats.get("Game 1 Total Turrets - OFF", []),
             first_tower=stats.get("Game 1 First Turret", []),
             kill_handicap=stats.get("Game 1 Kills Handicap", []),
             total_dragons=stats.get("Game 1 Total Dragons", []),
             first_dragon=stats.get("Game 1 First Dragon", []),  # Not the total, just to provide a value
-            total_inhibitors=stats.get("Game 1 First To Take Inhibitor", []),  # Not the total, just to provide a value
+            total_inhibitors=stats.get("Game Total Inhibitor - OFF", []),  # Not the total, just to provide a value
             game_duration=stats.get("Game 1 Duration Minutes", [])
         )
 

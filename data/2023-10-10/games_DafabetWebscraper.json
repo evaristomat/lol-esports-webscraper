@@ -49,13 +49,7 @@
                 "away_team_score": 1.923
             }
         ],
-        "total_towers": [
-            {
-                "total_amount": -1.0,
-                "home_team_score": 1.837,
-                "away_team_score": 1.901
-            }
-        ],
+        "total_towers": [],
         "tower_handicap": [],
         "first_tower": [
             {
@@ -79,13 +73,7 @@
                 "away_team_score": 1.719
             }
         ],
-        "total_inhibitors": [
-            {
-                "total_amount": -1.0,
-                "home_team_score": 1.558,
-                "away_team_score": 2.281
-            }
-        ],
+        "total_inhibitors": [],
         "game_duration": [
             {
                 "total_amount": 30.0,
@@ -168,13 +156,7 @@
                 "away_team_score": 1.455
             }
         ],
-        "total_inhibitors": [
-            {
-                "total_amount": -1.0,
-                "home_team_score": 1.536,
-                "away_team_score": 2.357
-            }
-        ],
+        "total_inhibitors": [],
         "game_duration": [
             {
                 "total_amount": 31.0,

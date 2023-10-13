@@ -13,6 +13,12 @@ class OddsComparator:
     def calculate_roi(probability, odds):
         ev = probability * (odds - 1) - (1 - probability)
         return (ev * 100)  # assuming cost is 1
+    
+    @staticmethod
+    def calculate_fair_odds(probability):
+        if probability == 0:  # Avoid division by zero
+            return float('inf')
+        return 1 / probability
 
     @property
     def game_date(self):
@@ -23,6 +29,11 @@ class OddsComparator:
     @property
     def game_league(self):
         league = self.game_data["overview"]["league"]
+        return league
+    
+    @property
+    def game_url(self):
+        league = self.game_data["overview"]["url"]
         return league
         
     def _compare(self, compare_func, line_key, line_value_func):
@@ -43,14 +54,15 @@ class OddsComparator:
 
                 dragon_odds = game.first_dragon()
                 if None in dragon_odds.values():
-                    print(f"No odds available for {team}'s {line_key}.")
+                    #print(f"No odds available for {team}'s {line_key}.")
                     return None
                 
                 roi_home = self.calculate_roi(team_stats_dict[home_team], dragon_odds[home_team])
                 roi_away = self.calculate_roi(team_stats_dict[away_team], dragon_odds[away_team])
 
                 best_team, best_roi = (home_team, roi_home) if roi_home > roi_away else (away_team, roi_away)
-
+                fair_odd_best_team = self.calculate_fair_odds(team_stats_dict[best_team])
+                
                 if best_roi > 0:
                     return {
                         "date": self.game_date,
@@ -60,7 +72,9 @@ class OddsComparator:
                         line_key: best_team,
                         "bet": "FD",
                         "ROI": f"{best_roi:.2f}%",
-                        "odds": dragon_odds[best_team]
+                        "odds": dragon_odds[best_team],
+                        "fair_odds": f"{fair_odd_best_team:.2f}",
+                        "url": self.game_url
                     }
                 
             else:
@@ -73,17 +87,22 @@ class OddsComparator:
 
                 line_match = line_value_func()
 
-                print(f"Over Stats: {combined_stats * 100}%")
-                print(line_match)
+                #print(f"Over Stats: {combined_stats * 100}%")
+                #print(line_match)
 
                 if combined_stats > 0:
                     roi_over_combined = self.calculate_roi(combined_stats, line_match['over'])
                     roi_under_combined = self.calculate_roi(1 - combined_stats, line_match['under'])
-                    print(f"ROI over: {round(roi_over_combined, 2)}")
-                    print(f"ROI under: {round(roi_under_combined, 2)}")
+                    #print(f"ROI over: {round(roi_over_combined, 2)}")
+                    #print(f"ROI under: {round(roi_under_combined, 2)}")
 
-                    best_bet, best_roi = ('over', roi_over_combined) if roi_over_combined > roi_under_combined else ('under', roi_under_combined)
+                    fair_odds_over = self.calculate_fair_odds(combined_stats)
+                    fair_odds_under = self.calculate_fair_odds(1 - combined_stats)
 
+                    best_bet, best_roi, best_fair_odds = (
+                        ('over', roi_over_combined, fair_odds_over) if roi_over_combined > roi_under_combined 
+                        else ('under', roi_under_combined, fair_odds_under))
+                    
                     if best_roi > 0:
                         return {
                             "date": self.game_date,
@@ -93,10 +112,13 @@ class OddsComparator:
                             line_key: line_value_dict,
                             "bet": best_bet,
                             "ROI": f"{best_roi:.2f}%",
-                            "odds": line_match[best_bet]
+                            "odds": line_match[best_bet],
+                            "fair_odds": f"{best_fair_odds:.2f}",
+                            "url": self.game_url
                         }
+                    
         except Exception as e:
-            print(f"Error in _compare for {line_key}: {e}")
+            #print(f"Error in _compare for {line_key}: {e}")
             return None
 
     def compare_dragon(self):
@@ -134,27 +156,40 @@ class OddsComparator:
             lambda: MatchOdds(self.game_data).gamelength()
         )
     
+    def compare_total_inhibitor(self):
+        return self._compare(
+            lambda team_stats, line_value: team_stats.total_inhibitors(line_value),
+            'total_inhibitors',
+            lambda: MatchOdds(self.game_data).total_inhibitors()
+        )
+    
+    def compare_total_barons(self):
+        return self._compare(
+            lambda team_stats, line_value: team_stats.over_barons(line_value),
+            'total_barons',
+            lambda: MatchOdds(self.game_data).total_barons()
+        )
 
 if __name__ == "__main__":
     filename = '../database/data_transformed.csv'
     
-    with open(r'..\data\2023-10-10\games_Bet365Webscraper.json', 'r') as file:
+    with open(r'..\data\2023-10-12\games_Bet365Webscraper.json', 'r') as file:
         games = json.load(file)
     
-    game_data = games[1]
+    game_data = games[0]
     timestamp = game_data['overview']['game_date']
     date = datetime.datetime.utcfromtimestamp(timestamp)
     formatted_date = date.strftime('%Y-%m-%d')
     print(formatted_date)
     
     comparator = OddsComparator(filename, game_data)
-    # best = comparator.compare_dragon()
-    # print(best)
-    # best = comparator.compare_tower()
-    # print(best)
-    # best = comparator.compare_kills()
-    # print(best)
-    # best = comparator.compare_first_drake()
-    # print(best)
-    best = comparator.compare_game_duration()
+    best = comparator.compare_dragon()
+    print(best)
+    best = comparator.compare_tower()
+    print(best)
+    best = comparator.compare_kills()
+    print(best)
+    best = comparator.compare_first_drake()
+    print(best)
+    best = comparator.compare_total_barons()
     print(best)

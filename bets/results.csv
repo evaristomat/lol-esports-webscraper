@@ -1,75 +1,108 @@
 date,league,t1,t2,game,bet_type,bet_line,ROI,status,odds,profit
-2023-10-04 16:06:07,CDF,Karmine Corp,Vitality.Bee,1,over,total_towers 11.5,2.05%,win,1.57,0.57
-2023-10-04 16:55:52,CDF,Vitality.Bee,Karmine Corp,2,over,total_towers 11.5,2.05%,win,1.57,0.57
-2023-10-04 17:48:38,CDF,Karmine Corp,Vitality.Bee,3,over,total_towers 11.5,2.05%,win,1.57,0.57
-2023-10-04 18:50:12,CDF,Karmine Corp,Vitality.Bee,4,over,total_towers 11.5,2.05%,win,1.57,0.57
-2023-10-04 16:06:07,CDF,Karmine Corp,Vitality.Bee,1,under,total_kills 30.5,23.53%,win,1.83,0.83
-2023-10-04 16:55:52,CDF,Vitality.Bee,Karmine Corp,2,under,total_kills 30.5,23.53%,win,1.83,0.83
-2023-10-04 17:48:38,CDF,Karmine Corp,Vitality.Bee,3,under,total_kills 30.5,23.53%,loss,1.83,-1.0
-2023-10-04 18:50:12,CDF,Karmine Corp,Vitality.Bee,4,under,total_kills 30.5,23.53%,win,1.83,0.83
-2023-10-09 04:09:51,WLDs,Golden Guardians,Team BDS,1,under,total_dragons 4.5,46.25%,win,2.25,1.25
-2023-10-09 04:51:13,WLDs,Golden Guardians,Team BDS,2,under,total_dragons 4.5,46.25%,loss,2.25,-1.0
-2023-10-09 05:46:19,WLDs,Team BDS,Golden Guardians,3,under,total_dragons 4.5,46.25%,win,2.25,1.25
+2023-10-09 04:09:51,WLDs,Golden Guardians,Team BDS,1,under,total_dragons 4.5,35.00%,win,2.25,1.25
+2023-10-09 04:51:13,WLDs,Golden Guardians,Team BDS,2,under,total_dragons 4.5,35.00%,loss,2.25,-1.0
+2023-10-09 05:46:19,WLDs,Team BDS,Golden Guardians,3,under,total_dragons 4.5,35.00%,win,2.25,1.25
 2023-10-09 04:09:51,WLDs,Golden Guardians,Team BDS,1,under,total_towers 12.5,14.38%,win,1.83,0.83
 2023-10-09 04:51:13,WLDs,Golden Guardians,Team BDS,2,under,total_towers 12.5,14.38%,win,1.83,0.83
 2023-10-09 05:46:19,WLDs,Team BDS,Golden Guardians,3,under,total_towers 12.5,14.38%,loss,1.83,-1.0
-2023-10-09 04:09:51,WLDs,Golden Guardians,Team BDS,1,under,total_kills 27.5,4.50%,win,1.9,0.9
-2023-10-09 04:51:13,WLDs,Golden Guardians,Team BDS,2,under,total_kills 27.5,4.50%,win,1.9,0.9
-2023-10-09 05:46:19,WLDs,Team BDS,Golden Guardians,3,under,total_kills 27.5,4.50%,win,1.9,0.9
-2023-10-05 16:05:23,CDF,Team du Sud,Atletec,1,under,total_dragons 4.5,37.70%,win,1.53,0.53
-2023-10-05 16:51:25,CDF,Atletec,Team du Sud,2,under,total_dragons 4.5,37.70%,win,1.53,0.53
-2023-10-05 17:34:57,CDF,Team du Sud,Atletec,3,under,total_dragons 4.5,37.70%,win,1.53,0.53
-2023-10-05 18:28:42,CDF,Team du Sud,Atletec,4,under,total_dragons 4.5,37.70%,win,1.53,0.53
-2023-10-05 16:05:23,CDF,Team du Sud,Atletec,1,under,total_kills 30.5,23.53%,win,1.83,0.83
-2023-10-05 16:51:25,CDF,Atletec,Team du Sud,2,under,total_kills 30.5,23.53%,loss,1.83,-1.0
-2023-10-05 17:34:57,CDF,Team du Sud,Atletec,3,under,total_kills 30.5,23.53%,win,1.83,0.83
-2023-10-05 18:28:42,CDF,Team du Sud,Atletec,4,under,total_kills 30.5,23.53%,loss,1.83,-1.0
-2023-10-07 16:06:19,CDF,Team GO,BK ROG Esports,1,over,total_dragons 4.5,6.65%,win,2.37,1.37
-2023-10-07 17:05:41,CDF,Team GO,BK ROG Esports,2,over,total_dragons 4.5,6.65%,loss,2.37,-1.0
-2023-10-07 17:52:37,CDF,BK ROG Esports,Team GO,3,over,total_dragons 4.5,6.65%,loss,2.37,-1.0
-2023-10-07 18:38:30,CDF,Team GO,BK ROG Esports,4,over,total_dragons 4.5,6.65%,loss,2.37,-1.0
-2023-10-07 19:29:36,CDF,BK ROG Esports,Team GO,5,over,total_dragons 4.5,6.65%,loss,2.37,-1.0
-2023-10-07 16:06:19,CDF,Team GO,BK ROG Esports,1,over,total_towers 11.5,2.05%,loss,1.57,-1.0
-2023-10-07 17:05:41,CDF,Team GO,BK ROG Esports,2,over,total_towers 11.5,2.05%,loss,1.57,-1.0
-2023-10-07 17:52:37,CDF,BK ROG Esports,Team GO,3,over,total_towers 11.5,2.05%,win,1.57,0.57
-2023-10-07 18:38:30,CDF,Team GO,BK ROG Esports,4,over,total_towers 11.5,2.05%,win,1.57,0.57
-2023-10-07 19:29:36,CDF,BK ROG Esports,Team GO,5,over,total_towers 11.5,2.05%,loss,1.57,-1.0
-2023-10-07 16:06:19,CDF,Team GO,BK ROG Esports,1,over,total_kills 31.5,0.65%,loss,1.83,-1.0
-2023-10-07 17:05:41,CDF,Team GO,BK ROG Esports,2,over,total_kills 31.5,0.65%,loss,1.83,-1.0
-2023-10-07 17:52:37,CDF,BK ROG Esports,Team GO,3,over,total_kills 31.5,0.65%,win,1.83,0.83
-2023-10-07 18:38:30,CDF,Team GO,BK ROG Esports,4,over,total_kills 31.5,0.65%,win,1.83,0.83
-2023-10-07 19:29:36,CDF,BK ROG Esports,Team GO,5,over,total_kills 31.5,0.65%,win,1.83,0.83
-2023-10-05 16:05:23,CDF,Team du Sud,Atletec,1,FD,first_dragon Atletec,2.96%,win,2.288,1.29
-2023-10-05 16:51:25,CDF,Atletec,Team du Sud,2,FD,first_dragon Atletec,2.96%,loss,2.288,-1.0
-2023-10-05 17:34:57,CDF,Team du Sud,Atletec,3,FD,first_dragon Atletec,2.96%,win,2.288,1.29
-2023-10-05 18:28:42,CDF,Team du Sud,Atletec,4,FD,first_dragon Atletec,2.96%,loss,2.288,-1.0
-2023-10-05 17:50:15,IC,Case Esports,Boavista FC,1,FD,first_dragon Case Esports,61.30%,win,1.613,0.61
-2023-10-05 18:35:19,IC,Case Esports,Boavista FC,2,FD,first_dragon Case Esports,61.30%,win,1.613,0.61
-2023-10-07 16:06:19,CDF,Team GO,BK ROG Esports,1,over,total_towers 12.5,10.00%,loss,2.0,-1.0
-2023-10-07 17:05:41,CDF,Team GO,BK ROG Esports,2,over,total_towers 12.5,10.00%,loss,2.0,-1.0
-2023-10-07 17:52:37,CDF,BK ROG Esports,Team GO,3,over,total_towers 12.5,10.00%,loss,2.0,-1.0
-2023-10-07 18:38:30,CDF,Team GO,BK ROG Esports,4,over,total_towers 12.5,10.00%,loss,2.0,-1.0
-2023-10-07 19:29:36,CDF,BK ROG Esports,Team GO,5,over,total_towers 12.5,10.00%,loss,2.0,-1.0
-2023-10-08 16:05:46,CDF,Vitality.Bee,Team du Sud,1,under,total_dragons 4.5,26.22%,win,1.53,0.53
-2023-10-08 17:01:36,CDF,Vitality.Bee,Team du Sud,2,under,total_dragons 4.5,26.22%,win,1.53,0.53
-2023-10-08 17:47:00,CDF,Vitality.Bee,Team du Sud,3,under,total_dragons 4.5,26.22%,loss,1.53,-1.0
-2023-10-08 16:05:46,CDF,Vitality.Bee,Team du Sud,1,under,total_kills 30.5,60.13%,loss,1.83,-1.0
-2023-10-08 17:01:36,CDF,Vitality.Bee,Team du Sud,2,under,total_kills 30.5,60.13%,loss,1.83,-1.0
-2023-10-08 17:47:00,CDF,Vitality.Bee,Team du Sud,3,under,total_kills 30.5,60.13%,loss,1.83,-1.0
-2023-10-06 17:46:00,IC,For The Win Esports,BWE Esports,1,under,total_kills 30.5,27.58%,win,1.701,0.7
-2023-10-06 18:33:01,IC,BWE Esports,For The Win Esports,2,under,total_kills 30.5,27.58%,loss,1.701,-1.0
-2023-10-09 04:09:51,WLDs,Golden Guardians,Team BDS,1,FD,first_dragon Golden Guardians,5.93%,loss,1.926,-1.0
-2023-10-09 04:51:13,WLDs,Golden Guardians,Team BDS,2,FD,first_dragon Golden Guardians,5.93%,win,1.926,0.93
-2023-10-09 05:46:19,WLDs,Team BDS,Golden Guardians,3,FD,first_dragon Golden Guardians,5.93%,loss,1.926,-1.0
-2023-10-08 16:05:46,CDF,Vitality.Bee,Team du Sud,1,FD,first_dragon Vitality.Bee,27.05%,win,1.694,0.69
-2023-10-08 17:01:36,CDF,Vitality.Bee,Team du Sud,2,FD,first_dragon Vitality.Bee,27.05%,loss,1.694,-1.0
-2023-10-08 17:47:00,CDF,Vitality.Bee,Team du Sud,3,FD,first_dragon Vitality.Bee,27.05%,loss,1.694,-1.0
-2023-10-08 17:45:06,IC,Movistar Riders,Hurricane of Feathers,3,over,total_kills 29.5,54.04%,win,1.917,0.92
-2023-10-08 17:45:06,IC,Movistar Riders,Hurricane of Feathers,3,FD,first_dragon Hurricane of Feathers,20.23%,win,2.104,1.1
-2023-10-07 16:06:19,CDF,Team GO,BK ROG Esports,1,under,total_towers 12.5,7.50%,win,1.72,0.72
-2023-10-07 17:05:41,CDF,Team GO,BK ROG Esports,2,under,total_towers 12.5,7.50%,win,1.72,0.72
-2023-10-07 17:52:37,CDF,BK ROG Esports,Team GO,3,under,total_towers 12.5,7.50%,win,1.72,0.72
-2023-10-07 18:38:30,CDF,Team GO,BK ROG Esports,4,under,total_towers 12.5,7.50%,win,1.72,0.72
-2023-10-07 19:29:36,CDF,BK ROG Esports,Team GO,5,under,total_towers 12.5,7.50%,win,1.72,0.72
-2023-10-07 17:36:16,IC,Ramboot Club,GTZ Esports,1,FD,first_dragon Ramboot Club,3.60%,loss,2.072,-1.0
-2023-10-07 18:45:26,IC,Ramboot Club,GTZ Esports,2,FD,first_dragon Ramboot Club,3.60%,win,2.072,1.07
+2023-10-09 04:09:51,WLDs,Golden Guardians,Team BDS,1,under,total_kills 27.5,14.00%,win,1.9,0.9
+2023-10-09 04:51:13,WLDs,Golden Guardians,Team BDS,2,under,total_kills 27.5,14.00%,win,1.9,0.9
+2023-10-09 05:46:19,WLDs,Team BDS,Golden Guardians,3,under,total_kills 27.5,14.00%,win,1.9,0.9
+2023-10-09 04:09:51,WLDs,Golden Guardians,Team BDS,1,under,total_inhibitors 1.5,0.00%,win,2.5,1.5
+2023-10-09 04:51:13,WLDs,Golden Guardians,Team BDS,2,under,total_inhibitors 1.5,0.00%,win,2.5,1.5
+2023-10-09 05:46:19,WLDs,Team BDS,Golden Guardians,3,under,total_inhibitors 1.5,0.00%,loss,2.5,-1.0
+2023-10-10 07:17:44,WLDs,PSG Talon,Movistar R7,1,under,total_towers 11.5,0.22%,loss,1.9,-1.0
+2023-10-10 08:06:09,WLDs,PSG Talon,Movistar R7,2,under,total_towers 11.5,0.22%,win,1.9,0.9
+2023-10-10 07:17:44,WLDs,PSG Talon,Movistar R7,1,over,total_kills 26.5,0.47%,loss,1.83,-1.0
+2023-10-10 08:06:09,WLDs,PSG Talon,Movistar R7,2,over,total_kills 26.5,0.47%,loss,1.83,-1.0
+2023-10-10 07:17:44,WLDs,PSG Talon,Movistar R7,1,under,total_inhibitors 1.5,0.96%,loss,1.9,-1.0
+2023-10-10 08:06:09,WLDs,PSG Talon,Movistar R7,2,under,total_inhibitors 1.5,0.96%,win,1.9,0.9
+2023-10-10 09:10:30,WLDs,LOUD,GAM Esports,1,under,total_dragons 4.5,25.21%,win,1.72,0.72
+2023-10-10 09:59:06,WLDs,GAM Esports,LOUD,2,under,total_dragons 4.5,25.21%,loss,1.72,-1.0
+2023-10-10 09:10:30,WLDs,LOUD,GAM Esports,1,over,total_towers 12.5,3.57%,win,2.25,1.25
+2023-10-10 09:59:06,WLDs,GAM Esports,LOUD,2,over,total_towers 12.5,3.57%,win,2.25,1.25
+2023-10-10 09:10:30,WLDs,LOUD,GAM Esports,1,under,total_kills 29.5,4.96%,win,1.83,0.83
+2023-10-10 09:59:06,WLDs,GAM Esports,LOUD,2,under,total_kills 29.5,4.96%,loss,1.83,-1.0
+2023-10-10 09:10:30,WLDs,LOUD,GAM Esports,1,under,total_inhibitors 1.5,34.93%,loss,2.5,-1.0
+2023-10-10 09:59:06,WLDs,GAM Esports,LOUD,2,under,total_inhibitors 1.5,34.93%,loss,2.5,-1.0
+2023-10-11 07:13:58,WLDs,DetonatioN FocusMe,CTBC Flying Oyster,1,over,total_dragons 4.5,3.85%,win,2.2,1.2
+2023-10-11 08:08:50,WLDs,CTBC Flying Oyster,DetonatioN FocusMe,2,over,total_dragons 4.5,3.85%,loss,2.2,-1.0
+2023-10-11 07:13:58,WLDs,DetonatioN FocusMe,CTBC Flying Oyster,1,under,total_towers 11.5,40.51%,win,2.1,1.1
+2023-10-11 08:08:50,WLDs,CTBC Flying Oyster,DetonatioN FocusMe,2,under,total_towers 11.5,40.51%,win,2.1,1.1
+2023-10-11 07:13:58,WLDs,DetonatioN FocusMe,CTBC Flying Oyster,1,under,total_inhibitors 1.5,15.01%,win,2.37,1.37
+2023-10-11 08:08:50,WLDs,CTBC Flying Oyster,DetonatioN FocusMe,2,under,total_inhibitors 1.5,15.01%,loss,2.37,-1.0
+2023-10-08 16:05:46,CDF,Vitality.Bee,Team du Sud,1,FD,first_dragon Vitality.Bee,18.58%,win,1.694,0.69
+2023-10-08 17:01:36,CDF,Vitality.Bee,Team du Sud,2,FD,first_dragon Vitality.Bee,18.58%,loss,1.694,-1.0
+2023-10-08 17:47:00,CDF,Vitality.Bee,Team du Sud,3,FD,first_dragon Vitality.Bee,18.58%,loss,1.694,-1.0
+2023-10-10 07:17:44,WLDs,PSG Talon,Movistar R7,1,over,total_kills 24.5,11.95%,win,1.83,0.83
+2023-10-10 08:06:09,WLDs,PSG Talon,Movistar R7,2,over,total_kills 24.5,11.95%,loss,1.83,-1.0
+2023-10-10 07:17:44,WLDs,PSG Talon,Movistar R7,1,over,game_duration 29.5,43.06%,loss,1.9,-1.0
+2023-10-10 08:06:09,WLDs,PSG Talon,Movistar R7,2,over,game_duration 29.5,43.06%,win,1.9,0.9
+2023-10-10 09:10:30,WLDs,LOUD,GAM Esports,1,under,total_kills 28.5,4.96%,win,1.83,0.83
+2023-10-10 09:59:06,WLDs,GAM Esports,LOUD,2,under,total_kills 28.5,4.96%,loss,1.83,-1.0
+2023-10-10 09:10:30,WLDs,LOUD,GAM Esports,1,under,game_duration 30.5,12.49%,win,1.83,0.83
+2023-10-10 09:59:06,WLDs,GAM Esports,LOUD,2,under,game_duration 30.5,12.49%,loss,1.83,-1.0
+2023-10-11 07:13:58,WLDs,DetonatioN FocusMe,CTBC Flying Oyster,1,under,game_duration 31.5,1.19%,loss,1.83,-1.0
+2023-10-11 08:08:50,WLDs,CTBC Flying Oyster,DetonatioN FocusMe,2,under,game_duration 31.5,1.19%,win,1.83,0.83
+2023-10-11 09:03:55,WLDs,Team BDS,Team Whales,1,over,total_dragons 4.5,12.50%,loss,3.0,-1.0
+2023-10-11 09:46:26,WLDs,Team BDS,Team Whales,2,over,total_dragons 4.5,12.50%,win,3.0,2.0
+2023-10-11 10:47:43,WLDs,Team Whales,Team BDS,3,over,total_dragons 4.5,12.50%,win,3.0,2.0
+2023-10-11 09:03:55,WLDs,Team BDS,Team Whales,1,over,total_towers 11.5,21.00%,loss,2.2,-1.0
+2023-10-11 09:46:26,WLDs,Team BDS,Team Whales,2,over,total_towers 11.5,21.00%,win,2.2,1.2
+2023-10-11 10:47:43,WLDs,Team Whales,Team BDS,3,over,total_towers 11.5,21.00%,win,2.2,1.2
+2023-10-11 09:03:55,WLDs,Team BDS,Team Whales,1,under,total_kills 23.5,5.22%,win,1.83,0.83
+2023-10-11 09:46:26,WLDs,Team BDS,Team Whales,2,under,total_kills 23.5,5.22%,loss,1.83,-1.0
+2023-10-11 10:47:43,WLDs,Team Whales,Team BDS,3,under,total_kills 23.5,5.22%,win,1.83,0.83
+2023-10-11 09:03:55,WLDs,Team BDS,Team Whales,1,over,game_duration 27.5,14.38%,loss,1.83,-1.0
+2023-10-11 09:46:26,WLDs,Team BDS,Team Whales,2,over,game_duration 27.5,14.38%,win,1.83,0.83
+2023-10-11 10:47:43,WLDs,Team Whales,Team BDS,3,over,game_duration 27.5,14.38%,win,1.83,0.83
+2023-10-11 09:03:55,WLDs,Team BDS,Team Whales,1,under,total_inhibitors 1.5,65.90%,win,2.37,1.37
+2023-10-11 09:46:26,WLDs,Team BDS,Team Whales,2,under,total_inhibitors 1.5,65.90%,loss,2.37,-1.0
+2023-10-11 10:47:43,WLDs,Team Whales,Team BDS,3,under,total_inhibitors 1.5,65.90%,win,2.37,1.37
+2023-10-12 07:12:22,WLDs,PSG Talon,LOUD,1,under,total_dragons 4.5,37.25%,win,2.0,1.0
+2023-10-12 08:06:59,WLDs,LOUD,PSG Talon,2,under,total_dragons 4.5,37.25%,loss,2.0,-1.0
+2023-10-12 07:12:22,WLDs,PSG Talon,LOUD,1,under,total_towers 12.5,3.34%,win,1.83,0.83
+2023-10-12 08:06:59,WLDs,LOUD,PSG Talon,2,under,total_towers 12.5,3.34%,win,1.83,0.83
+2023-10-12 07:12:22,WLDs,PSG Talon,LOUD,1,under,total_kills 26.5,4.06%,loss,1.83,-1.0
+2023-10-12 08:06:59,WLDs,LOUD,PSG Talon,2,under,total_kills 26.5,4.06%,loss,1.83,-1.0
+2023-10-12 07:12:22,WLDs,PSG Talon,LOUD,1,under,game_duration 33.5,37.07%,win,1.83,0.83
+2023-10-12 08:06:59,WLDs,LOUD,PSG Talon,2,under,game_duration 33.5,37.07%,win,1.83,0.83
+2023-10-12 07:12:22,WLDs,PSG Talon,LOUD,1,under,total_inhibitors 1.5,39.22%,win,2.62,1.62
+2023-10-12 08:06:59,WLDs,LOUD,PSG Talon,2,under,total_inhibitors 1.5,39.22%,loss,2.62,-1.0
+2023-10-13 07:10:31,WLDs,Movistar R7,GAM Esports,1,under,total_dragons 4.5,0.37%,win,1.5,0.5
+2023-10-13 07:55:54,WLDs,Movistar R7,GAM Esports,2,under,total_dragons 4.5,0.37%,loss,1.5,-1.0
+2023-10-13 07:10:31,WLDs,Movistar R7,GAM Esports,1,over,total_kills 25.5,34.83%,loss,1.83,-1.0
+2023-10-13 07:55:54,WLDs,Movistar R7,GAM Esports,2,over,total_kills 25.5,34.83%,win,1.83,0.83
+2023-10-13 07:10:31,WLDs,Movistar R7,GAM Esports,1,over,game_duration 29.5,10.34%,loss,1.83,-1.0
+2023-10-13 07:55:54,WLDs,Movistar R7,GAM Esports,2,over,game_duration 29.5,10.34%,win,1.83,0.83
+2023-10-11 07:13:58,WLDs,DetonatioN FocusMe,CTBC Flying Oyster,1,FD,first_dragon DetonatioN FocusMe,19.00%,loss,2.023,-1.0
+2023-10-11 08:08:50,WLDs,CTBC Flying Oyster,DetonatioN FocusMe,2,FD,first_dragon DetonatioN FocusMe,19.00%,win,2.023,1.02
+2023-10-11 07:13:58,WLDs,DetonatioN FocusMe,CTBC Flying Oyster,1,over,game_duration 30.0,9.32%,win,1.882,0.88
+2023-10-11 08:08:50,WLDs,CTBC Flying Oyster,DetonatioN FocusMe,2,over,game_duration 30.0,9.32%,loss,1.882,-1.0
+2023-10-12 07:12:22,WLDs,PSG Talon,LOUD,1,under,game_duration 31.5,3.34%,loss,1.83,-1.0
+2023-10-12 08:06:59,WLDs,LOUD,PSG Talon,2,under,game_duration 31.5,3.34%,loss,1.83,-1.0
+2023-10-12 09:04:53,WLDs,CTBC Flying Oyster,Team Whales,1,under,total_towers 12.5,29.52%,win,1.57,0.57
+2023-10-12 09:55:53,WLDs,Team Whales,CTBC Flying Oyster,2,under,total_towers 12.5,29.52%,win,1.57,0.57
+2023-10-12 10:47:24,WLDs,CTBC Flying Oyster,Team Whales,3,under,total_towers 12.5,29.52%,win,1.57,0.57
+2023-10-12 09:04:53,WLDs,CTBC Flying Oyster,Team Whales,1,under,total_kills 25.5,4.50%,win,1.9,0.9
+2023-10-12 09:55:53,WLDs,Team Whales,CTBC Flying Oyster,2,under,total_kills 25.5,4.50%,win,1.9,0.9
+2023-10-12 10:47:24,WLDs,CTBC Flying Oyster,Team Whales,3,under,total_kills 25.5,4.50%,loss,1.9,-1.0
+2023-10-12 09:04:53,WLDs,CTBC Flying Oyster,Team Whales,1,under,total_inhibitors 1.5,57.50%,win,2.25,1.25
+2023-10-12 09:55:53,WLDs,Team Whales,CTBC Flying Oyster,2,under,total_inhibitors 1.5,57.50%,loss,2.25,-1.0
+2023-10-12 10:47:24,WLDs,CTBC Flying Oyster,Team Whales,3,under,total_inhibitors 1.5,57.50%,loss,2.25,-1.0
+2023-10-13 08:52:20,WLDs,DetonatioN FocusMe,Team BDS,1,under,total_kills 24.5,18.68%,win,1.83,0.83
+2023-10-13 09:38:40,WLDs,Team BDS,DetonatioN FocusMe,2,under,total_kills 24.5,18.68%,loss,1.83,-1.0
+2023-10-13 08:52:20,WLDs,DetonatioN FocusMe,Team BDS,1,over,game_duration 27.5,17.53%,loss,1.8,-1.0
+2023-10-13 09:38:40,WLDs,Team BDS,DetonatioN FocusMe,2,over,game_duration 27.5,17.53%,win,1.8,0.8
+2023-10-13 08:52:20,WLDs,DetonatioN FocusMe,Team BDS,1,under,total_inhibitors 1.5,9.19%,win,2.25,1.25
+2023-10-13 09:38:40,WLDs,Team BDS,DetonatioN FocusMe,2,under,total_inhibitors 1.5,9.19%,loss,2.25,-1.0
+2023-10-12 07:12:22,WLDs,PSG Talon,LOUD,1,under,total_barons 1.5,1.71%,loss,1.9,-1.0
+2023-10-12 08:06:59,WLDs,LOUD,PSG Talon,2,under,total_barons 1.5,1.71%,loss,1.9,-1.0
+2023-10-13 08:52:20,WLDs,DetonatioN FocusMe,Team BDS,1,under,total_barons 1.5,0.58%,loss,1.53,-1.0
+2023-10-13 09:38:40,WLDs,Team BDS,DetonatioN FocusMe,2,under,total_barons 1.5,0.58%,loss,1.53,-1.0
+2023-10-13 07:10:31,WLDs,Movistar R7,GAM Esports,1,over,total_kills 26.5,29.45%,loss,1.83,-1.0
+2023-10-13 07:55:54,WLDs,Movistar R7,GAM Esports,2,over,total_kills 26.5,29.45%,win,1.83,0.83
+2023-10-13 08:52:20,WLDs,DetonatioN FocusMe,Team BDS,1,over,total_dragons 4.5,2.32%,loss,2.75,-1.0
+2023-10-13 09:38:40,WLDs,Team BDS,DetonatioN FocusMe,2,over,total_dragons 4.5,2.32%,loss,2.75,-1.0
+2023-10-13 08:52:20,WLDs,DetonatioN FocusMe,Team BDS,1,over,game_duration 28.5,8.72%,loss,1.83,-1.0
+2023-10-13 09:38:40,WLDs,Team BDS,DetonatioN FocusMe,2,over,game_duration 28.5,8.72%,loss,1.83,-1.0

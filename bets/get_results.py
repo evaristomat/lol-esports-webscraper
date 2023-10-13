@@ -58,6 +58,10 @@ for index, bet in bets_df.iterrows():
                 status = 'win'
             elif 'kills' in bet['bet_line'] and game['total_kills'] > float(bet['bet_line'].split()[-1]):
                 status = 'win'
+            elif 'total_inhibitors ' in bet['bet_line'] and game['total_inhibitors'] > float(bet['bet_line'].split()[-1]):
+                status = 'win'
+            elif 'game_duration ' in bet['bet_line'] and game['gamelength'] > float(bet['bet_line'].split()[-1]):
+                status = 'win'    
             else:
                 status = 'loss'
 
@@ -67,6 +71,10 @@ for index, bet in bets_df.iterrows():
             elif 'towers' in bet['bet_line'] and game['total_towers'] < float(bet['bet_line'].split()[-1]):
                 status = 'win'
             elif 'kills' in bet['bet_line'] and game['total_kills'] < float(bet['bet_line'].split()[-1]):
+                status = 'win'
+            elif 'total_inhibitors ' in bet['bet_line'] and game['total_inhibitors'] < float(bet['bet_line'].split()[-1]):
+                status = 'win'
+            elif 'game_duration ' in bet['bet_line'] and game['gamelength'] < float(bet['bet_line'].split()[-1]):
                 status = 'win'
             else:
                 status = 'loss'
@@ -95,8 +103,17 @@ for index, bet in bets_df.iterrows():
         if game['game'] == 1:
             bets_df.at[index, 'status'] = status
 
+# Ensure teams are in a consistent order for comparison
+bets_df['team_combined'] = bets_df[['t1', 't2']].apply(lambda x: ' vs '.join(sorted(x)), axis=1)
+
+# Drop duplicates based on specific columns (excluding original t1 and t2)
+bets_df = bets_df.drop_duplicates(subset=['date', 'league', 'team_combined', 'bet_type', 'bet_line', 'ROI', 'fair_odds', 'odds', 'House', 'status'])
+
+# Drop the combined team column if it's not needed
+bets_df = bets_df.drop(columns=['team_combined'])
+
 # Save the updated bets DataFrame
 bets_df.to_csv(bets_path, index=False)
 
-# Save the results DataFrame
+# Assuming results_df is another DataFrame that you want to save
 results_df.to_csv(results_path, index=False)

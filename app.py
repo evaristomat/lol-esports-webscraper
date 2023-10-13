@@ -1,4 +1,5 @@
 from flask import Flask, redirect, render_template, request, url_for, flash
+from flask_migrate import Migrate
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import LoginManager, UserMixin, login_user, logout_user, login_required, current_user
@@ -11,6 +12,7 @@ app.config['SECRET_KEY'] = 'your_secret_key'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
+# migrate = Migrate(app, db)
 login_manager = LoginManager(app)
 login_manager.login_view = 'login'
 
@@ -40,6 +42,7 @@ def populate_bets_from_csv():
             bet_type=row['bet_type'],
             bet_line=row['bet_line'],
             ROI=row['ROI'],
+            fair_odds=row['fair_odds'],
             odds=row['odds'],
             House=row['House']
         ).first()
@@ -50,7 +53,7 @@ def populate_bets_from_csv():
                 existing_bet.status = row['status']
         else:
             # If the bet doesn't exist in the DB, add it
-            bet = Bets(date=row['date'], league=row['league'], t1=row['t1'], t2=row['t2'], bet_type=row['bet_type'], bet_line=row['bet_line'], ROI=row['ROI'], odds=row['odds'], House=row['House'], status=row['status'])
+            bet = Bets(date=row['date'], league=row['league'], t1=row['t1'], t2=row['t2'], bet_type=row['bet_type'], bet_line=row['bet_line'], ROI=row['ROI'],fair_odds=row['fair_odds'], odds=row['odds'], House=row['House'], status=row['status'])
             db.session.add(bet)
     
     db.session.commit()
@@ -69,6 +72,7 @@ class Bets(db.Model):
     bet_type = db.Column(db.String, nullable=False)
     bet_line = db.Column(db.String, nullable=False)
     ROI = db.Column(db.String, nullable=False)
+    fair_odds = db.Column(db.String, nullable=False)
     odds = db.Column(db.String, nullable=False)
     House = db.Column(db.String, nullable=False)
     status = db.Column(db.String, default='Pending', nullable=False)
@@ -83,6 +87,7 @@ class UserBet(db.Model):
     bet_type = db.Column(db.String, nullable=False)
     bet_line = db.Column(db.String, nullable=False)
     ROI = db.Column(db.String, nullable=False)
+    fair_odds = db.Column(db.String, nullable=False)
     odds = db.Column(db.String, nullable=False)
     House = db.Column(db.String, nullable=False)
     status = db.Column(db.String, nullable=False)
@@ -98,6 +103,7 @@ class UserHistory(db.Model):
     bet_type = db.Column(db.String, nullable=False)
     bet_line = db.Column(db.String, nullable=False)
     ROI = db.Column(db.String, nullable=False)
+    fair_odds = db.Column(db.String, nullable=False)
     odds = db.Column(db.String, nullable=False)
     House = db.Column(db.String, nullable=False)
     status = db.Column(db.String, nullable=False)
@@ -238,7 +244,7 @@ def index():
 
     # Fetch bets added by the user
     user_bets_db = UserBet.query.filter_by(user_id=current_user.id, status="pending").all()
-    added_bet_data = [','.join([str(bet.date), bet.league, bet.t1, bet.t2, bet.bet_type, bet.bet_line, bet.ROI, bet.odds, bet.House, bet.status]) for bet in user_bets_db]
+    added_bet_data = [','.join([str(bet.date), bet.league, bet.t1, bet.t2, bet.bet_type, bet.bet_line, bet.ROI, bet.fair_odds, bet.odds, bet.House, bet.status]) for bet in user_bets_db]
 
     return render_template('index.html',
                             data=bets_df.iterrows(),
@@ -306,29 +312,20 @@ def add_bet():
         return redirect(url_for('index'))
     
     # Check if bet already exists for user
-    existing_bet = UserBet.query.filter_by(user_id=current_user.id, date=bet['date'], league=bet['league'], t1=bet['t1'], t2=bet['t2'], bet_type=bet['bet_type'], bet_line=bet['bet_line'], ROI=bet['ROI'], odds=bet['odds'], House=bet['House'], status=bet["status"]).first()
+    existing_bet = UserBet.query.filter_by(user_id=current_user.id, date=bet['date'], league=bet['league'], t1=bet['t1'], t2=bet['t2'], bet_type=bet['bet_type'], bet_line=bet['bet_line'], ROI=bet['ROI'], fair_odds=bet['fair_odds'], odds=bet['odds'], House=bet['House'], status=bet["status"]).first()
     
     if existing_bet:
         flash('This bet is already in your history.', 'warning')
         return redirect(url_for('index'))
 
     # Store the bet in the database
-    new_bet = UserBet(user_id=current_user.id, date=bet['date'], league=bet['league'], t1=bet['t1'], t2=bet['t2'], bet_type=bet['bet_type'], bet_line=bet['bet_line'], ROI=bet['ROI'], odds=bet['odds'], House=bet['House'], status=bet["status"])
+    new_bet = UserBet(user_id=current_user.id, date=bet['date'], league=bet['league'], t1=bet['t1'], t2=bet['t2'], bet_type=bet['bet_type'], bet_line=bet['bet_line'], ROI=bet['ROI'], fair_odds=bet['fair_odds'], odds=bet['odds'], House=bet['House'], status=bet["status"])
     
     db.session.add(new_bet)
     db.session.commit()
 
     flash('Bet added successfully!', 'success')
     return redirect(url_for('index'))
-
-# @app.route('/move_all_to_history', methods=['POST'])
-# @login_required
-# def move_all_to_history():
-#     # Update the status of all pending bets to "History" in the database
-#     UserBet.query.filter_by(user_id=current_user.id, status="pending").update({"status": "History"})
-#     db.session.commit()
-#     flash('All pending bets have been moved to history.', 'success')
-#     return redirect(url_for('bets'))  # Redirect back to the "My Bets" page
 
 @app.route('/remove_bet', methods=['POST'])
 @login_required
@@ -383,6 +380,7 @@ def update_bets():
             bet_type=user_bet.bet_type,
             bet_line=user_bet.bet_line,
             ROI=user_bet.ROI,
+            fair_odds=user_bet.fair_odds,
             odds=user_bet.odds,
             House=user_bet.House
         ).first()
@@ -398,6 +396,7 @@ def update_bets():
                 bet_type=user_bet.bet_type,
                 bet_line=user_bet.bet_line,
                 ROI=user_bet.ROI,
+                fair_odds=user_bet.fair_odds,
                 odds=user_bet.odds,
                 House=user_bet.House,
                 status=corresponding_bet.status  # Use the status from the Bets table
@@ -413,5 +412,5 @@ def update_bets():
     return redirect(url_for('index'))
 
 if __name__ == "__main__":
-    db.create_all()
+    #db.create_all()
     app.run(debug=True)
