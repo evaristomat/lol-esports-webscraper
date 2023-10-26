@@ -4,7 +4,7 @@ from db_loader import DatabaseLoader
 from match_odds import MatchOdds
 import json
 
-class OddsComparator:
+class OddsComparator:   
     def __init__(self, filename, game_data):
         self.filename = filename
         self.game_data = game_data
@@ -173,10 +173,10 @@ class OddsComparator:
 if __name__ == "__main__":
     filename = '../database/data_transformed.csv'
     
-    with open(r'..\data\2023-10-12\games_Bet365Webscraper.json', 'r') as file:
+    with open(r'..\data\2023-10-17\games_DafabetWebscraper.json', 'r', encoding='utf-8') as file:
         games = json.load(file)
     
-    game_data = games[0]
+    game_data = games[13]
     timestamp = game_data['overview']['game_date']
     date = datetime.datetime.utcfromtimestamp(timestamp)
     formatted_date = date.strftime('%Y-%m-%d')

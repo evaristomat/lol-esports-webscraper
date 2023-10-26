@@ -14,7 +14,7 @@ from src.ScrapingService import Webscraper
 from src.Utils import ScrollBox, parse_float, remove_duplicates
 
 # Setting up logging
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 extract_number_regex = "[^0-9\-+]"
 
@@ -52,6 +52,7 @@ def request_matchups():
         "Sec-Fetch-Site": "same-site",
         "Host": "guest.api.arcadia.pinnacle.com",
     }
+    logging.debug("Sending request to %s", url)
     return requests.get(url, headers=headers).json()
 
 
@@ -62,16 +63,15 @@ class PinnacleWebscraper(Webscraper):
 
     def fetch_games(self) -> List[GameDetailDto]:
         logging.debug("Sending matchups request")
-        print(f"[DEBUG] Sending matchups request")
         data = request_matchups()
         lol_matchups = list(
             filter(lambda x: "League of Legends" in x["league"]["name"], data)
         )
-        print(f"[DEBUG] Found {len(lol_matchups)} lol related matchups")
+        logging.debug("Found %d lol related matchups", len(lol_matchups))
         dtos: List[GameDetailDto] = []
-
+        
         for matchup in lol_matchups:
-            print(matchup['id'])
+            logging.debug("Processing matchup ID: %s", matchup['id'])
             if matchup["status"] != "pending":
                 continue
 
@@ -97,8 +97,8 @@ class PinnacleWebscraper(Webscraper):
                     )
                 )
             )
-            print(f"[DEBUG] Next match collected")
-        print(f"[DEBUG] Total of {len(dtos)} collected")
+            logging.debug("Match collected")
+            logging.debug("DTOs: %s", dtos)
         return dtos
 
     def get_stats(self, element: WebElement) -> Dict[str, List[StatDto]]:
@@ -128,6 +128,7 @@ class PinnacleWebscraper(Webscraper):
                     ),
                 )
             )
+            logging.debug("teams: %s", teams)
             labels = list(
                 map(
                     lambda x: x.text,
@@ -139,7 +140,7 @@ class PinnacleWebscraper(Webscraper):
                     ),
                 )
             )
-
+            logging.debug("labels: %s", labels)
             content = list(zip(teams, labels))
             pairwise = [[content[i], content[i + 1]] for i in range(0, len(content), 2)]
             if stat_name not in stats:
@@ -151,8 +152,8 @@ class PinnacleWebscraper(Webscraper):
                     not re.match(extract_number_regex, home[1])
                     and not re.match(extract_number_regex, away[1])
                 ):
-                    value = abs(parse_float(re.sub(extract_number_regex, "", home[1]))) / 10.0  # Divide by 10 here
-                stats[stat_name].append(StatDto(value, home[0] / 10.0, away[0] / 10.0))  # Divide by 10 here
+                    value = abs(parse_float(re.sub(extract_number_regex, "", home[1])))
+                stats[stat_name].append(StatDto(value / 10, home[0], away[0]))
         return remove_duplicates(stats)
 
     def collect_detail_dto(self, overview_dto: GameOverviewDto) -> GameDetailDto:

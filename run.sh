@@ -22,4 +22,4 @@ python ./stats/get_best_bets.py
 python ./bets/get_results.py
 
 # Send telegram bets
-python ./telegram_bot/test.py
+python ./telegram_bot/test2.py

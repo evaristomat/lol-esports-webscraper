@@ -69,14 +69,14 @@ class TeamStatsCalculator:
         if self._last_n_games.empty:
             print(f"No games found for {self._teamname}.")
         else:
-            print(self._last_n_games[['league', 'year','patch', 't1', 't2','total_kills', 'total_dragons','firstdragon_t1', 'total_barons', 'total_towers']])
-
+            #print(self._last_n_games[['league', 'year','patch', 't1', 't2','total_kills', 'total_dragons','firstdragon_t1', 'total_barons', 'total_towers']])
+            print(self._last_n_games[['league', 'year','patch', 't1', 't2','firstdragon_t1']])    
     def get_last_n_games_count(self):
         return len(self._last_n_games)
 
 if __name__ == "__main__":
     filename = '../database/data_transformed.csv'
-    team = "GAM Esports"
+    team = "Barça eSports"
 
     try:
         data_loader = DatabaseLoader(filename)

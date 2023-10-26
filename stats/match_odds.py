@@ -1,13 +1,22 @@
 import json
+
 class MatchOdds:
+    CORRECTION_MAP = {
+        "Barca eSports": "Barça eSports",
+        # ... add other incorrect names here
+    }
+
     def __init__(self, game_json):
         self.game_json = game_json
 
+    def correct_name(self, name):
+        return self.CORRECTION_MAP.get(name, name)
+    
     def home_team(self):
-        return self.game_json['overview']['home_team']
+        return self.correct_name(self.game_json['overview']['home_team'])
 
     def away_team(self):
-        return self.game_json['overview']['away_team']
+        return self.correct_name(self.game_json['overview']['away_team'])
         
     def get_league(self):
         return self.game_json['overview']['league']
@@ -74,7 +83,7 @@ class MatchOdds:
         
 
 if __name__ == "__main__": 
-    with open(r'..\data\2023-10-10\games_Bet365Webscraper.json', 'r') as file:
+    with open(r'..\data\2023-10-10\games_Bet365Webscraper.json', 'r', encoding='utf-8') as file:
         games = json.load(file)
     
     game_data = games[1]  # or whatever index or method you're using to select the game

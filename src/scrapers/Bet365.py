@@ -27,7 +27,7 @@ first_blood_stat_name = "First Blood"
 money_line = "Moneyline"
 duration_map_stat_name = "Mapa 1 - Duração do Mapa - 2 Opções"
 
-browser_redirect_wait = 1
+browser_redirect_wait = 3
 chrome_path = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
 
 

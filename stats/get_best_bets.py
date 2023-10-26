@@ -32,8 +32,10 @@ def build_row(best_bet, bet_line_key):
         'ROI': best_bet.get('ROI', ''),
         "fair_odds": best_bet.get('fair_odds', ''),
         'odds': best_bet.get('odds', ''),
+        'url': best_bet.get('url', ''),
         'status': 'pending'
     }
+
 
 def remove_old_pending_bets(csv_path, header):
     """Remove bets from more than 3 days ago with 'pending' status."""
@@ -63,7 +65,8 @@ def main():
     processed_files_log = os.path.join(project_root, 'logs/best_bets.log')
     filename = os.path.join(project_root, 'database', 'data_transformed.csv')
 
-    header = ['date', 'league', 't1', 't2', 'bet_type', 'bet_line', 'ROI','fair_odds', 'odds', 'House', 'status']
+    header = ['date', 'league', 't1', 't2', 'bet_type', 'bet_line', 'ROI','fair_odds', 'odds', 'House', 'url', 'status']
+
 
     processed_files = set()
     if os.path.exists(processed_files_log):
@@ -133,14 +136,15 @@ def main():
                                           (best_total_barons, 'total_barons')]:
                     if bet:
                         row = build_row(bet, bet_line_key)
+                        print(row)
                         row['House'] = house_name
                         identifier = row_identifier(row)
 
                         # Check for ROI >= 3%
                         try:
                             roi_value = float(row['ROI'].replace('%', '').strip())  # Remove % sign and convert to float
-                            if roi_value < 3.0:  # If ROI is less than 3%, skip this row
-                                logging.info(f"Skipping bet with ROI {roi_value}% which is less than 3%.")
+                            if roi_value < 5.0:  # If ROI is less than 3%, skip this row
+                                logging.info(f"Skipping bet with ROI {roi_value}% which is less than 5%.")
                                 continue
                         except ValueError:  # Handle cases where 'ROI' can't be converted to a float
                             logging.warning(f"Invalid ROI value: {row['ROI']}. Skipping bet.")
@@ -159,14 +163,15 @@ def main():
 
     # Writing to CSV, with error handling
     try:
-        with open(csv_path, mode='a', newline='') as file:
-            writer = csv.DictWriter(file, fieldnames=header)
+        with open(csv_path, mode='a', newline='', encoding='utf-8') as file:
+            writer = csv.DictWriter(file, fieldnames=header, quoting=csv.QUOTE_MINIMAL)
             if file.tell() == 0:
                 writer.writeheader()
             for row in all_new_rows:
                 writer.writerow(row)
     except Exception as e:
         logging.error(f"Error writing to CSV {csv_path}: {e}")
+
 
 if __name__ == "__main__":
     main()

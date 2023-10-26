@@ -2,7 +2,6 @@ import random
 import time
 from datetime import datetime, date
 from typing import Literal, List, Tuple, Union, Dict
-
 from selenium.common import NoSuchElementException
 from selenium.webdriver import ActionChains, Keys
 from selenium.webdriver.remote.webelement import WebElement
@@ -12,6 +11,13 @@ from src.ScrapingService import Webscraper
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from src.Utils import parse_float, ScrollBox, remove_duplicates
+import logging
+from selenium.common.exceptions import StaleElementReferenceException
+
+logging.basicConfig(level=logging.DEBUG)
+logging.getLogger('selenium').setLevel(logging.WARNING)
+logging.getLogger('urllib3').setLevel(logging.WARNING)
+
 
 date_format = "%m/%d %H:%M"
 max_scroll_height = 2000  # Prevent the scraper from making useless requests by scraping stats for unused values
@@ -55,45 +61,60 @@ class DafabetWebscraper(Webscraper):
 
     def fetch_games(self) -> List[GameDetailDto]:
         wait = WebDriverWait(self.driver, 10)
-        print("[DEBUG] Navigating to lol games")
+        logging.debug("Navigating to lol games")
         lol_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//div[text()='LOL']")))
         lol_button.click()
 
-        clear_button = wait.until(EC.element_to_be_clickable((By.XPATH,
-                                                              "//div[@class='clear active']/span[text()='Clear']")))
+        clear_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//div[@class='clear active']/span[text()='Clear']")))
         clear_button.click()
 
-        print("[DEBUG] Cleared items")
-        match_items = self.driver.find_elements(By.XPATH,
-                                                "//div[@class='matchList']/div")
-
+        logging.debug("Cleared items")
+        
         detail_dtos = []
         try:
-            for item in match_items:
+            index = 0
+            while True:
+                match_items = self.driver.find_elements(By.XPATH, "//div[@class='matchList']/div")
+                        
+                if not match_items or index >= len(match_items):
+                    break
+                                
+                item = match_items[index]
                 count = parse_float(item.find_element(By.XPATH, "./div[@class='countOfmatch']").text, 0)
+                
+                # Ensure the index increments if count is less than 1.
                 if count < 1:
+                    index += 1
                     continue
 
-                print(f"[DEBUG] Starting parsing process for {count} items")
+                logging.debug(f"Starting parsing process for {count} items")
                 label_element = item.find_element(By.XPATH, "./label[@class='options_items']")
                 label_element.click()
 
                 league = label_element.text
-                print(f"[DEBUG] Collecting League: {league}")
+                logging.debug(f"Collecting League: {league}")
 
-                xpath = "//div[@id='scrContainer']/div/div/a"
-                elements = self.driver.find_elements(By.XPATH, xpath)[:1]
+                elements = self.driver.find_elements(By.XPATH, "//div[@id='scrContainer']/div/div/a")
                 for element in elements:
                     dto = self.map_element_to_detail_dto(league, element)
                     if dto is None:
                         continue
                     detail_dtos.append(dto)
-                    print(f"[DEBUG] Next game collected")
+                    logging.debug("Game collected")
 
+                # Refetch the label_element before clicking to avoid potential staleness
+                label_element = item.find_element(By.XPATH, "./label[@class='options_items']")
                 label_element.click()
+                        
+                # Increment the index to process the next match item in the next loop iteration
+                index += 1
+
+        except StaleElementReferenceException:
+            logging.error("Encountered stale element reference. Consider re-fetching elements or adding more explicit waits.")
         except Exception as e:
-            print(f"Scraper got killed due to {e}. Returning results collected till crash")
-        print(f"[DEBUG] Finished scrap with {len(detail_dtos)} elements")
+            logging.error(f"Scraper got killed due to {e}. Returning results collected till crash")
+                
+        logging.debug(f"Finished scrap with {len(detail_dtos)} elements")
         return detail_dtos
 
     def get_stats(self, element: WebElement) -> Dict[str, List[StatDto]]:

@@ -5,6 +5,7 @@ from telegram import Bot
 import asyncio
 import logging
 from datetime import datetime
+import pyshorteners
 
 TOKEN = '6475025056:AAE1jWC2aHVMpZVBAyAjFumimwnyTG2iuQo'
 CHAT_ID = '1142829842'
@@ -17,6 +18,14 @@ BET_TRACK_PATH = os.path.join(BASE_DIR, 'bet_track.csv')
 
 # Global flag to check if messages were sent
 MESSAGES_SENT = False
+
+def shorten_url(url):
+    s = pyshorteners.Shortener()
+    if isinstance(url, str) and url.startswith(("http://", "https://")):
+        return s.tinyurl.short(url)
+    else:
+        return ""
+
 
 def safe_read_csv(filepath):
     if filepath == BET_TRACK_PATH:
@@ -80,7 +89,7 @@ async def send_message(text, row_data, status="pending"):
     bot = Bot(token=TOKEN)
     
     try:
-        await bot.send_message(chat_id=CHAT_ID, text=text)
+        await bot.send_message(chat_id=CHAT_ID, text=text, disable_web_page_preview=True)  # Disable link previews here
         MESSAGES_SENT = True
         update_or_log_bet_status(row_data, "update_message")
     except Exception as e:
@@ -104,9 +113,11 @@ async def process_bets(mode):
     elif mode == "changed":
         changed_bets = pd.merge(df_bets, df_track, on=['date', 'league', 't1', 't2', 'bet_type', 'bet_line'], suffixes=('', '_tracked'))
         changed_bets = changed_bets[changed_bets['status'] != changed_bets['status_tracked']]
+        print(changed_bets['url'])
         for _, bet in changed_bets.iterrows():
             if bet['settled'] == 1:
                 continue
+            #print(bet)
             message = format_csv_data_to_message(bet, bet['status'])
             await send_message(message, bet.to_dict(), bet['status'])
             update_or_log_bet_status(bet.to_dict(), "settle")
@@ -126,7 +137,9 @@ def format_csv_data_to_message(row, status="pending"):
 
     prefix = f"Bet Won! {unit_change}" if status == "win" else \
              f"Bet Lost! {unit_change}" if status == "loss" else \
-             f"**New Bet Added! {unit_change}**"
+             f"New Bet Added! {unit_change}"
+    
+    shortened_url = shorten_url(row['url'])
 
     message = (f"{prefix} {emoji}\n"
                f"📅 Date: {row['date']}\n"
@@ -137,7 +150,8 @@ def format_csv_data_to_message(row, status="pending"):
                f"📊 ROI: {row['ROI']}\n"
                f"📉 Fair Odds: {row['fair_odds']}\n"
                f"🔢 Odds: {row['odds']}\n"
-               f"🏠 Betting House: {row['House']}")
+               f"🏠 Betting House: {row['House']}\n"
+               f"🔗 {shortened_url}")
     return message
 
 def get_daily_summary():

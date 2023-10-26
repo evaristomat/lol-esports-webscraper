@@ -56,6 +56,8 @@ for index, bet in bets_df.iterrows():
                 # OK
             elif 'towers' in bet['bet_line'] and game['total_towers'] > float(bet['bet_line'].split()[-1]):
                 status = 'win'
+            elif 'barons' in bet['bet_line'] and game['total_barons'] > float(bet['bet_line'].split()[-1]):
+                status = 'win'   
             elif 'kills' in bet['bet_line'] and game['total_kills'] > float(bet['bet_line'].split()[-1]):
                 status = 'win'
             elif 'total_inhibitors ' in bet['bet_line'] and game['total_inhibitors'] > float(bet['bet_line'].split()[-1]):
@@ -68,6 +70,8 @@ for index, bet in bets_df.iterrows():
         else:  # For 'under' bets
             if 'total_dragons' in bet['bet_line'] and game['total_dragons'] < float(bet['bet_line'].split()[-1]):
                 status = 'win'
+            elif 'barons' in bet['bet_line'] and game['total_barons'] < float(bet['bet_line'].split()[-1]):
+                status = 'win' 
             elif 'towers' in bet['bet_line'] and game['total_towers'] < float(bet['bet_line'].split()[-1]):
                 status = 'win'
             elif 'kills' in bet['bet_line'] and game['total_kills'] < float(bet['bet_line'].split()[-1]):
