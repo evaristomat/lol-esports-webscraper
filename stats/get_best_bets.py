@@ -98,12 +98,19 @@ def main():
     all_new_rows = []
 
     # Error handling for each JSON file
-    for date_folder in os.listdir(data_folder):
-        json_files = glob.glob(os.path.join(data_folder, date_folder, 'games_*.json'))
-        for json_file_path in json_files:
-            if json_file_path in processed_files:
-                logging.info(f"Skipping already processed file: {json_file_path}")
-                continue
+    for year_folder in os.listdir(data_folder):
+        year_path = os.path.join(data_folder, year_folder)
+        if not os.path.isdir(year_path):
+            continue
+        for month_folder in os.listdir(year_path):
+            month_path = os.path.join(year_path, month_folder)
+            for date_folder in os.listdir(month_path):
+                date_path = os.path.join(month_path, date_folder)
+                json_files = glob.glob(os.path.join(date_path, 'games_*.json'))
+                for json_file_path in json_files:
+                    if json_file_path in processed_files:
+                        logging.info(f"Skipping already processed file: {json_file_path}")
+                        continue
             try:
                 with open(json_file_path, 'r') as file:
                     games = json.load(file)
