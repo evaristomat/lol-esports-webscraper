@@ -1,0 +1,501 @@
+[
+    {
+        "overview": {
+            "game_date": 1697184000.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20909288/D19/E18077938/F19/",
+            "league": "LOL - World Champs Play-In",
+            "home_team": "Movistar R7",
+            "away_team": "GAM Esports"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 2.25,
+                "away_team_score": 1.57
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.9,
+                "away_team_score": 1.8
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.1,
+                "away_team_score": 1.66
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.25,
+                "away_team_score": 1.57
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 7.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 26.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 11.5,
+                "home_team_score": 1.9,
+                "away_team_score": 1.8
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 2.5,
+                "away_team_score": 1.5
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 2.75,
+                "away_team_score": 1.4
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 2.1,
+                "away_team_score": 1.66
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 29.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1697194800.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20909288/D19/E18077686/F19/",
+            "league": "LOL - World Champs Play-In",
+            "home_team": "Team BDS",
+            "away_team": "DetonatioN FocusMe"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.2,
+                "away_team_score": 4.33
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.61,
+                "away_team_score": 2.2
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.33,
+                "away_team_score": 3.25
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.22,
+                "away_team_score": 4.0
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 10.5,
+                "home_team_score": 1.9,
+                "away_team_score": 1.8
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 24.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 11.5,
+                "home_team_score": 1.72,
+                "away_team_score": 2.0
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 2.75,
+                "away_team_score": 1.4
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 2.37,
+                "away_team_score": 1.53
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.57,
+                "away_team_score": 2.25
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 28.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1697562000.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20916663/D19/E18069598/F19/",
+            "league": "LOL - Iberian Cup",
+            "home_team": "Movistar Riders",
+            "away_team": "ZETA"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.05,
+                "away_team_score": 8.5
+            }
+        ],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1697572800.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20916663/D19/E18069569/F19/",
+            "league": "LOL - Iberian Cup",
+            "home_team": "Kawaii Kiwis",
+            "away_team": "ECORP"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.61,
+                "away_team_score": 2.2
+            }
+        ],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1697648400.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20916663/D19/E18069570/F19/",
+            "league": "LOL - Iberian Cup",
+            "home_team": "Los Heretics",
+            "away_team": "Wizards"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.083,
+                "away_team_score": 7.0
+            }
+        ],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1697659200.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20916663/D19/E18069571/F19/",
+            "league": "LOL - Iberian Cup",
+            "home_team": "Barca eSports",
+            "away_team": "Case Esports"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.22,
+                "away_team_score": 4.0
+            }
+        ],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1698166800.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20916663/D19/E18069597/F19/",
+            "league": "LOL - Iberian Cup",
+            "home_team": "KOI Academy",
+            "away_team": "Biteway Esports"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.16,
+                "away_team_score": 4.5
+            }
+        ],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1698177600.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20916663/D19/E18069572/F19/",
+            "league": "LOL - Iberian Cup",
+            "home_team": "UCAM Tokiers",
+            "away_team": "Ramboot Club"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.25,
+                "away_team_score": 3.75
+            }
+        ],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1698253200.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20916663/D19/E18069573/F19/",
+            "league": "LOL - Iberian Cup",
+            "home_team": "Giants",
+            "away_team": "EGN Esports"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.1,
+                "away_team_score": 6.5
+            }
+        ],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1698264000.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20916663/D19/E18069574/F19/",
+            "league": "LOL - Iberian Cup",
+            "home_team": "Rebels Gaming",
+            "away_team": "White Dragons"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.2,
+                "away_team_score": 4.33
+            }
+        ],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1698861600.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20913138/D19/E18052644/F19/",
+            "league": "LOL - Coupe de France",
+            "home_team": "Team GO",
+            "away_team": "Team Du Sud"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.57,
+                "away_team_score": 2.25
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.8,
+                "away_team_score": 1.9
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.66,
+                "away_team_score": 2.1
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.57,
+                "away_team_score": 2.25
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 6.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 31.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 11.5,
+                "home_team_score": 1.61,
+                "away_team_score": 2.2
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 2.5,
+                "away_team_score": 1.5
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 2.5,
+                "away_team_score": 1.5
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.61,
+                "away_team_score": 2.2
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 29.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    }
+]

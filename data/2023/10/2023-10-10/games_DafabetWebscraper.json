@@ -1,0 +1,168 @@
+[
+    {
+        "overview": {
+            "game_date": 1697007600.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231009200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "2023 World Championship Play-In",
+            "home_team": "CTBC Flying Oyster",
+            "away_team": "DetonatioN FocusMe"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.535,
+                "away_team_score": 2.477
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.748,
+                "away_team_score": 2.027
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.639,
+                "away_team_score": 2.173
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.558,
+                "away_team_score": 2.281
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.814,
+                "away_team_score": 1.964
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 23.5,
+                "home_team_score": 1.851,
+                "away_team_score": 1.923
+            }
+        ],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.697,
+                "away_team_score": 2.079
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.707,
+                "away_team_score": 2.023
+            }
+        ],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 2.047,
+                "away_team_score": 1.719
+            }
+        ],
+        "total_inhibitors": [],
+        "game_duration": [
+            {
+                "total_amount": 30.0,
+                "home_team_score": 1.882,
+                "away_team_score": 1.891
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1698771600.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231009200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "Coupe de France",
+            "home_team": "Team GO",
+            "away_team": "Team du Sud"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.515,
+                "away_team_score": 2.467
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.711,
+                "away_team_score": 2.037
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.596,
+                "away_team_score": 2.228
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.536,
+                "away_team_score": 2.357
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.849,
+                "away_team_score": 1.854
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 31.5,
+                "home_team_score": 1.832,
+                "away_team_score": 1.871
+            }
+        ],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.624,
+                "away_team_score": 2.176
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.8,
+                "away_team_score": 1.906
+            }
+        ],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 2.545,
+                "away_team_score": 1.455
+            }
+        ],
+        "total_inhibitors": [],
+        "game_duration": [
+            {
+                "total_amount": 31.0,
+                "home_team_score": 1.825,
+                "away_team_score": 1.879
+            }
+        ]
+    }
+]

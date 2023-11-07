@@ -19,11 +19,15 @@ T = TypeVar("T")
 
 
 def get_current_folder() -> str:
-    current_date = datetime.now().strftime("%Y-%m-%d")
-    folder_path = f"./data/{current_date}"
+    current_date = datetime.now()
+    year = current_date.strftime('%Y')
+    month = current_date.strftime('%m')
+    day = current_date.strftime('%Y-%m-%d')
+    
+    folder_path = f"./data/{year}/{month}/{day}"
+    
     os.makedirs(folder_path, exist_ok=True)
     return folder_path
-
 
 def click_element(driver, element):
     while True:

@@ -1,0 +1,234 @@
+[
+    {
+        "overview": {
+            "game_date": 1696824000.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231007200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "2023 World Championship Play-In",
+            "home_team": "Golden Guardians",
+            "away_team": "Team BDS"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.809,
+                "away_team_score": 1.951
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.701,
+                "away_team_score": 2.052
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.766,
+                "away_team_score": 1.965
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.755,
+                "away_team_score": 1.979
+            }
+        ],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_barons": [],
+        "total_inhibitors": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.755,
+                "away_team_score": 1.979
+            }
+        ],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.926,
+                "away_team_score": 1.783
+            }
+        ],
+        "first_tower": []
+    },
+    {
+        "overview": {
+            "game_date": 1696780800.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231007200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "Coupe de France",
+            "home_team": "Vitality.Bee",
+            "away_team": "Team du Sud"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.514,
+                "away_team_score": 2.469
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.652,
+                "away_team_score": 2.127
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.457,
+                "away_team_score": 2.571
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.416,
+                "away_team_score": 2.708
+            }
+        ],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_barons": [],
+        "total_inhibitors": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.416,
+                "away_team_score": 2.708
+            }
+        ],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.694,
+                "away_team_score": 2.041
+            }
+        ],
+        "first_tower": []
+    },
+    {
+        "overview": {
+            "game_date": 1696780800.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231007200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "Iberian Cup",
+            "home_team": "Movistar Riders",
+            "away_team": "Hurricane of Feathers"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.089,
+                "away_team_score": 6.789
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.546,
+                "away_team_score": 2.333
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.265,
+                "away_team_score": 3.507
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.144,
+                "away_team_score": 4.959
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.676,
+                "away_team_score": 2.067
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 29.5,
+                "home_team_score": 1.917,
+                "away_team_score": 1.79
+            }
+        ],
+        "total_barons": [],
+        "total_inhibitors": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.144,
+                "away_team_score": 4.959
+            }
+        ],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.653,
+                "away_team_score": 2.104
+            }
+        ],
+        "first_tower": []
+    },
+    {
+        "overview": {
+            "game_date": 1696795200.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231007200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "Ignis Cup",
+            "home_team": "paiN Female",
+            "away_team": "Miners Female"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.777,
+                "away_team_score": 1.99
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.846,
+                "away_team_score": 1.874
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.803,
+                "away_team_score": 1.921
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.873,
+                "away_team_score": 1.848
+            }
+        ],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_barons": [],
+        "total_inhibitors": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.873,
+                "away_team_score": 1.848
+            }
+        ],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 2.331,
+                "away_team_score": 1.535
+            }
+        ],
+        "first_tower": []
+    }
+]

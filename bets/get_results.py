@@ -14,7 +14,7 @@ bets_df = pd.read_csv(bets_path)
 game_results_df = pd.read_csv(game_results_path)
 
 # Create an empty DataFrame for the new results CSV
-results_df = pd.DataFrame(columns=['date', 'league', 't1', 't2', 'game', 'bet_type', 'bet_line', 'ROI', 'status'])
+results_df = pd.DataFrame(columns=['date', 'league', 't1', 't2', 'game', 'bet_type', 'bet_line', 'ROI', 'House', 'status'])
 
 # Iterate over each row in the bets DataFrame
 for index, bet in bets_df.iterrows():
@@ -98,6 +98,7 @@ for index, bet in bets_df.iterrows():
             'bet_line': [bet['bet_line']],
             'odds': bet['odds'],
             'ROI': bet['ROI'],
+            'House':bet['House'],
             'status': [status],
             'profit': profit
         })
@@ -107,17 +108,20 @@ for index, bet in bets_df.iterrows():
         if game['game'] == 1:
             bets_df.at[index, 'status'] = status
 
-# Ensure teams are in a consistent order for comparison
-bets_df['team_combined'] = bets_df[['t1', 't2']].apply(lambda x: ' vs '.join(sorted(x)), axis=1)
+# Load the existing bets DataFrame from the CSV file
+existing_bets_df = pd.read_csv(bets_path)
 
-# Drop duplicates based on specific columns (excluding original t1 and t2)
-bets_df = bets_df.drop_duplicates(subset=['date', 'league', 'team_combined', 'bet_type', 'bet_line', 'ROI', 'fair_odds', 'odds', 'House', 'status'])
+# Concatenate the existing bets DataFrame and the new bets DataFrame
+combined_bets_df = pd.concat([existing_bets_df, bets_df], ignore_index=True)
+
+# Ensure teams are in a consistent order for comparison
+combined_bets_df['team_combined'] = combined_bets_df[['t1', 't2']].apply(lambda x: ' vs '.join(sorted(x)), axis=1)
+
+# Drop duplicates based on specific columns
+combined_bets_df = combined_bets_df.drop_duplicates(subset=['date', 'league', 'team_combined', 'bet_type', 'bet_line', 'ROI', 'odds', 'House', 'status'])
 
 # Drop the combined team column if it's not needed
-bets_df = bets_df.drop(columns=['team_combined'])
+combined_bets_df = combined_bets_df.drop(columns=['team_combined'])
 
-# Save the updated bets DataFrame
-bets_df.to_csv(bets_path, index=False)
-
-# Assuming results_df is another DataFrame that you want to save
-results_df.to_csv(results_path, index=False)
+# Save the updated combined bets DataFrame
+combined_bets_df.to_csv(bets_path, index=False)

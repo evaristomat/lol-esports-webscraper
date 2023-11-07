@@ -1,4 +1,5 @@
 import os
+import pandas as pd
 import csv
 import json
 import logging
@@ -6,15 +7,12 @@ import glob
 from odds_comparator import OddsComparator
 from datetime import datetime
 from colorama import init, Fore
+from datetime import datetime, timedelta
 
 init(autoreset=True)
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
-def row_exists(rows, row):
-    """Check if the row already exists in the existing rows."""
-    return any(all(row[field] == existing_row[field] for field in row) for existing_row in rows)
 
 def row_identifier(row):
     return f"{row['date']}-{row['t1']}-{row['t2']}-{row['bet_type']}-{row['bet_line']}-{row['House']}"
@@ -36,27 +34,28 @@ def build_row(best_bet, bet_line_key):
         'status': 'pending'
     }
 
-
-def remove_old_pending_bets(csv_path, header):
-    """Remove bets from more than 3 days ago with 'pending' status."""
+def remove_old_pending_bets(csv_path, days_threshold=3):
+    """
+    Remove bets from the CSV file that are more than 'days_threshold' days old
+    with 'pending' status.
+    """
+    # Check if the CSV file exists
+    if not os.path.exists(csv_path):
+        return  # If the CSV doesn't exist, there's nothing to clean.
+    
+    # Read the CSV file into a DataFrame
+    bets_df = pd.read_csv(csv_path, parse_dates=['date'])
+    
+    # Get the current date
     today = datetime.today().date()
-    kept_rows = []
 
-    if os.path.exists(csv_path):
-        with open(csv_path, mode='r', newline='') as file:
-            reader = csv.DictReader(file)
-            for row in reader:
-                row_date = datetime.strptime(row['date'], '%Y-%m-%d').date()
-                days_difference = (today - row_date).days
-                if days_difference <= 2 or row['status'] != 'pending':
-                    kept_rows.append(row)
-
-        # Write the kept rows back to the CSV
-        with open(csv_path, mode='w', newline='') as file:
-            writer = csv.DictWriter(file, fieldnames=header)
-            writer.writeheader()
-            for row in kept_rows:
-                writer.writerow(row)
+    # Filter out rows where the 'status' is 'pending' and the 'date' is older than the threshold
+    is_recent_or_not_pending = (today - bets_df['date'].dt.date) <= timedelta(days=days_threshold)
+    is_not_pending_status = bets_df['status'] != 'pending'
+    filtered_df = bets_df[is_recent_or_not_pending | is_not_pending_status]
+    
+    # Write the filtered DataFrame back to the CSV
+    filtered_df.to_csv(csv_path, index=False)
 
 def main():
 # Absolute paths
@@ -66,7 +65,6 @@ def main():
     filename = os.path.join(project_root, 'database', 'data_transformed.csv')
 
     header = ['date', 'league', 't1', 't2', 'bet_type', 'bet_line', 'ROI','fair_odds', 'odds', 'House', 'url', 'status']
-
 
     processed_files = set()
     if os.path.exists(processed_files_log):
@@ -93,7 +91,7 @@ def main():
         return  # Exit the script if there's an error reading the CSV
     
     # Before adding new rows, clean up old 'pending' rows
-    remove_old_pending_bets(csv_path, header)
+    remove_old_pending_bets(csv_path)
 
     all_new_rows = []
 
@@ -102,71 +100,79 @@ def main():
         year_path = os.path.join(data_folder, year_folder)
         if not os.path.isdir(year_path):
             continue
+        logging.info(f'Entering year directory: {year_folder}')
         for month_folder in os.listdir(year_path):
             month_path = os.path.join(year_path, month_folder)
+            if not os.path.isdir(month_path):
+                continue
+            logging.info(f'Entering month directory: {month_folder}')
             for date_folder in os.listdir(month_path):
                 date_path = os.path.join(month_path, date_folder)
+                if not os.path.isdir(date_path):
+                    continue
+                logging.info(Fore.YELLOW + f'Entering date directory: {date_folder}' + Fore.RESET)
                 json_files = glob.glob(os.path.join(date_path, 'games_*.json'))
                 for json_file_path in json_files:
                     if json_file_path in processed_files:
                         logging.info(f"Skipping already processed file: {json_file_path}")
                         continue
-            try:
-                with open(json_file_path, 'r') as file:
-                    games = json.load(file)
-            except (FileNotFoundError, json.JSONDecodeError) as e:
-                logging.error(f"Error reading {json_file_path}: {e}")
-                continue
+                    try:
+                        with open(json_file_path, 'r') as file:
+                            games = json.load(file)
+                    except (FileNotFoundError, json.JSONDecodeError) as e:
+                        logging.error(f"Error reading {json_file_path}: {e}")
+                        continue
 
-            house_name = os.path.basename(json_file_path).split('_')[1].replace('Webscraper.json', '')
+                    house_name = os.path.basename(json_file_path).split('_')[1].replace('Webscraper.json', '')
+                    logging.info(f"House name: {house_name}")
 
-            for game_data in games:
-                teamA = game_data['overview'].get('home_team', 'Unknown Team')  # Safely retrieve home team's name
-                teamB = game_data['overview'].get('away_team', 'Unknown Team')  # Safely retrieve away team's name
-                logging.info(Fore.YELLOW + f"Checking bets for match - {teamA} vs {teamB}")  # Log the match being checked in yellow
-                
-                comparator = OddsComparator(filename, game_data)
-                best_dragon = comparator.compare_dragon()
-                best_tower = comparator.compare_tower()
-                best_kills = comparator.compare_kills()
-                best_fd = comparator.compare_first_drake()
-                bets_gameduration = comparator.compare_game_duration()
-                best_total_inhibitor = comparator.compare_total_inhibitor()
-                best_total_barons = comparator.compare_total_barons()
+                    for game_data in games:
+                        teamA = game_data['overview'].get('home_team', 'Unknown Team')  # Safely retrieve home team's name
+                        teamB = game_data['overview'].get('away_team', 'Unknown Team')  # Safely retrieve away team's name
+                        logging.info(Fore.YELLOW + f"Checking bets for match - {teamA} vs {teamB}")  # Log the match being checked in yellow
+                        
+                        comparator = OddsComparator(filename, game_data)
+                        best_dragon = comparator.compare_dragon()
+                        best_tower = comparator.compare_tower()
+                        best_kills = comparator.compare_kills()
+                        best_fd = comparator.compare_first_drake()
+                        bets_gameduration = comparator.compare_game_duration()
+                        best_total_inhibitor = comparator.compare_total_inhibitor()
+                        best_total_barons = comparator.compare_total_barons()
 
-                for bet, bet_line_key in [(best_dragon, 'total_dragons'),
-                                          (best_tower, 'total_towers'),
-                                          (best_kills, 'total_kills'),
-                                          (best_fd, 'first_dragon'),
-                                          (bets_gameduration, 'game_duration'),
-                                          (best_total_inhibitor, 'total_inhibitors'),
-                                          (best_total_barons, 'total_barons')]:
-                    if bet:
-                        row = build_row(bet, bet_line_key)
-                        print(row)
-                        row['House'] = house_name
-                        identifier = row_identifier(row)
+                        for bet, bet_line_key in [(best_dragon, 'total_dragons'),
+                                                (best_tower, 'total_towers'),
+                                                (best_kills, 'total_kills'),
+                                                (best_fd, 'first_dragon'),
+                                                (bets_gameduration, 'game_duration'),
+                                                (best_total_inhibitor, 'total_inhibitors'),
+                                                (best_total_barons, 'total_barons')]:
+                            if bet:
+                                row = build_row(bet, bet_line_key)
+                                print(row)
+                                row['House'] = house_name
+                                identifier = row_identifier(row)
 
-                        # Check for ROI >= 3%
-                        try:
-                            roi_value = float(row['ROI'].replace('%', '').strip())  # Remove % sign and convert to float
-                            if roi_value < 5.0:  # If ROI is less than 3%, skip this row
-                                logging.info(f"Skipping bet with ROI {roi_value}% which is less than 5%.")
-                                continue
-                        except ValueError:  # Handle cases where 'ROI' can't be converted to a float
-                            logging.warning(f"Invalid ROI value: {row['ROI']}. Skipping bet.")
-                            continue
+                                # Check for ROI >= 5%
+                                try:
+                                    roi_value = float(row['ROI'].replace('%', '').strip())  # Remove % sign and convert to float
+                                    if roi_value < 5.0:  # If ROI is less than 3%, skip this row
+                                        logging.info(f"Skipping bet with ROI {roi_value}% which is less than 5%.")
+                                        continue
+                                except ValueError:  # Handle cases where 'ROI' can't be converted to a float
+                                    logging.warning(f"Invalid ROI value: {row['ROI']}. Skipping bet.")
+                                    continue
 
-                        if identifier not in existing_rows:
-                            all_new_rows.append(row)  # Collect new rows for sorting
-                            existing_rows.add(identifier)  # Adding the identifier of the new row to the set
-                        else:
-                            logging.info(f"Row already exists: {row}")
-                    else:
-                        logging.info(f"No best bet found for {bet_line_key}")
+                                if identifier not in existing_rows:
+                                    all_new_rows.append(row)  # Collect new rows for sorting
+                                    existing_rows.add(identifier)  # Adding the identifier of the new row to the set
+                                else:
+                                    logging.info(f"Row already exists: {row}")
+                            else:
+                                logging.info(f"No best bet found for {bet_line_key}")
 
-            with open(processed_files_log, 'a') as log_file:
-                log_file.write(json_file_path + '\n')
+                    with open(processed_files_log, 'a') as log_file:
+                        log_file.write(json_file_path + '\n')
 
     # Writing to CSV, with error handling
     try:

@@ -1,72 +1,97 @@
 import pandas as pd
 
+def load_and_prepare_data(filepath):
+    df = pd.read_csv(filepath)
+    df['ROI'] = df['ROI'].str.rstrip('%').astype(float)
+    df['date'] = pd.to_datetime(df['date'])
+    return df
+
+def calculate_profit_and_stats(df, roi_threshold):
+    df['units'] = df['ROI'].apply(roi_to_units)
+    df['adjusted_profit'] = df['profit'] * df['units']
+    backtested_profit = df['adjusted_profit'].sum()
+
+    # Calculate the Actual ROI for the original strategy
+    filtered_df = df[df['ROI'] > roi_threshold].copy()
+    total_bets = len(filtered_df)
+    wins = len(filtered_df[filtered_df['status'] == 'win'])
+    win_rate = (wins / total_bets) * 100 if total_bets > 0 else 0
+    total_profit = filtered_df['profit'].sum()
+    avg_roi = df['ROI'].mean()
+    actual_roi = (total_profit / total_bets) * 100 if total_bets > 0 else 0
+
+    # Calculate the Actual ROI for the backtested strategy using ROI-based units
+    backtest_filtered_df = df[df['units'] > 0].copy()  # Bets where units were actually placed
+    backtest_total_bets = len(backtest_filtered_df)
+    backtest_total_profit = backtest_filtered_df['adjusted_profit'].sum()
+    backtest_actual_roi = (backtest_total_profit / backtest_total_bets) * 100 if backtest_total_bets > 0 else 0
+
+    return {
+        'backtested_profit': backtested_profit,
+        'total_bets': total_bets,
+        'win_rate': win_rate,
+        'total_profit': total_profit,
+        'avg_roi': avg_roi,
+        'actual_roi': actual_roi,
+        'backtest_total_bets': backtest_total_bets,
+        'backtest_total_profit': backtest_total_profit,
+        'backtest_actual_roi': backtest_actual_roi,
+        'filtered_df': filtered_df,
+        'df': df
+    }
+
+
+def calculate_daily_profits_and_counts(df):
+    # Get the current month's period (year and month)
+    current_month = df['date'].dt.to_period('M').max()
+    # Convert the period to the actual start and end date of the month
+    start_date = current_month.start_time
+    end_date = current_month.end_time
+
+    # Filter for the current month and exclude pending bets
+    completed_bets_df = df[(df['date'] >= start_date) & (df['date'] <= end_date) & (~df['status'].str.contains('pending'))]
+    
+    # Group by date and calculate the sum of profits and the count of bets for each day
+    daily_summary = completed_bets_df.groupby(completed_bets_df['date'].dt.date).agg({
+        'profit': 'sum',
+        'status': 'count'  # Using the 'status' column to count the number of bets since each row is a bet.
+    })
+    daily_summary.rename(columns={'status': 'number_of_bets'}, inplace=True)
+
+    return daily_summary
+
+def display_results(stats, daily_summary):
+    print(f"\nTotal Bets (with ROI > {ROI_TRESHHOLD}%): {stats['total_bets']}")
+    print(f"Win Rate: {stats['win_rate']:.2f}%")
+    print(f"Average ROI: {stats['avg_roi']:.2f}%")
+    print(f"\nTotal Profit (1 unit every bet): {stats['total_profit']:.2f}U")
+    print(f"Actual ROI (1 unit every bet): {stats['actual_roi']:.2f}%")    
+    print(f"\nBacktested Profit (using ROI-based units): {stats['backtested_profit']:.2f}U")
+    print(f"Actual ROI (using ROI-based units): {stats['backtest_actual_roi']:.2f}%\n")
+    
+    print("Daily Summary (Profits and Number of Bets):")
+    for date, row in daily_summary.iterrows():
+        print(f"{date}: {row['profit']:.2f}U, Nº bets: {row['number_of_bets']}")
+
+
+
 def roi_to_units(roi):
-    """Convert ROI to units based on the given criteria."""
     if roi <= 10:
-        return 0  # no units placed
+        return 0
     elif roi <= 20:
         return 1 
     else:
         return 2
 
-ROI_TRESHHOLD = 10
+# Constants
+ROI_TRESHHOLD = 0
+FILEPATH = 'results.csv'
 
-# Load data
-results_df = pd.read_csv('results.csv')
+def main():
+    results_df = load_and_prepare_data(FILEPATH)
+    stats = calculate_profit_and_stats(results_df, ROI_TRESHHOLD)
+    daily_summary = calculate_daily_profits_and_counts(results_df)
+    display_results(stats, daily_summary)
 
-# Convert the 'ROI' column to numerical format by stripping '%' and converting to float
-results_df['ROI'] = results_df['ROI'].str.rstrip('%').astype(float)
-
-# Map the ROI values to unit placements and store in a new column
-results_df['units'] = results_df['ROI'].apply(roi_to_units)
-
-# Calculate the profit (or loss) for each bet with the units placement
-results_df['adjusted_profit'] = results_df['profit'] * results_df['units']
-
-# Calculate backtested total profit
-backtested_profit = results_df['adjusted_profit'].sum()
-
-# For original strategy (1 unit every bet) apply the ROI_TRESHHOLD filter
-filtered_results = results_df[results_df['ROI'] > ROI_TRESHHOLD].copy()
-
-# Group by 'bet_line' and create a new column for this for both strategies
-filtered_results['bet_line_grouped'] = filtered_results['bet_line'].str.split(' ').str[0]
-results_df['bet_line_grouped'] = results_df['bet_line'].str.split(' ').str[0]
-
-# Calculate profit by bet line for both strategies
-profit_by_bet_line_original = filtered_results.groupby('bet_line_grouped')['profit'].sum()
-profit_by_bet_line_backtest = results_df.groupby('bet_line_grouped')['adjusted_profit'].sum()
-
-# Calculate win rate
-total_bets = len(filtered_results)
-wins = len(filtered_results[filtered_results['status'] == 'win'])
-win_rate = (wins / total_bets) * 100 if total_bets > 0 else 0  # Handle division by zero
-
-# Calculate total profit with 1 unit every bet
-total_profit = filtered_results['profit'].sum()
-
-# Calculate average ROI
-avg_roi = results_df['ROI'].mean()
-
-# Calculate actual ROI
-actual_roi = (total_profit / total_bets) * 100 if total_bets > 0 else 0  # Handle division by zero
-
-# Display results
-print(f"Win Rate: {win_rate:.2f}%")
-print(f"Average ROI: {avg_roi:.2f}%")
-print(f"Actual ROI (1 unit every bet): {actual_roi:.2f}%")
-print("\nProfit by Bet Line (1 unit every bet):")
-for line, profit in profit_by_bet_line_original.items():
-    print(f"{line}: {profit:.2f}U")
-
-print("\nProfit by Bet Line (using ROI-based units):")
-for line, profit in profit_by_bet_line_backtest.items():
-    print(f"{line}: {profit:.2f}U")
-
-print(f"\nTotal Bets (with ROI > {ROI_TRESHHOLD}%): {total_bets}")
-print(f"\nTotal Profit (1 unit every bet): {total_profit:.2f}U")
-print(f"\nBacktested Profit (using ROI-based units): {backtested_profit:.2f}U")
-
-# Optionally, you can drop the temporary columns if you don't need them anymore
-results_df.drop(['units', 'adjusted_profit', 'bet_line_grouped'], axis=1, inplace=True)
-filtered_results.drop('bet_line_grouped', axis=1, inplace=True)
+if __name__ == "__main__":
+    main()

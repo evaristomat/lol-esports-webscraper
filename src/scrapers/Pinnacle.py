@@ -32,8 +32,38 @@ total_inhibitors_stat_name = "YOUR_STRING_HERE_FOR_TOTAL_INHIBITORS"
 tower_handicap_stat_name = "(Mapa 1) Handicap de Torres"
 first_tower_stat_name = "(Mapa 1) 1ª Torre"
 first_dragon_stat_name = "(Mapa 1) 1º Dragão"
-duration_map_stat_name = "Game Duration"
+duration_map_stat_name = "(Mapa 1) Duração do jogo"
 
+interested_stats = {
+    winner_stat_name,
+    first_blood_stat_name,
+    first_kill_baron_stat_name,
+    first_destroy_inhibitor_stat_name,
+    total_kills_stat_name,
+    total_barons_stat_name,
+    total_towers_stat_name,
+    kill_handicap_stat_name,
+    total_dragons_stat_name,
+    total_inhibitors_stat_name,
+    duration_map_stat_name,
+    tower_handicap_stat_name,
+    first_tower_stat_name,
+    first_dragon_stat_name
+}
+
+def extract_value_from_label(label: str) -> float:
+    """
+    Extract the numeric value from the given label.
+    Expected formats: "Mais de 31 Minutos", "Mais de 4.5 Dragons", "Mais de 12.5 Torres"
+    Returns the numeric value as a float or -1 if no match found.
+    """
+    match = re.search(r'(\d+(\.\d+)?)', label)
+    if match:
+        return float(match.group(1))
+    else:
+        logging.error("Failed to extract value from label: %s", label)
+        return -1
+    
 def request_matchups():
     url = "https://guest.api.arcadia.pinnacle.com/0.1/sports/12/matchups?withSpecials=false&brandId=0"
     headers = {
@@ -90,6 +120,7 @@ class PinnacleWebscraper(Webscraper):
             )
             self.timeout()
 
+            logging.debug("Getting Stats")
             dtos.append(
                 self.collect_detail_dto(
                     GameOverviewDto(
@@ -102,10 +133,17 @@ class PinnacleWebscraper(Webscraper):
         return dtos
 
     def get_stats(self, element: WebElement) -> Dict[str, List[StatDto]]:
+        logging.debug("Started")
+        # stats_to_click = self.driver.find_elements(
+        #     By.CSS_SELECTOR,
+        #     "div.style_marketGroups__QCmgw.matchup-market" "-groups > div",
+        # )
         stats_to_click = self.driver.find_elements(
             By.CSS_SELECTOR,
-            "div.style_marketGroups__QCmgw.matchup-market" "-groups > div",
+            "div.style_marketGroups___6K0n.matchup-market-groups > div",
         )
+
+        #logging.debug(f"Stats to click, {stats_to_click}")
         stats: Dict[str, List[StatDto]] = {}
         for stat in stats_to_click:
             if stat.get_attribute("data-collapsed"):
@@ -113,16 +151,23 @@ class PinnacleWebscraper(Webscraper):
                     stat.click()
                 except Exception as e:
                     break
-            self.timeout()
+                self.timeout()
+            # stat_name = stat.find_element(
+            #     By.CSS_SELECTOR, "div.style_title__AkGLI > span"
+            # ).text
             stat_name = stat.find_element(
-                By.CSS_SELECTOR, "div.style_title__AkGLI > span"
+                By.CSS_SELECTOR, "div.style_title__2wOdP > span"
             ).text
+            # AQUI
+            if stat_name not in interested_stats:
+                continue
+            logging.debug(f"Element, {stat_name}")
             teams = list(
                 map(
                     lambda x: parse_float(x.text),
                     stat.find_elements(
                         By.XPATH,
-                        "./div[@class='style_content__1bfgQ "
+                        "./div[@class='style_content__23pgc "
                         "collapse-content']/div/div/div/button"
                         "/span[2]",
                     ),
@@ -134,7 +179,7 @@ class PinnacleWebscraper(Webscraper):
                     lambda x: x.text,
                     stat.find_elements(
                         By.XPATH,
-                        "./div[@class='style_content__1bfgQ "
+                        "./div[@class='style_content__23pgc "
                         "collapse-content']/div/div/div/button"
                         "/span[1]",
                     ),
@@ -148,12 +193,19 @@ class PinnacleWebscraper(Webscraper):
 
             for home, away in pairwise:
                 value = -1
-                if "Acima" in home[1] or (
+                if ("Acima" in home[1] or "Mais" in home[1]) or (
                     not re.match(extract_number_regex, home[1])
                     and not re.match(extract_number_regex, away[1])
                 ):
-                    value = abs(parse_float(re.sub(extract_number_regex, "", home[1])))
-                stats[stat_name].append(StatDto(value / 10, home[0], away[0]))
+                    if "Minutos" in home[1]:
+                        value = extract_value_from_label(home[1])
+                    else:
+                        try:
+                            value = abs(parse_float(re.sub(extract_number_regex, "", home[1]))) / 10
+                        except ValueError:
+                            logging.error("Failed to parse float value from string: %s", home[1])
+
+                stats[stat_name].append(StatDto(value, home[0], away[0]))
         return remove_duplicates(stats)
 
     def collect_detail_dto(self, overview_dto: GameOverviewDto) -> GameDetailDto:

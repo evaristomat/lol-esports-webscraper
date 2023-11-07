@@ -1,0 +1,192 @@
+[
+    {
+        "overview": {
+            "game_date": 1696824000.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231004200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "2023 World Championship Play-In",
+            "home_team": "Golden Guardians",
+            "away_team": "Team BDS"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.809,
+                "away_team_score": 1.951
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.803,
+                "away_team_score": 1.92
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.766,
+                "away_team_score": 1.965
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.755,
+                "away_team_score": 1.979
+            }
+        ],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_barons": [],
+        "total_inhibitors": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.755,
+                "away_team_score": 1.979
+            }
+        ],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.812,
+                "away_team_score": 1.893
+            }
+        ],
+        "first_tower": []
+    },
+    {
+        "overview": {
+            "game_date": 1696694400.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231004200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "Coupe de France",
+            "home_team": "Team GO",
+            "away_team": "BK ROG Esports"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.877,
+                "away_team_score": 1.877
+            }
+        ],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "first_dragon": [],
+        "first_tower": []
+    },
+    {
+        "overview": {
+            "game_date": 1696705200.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231004200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "Iberian Cup",
+            "home_team": "GTZ Esports",
+            "away_team": "Ramboot Club"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.188,
+                "away_team_score": 4.376
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.569,
+                "away_team_score": 2.257
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.277,
+                "away_team_score": 3.362
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.223,
+                "away_team_score": 3.802
+            }
+        ],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_barons": [],
+        "total_inhibitors": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.223,
+                "away_team_score": 3.802
+            }
+        ],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.673,
+                "away_team_score": 2.072
+            }
+        ],
+        "first_tower": []
+    },
+    {
+        "overview": {
+            "game_date": 1696582800.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231004200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "PCS",
+            "home_team": "PSG Talon Academy",
+            "away_team": "Nate9527"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.758,
+                "away_team_score": 2.015
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.805,
+                "away_team_score": 1.918
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.849,
+                "away_team_score": 1.871
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.824,
+                "away_team_score": 1.898
+            }
+        ],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_barons": [],
+        "total_inhibitors": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.824,
+                "away_team_score": 1.898
+            }
+        ],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.621,
+                "away_team_score": 2.158
+            }
+        ],
+        "first_tower": []
+    }
+]

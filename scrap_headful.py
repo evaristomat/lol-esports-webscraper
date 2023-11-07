@@ -33,6 +33,5 @@ def main():
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
         executor.map(scrap, [Bet365Webscraper])
 
-
 if __name__ == "__main__":
     main()

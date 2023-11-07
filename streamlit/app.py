@@ -3,6 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from matplotlib.lines import Line2D
+from scipy.stats import norm
+import numpy as np
 
 # Function to load data
 @st.cache_data
@@ -21,7 +23,7 @@ def process_data(df):
     return df
 
 def bankroll_plot(df):
-    window_size = 10
+    window_size = 20
     df['moving_average'] = df['cumulative_profit'].rolling(window=window_size).mean()
     plt.figure(figsize=(12, 7))
     ax = sns.lineplot(data=df, x=df.index, y='cumulative_profit', marker="o", label='Cumulative Profit')
@@ -133,6 +135,76 @@ def scatter_plot(df):
     plt.legend(handles=legend_elements)
     st.pyplot(ax.get_figure())
 
+def profit_distribution_plot(df):
+    # Convert the 'date' column to datetime
+    df['date'] = pd.to_datetime(df['date'])
+    
+    # Define profit based on 'status'
+    df['profit'] = df['status'].apply(lambda x: 1 if x == 'win' else -1)
+    
+    # Calculate daily profit
+    daily_profit = df.groupby('date')['profit'].sum().reset_index()
+    
+    # Plot the distribution of daily profits
+    plt.figure(figsize=(10, 7))
+    sns.histplot(daily_profit['profit'], kde=True, bins=15, color='skyblue')
+    
+    # Fit a normal distribution to the data
+    mean, std = norm.fit(daily_profit['profit'])
+    xmin, xmax = plt.xlim()
+    x = np.linspace(xmin, xmax, 100)
+    p = norm.pdf(x, mean, std)
+    plt.plot(x, p, 'k', linewidth=2)
+    
+    title = f"Daily Profit Distribution\nFit results: mean = {mean:.2f}, std = {std:.2f}"
+    plt.title(title)
+    plt.xlabel('Daily Profit')
+    plt.ylabel('Density')
+    
+    # Show the plot in Streamlit
+    st.pyplot(plt.gcf())
+
+def daily_roi_distribution_plot(df):
+    # Convert 'date' to datetime and 'odds' to numeric if they're not already
+    df['date'] = pd.to_datetime(df['date'])
+    df['odds'] = pd.to_numeric(df['odds'], errors='coerce')
+    
+    # Define profit or loss per bet: profit for 'win' and -1 for 'loss'
+    df['profit'] = df.apply(lambda x: (x['odds'] - 1) if x['status'] == 'win' else -1, axis=1)
+    
+    # Calculate the total profit or loss per day
+    daily_profit = df.groupby('date')['profit'].sum()
+    
+    # Count the number of bets per day
+    bets_per_day = df.groupby('date').size()
+    
+    # Calculate the daily ROI: (Total Profit or Loss) / (Number of Bets)
+    # ROI should be expressed as a percentage
+    daily_roi = (daily_profit / bets_per_day) * 100
+    
+    # Create a DataFrame from the daily ROI series
+    daily_roi_df = pd.DataFrame(daily_roi).reset_index()
+    daily_roi_df.columns = ['date', 'daily_roi']
+    
+    # Plot the distribution of daily ROIs
+    plt.figure(figsize=(10, 7))
+    sns.histplot(daily_roi_df['daily_roi'], kde=True, bins=20, color='skyblue')
+    
+    # Fit a normal distribution to the data
+    mean, std = norm.fit(daily_roi_df['daily_roi'])
+    xmin, xmax = plt.xlim()
+    x = np.linspace(xmin, xmax, 100)
+    p = norm.pdf(x, mean, std)
+    plt.plot(x, p, 'k', linewidth=2)
+    
+    title = f"Daily ROI Distribution\nFit results: mean = {mean:.2f}%, std = {std:.2f}%"
+    plt.title(title)
+    plt.xlabel('Daily ROI (%)')
+    plt.ylabel('Density')
+    
+    # Show the plot in Streamlit
+    st.pyplot(plt.gcf())
+
 # Main execution
 def main():
     df = load_data()
@@ -146,6 +218,8 @@ def main():
         bet_groups_plot(processed_df)
         profit_plot(processed_df)
         scatter_plot(processed_df)
+        profit_distribution_plot(processed_df)
+        daily_roi_distribution_plot(processed_df)
 
 # Call the main execution
 if __name__ == "__main__":

@@ -1,0 +1,550 @@
+[
+    {
+        "overview": {
+            "game_date": 1699690500.0,
+            "url": "https://www.pinnacle.com/pt/esports/league-of-legends-emea-masters/orbit-anonymo-vs-bisons/1581437463/#all",
+            "league": "League of Legends - World Championship",
+            "home_team": "Bilibili Gaming",
+            "away_team": "Weibo Gaming"
+        },
+        "winner": [],
+        "first_blood": [
+            {
+                "total_amount": -0.1,
+                "home_team_score": 1.819,
+                "away_team_score": 1.917
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -0.1,
+                "home_team_score": 1.684,
+                "away_team_score": 2.1
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -0.1,
+                "home_team_score": 1.641,
+                "away_team_score": 2.17
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.884,
+                "away_team_score": 1.854
+            },
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.671,
+                "away_team_score": 2.1
+            },
+            {
+                "total_amount": 6.5,
+                "home_team_score": 2.23,
+                "away_team_score": 1.602
+            },
+            {
+                "total_amount": 5.5,
+                "home_team_score": 2.03,
+                "away_team_score": 1.729
+            },
+            {
+                "total_amount": 3.5,
+                "home_team_score": 1.787,
+                "away_team_score": 1.961
+            },
+            {
+                "total_amount": 2.5,
+                "home_team_score": 1.719,
+                "away_team_score": 2.04
+            },
+            {
+                "total_amount": 7.5,
+                "home_team_score": 2.49,
+                "away_team_score": 1.471
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 25.5,
+                "home_team_score": 2.46,
+                "away_team_score": 1.497
+            },
+            {
+                "total_amount": 24.5,
+                "home_team_score": 2.18,
+                "away_team_score": 1.628
+            },
+            {
+                "total_amount": 20.5,
+                "home_team_score": 1.42,
+                "away_team_score": 2.64
+            },
+            {
+                "total_amount": 21.5,
+                "home_team_score": 1.558,
+                "away_team_score": 2.31
+            },
+            {
+                "total_amount": 26.5,
+                "home_team_score": 2.76,
+                "away_team_score": 1.384
+            },
+            {
+                "total_amount": 23.5,
+                "home_team_score": 1.934,
+                "away_team_score": 1.813
+            },
+            {
+                "total_amount": 22.5,
+                "home_team_score": 1.724,
+                "away_team_score": 2.04
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 12.5,
+                "home_team_score": 2.21,
+                "away_team_score": 1.617
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.9,
+                "away_team_score": 1.833
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.961,
+                "away_team_score": 1.781
+            }
+        ],
+        "total_inhibitors": [],
+        "game_duration": [
+            {
+                "total_amount": 32.0,
+                "home_team_score": 1.854,
+                "away_team_score": 1.884
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1699776000.0,
+            "url": "https://www.pinnacle.com/pt/esports/league-of-legends-emea-masters/orbit-anonymo-vs-bisons/1581560323/#all",
+            "league": "League of Legends - World Championship",
+            "home_team": "JD Gaming",
+            "away_team": "T1"
+        },
+        "winner": [],
+        "first_blood": [
+            {
+                "total_amount": -0.1,
+                "home_team_score": 1.84,
+                "away_team_score": 1.9
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -0.1,
+                "home_team_score": 1.757,
+                "away_team_score": 2.0
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -0.1,
+                "home_team_score": 1.724,
+                "away_team_score": 2.04
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 2.5,
+                "home_team_score": 1.813,
+                "away_team_score": 1.854
+            },
+            {
+                "total_amount": 0.5,
+                "home_team_score": 1.714,
+                "away_team_score": 1.961
+            },
+            {
+                "total_amount": 0.5,
+                "home_team_score": 1.689,
+                "away_team_score": 1.99
+            },
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.751,
+                "away_team_score": 1.917
+            },
+            {
+                "total_amount": 3.5,
+                "home_team_score": 1.9,
+                "away_team_score": 1.769
+            },
+            {
+                "total_amount": 5.5,
+                "home_team_score": 2.2,
+                "away_team_score": 1.549
+            },
+            {
+                "total_amount": 4.5,
+                "home_team_score": 2.03,
+                "away_team_score": 1.666
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 18.5,
+                "home_team_score": 1.358,
+                "away_team_score": 2.67
+            },
+            {
+                "total_amount": 23.5,
+                "home_team_score": 2.34,
+                "away_team_score": 1.49
+            },
+            {
+                "total_amount": 19.5,
+                "home_team_score": 1.487,
+                "away_team_score": 2.35
+            },
+            {
+                "total_amount": 21.5,
+                "home_team_score": 1.84,
+                "away_team_score": 1.826
+            },
+            {
+                "total_amount": 20.5,
+                "home_team_score": 1.645,
+                "away_team_score": 2.06
+            },
+            {
+                "total_amount": 24.5,
+                "home_team_score": 2.64,
+                "away_team_score": 1.369
+            },
+            {
+                "total_amount": 22.5,
+                "home_team_score": 2.07,
+                "away_team_score": 1.641
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 12.5,
+                "home_team_score": 2.6,
+                "away_team_score": 1.46
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 2.24,
+                "away_team_score": 1.606
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 2.31,
+                "away_team_score": 1.568
+            }
+        ],
+        "total_inhibitors": [],
+        "game_duration": [
+            {
+                "total_amount": 30.0,
+                "home_team_score": 1.666,
+                "away_team_score": 2.13
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1699776000.0,
+            "url": "https://www.pinnacle.com/pt/esports/league-of-legends-emea-masters/orbit-anonymo-vs-bisons/1581559413/#all",
+            "league": "League of Legends - World Championship",
+            "home_team": "JD Gaming",
+            "away_team": "T1"
+        },
+        "winner": [],
+        "first_blood": [
+            {
+                "total_amount": -0.1,
+                "home_team_score": 1.84,
+                "away_team_score": 1.9
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -0.1,
+                "home_team_score": 1.757,
+                "away_team_score": 2.0
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -0.1,
+                "home_team_score": 1.724,
+                "away_team_score": 2.04
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 2.5,
+                "home_team_score": 1.813,
+                "away_team_score": 1.854
+            },
+            {
+                "total_amount": 0.5,
+                "home_team_score": 1.714,
+                "away_team_score": 1.961
+            },
+            {
+                "total_amount": 0.5,
+                "home_team_score": 1.689,
+                "away_team_score": 1.99
+            },
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.751,
+                "away_team_score": 1.917
+            },
+            {
+                "total_amount": 3.5,
+                "home_team_score": 1.9,
+                "away_team_score": 1.769
+            },
+            {
+                "total_amount": 5.5,
+                "home_team_score": 2.2,
+                "away_team_score": 1.549
+            },
+            {
+                "total_amount": 4.5,
+                "home_team_score": 2.03,
+                "away_team_score": 1.666
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 18.5,
+                "home_team_score": 1.358,
+                "away_team_score": 2.67
+            },
+            {
+                "total_amount": 23.5,
+                "home_team_score": 2.34,
+                "away_team_score": 1.49
+            },
+            {
+                "total_amount": 19.5,
+                "home_team_score": 1.487,
+                "away_team_score": 2.35
+            },
+            {
+                "total_amount": 21.5,
+                "home_team_score": 1.84,
+                "away_team_score": 1.826
+            },
+            {
+                "total_amount": 20.5,
+                "home_team_score": 1.645,
+                "away_team_score": 2.06
+            },
+            {
+                "total_amount": 24.5,
+                "home_team_score": 2.64,
+                "away_team_score": 1.369
+            },
+            {
+                "total_amount": 22.5,
+                "home_team_score": 2.07,
+                "away_team_score": 1.641
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 12.5,
+                "home_team_score": 2.6,
+                "away_team_score": 1.46
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 2.24,
+                "away_team_score": 1.606
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 2.31,
+                "away_team_score": 1.568
+            }
+        ],
+        "total_inhibitors": [],
+        "game_duration": [
+            {
+                "total_amount": 30.0,
+                "home_team_score": 1.666,
+                "away_team_score": 2.13
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1699690500.0,
+            "url": "https://www.pinnacle.com/pt/esports/league-of-legends-emea-masters/orbit-anonymo-vs-bisons/1581486890/#all",
+            "league": "League of Legends - World Championship",
+            "home_team": "Bilibili Gaming",
+            "away_team": "Weibo Gaming"
+        },
+        "winner": [],
+        "first_blood": [
+            {
+                "total_amount": -0.1,
+                "home_team_score": 1.819,
+                "away_team_score": 1.917
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -0.1,
+                "home_team_score": 1.684,
+                "away_team_score": 2.1
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -0.1,
+                "home_team_score": 1.641,
+                "away_team_score": 2.17
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.884,
+                "away_team_score": 1.854
+            },
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.671,
+                "away_team_score": 2.1
+            },
+            {
+                "total_amount": 6.5,
+                "home_team_score": 2.23,
+                "away_team_score": 1.602
+            },
+            {
+                "total_amount": 5.5,
+                "home_team_score": 2.03,
+                "away_team_score": 1.729
+            },
+            {
+                "total_amount": 3.5,
+                "home_team_score": 1.787,
+                "away_team_score": 1.961
+            },
+            {
+                "total_amount": 2.5,
+                "home_team_score": 1.719,
+                "away_team_score": 2.04
+            },
+            {
+                "total_amount": 7.5,
+                "home_team_score": 2.49,
+                "away_team_score": 1.471
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 25.5,
+                "home_team_score": 2.46,
+                "away_team_score": 1.497
+            },
+            {
+                "total_amount": 24.5,
+                "home_team_score": 2.18,
+                "away_team_score": 1.628
+            },
+            {
+                "total_amount": 20.5,
+                "home_team_score": 1.42,
+                "away_team_score": 2.64
+            },
+            {
+                "total_amount": 21.5,
+                "home_team_score": 1.558,
+                "away_team_score": 2.31
+            },
+            {
+                "total_amount": 26.5,
+                "home_team_score": 2.76,
+                "away_team_score": 1.384
+            },
+            {
+                "total_amount": 23.5,
+                "home_team_score": 1.934,
+                "away_team_score": 1.813
+            },
+            {
+                "total_amount": 22.5,
+                "home_team_score": 1.724,
+                "away_team_score": 2.04
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 12.5,
+                "home_team_score": 2.21,
+                "away_team_score": 1.617
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.9,
+                "away_team_score": 1.833
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.961,
+                "away_team_score": 1.781
+            }
+        ],
+        "total_inhibitors": [],
+        "game_duration": [
+            {
+                "total_amount": 32.0,
+                "home_team_score": 1.854,
+                "away_team_score": 1.884
+            }
+        ]
+    }
+]
