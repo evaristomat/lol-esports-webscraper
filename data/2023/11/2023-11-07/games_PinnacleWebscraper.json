@@ -1,141 +1,11 @@
 [
     {
         "overview": {
-            "game_date": 1699690500.0,
-            "url": "https://www.pinnacle.com/pt/esports/league-of-legends-emea-masters/orbit-anonymo-vs-bisons/1581486890/#all",
-            "league": "League of Legends - World Championship",
-            "home_team": "Bilibili (Kills)",
-            "away_team": "Weibo (Kills)"
-        },
-        "winner": [],
-        "first_blood": [
-            {
-                "total_amount": -1.0,
-                "home_team_score": 1.819,
-                "away_team_score": 1.917
-            }
-        ],
-        "first_kill_baron": [
-            {
-                "total_amount": -1.0,
-                "home_team_score": 1.684,
-                "away_team_score": 2.1
-            }
-        ],
-        "first_destroy_inhibitor": [
-            {
-                "total_amount": -1.0,
-                "home_team_score": 1.641,
-                "away_team_score": 2.17
-            }
-        ],
-        "kill_handicap": [],
-        "total_kills": [],
-        "total_towers": [
-            {
-                "total_amount": 12.5,
-                "home_team_score": 2.21,
-                "away_team_score": 1.617
-            }
-        ],
-        "tower_handicap": [],
-        "first_tower": [],
-        "total_dragons": [
-            {
-                "total_amount": 4.5,
-                "home_team_score": 1.9,
-                "away_team_score": 1.833
-            }
-        ],
-        "first_dragon": [],
-        "total_barons": [
-            {
-                "total_amount": 1.5,
-                "home_team_score": 1.961,
-                "away_team_score": 1.781
-            }
-        ],
-        "total_inhibitors": [],
-        "game_duration": [
-            {
-                "total_amount": 32.0,
-                "home_team_score": 1.854,
-                "away_team_score": 1.884
-            }
-        ]
-    },
-    {
-        "overview": {
-            "game_date": 1699776000.0,
-            "url": "https://www.pinnacle.com/pt/esports/league-of-legends-emea-masters/orbit-anonymo-vs-bisons/1581560323/#all",
-            "league": "League of Legends - World Championship",
-            "home_team": "JD Gaming (Kills)",
-            "away_team": "T1 (Kills)"
-        },
-        "winner": [],
-        "first_blood": [
-            {
-                "total_amount": -1.0,
-                "home_team_score": 1.84,
-                "away_team_score": 1.9
-            }
-        ],
-        "first_kill_baron": [
-            {
-                "total_amount": -1.0,
-                "home_team_score": 1.757,
-                "away_team_score": 2.0
-            }
-        ],
-        "first_destroy_inhibitor": [
-            {
-                "total_amount": -1.0,
-                "home_team_score": 1.735,
-                "away_team_score": 2.03
-            }
-        ],
-        "kill_handicap": [],
-        "total_kills": [],
-        "total_towers": [
-            {
-                "total_amount": 12.5,
-                "home_team_score": 2.6,
-                "away_team_score": 1.46
-            }
-        ],
-        "tower_handicap": [],
-        "first_tower": [],
-        "total_dragons": [
-            {
-                "total_amount": 4.5,
-                "home_team_score": 2.2,
-                "away_team_score": 1.625
-            }
-        ],
-        "first_dragon": [],
-        "total_barons": [
-            {
-                "total_amount": 1.5,
-                "home_team_score": 2.17,
-                "away_team_score": 1.645
-            }
-        ],
-        "total_inhibitors": [],
-        "game_duration": [
-            {
-                "total_amount": 30.0,
-                "home_team_score": 1.709,
-                "away_team_score": 2.07
-            }
-        ]
-    },
-    {
-        "overview": {
-            "game_date": 1699378200.0,
-            "url": "https://www.pinnacle.com/pt/esports/league-of-legends-emea-masters/orbit-anonymo-vs-bisons/1581562091/#all",
-            "league": "League of Legends - Elite Series Benelux Masters",
-            "home_team": "A One Man Army",
-            "away_team": "mCon"
+            "game_date": 1699459200.0,
+            "url": "https://www.pinnacle.com/pt/esports/league-of-legends-emea-masters/orbit-anonymo-vs-bisons/1581645497/#all",
+            "league": "League of Legends - Ultraliga Super Puchar",
+            "home_team": "Zero Tenacity",
+            "away_team": "Illuminar Gaming"
         },
         "winner": [],
         "first_blood": [],
@@ -154,32 +24,120 @@
     },
     {
         "overview": {
-            "game_date": 1699690500.0,
-            "url": "https://www.pinnacle.com/pt/esports/league-of-legends-emea-masters/orbit-anonymo-vs-bisons/1581437463/#all",
+            "game_date": 1699470000.0,
+            "url": "https://www.pinnacle.com/pt/esports/league-of-legends-emea-masters/orbit-anonymo-vs-bisons/1581645503/#all",
+            "league": "League of Legends - Ultraliga Super Puchar",
+            "home_team": "AliorBank Team",
+            "away_team": "Duma Easta"
+        },
+        "winner": [],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1699776000.0,
+            "url": "https://www.pinnacle.com/pt/esports/league-of-legends-emea-masters/orbit-anonymo-vs-bisons/1581560323/#all",
             "league": "League of Legends - World Championship",
-            "home_team": "Bilibili",
-            "away_team": "Weibo"
+            "home_team": "JD Gaming",
+            "away_team": "T1"
         },
         "winner": [],
         "first_blood": [
             {
                 "total_amount": -1.0,
-                "home_team_score": 1.819,
-                "away_team_score": 1.917
+                "home_team_score": 1.84,
+                "away_team_score": 1.9
             }
         ],
         "first_kill_baron": [
             {
                 "total_amount": -1.0,
-                "home_team_score": 1.684,
-                "away_team_score": 2.1
+                "home_team_score": 1.769,
+                "away_team_score": 1.98
             }
         ],
         "first_destroy_inhibitor": [
             {
                 "total_amount": -1.0,
-                "home_team_score": 1.641,
-                "away_team_score": 2.17
+                "home_team_score": 1.735,
+                "away_team_score": 2.02
+            }
+        ],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [
+            {
+                "total_amount": 12.5,
+                "home_team_score": 2.6,
+                "away_team_score": 1.46
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 2.22,
+                "away_team_score": 1.617
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 2.17,
+                "away_team_score": 1.645
+            }
+        ],
+        "total_inhibitors": [],
+        "game_duration": [
+            {
+                "total_amount": 30.0,
+                "home_team_score": 1.724,
+                "away_team_score": 2.04
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1699690500.0,
+            "url": "https://www.pinnacle.com/pt/esports/league-of-legends-emea-masters/orbit-anonymo-vs-bisons/1581437463/#all",
+            "league": "League of Legends - World Championship",
+            "home_team": "Bilibili Gaming",
+            "away_team": "Weibo Gaming"
+        },
+        "winner": [],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.813,
+                "away_team_score": 1.934
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.675,
+                "away_team_score": 2.11
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.621,
+                "away_team_score": 2.21
             }
         ],
         "kill_handicap": [],
@@ -196,16 +154,16 @@
         "total_dragons": [
             {
                 "total_amount": 4.5,
-                "home_team_score": 1.9,
-                "away_team_score": 1.833
+                "home_team_score": 1.917,
+                "away_team_score": 1.826
             }
         ],
         "first_dragon": [],
         "total_barons": [
             {
                 "total_amount": 1.5,
-                "home_team_score": 1.961,
-                "away_team_score": 1.781
+                "home_team_score": 1.84,
+                "away_team_score": 1.9
             }
         ],
         "total_inhibitors": [],
@@ -216,6 +174,29 @@
                 "away_team_score": 1.884
             }
         ]
+    },
+    {
+        "overview": {
+            "game_date": 1699372800.0,
+            "url": "https://www.pinnacle.com/pt/esports/league-of-legends-emea-masters/orbit-anonymo-vs-bisons/1581645483/#all",
+            "league": "League of Legends - Ultraliga Super Puchar",
+            "home_team": "Orbit Anonymo",
+            "away_team": "LODIS"
+        },
+        "winner": [],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
     },
     {
         "overview": {
@@ -236,15 +217,15 @@
         "first_kill_baron": [
             {
                 "total_amount": -1.0,
-                "home_team_score": 1.757,
-                "away_team_score": 2.0
+                "home_team_score": 1.769,
+                "away_team_score": 1.98
             }
         ],
         "first_destroy_inhibitor": [
             {
                 "total_amount": -1.0,
                 "home_team_score": 1.735,
-                "away_team_score": 2.03
+                "away_team_score": 2.02
             }
         ],
         "kill_handicap": [],
@@ -261,8 +242,8 @@
         "total_dragons": [
             {
                 "total_amount": 4.5,
-                "home_team_score": 2.2,
-                "away_team_score": 1.625
+                "home_team_score": 2.22,
+                "away_team_score": 1.617
             }
         ],
         "first_dragon": [],
@@ -277,8 +258,142 @@
         "game_duration": [
             {
                 "total_amount": 30.0,
-                "home_team_score": 1.709,
-                "away_team_score": 2.07
+                "home_team_score": 1.724,
+                "away_team_score": 2.04
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1699378200.0,
+            "url": "https://www.pinnacle.com/pt/esports/league-of-legends-emea-masters/orbit-anonymo-vs-bisons/1581562131/#all",
+            "league": "League of Legends - Elite Series Benelux Masters",
+            "home_team": "HEET",
+            "away_team": "Myth Esports"
+        },
+        "winner": [],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1699378200.0,
+            "url": "https://www.pinnacle.com/pt/esports/league-of-legends-emea-masters/orbit-anonymo-vs-bisons/1581562091/#all",
+            "league": "League of Legends - Elite Series Benelux Masters",
+            "home_team": "A One Man Army",
+            "away_team": "mCon esports"
+        },
+        "winner": [],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1699383600.0,
+            "url": "https://www.pinnacle.com/pt/esports/league-of-legends-emea-masters/orbit-anonymo-vs-bisons/1581645484/#all",
+            "league": "League of Legends - Ultraliga Super Puchar",
+            "home_team": "Maturalni Forsaken",
+            "away_team": "Back2TheGame Outlaws"
+        },
+        "winner": [],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1699690500.0,
+            "url": "https://www.pinnacle.com/pt/esports/league-of-legends-emea-masters/orbit-anonymo-vs-bisons/1581486890/#all",
+            "league": "League of Legends - World Championship",
+            "home_team": "Bilibili Gaming",
+            "away_team": "Weibo Gaming"
+        },
+        "winner": [],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.813,
+                "away_team_score": 1.934
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.675,
+                "away_team_score": 2.11
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.621,
+                "away_team_score": 2.21
+            }
+        ],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [
+            {
+                "total_amount": 12.5,
+                "home_team_score": 2.21,
+                "away_team_score": 1.617
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.917,
+                "away_team_score": 1.826
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.84,
+                "away_team_score": 1.9
+            }
+        ],
+        "total_inhibitors": [],
+        "game_duration": [
+            {
+                "total_amount": 32.0,
+                "home_team_score": 1.854,
+                "away_team_score": 1.884
             }
         ]
     }

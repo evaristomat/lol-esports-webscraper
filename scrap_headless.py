@@ -23,7 +23,7 @@ def main():
 
     # Use ThreadPoolExecutor to run the scraping functions concurrently
     scrap(PinnacleWebscraper)
-    #scrap(DafabetWebscraper)
+    scrap(DafabetWebscraper)
 
 if __name__ == "__main__":
     main()

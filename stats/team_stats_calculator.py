@@ -4,12 +4,25 @@ from db_loader import DatabaseLoader
 MAX_GAMES = 20
 RECENT_PATCHES_COUNT = 3
 
+class TeamNameError(Exception):
+    """Custom exception class to handle errors with team names."""
+    pass
+
 class TeamStatsCalculator:
     def __init__(self, teamname: str, data_loader: DatabaseLoader) -> None:
         self._teamname = teamname
         self._teams_data = data_loader.get_data()
+
+         # Check if the team name exists in the database
+        if not self._is_teamname_in_database():
+            raise TeamNameError(f"Team name '{teamname}' not found in the database.")
+                                
         self._last_n_games = self._get_last_n_games()
 
+    def _is_teamname_in_database(self) -> bool:
+        """Check if the team name exists in the database."""
+        return any(self._teams_data['t1'].eq(self._teamname) | self._teams_data['t2'].eq(self._teamname))
+    
     def _get_last_n_games(self) -> pd.DataFrame:
         team_games = self._teams_data.query('t1 == @self._teamname or t2 == @self._teamname')
         if team_games.empty:
@@ -76,7 +89,7 @@ class TeamStatsCalculator:
 
 if __name__ == "__main__":
     filename = '../database/data_transformed.csv'
-    team = "Barça eSports"
+    team = "Back2TheGame Outlaws"
 
     try:
         data_loader = DatabaseLoader(filename)
@@ -93,5 +106,7 @@ if __name__ == "__main__":
         print(f"Total over 1.5 inhibitors in last {num_games} games for {team}: {team_stats_calculator.total_inhibitors(1.5):.2f}%")
         team_stats_calculator.print_last_n_games()
 
+    except TeamNameError as e:
+            print(f"An error occurred: {e}")
     except Exception as e:
-        print(f"An error occurred: {e}")
+            print(f"An unexpected error occurred: {e}")

@@ -1,4 +1,7 @@
 date,league,t1,t2,game,bet_type,bet_line,ROI,House,status,odds,profit
+2023-10-08 16:05:46,CDF,Vitality.Bee,Team du Sud,1,FD,first_dragon Vitality.Bee,18.58%,Dafabet,win,1.694,0.69
+2023-10-08 17:01:36,CDF,Vitality.Bee,Team du Sud,2,FD,first_dragon Vitality.Bee,18.58%,Dafabet,loss,1.694,-1.0
+2023-10-08 17:47:00,CDF,Vitality.Bee,Team du Sud,3,FD,first_dragon Vitality.Bee,18.58%,Dafabet,loss,1.694,-1.0
 2023-10-09 04:09:51,WLDs,Golden Guardians,Team BDS,1,under,total_dragons 4.5,35.00%,Bet365,win,2.25,1.25
 2023-10-09 04:51:13,WLDs,Golden Guardians,Team BDS,2,under,total_dragons 4.5,35.00%,Bet365,loss,2.25,-1.0
 2023-10-09 05:46:19,WLDs,Team BDS,Golden Guardians,3,under,total_dragons 4.5,35.00%,Bet365,win,2.25,1.25
@@ -11,12 +14,6 @@ date,league,t1,t2,game,bet_type,bet_line,ROI,House,status,odds,profit
 2023-10-09 04:09:51,WLDs,Golden Guardians,Team BDS,1,under,total_inhibitors 1.5,0.00%,Bet365,win,2.5,1.5
 2023-10-09 04:51:13,WLDs,Golden Guardians,Team BDS,2,under,total_inhibitors 1.5,0.00%,Bet365,win,2.5,1.5
 2023-10-09 05:46:19,WLDs,Team BDS,Golden Guardians,3,under,total_inhibitors 1.5,0.00%,Bet365,loss,2.5,-1.0
-2023-10-10 07:17:44,WLDs,PSG Talon,Movistar R7,1,under,total_towers 11.5,0.22%,Bet365,loss,1.9,-1.0
-2023-10-10 08:06:09,WLDs,PSG Talon,Movistar R7,2,under,total_towers 11.5,0.22%,Bet365,win,1.9,0.9
-2023-10-10 07:17:44,WLDs,PSG Talon,Movistar R7,1,over,total_kills 26.5,0.47%,Bet365,loss,1.83,-1.0
-2023-10-10 08:06:09,WLDs,PSG Talon,Movistar R7,2,over,total_kills 26.5,0.47%,Bet365,loss,1.83,-1.0
-2023-10-10 07:17:44,WLDs,PSG Talon,Movistar R7,1,under,total_inhibitors 1.5,0.96%,Bet365,loss,1.9,-1.0
-2023-10-10 08:06:09,WLDs,PSG Talon,Movistar R7,2,under,total_inhibitors 1.5,0.96%,Bet365,win,1.9,0.9
 2023-10-10 09:10:30,WLDs,LOUD,GAM Esports,1,under,total_dragons 4.5,25.21%,Bet365,win,1.72,0.72
 2023-10-10 09:59:06,WLDs,GAM Esports,LOUD,2,under,total_dragons 4.5,25.21%,Bet365,loss,1.72,-1.0
 2023-10-10 09:10:30,WLDs,LOUD,GAM Esports,1,over,total_towers 12.5,3.57%,Bet365,win,2.25,1.25
@@ -25,23 +22,30 @@ date,league,t1,t2,game,bet_type,bet_line,ROI,House,status,odds,profit
 2023-10-10 09:59:06,WLDs,GAM Esports,LOUD,2,under,total_kills 29.5,4.96%,Bet365,loss,1.83,-1.0
 2023-10-10 09:10:30,WLDs,LOUD,GAM Esports,1,under,total_inhibitors 1.5,34.93%,Bet365,loss,2.5,-1.0
 2023-10-10 09:59:06,WLDs,GAM Esports,LOUD,2,under,total_inhibitors 1.5,34.93%,Bet365,loss,2.5,-1.0
+2023-10-10 09:10:30,WLDs,LOUD,GAM Esports,1,under,total_kills 28.5,4.96%,Bet365,win,1.83,0.83
+2023-10-10 09:59:06,WLDs,GAM Esports,LOUD,2,under,total_kills 28.5,4.96%,Bet365,loss,1.83,-1.0
+2023-10-10 09:10:30,WLDs,LOUD,GAM Esports,1,under,game_duration 30.5,12.49%,Bet365,win,1.83,0.83
+2023-10-10 09:59:06,WLDs,GAM Esports,LOUD,2,under,game_duration 30.5,12.49%,Bet365,loss,1.83,-1.0
+2023-10-10 07:17:44,WLDs,PSG Talon,Movistar R7,1,under,total_towers 11.5,0.22%,Bet365,loss,1.9,-1.0
+2023-10-10 08:06:09,WLDs,PSG Talon,Movistar R7,2,under,total_towers 11.5,0.22%,Bet365,win,1.9,0.9
+2023-10-10 07:17:44,WLDs,PSG Talon,Movistar R7,1,over,total_kills 26.5,0.47%,Bet365,loss,1.83,-1.0
+2023-10-10 08:06:09,WLDs,PSG Talon,Movistar R7,2,over,total_kills 26.5,0.47%,Bet365,loss,1.83,-1.0
+2023-10-10 07:17:44,WLDs,PSG Talon,Movistar R7,1,under,total_inhibitors 1.5,0.96%,Bet365,loss,1.9,-1.0
+2023-10-10 08:06:09,WLDs,PSG Talon,Movistar R7,2,under,total_inhibitors 1.5,0.96%,Bet365,win,1.9,0.9
+2023-10-10 07:17:44,WLDs,PSG Talon,Movistar R7,1,over,total_kills 24.5,11.95%,Bet365,win,1.83,0.83
+2023-10-10 08:06:09,WLDs,PSG Talon,Movistar R7,2,over,total_kills 24.5,11.95%,Bet365,loss,1.83,-1.0
+2023-10-10 07:17:44,WLDs,PSG Talon,Movistar R7,1,over,game_duration 29.5,43.06%,Bet365,loss,1.9,-1.0
+2023-10-10 08:06:09,WLDs,PSG Talon,Movistar R7,2,over,game_duration 29.5,43.06%,Bet365,win,1.9,0.9
+2023-10-11 07:13:58,WLDs,DetonatioN FocusMe,CTBC Flying Oyster,1,FD,first_dragon DetonatioN FocusMe,19.00%,Dafabet,loss,2.023,-1.0
+2023-10-11 08:08:50,WLDs,CTBC Flying Oyster,DetonatioN FocusMe,2,FD,first_dragon DetonatioN FocusMe,19.00%,Dafabet,win,2.023,1.02
+2023-10-11 07:13:58,WLDs,DetonatioN FocusMe,CTBC Flying Oyster,1,over,game_duration 30.0,9.32%,Dafabet,win,1.882,0.88
+2023-10-11 08:08:50,WLDs,CTBC Flying Oyster,DetonatioN FocusMe,2,over,game_duration 30.0,9.32%,Dafabet,loss,1.882,-1.0
 2023-10-11 07:13:58,WLDs,DetonatioN FocusMe,CTBC Flying Oyster,1,over,total_dragons 4.5,3.85%,Bet365,win,2.2,1.2
 2023-10-11 08:08:50,WLDs,CTBC Flying Oyster,DetonatioN FocusMe,2,over,total_dragons 4.5,3.85%,Bet365,loss,2.2,-1.0
 2023-10-11 07:13:58,WLDs,DetonatioN FocusMe,CTBC Flying Oyster,1,under,total_towers 11.5,40.51%,Bet365,win,2.1,1.1
 2023-10-11 08:08:50,WLDs,CTBC Flying Oyster,DetonatioN FocusMe,2,under,total_towers 11.5,40.51%,Bet365,win,2.1,1.1
 2023-10-11 07:13:58,WLDs,DetonatioN FocusMe,CTBC Flying Oyster,1,under,total_inhibitors 1.5,15.01%,Bet365,win,2.37,1.37
 2023-10-11 08:08:50,WLDs,CTBC Flying Oyster,DetonatioN FocusMe,2,under,total_inhibitors 1.5,15.01%,Bet365,loss,2.37,-1.0
-2023-10-08 16:05:46,CDF,Vitality.Bee,Team du Sud,1,FD,first_dragon Vitality.Bee,18.58%,Dafabet,win,1.694,0.69
-2023-10-08 17:01:36,CDF,Vitality.Bee,Team du Sud,2,FD,first_dragon Vitality.Bee,18.58%,Dafabet,loss,1.694,-1.0
-2023-10-08 17:47:00,CDF,Vitality.Bee,Team du Sud,3,FD,first_dragon Vitality.Bee,18.58%,Dafabet,loss,1.694,-1.0
-2023-10-10 07:17:44,WLDs,PSG Talon,Movistar R7,1,over,total_kills 24.5,11.95%,Bet365,win,1.83,0.83
-2023-10-10 08:06:09,WLDs,PSG Talon,Movistar R7,2,over,total_kills 24.5,11.95%,Bet365,loss,1.83,-1.0
-2023-10-10 07:17:44,WLDs,PSG Talon,Movistar R7,1,over,game_duration 29.5,43.06%,Bet365,loss,1.9,-1.0
-2023-10-10 08:06:09,WLDs,PSG Talon,Movistar R7,2,over,game_duration 29.5,43.06%,Bet365,win,1.9,0.9
-2023-10-10 09:10:30,WLDs,LOUD,GAM Esports,1,under,total_kills 28.5,4.96%,Bet365,win,1.83,0.83
-2023-10-10 09:59:06,WLDs,GAM Esports,LOUD,2,under,total_kills 28.5,4.96%,Bet365,loss,1.83,-1.0
-2023-10-10 09:10:30,WLDs,LOUD,GAM Esports,1,under,game_duration 30.5,12.49%,Bet365,win,1.83,0.83
-2023-10-10 09:59:06,WLDs,GAM Esports,LOUD,2,under,game_duration 30.5,12.49%,Bet365,loss,1.83,-1.0
 2023-10-11 07:13:58,WLDs,DetonatioN FocusMe,CTBC Flying Oyster,1,under,game_duration 31.5,1.19%,Bet365,loss,1.83,-1.0
 2023-10-11 08:08:50,WLDs,CTBC Flying Oyster,DetonatioN FocusMe,2,under,game_duration 31.5,1.19%,Bet365,win,1.83,0.83
 2023-10-11 09:03:55,WLDs,Team BDS,Team Whales,1,over,total_dragons 4.5,12.50%,Bet365,loss,3.0,-1.0
@@ -69,18 +73,10 @@ date,league,t1,t2,game,bet_type,bet_line,ROI,House,status,odds,profit
 2023-10-12 08:06:59,WLDs,LOUD,PSG Talon,2,under,game_duration 33.5,37.07%,Bet365,win,1.83,0.83
 2023-10-12 07:12:22,WLDs,PSG Talon,LOUD,1,under,total_inhibitors 1.5,39.22%,Bet365,win,2.62,1.62
 2023-10-12 08:06:59,WLDs,LOUD,PSG Talon,2,under,total_inhibitors 1.5,39.22%,Bet365,loss,2.62,-1.0
-2023-10-13 07:10:31,WLDs,Movistar R7,GAM Esports,1,under,total_dragons 4.5,0.37%,Bet365,win,1.5,0.5
-2023-10-13 07:55:54,WLDs,Movistar R7,GAM Esports,2,under,total_dragons 4.5,0.37%,Bet365,loss,1.5,-1.0
-2023-10-13 07:10:31,WLDs,Movistar R7,GAM Esports,1,over,total_kills 25.5,34.83%,Bet365,loss,1.83,-1.0
-2023-10-13 07:55:54,WLDs,Movistar R7,GAM Esports,2,over,total_kills 25.5,34.83%,Bet365,win,1.83,0.83
-2023-10-13 07:10:31,WLDs,Movistar R7,GAM Esports,1,over,game_duration 29.5,10.34%,Bet365,loss,1.83,-1.0
-2023-10-13 07:55:54,WLDs,Movistar R7,GAM Esports,2,over,game_duration 29.5,10.34%,Bet365,win,1.83,0.83
-2023-10-11 07:13:58,WLDs,DetonatioN FocusMe,CTBC Flying Oyster,1,FD,first_dragon DetonatioN FocusMe,19.00%,Dafabet,loss,2.023,-1.0
-2023-10-11 08:08:50,WLDs,CTBC Flying Oyster,DetonatioN FocusMe,2,FD,first_dragon DetonatioN FocusMe,19.00%,Dafabet,win,2.023,1.02
-2023-10-11 07:13:58,WLDs,DetonatioN FocusMe,CTBC Flying Oyster,1,over,game_duration 30.0,9.32%,Dafabet,win,1.882,0.88
-2023-10-11 08:08:50,WLDs,CTBC Flying Oyster,DetonatioN FocusMe,2,over,game_duration 30.0,9.32%,Dafabet,loss,1.882,-1.0
 2023-10-12 07:12:22,WLDs,PSG Talon,LOUD,1,under,game_duration 31.5,3.34%,Bet365,loss,1.83,-1.0
 2023-10-12 08:06:59,WLDs,LOUD,PSG Talon,2,under,game_duration 31.5,3.34%,Bet365,loss,1.83,-1.0
+2023-10-12 07:12:22,WLDs,PSG Talon,LOUD,1,under,total_barons 1.5,1.71%,Bet365,loss,1.9,-1.0
+2023-10-12 08:06:59,WLDs,LOUD,PSG Talon,2,under,total_barons 1.5,1.71%,Bet365,loss,1.9,-1.0
 2023-10-12 09:04:53,WLDs,CTBC Flying Oyster,Team Whales,1,under,total_towers 12.5,29.52%,Bet365,win,1.57,0.57
 2023-10-12 09:55:53,WLDs,Team Whales,CTBC Flying Oyster,2,under,total_towers 12.5,29.52%,Bet365,win,1.57,0.57
 2023-10-12 10:47:24,WLDs,CTBC Flying Oyster,Team Whales,3,under,total_towers 12.5,29.52%,Bet365,win,1.57,0.57
@@ -90,38 +86,32 @@ date,league,t1,t2,game,bet_type,bet_line,ROI,House,status,odds,profit
 2023-10-12 09:04:53,WLDs,CTBC Flying Oyster,Team Whales,1,under,total_inhibitors 1.5,57.50%,Bet365,win,2.25,1.25
 2023-10-12 09:55:53,WLDs,Team Whales,CTBC Flying Oyster,2,under,total_inhibitors 1.5,57.50%,Bet365,loss,2.25,-1.0
 2023-10-12 10:47:24,WLDs,CTBC Flying Oyster,Team Whales,3,under,total_inhibitors 1.5,57.50%,Bet365,loss,2.25,-1.0
+2023-10-13 07:10:31,WLDs,Movistar R7,GAM Esports,1,under,total_dragons 4.5,0.37%,Bet365,win,1.5,0.5
+2023-10-13 07:55:54,WLDs,Movistar R7,GAM Esports,2,under,total_dragons 4.5,0.37%,Bet365,loss,1.5,-1.0
+2023-10-13 07:10:31,WLDs,Movistar R7,GAM Esports,1,over,total_kills 25.5,34.83%,Bet365,loss,1.83,-1.0
+2023-10-13 07:55:54,WLDs,Movistar R7,GAM Esports,2,over,total_kills 25.5,34.83%,Bet365,win,1.83,0.83
+2023-10-13 07:10:31,WLDs,Movistar R7,GAM Esports,1,over,game_duration 29.5,10.34%,Bet365,loss,1.83,-1.0
+2023-10-13 07:55:54,WLDs,Movistar R7,GAM Esports,2,over,game_duration 29.5,10.34%,Bet365,win,1.83,0.83
+2023-10-13 07:10:31,WLDs,Movistar R7,GAM Esports,1,over,total_kills 26.5,29.45%,Bet365,loss,1.83,-1.0
+2023-10-13 07:55:54,WLDs,Movistar R7,GAM Esports,2,over,total_kills 26.5,29.45%,Bet365,win,1.83,0.83
 2023-10-13 08:52:20,WLDs,DetonatioN FocusMe,Team BDS,1,under,total_kills 24.5,18.68%,Bet365,win,1.83,0.83
 2023-10-13 09:38:40,WLDs,Team BDS,DetonatioN FocusMe,2,under,total_kills 24.5,18.68%,Bet365,loss,1.83,-1.0
 2023-10-13 08:52:20,WLDs,DetonatioN FocusMe,Team BDS,1,over,game_duration 27.5,17.53%,Bet365,loss,1.8,-1.0
 2023-10-13 09:38:40,WLDs,Team BDS,DetonatioN FocusMe,2,over,game_duration 27.5,17.53%,Bet365,win,1.8,0.8
 2023-10-13 08:52:20,WLDs,DetonatioN FocusMe,Team BDS,1,under,total_inhibitors 1.5,9.19%,Bet365,win,2.25,1.25
 2023-10-13 09:38:40,WLDs,Team BDS,DetonatioN FocusMe,2,under,total_inhibitors 1.5,9.19%,Bet365,loss,2.25,-1.0
-2023-10-12 07:12:22,WLDs,PSG Talon,LOUD,1,under,total_barons 1.5,1.71%,Bet365,loss,1.9,-1.0
-2023-10-12 08:06:59,WLDs,LOUD,PSG Talon,2,under,total_barons 1.5,1.71%,Bet365,loss,1.9,-1.0
 2023-10-13 08:52:20,WLDs,DetonatioN FocusMe,Team BDS,1,under,total_barons 1.5,0.58%,Bet365,win,1.53,0.53
 2023-10-13 09:38:40,WLDs,Team BDS,DetonatioN FocusMe,2,under,total_barons 1.5,0.58%,Bet365,loss,1.53,-1.0
-2023-10-13 07:10:31,WLDs,Movistar R7,GAM Esports,1,over,total_kills 26.5,29.45%,Bet365,loss,1.83,-1.0
-2023-10-13 07:55:54,WLDs,Movistar R7,GAM Esports,2,over,total_kills 26.5,29.45%,Bet365,win,1.83,0.83
 2023-10-13 08:52:20,WLDs,DetonatioN FocusMe,Team BDS,1,over,total_dragons 4.5,2.32%,Bet365,loss,2.75,-1.0
 2023-10-13 09:38:40,WLDs,Team BDS,DetonatioN FocusMe,2,over,total_dragons 4.5,2.32%,Bet365,loss,2.75,-1.0
 2023-10-13 08:52:20,WLDs,DetonatioN FocusMe,Team BDS,1,over,game_duration 28.5,8.72%,Bet365,loss,1.83,-1.0
 2023-10-13 09:38:40,WLDs,Team BDS,DetonatioN FocusMe,2,over,game_duration 28.5,8.72%,Bet365,loss,1.83,-1.0
-2023-10-14 07:12:11,WLDs,LOUD,GAM Esports,1,under,total_dragons 4.5,19.04%,Bet365,win,1.72,0.72
-2023-10-14 08:07:55,WLDs,LOUD,GAM Esports,2,under,total_dragons 4.5,19.04%,Bet365,loss,1.72,-1.0
-2023-10-14 07:12:11,WLDs,LOUD,GAM Esports,1,under,total_kills 28.5,6.34%,Bet365,loss,1.8,-1.0
-2023-10-14 08:07:55,WLDs,LOUD,GAM Esports,2,under,total_kills 28.5,6.34%,Bet365,win,1.8,0.8
-2023-10-14 07:12:11,WLDs,LOUD,GAM Esports,1,under,game_duration 32.5,35.81%,Bet365,loss,1.83,-1.0
-2023-10-14 08:07:55,WLDs,LOUD,GAM Esports,2,under,game_duration 32.5,35.81%,Bet365,loss,1.83,-1.0
-2023-10-14 07:12:11,WLDs,LOUD,GAM Esports,1,under,total_inhibitors 1.5,9.84%,Bet365,loss,2.25,-1.0
-2023-10-14 08:07:55,WLDs,LOUD,GAM Esports,2,under,total_inhibitors 1.5,9.84%,Bet365,loss,2.25,-1.0
 2023-10-14 07:12:11,WLDs,LOUD,GAM Esports,1,over,total_kills 26.5,11.23%,Dafabet,win,1.887,0.89
 2023-10-14 08:07:55,WLDs,LOUD,GAM Esports,2,over,total_kills 26.5,11.23%,Dafabet,loss,1.887,-1.0
 2023-10-14 07:12:11,WLDs,LOUD,GAM Esports,1,under,game_duration 31.0,7.59%,Dafabet,loss,1.915,-1.0
 2023-10-14 08:07:55,WLDs,LOUD,GAM Esports,2,under,game_duration 31.0,7.59%,Dafabet,loss,1.915,-1.0
 2023-10-14 07:12:11,WLDs,LOUD,GAM Esports,1,under,total_barons 1.5,3.70%,Dafabet,loss,1.771,-1.0
 2023-10-14 08:07:55,WLDs,LOUD,GAM Esports,2,under,total_barons 1.5,3.70%,Dafabet,loss,1.771,-1.0
-2023-10-17 16:01:41,IC,Movistar Riders,ZETA,1,FD,first_dragon ZETA,126.70%,Dafabet,loss,2.267,-1.0
-2023-10-17 16:43:01,IC,Movistar Riders,ZETA,2,FD,first_dragon ZETA,126.70%,Dafabet,win,2.267,1.27
 2023-10-14 09:10:35,WLDs,CTBC Flying Oyster,Team BDS,1,over,total_dragons 4.5,31.25%,Bet365,win,2.5,1.5
 2023-10-14 10:14:23,WLDs,CTBC Flying Oyster,Team BDS,2,over,total_dragons 4.5,31.25%,Bet365,loss,2.5,-1.0
 2023-10-14 09:10:35,WLDs,CTBC Flying Oyster,Team BDS,1,under,total_towers 11.5,14.00%,Bet365,loss,1.9,-1.0
@@ -132,26 +122,26 @@ date,league,t1,t2,game,bet_type,bet_line,ROI,House,status,odds,profit
 2023-10-14 10:14:23,WLDs,CTBC Flying Oyster,Team BDS,2,under,total_inhibitors 1.5,18.13%,Bet365,loss,2.25,-1.0
 2023-10-14 09:10:35,WLDs,CTBC Flying Oyster,Team BDS,1,over,total_barons 1.5,16.88%,Bet365,win,2.75,1.75
 2023-10-14 10:14:23,WLDs,CTBC Flying Oyster,Team BDS,2,over,total_barons 1.5,16.88%,Bet365,loss,2.75,-1.0
-2023-10-15 03:11:17,WLDs,GAM Esports,Team Whales,1,under,total_dragons 4.5,18.95%,Bet365,win,1.83,0.83
-2023-10-15 03:58:19,WLDs,GAM Esports,Team Whales,2,under,total_dragons 4.5,18.95%,Bet365,win,1.83,0.83
-2023-10-15 04:46:19,WLDs,GAM Esports,Team Whales,3,under,total_dragons 4.5,18.95%,Bet365,loss,1.83,-1.0
-2023-10-15 05:44:39,WLDs,GAM Esports,Team Whales,4,under,total_dragons 4.5,18.95%,Bet365,win,1.83,0.83
-2023-10-15 03:11:17,WLDs,GAM Esports,Team Whales,1,under,total_towers 12.5,9.90%,Bet365,loss,1.57,-1.0
-2023-10-15 03:58:19,WLDs,GAM Esports,Team Whales,2,under,total_towers 12.5,9.90%,Bet365,loss,1.57,-1.0
-2023-10-15 04:46:19,WLDs,GAM Esports,Team Whales,3,under,total_towers 12.5,9.90%,Bet365,win,1.57,0.57
-2023-10-15 05:44:39,WLDs,GAM Esports,Team Whales,4,under,total_towers 12.5,9.90%,Bet365,win,1.57,0.57
-2023-10-15 03:11:17,WLDs,GAM Esports,Team Whales,1,under,total_kills 27.5,5.22%,Bet365,win,1.83,0.83
-2023-10-15 03:58:19,WLDs,GAM Esports,Team Whales,2,under,total_kills 27.5,5.22%,Bet365,win,1.83,0.83
-2023-10-15 04:46:19,WLDs,GAM Esports,Team Whales,3,under,total_kills 27.5,5.22%,Bet365,loss,1.83,-1.0
-2023-10-15 05:44:39,WLDs,GAM Esports,Team Whales,4,under,total_kills 27.5,5.22%,Bet365,loss,1.83,-1.0
-2023-10-15 03:11:17,WLDs,GAM Esports,Team Whales,1,under,game_duration 32.5,28.10%,Bet365,win,1.83,0.83
-2023-10-15 03:58:19,WLDs,GAM Esports,Team Whales,2,under,game_duration 32.5,28.10%,Bet365,win,1.83,0.83
-2023-10-15 04:46:19,WLDs,GAM Esports,Team Whales,3,under,game_duration 32.5,28.10%,Bet365,loss,1.83,-1.0
-2023-10-15 05:44:39,WLDs,GAM Esports,Team Whales,4,under,game_duration 32.5,28.10%,Bet365,win,1.83,0.83
-2023-10-15 03:11:17,WLDs,GAM Esports,Team Whales,1,under,total_inhibitors 1.5,35.00%,Bet365,win,2.25,1.25
-2023-10-15 03:58:19,WLDs,GAM Esports,Team Whales,2,under,total_inhibitors 1.5,35.00%,Bet365,loss,2.25,-1.0
-2023-10-15 04:46:19,WLDs,GAM Esports,Team Whales,3,under,total_inhibitors 1.5,35.00%,Bet365,win,2.25,1.25
-2023-10-15 05:44:39,WLDs,GAM Esports,Team Whales,4,under,total_inhibitors 1.5,35.00%,Bet365,win,2.25,1.25
+2023-10-14 07:12:11,WLDs,LOUD,GAM Esports,1,under,total_dragons 4.5,19.04%,Bet365,win,1.72,0.72
+2023-10-14 08:07:55,WLDs,LOUD,GAM Esports,2,under,total_dragons 4.5,19.04%,Bet365,loss,1.72,-1.0
+2023-10-14 07:12:11,WLDs,LOUD,GAM Esports,1,under,total_kills 28.5,6.34%,Bet365,loss,1.8,-1.0
+2023-10-14 08:07:55,WLDs,LOUD,GAM Esports,2,under,total_kills 28.5,6.34%,Bet365,win,1.8,0.8
+2023-10-14 07:12:11,WLDs,LOUD,GAM Esports,1,under,game_duration 32.5,35.81%,Bet365,loss,1.83,-1.0
+2023-10-14 08:07:55,WLDs,LOUD,GAM Esports,2,under,game_duration 32.5,35.81%,Bet365,loss,1.83,-1.0
+2023-10-14 07:12:11,WLDs,LOUD,GAM Esports,1,under,total_inhibitors 1.5,9.84%,Bet365,loss,2.25,-1.0
+2023-10-14 08:07:55,WLDs,LOUD,GAM Esports,2,under,total_inhibitors 1.5,9.84%,Bet365,loss,2.25,-1.0
+2023-10-15 03:11:17,WLDs,GAM Esports,Team Whales,1,under,total_kills 27.5,6.95%,Dafabet,win,1.86,0.86
+2023-10-15 03:58:19,WLDs,GAM Esports,Team Whales,2,under,total_kills 27.5,6.95%,Dafabet,win,1.86,0.86
+2023-10-15 04:46:19,WLDs,GAM Esports,Team Whales,3,under,total_kills 27.5,6.95%,Dafabet,loss,1.86,-1.0
+2023-10-15 05:44:39,WLDs,GAM Esports,Team Whales,4,under,total_kills 27.5,6.95%,Dafabet,loss,1.86,-1.0
+2023-10-15 03:11:17,WLDs,GAM Esports,Team Whales,1,under,game_duration 31.0,4.69%,Dafabet,win,1.994,0.99
+2023-10-15 03:58:19,WLDs,GAM Esports,Team Whales,2,under,game_duration 31.0,4.69%,Dafabet,win,1.994,0.99
+2023-10-15 04:46:19,WLDs,GAM Esports,Team Whales,3,under,game_duration 31.0,4.69%,Dafabet,loss,1.994,-1.0
+2023-10-15 05:44:39,WLDs,GAM Esports,Team Whales,4,under,game_duration 31.0,4.69%,Dafabet,win,1.994,0.99
+2023-10-15 03:11:17,WLDs,GAM Esports,Team Whales,1,under,total_barons 1.5,10.22%,Dafabet,win,1.837,0.84
+2023-10-15 03:58:19,WLDs,GAM Esports,Team Whales,2,under,total_barons 1.5,10.22%,Dafabet,win,1.837,0.84
+2023-10-15 04:46:19,WLDs,GAM Esports,Team Whales,3,under,total_barons 1.5,10.22%,Dafabet,loss,1.837,-1.0
+2023-10-15 05:44:39,WLDs,GAM Esports,Team Whales,4,under,total_barons 1.5,10.22%,Dafabet,win,1.837,0.84
 2023-10-15 06:45:24,WLDs,PSG Talon,Team BDS,1,under,total_dragons 4.5,18.47%,Bet365,loss,1.9,-1.0
 2023-10-15 07:41:09,WLDs,Team BDS,PSG Talon,2,under,total_dragons 4.5,18.47%,Bet365,win,1.9,0.9
 2023-10-15 08:30:03,WLDs,Team BDS,PSG Talon,3,under,total_dragons 4.5,18.47%,Bet365,loss,1.9,-1.0
@@ -172,94 +162,113 @@ date,league,t1,t2,game,bet_type,bet_line,ROI,House,status,odds,profit
 2023-10-15 08:30:03,WLDs,Team BDS,PSG Talon,3,under,total_inhibitors 1.5,15.81%,Bet365,loss,2.25,-1.0
 2023-10-15 09:32:00,WLDs,PSG Talon,Team BDS,4,under,total_inhibitors 1.5,15.81%,Bet365,win,2.25,1.25
 2023-10-15 10:18:58,WLDs,PSG Talon,Team BDS,5,under,total_inhibitors 1.5,15.81%,Bet365,loss,2.25,-1.0
-2023-10-15 03:11:17,WLDs,GAM Esports,Team Whales,1,under,total_kills 27.5,6.95%,Dafabet,win,1.86,0.86
-2023-10-15 03:58:19,WLDs,GAM Esports,Team Whales,2,under,total_kills 27.5,6.95%,Dafabet,win,1.86,0.86
-2023-10-15 04:46:19,WLDs,GAM Esports,Team Whales,3,under,total_kills 27.5,6.95%,Dafabet,loss,1.86,-1.0
-2023-10-15 05:44:39,WLDs,GAM Esports,Team Whales,4,under,total_kills 27.5,6.95%,Dafabet,loss,1.86,-1.0
-2023-10-15 03:11:17,WLDs,GAM Esports,Team Whales,1,under,game_duration 31.0,4.69%,Dafabet,win,1.994,0.99
-2023-10-15 03:58:19,WLDs,GAM Esports,Team Whales,2,under,game_duration 31.0,4.69%,Dafabet,win,1.994,0.99
-2023-10-15 04:46:19,WLDs,GAM Esports,Team Whales,3,under,game_duration 31.0,4.69%,Dafabet,loss,1.994,-1.0
-2023-10-15 05:44:39,WLDs,GAM Esports,Team Whales,4,under,game_duration 31.0,4.69%,Dafabet,win,1.994,0.99
-2023-10-15 03:11:17,WLDs,GAM Esports,Team Whales,1,under,total_barons 1.5,10.22%,Dafabet,win,1.837,0.84
-2023-10-15 03:58:19,WLDs,GAM Esports,Team Whales,2,under,total_barons 1.5,10.22%,Dafabet,win,1.837,0.84
-2023-10-15 04:46:19,WLDs,GAM Esports,Team Whales,3,under,total_barons 1.5,10.22%,Dafabet,loss,1.837,-1.0
-2023-10-15 05:44:39,WLDs,GAM Esports,Team Whales,4,under,total_barons 1.5,10.22%,Dafabet,win,1.837,0.84
-2023-10-19 07:26:16,WLDs,Gen.G,GAM Esports,1,over,total_dragons 3.5,92.50%,Bet365,loss,2.2,-1.0
-2023-10-19 07:26:16,WLDs,Gen.G,GAM Esports,1,over,total_towers 10.5,76.00%,Bet365,loss,2.2,-1.0
-2023-10-19 07:26:16,WLDs,Gen.G,GAM Esports,1,over,total_kills 22.5,8.75%,Bet365,win,1.5,0.5
-2023-10-19 07:26:16,WLDs,Gen.G,GAM Esports,1,over,game_duration 26.5,60.13%,Bet365,loss,1.83,-1.0
-2023-10-19 07:26:16,WLDs,Gen.G,GAM Esports,1,under,total_inhibitors 1.5,14.38%,Bet365,loss,1.83,-1.0
-2023-10-19 07:26:16,WLDs,Gen.G,GAM Esports,1,over,total_barons 1.5,102.50%,Bet365,loss,4.5,-1.0
-2023-10-19 10:39:50,WLDs,Weibo Gaming,NRG,1,over,total_dragons 3.5,8.68%,Bet365,win,1.61,0.61
-2023-10-19 10:39:50,WLDs,Weibo Gaming,NRG,1,over,total_towers 11.5,57.50%,Bet365,loss,2.25,-1.0
-2023-10-19 10:39:50,WLDs,Weibo Gaming,NRG,1,over,total_kills 23.5,23.53%,Bet365,loss,1.83,-1.0
-2023-10-19 10:39:50,WLDs,Weibo Gaming,NRG,1,over,game_duration 26.5,28.10%,Bet365,win,1.83,0.83
-2023-10-19 10:39:50,WLDs,Weibo Gaming,NRG,1,over,total_inhibitors 1.5,18.95%,Bet365,loss,1.83,-1.0
-2023-10-19 10:39:50,WLDs,Weibo Gaming,NRG,1,over,total_barons 1.5,130.00%,Bet365,win,4.0,3.0
-2023-10-19 09:25:46,WLDs,G2 Esports,Dplus KIA,1,over,total_towers 11.5,8.68%,Bet365,win,1.61,0.61
-2023-10-19 09:25:46,WLDs,G2 Esports,Dplus KIA,1,over,game_duration 30.5,9.80%,Bet365,win,1.83,0.83
-2023-10-19 09:25:46,WLDs,G2 Esports,Dplus KIA,1,under,total_inhibitors 1.5,6.25%,Bet365,loss,2.5,-1.0
-2023-10-19 08:30:33,WLDs,Team BDS,JD Gaming,1,over,total_dragons 3.5,80.00%,Bet365,win,2.25,1.25
-2023-10-19 08:30:33,WLDs,Team BDS,JD Gaming,1,over,total_towers 10.5,74.37%,Bet365,win,2.25,1.25
-2023-10-19 08:30:33,WLDs,Team BDS,JD Gaming,1,over,game_duration 26.5,46.40%,Bet365,win,1.83,0.83
-2023-10-19 08:30:33,WLDs,Team BDS,JD Gaming,1,over,total_barons 1.5,40.00%,Bet365,loss,4.0,-1.0
-2023-10-19 05:16:33,WLDs,T1,Team Liquid,1,over,total_dragons 3.5,46.40%,Bet365,win,1.83,0.83
-2023-10-19 05:16:33,WLDs,T1,Team Liquid,1,over,total_towers 10.5,70.50%,Bet365,win,2.2,1.2
-2023-10-19 05:16:33,WLDs,T1,Team Liquid,1,over,total_kills 22.5,9.80%,Bet365,win,1.83,0.83
-2023-10-19 05:16:33,WLDs,T1,Team Liquid,1,over,game_duration 26.5,46.40%,Bet365,win,1.83,0.83
-2023-10-19 05:16:33,WLDs,T1,Team Liquid,1,under,total_inhibitors 1.5,5.00%,Bet365,win,2.0,1.0
-2023-10-19 05:16:33,WLDs,T1,Team Liquid,1,over,total_barons 1.5,94.85%,Bet365,win,4.33,3.33
-2023-10-19 06:27:15,WLDs,Cloud9,MAD Lions,1,under,total_dragons 4.5,35.00%,Bet365,win,2.25,1.25
-2023-10-19 06:27:15,WLDs,Cloud9,MAD Lions,1,under,total_towers 12.5,9.80%,Bet365,loss,1.83,-1.0
-2023-10-19 06:27:15,WLDs,Cloud9,MAD Lions,1,over,total_kills 26.5,5.22%,Bet365,loss,1.83,-1.0
-2023-10-19 06:27:15,WLDs,Cloud9,MAD Lions,1,under,game_duration 31.5,5.22%,Bet365,win,1.83,0.83
-2023-10-19 06:27:15,WLDs,Cloud9,MAD Lions,1,under,total_inhibitors 1.5,25.00%,Bet365,win,2.5,1.5
-2023-10-19 06:27:15,WLDs,Cloud9,MAD Lions,1,under,total_barons 1.5,10.00%,Bet365,loss,2.2,-1.0
+2023-10-15 03:11:17,WLDs,GAM Esports,Team Whales,1,under,total_dragons 4.5,18.95%,Bet365,win,1.83,0.83
+2023-10-15 03:58:19,WLDs,GAM Esports,Team Whales,2,under,total_dragons 4.5,18.95%,Bet365,win,1.83,0.83
+2023-10-15 04:46:19,WLDs,GAM Esports,Team Whales,3,under,total_dragons 4.5,18.95%,Bet365,loss,1.83,-1.0
+2023-10-15 05:44:39,WLDs,GAM Esports,Team Whales,4,under,total_dragons 4.5,18.95%,Bet365,win,1.83,0.83
+2023-10-15 03:11:17,WLDs,GAM Esports,Team Whales,1,under,total_towers 12.5,9.90%,Bet365,loss,1.57,-1.0
+2023-10-15 03:58:19,WLDs,GAM Esports,Team Whales,2,under,total_towers 12.5,9.90%,Bet365,loss,1.57,-1.0
+2023-10-15 04:46:19,WLDs,GAM Esports,Team Whales,3,under,total_towers 12.5,9.90%,Bet365,win,1.57,0.57
+2023-10-15 05:44:39,WLDs,GAM Esports,Team Whales,4,under,total_towers 12.5,9.90%,Bet365,win,1.57,0.57
+2023-10-15 03:11:17,WLDs,GAM Esports,Team Whales,1,under,total_kills 27.5,5.22%,Bet365,win,1.83,0.83
+2023-10-15 03:58:19,WLDs,GAM Esports,Team Whales,2,under,total_kills 27.5,5.22%,Bet365,win,1.83,0.83
+2023-10-15 04:46:19,WLDs,GAM Esports,Team Whales,3,under,total_kills 27.5,5.22%,Bet365,loss,1.83,-1.0
+2023-10-15 05:44:39,WLDs,GAM Esports,Team Whales,4,under,total_kills 27.5,5.22%,Bet365,loss,1.83,-1.0
+2023-10-15 03:11:17,WLDs,GAM Esports,Team Whales,1,under,game_duration 32.5,28.10%,Bet365,win,1.83,0.83
+2023-10-15 03:58:19,WLDs,GAM Esports,Team Whales,2,under,game_duration 32.5,28.10%,Bet365,win,1.83,0.83
+2023-10-15 04:46:19,WLDs,GAM Esports,Team Whales,3,under,game_duration 32.5,28.10%,Bet365,loss,1.83,-1.0
+2023-10-15 05:44:39,WLDs,GAM Esports,Team Whales,4,under,game_duration 32.5,28.10%,Bet365,win,1.83,0.83
+2023-10-15 03:11:17,WLDs,GAM Esports,Team Whales,1,under,total_inhibitors 1.5,35.00%,Bet365,win,2.25,1.25
+2023-10-15 03:58:19,WLDs,GAM Esports,Team Whales,2,under,total_inhibitors 1.5,35.00%,Bet365,loss,2.25,-1.0
+2023-10-15 04:46:19,WLDs,GAM Esports,Team Whales,3,under,total_inhibitors 1.5,35.00%,Bet365,win,2.25,1.25
+2023-10-15 05:44:39,WLDs,GAM Esports,Team Whales,4,under,total_inhibitors 1.5,35.00%,Bet365,win,2.25,1.25
+2023-10-17 16:01:41,IC,Movistar Riders,ZETA,1,FD,first_dragon ZETA,126.70%,Dafabet,loss,2.267,-1.0
+2023-10-17 16:43:01,IC,Movistar Riders,ZETA,2,FD,first_dragon ZETA,126.70%,Dafabet,win,2.267,1.27
+2023-10-18 17:53:45,IC,Barça eSports,Case Esports,1,FD,first_dragon Case Esports,99.40%,Dafabet,win,1.994,0.99
+2023-10-18 18:44:16,IC,Case Esports,Barça eSports,2,FD,first_dragon Case Esports,99.40%,Dafabet,win,1.994,0.99
+2023-10-18 19:32:35,IC,Barça eSports,Case Esports,3,FD,first_dragon Case Esports,99.40%,Dafabet,win,1.994,0.99
+2023-10-19 09:25:46,WLDs,G2 Esports,Dplus KIA,1,over,game_duration 30.0,17.31%,Dafabet,win,1.877,0.88
+2023-10-19 09:25:46,WLDs,G2 Esports,Dplus KIA,1,over,total_barons 1.5,12.15%,Dafabet,win,2.243,1.24
+2023-10-19 08:30:33,WLDs,Team BDS,JD Gaming,1,FD,first_dragon Team BDS,52.02%,Dafabet,win,2.764,1.76
+2023-10-19 08:30:33,WLDs,Team BDS,JD Gaming,1,over,game_duration 27.0,46.74%,Dafabet,win,2.024,1.02
+2023-10-19 08:30:33,WLDs,Team BDS,JD Gaming,1,over,total_barons 1.5,19.35%,Dafabet,loss,3.41,-1.0
+2023-10-19 12:33:49,WLDs,Bilibili Gaming,KT Rolster,1,over,total_kills 25.5,22.12%,Dafabet,win,1.954,0.95
+2023-10-19 12:33:49,WLDs,Bilibili Gaming,KT Rolster,1,under,game_duration 31.0,14.88%,Dafabet,loss,1.998,-1.0
+2023-10-19 11:36:22,WLDs,LNG Esports,Fnatic,1,FD,first_dragon Fnatic,6.15%,Dafabet,win,2.123,1.12
+2023-10-19 11:36:22,WLDs,LNG Esports,Fnatic,1,over,game_duration 29.0,7.70%,Dafabet,win,1.795,0.79
+2023-10-19 05:16:33,WLDs,T1,Team Liquid,1,FD,first_dragon Team Liquid,88.02%,Dafabet,loss,2.686,-1.0
+2023-10-19 05:16:33,WLDs,T1,Team Liquid,1,over,game_duration 27.0,45.44%,Dafabet,win,1.818,0.82
+2023-10-19 05:16:33,WLDs,T1,Team Liquid,1,over,total_barons 1.5,31.17%,Dafabet,win,2.915,1.92
 2023-10-19 12:33:49,WLDs,Bilibili Gaming,KT Rolster,1,under,total_dragons 4.5,26.00%,Bet365,loss,2.1,-1.0
 2023-10-19 12:33:49,WLDs,Bilibili Gaming,KT Rolster,1,under,total_towers 12.5,7.90%,Bet365,loss,1.66,-1.0
 2023-10-19 12:33:49,WLDs,Bilibili Gaming,KT Rolster,1,over,total_kills 26.5,5.22%,Bet365,win,1.83,0.83
 2023-10-19 12:33:49,WLDs,Bilibili Gaming,KT Rolster,1,over,game_duration 30.5,5.22%,Bet365,win,1.83,0.83
 2023-10-19 12:33:49,WLDs,Bilibili Gaming,KT Rolster,1,under,total_inhibitors 1.5,42.20%,Bet365,loss,2.37,-1.0
 2023-10-19 12:33:49,WLDs,Bilibili Gaming,KT Rolster,1,under,total_barons 1.5,14.00%,Bet365,loss,1.9,-1.0
+2023-10-19 06:27:15,WLDs,Cloud9,MAD Lions,1,under,total_dragons 4.5,35.00%,Bet365,win,2.25,1.25
+2023-10-19 06:27:15,WLDs,Cloud9,MAD Lions,1,under,total_towers 12.5,9.80%,Bet365,loss,1.83,-1.0
+2023-10-19 06:27:15,WLDs,Cloud9,MAD Lions,1,over,total_kills 26.5,5.22%,Bet365,loss,1.83,-1.0
+2023-10-19 06:27:15,WLDs,Cloud9,MAD Lions,1,under,game_duration 31.5,5.22%,Bet365,win,1.83,0.83
+2023-10-19 06:27:15,WLDs,Cloud9,MAD Lions,1,under,total_inhibitors 1.5,25.00%,Bet365,win,2.5,1.5
+2023-10-19 06:27:15,WLDs,Cloud9,MAD Lions,1,under,total_barons 1.5,10.00%,Bet365,loss,2.2,-1.0
 2023-10-19 11:36:22,WLDs,LNG Esports,Fnatic,1,over,total_dragons 3.5,17.75%,Bet365,win,1.57,0.57
 2023-10-19 11:36:22,WLDs,LNG Esports,Fnatic,1,over,total_towers 11.5,6.87%,Bet365,win,2.25,1.25
 2023-10-19 11:36:22,WLDs,LNG Esports,Fnatic,1,over,game_duration 28.5,14.38%,Bet365,win,1.83,0.83
 2023-10-19 11:36:22,WLDs,LNG Esports,Fnatic,1,under,total_inhibitors 1.5,14.38%,Bet365,win,1.83,0.83
 2023-10-19 11:36:22,WLDs,LNG Esports,Fnatic,1,over,total_barons 1.5,12.50%,Bet365,win,3.75,2.75
-2023-10-19 05:16:33,WLDs,T1,Team Liquid,1,FD,first_dragon Team Liquid,88.02%,Dafabet,loss,2.686,-1.0
-2023-10-19 05:16:33,WLDs,T1,Team Liquid,1,over,game_duration 27.0,45.44%,Dafabet,win,1.818,0.82
-2023-10-19 05:16:33,WLDs,T1,Team Liquid,1,over,total_barons 1.5,31.17%,Dafabet,win,2.915,1.92
-2023-10-19 08:30:33,WLDs,Team BDS,JD Gaming,1,FD,first_dragon Team BDS,52.02%,Dafabet,win,2.764,1.76
-2023-10-19 08:30:33,WLDs,Team BDS,JD Gaming,1,over,game_duration 27.0,46.74%,Dafabet,win,2.024,1.02
-2023-10-19 08:30:33,WLDs,Team BDS,JD Gaming,1,over,total_barons 1.5,19.35%,Dafabet,loss,3.41,-1.0
-2023-10-19 09:25:46,WLDs,G2 Esports,Dplus KIA,1,over,game_duration 30.0,17.31%,Dafabet,win,1.877,0.88
-2023-10-19 09:25:46,WLDs,G2 Esports,Dplus KIA,1,over,total_barons 1.5,12.15%,Dafabet,win,2.243,1.24
-2023-10-19 11:36:22,WLDs,LNG Esports,Fnatic,1,FD,first_dragon Fnatic,6.15%,Dafabet,win,2.123,1.12
-2023-10-19 11:36:22,WLDs,LNG Esports,Fnatic,1,over,game_duration 29.0,7.70%,Dafabet,win,1.795,0.79
-2023-10-19 12:33:49,WLDs,Bilibili Gaming,KT Rolster,1,over,total_kills 25.5,22.12%,Dafabet,win,1.954,0.95
-2023-10-19 12:33:49,WLDs,Bilibili Gaming,KT Rolster,1,under,game_duration 31.0,14.88%,Dafabet,loss,1.998,-1.0
-2023-10-24 16:04:21,IC,Finetwork KOI,BWE Esports,1,FD,first_dragon Finetwork KOI,10.39%,Dafabet,loss,1.577,-1.0
-2023-10-24 16:59:07,IC,Finetwork KOI,BWE Esports,2,FD,first_dragon Finetwork KOI,10.39%,Dafabet,loss,1.577,-1.0
-2023-10-25 17:52:06,IC,White Dragons,Rebels Gaming,1,FD,first_dragon White Dragons,38.51%,Dafabet,loss,2.131,-1.0
-2023-10-25 18:40:11,IC,Rebels Gaming,White Dragons,2,FD,first_dragon White Dragons,38.51%,Dafabet,loss,2.131,-1.0
-2023-10-18 17:53:45,IC,Barça eSports,Case Esports,1,FD,first_dragon Case Esports,99.40%,Dafabet,win,1.994,0.99
-2023-10-18 18:44:16,IC,Case Esports,Barça eSports,2,FD,first_dragon Case Esports,99.40%,Dafabet,win,1.994,0.99
-2023-10-18 19:32:35,IC,Barça eSports,Case Esports,3,FD,first_dragon Case Esports,99.40%,Dafabet,win,1.994,0.99
+2023-10-19 09:25:46,WLDs,G2 Esports,Dplus KIA,1,over,total_towers 11.5,8.68%,Bet365,win,1.61,0.61
+2023-10-19 09:25:46,WLDs,G2 Esports,Dplus KIA,1,over,game_duration 30.5,9.80%,Bet365,win,1.83,0.83
+2023-10-19 09:25:46,WLDs,G2 Esports,Dplus KIA,1,under,total_inhibitors 1.5,6.25%,Bet365,loss,2.5,-1.0
+2023-10-19 07:26:16,WLDs,Gen.G,GAM Esports,1,over,total_dragons 3.5,92.50%,Bet365,loss,2.2,-1.0
+2023-10-19 07:26:16,WLDs,Gen.G,GAM Esports,1,over,total_towers 10.5,76.00%,Bet365,loss,2.2,-1.0
+2023-10-19 07:26:16,WLDs,Gen.G,GAM Esports,1,over,total_kills 22.5,8.75%,Bet365,win,1.5,0.5
+2023-10-19 07:26:16,WLDs,Gen.G,GAM Esports,1,over,game_duration 26.5,60.13%,Bet365,loss,1.83,-1.0
+2023-10-19 07:26:16,WLDs,Gen.G,GAM Esports,1,under,total_inhibitors 1.5,14.38%,Bet365,loss,1.83,-1.0
+2023-10-19 07:26:16,WLDs,Gen.G,GAM Esports,1,over,total_barons 1.5,102.50%,Bet365,loss,4.5,-1.0
+2023-10-19 08:30:33,WLDs,Team BDS,JD Gaming,1,over,total_dragons 3.5,80.00%,Bet365,win,2.25,1.25
+2023-10-19 08:30:33,WLDs,Team BDS,JD Gaming,1,over,total_towers 10.5,74.37%,Bet365,win,2.25,1.25
+2023-10-19 08:30:33,WLDs,Team BDS,JD Gaming,1,over,game_duration 26.5,46.40%,Bet365,win,1.83,0.83
+2023-10-19 08:30:33,WLDs,Team BDS,JD Gaming,1,over,total_barons 1.5,40.00%,Bet365,loss,4.0,-1.0
+2023-10-19 10:39:50,WLDs,Weibo Gaming,NRG,1,over,total_dragons 3.5,8.68%,Bet365,win,1.61,0.61
+2023-10-19 10:39:50,WLDs,Weibo Gaming,NRG,1,over,total_towers 11.5,57.50%,Bet365,loss,2.25,-1.0
+2023-10-19 10:39:50,WLDs,Weibo Gaming,NRG,1,over,total_kills 23.5,23.53%,Bet365,loss,1.83,-1.0
+2023-10-19 10:39:50,WLDs,Weibo Gaming,NRG,1,over,game_duration 26.5,28.10%,Bet365,win,1.83,0.83
+2023-10-19 10:39:50,WLDs,Weibo Gaming,NRG,1,over,total_inhibitors 1.5,18.95%,Bet365,loss,1.83,-1.0
+2023-10-19 10:39:50,WLDs,Weibo Gaming,NRG,1,over,total_barons 1.5,130.00%,Bet365,win,4.0,3.0
+2023-10-19 05:16:33,WLDs,T1,Team Liquid,1,over,total_dragons 3.5,46.40%,Bet365,win,1.83,0.83
+2023-10-19 05:16:33,WLDs,T1,Team Liquid,1,over,total_towers 10.5,70.50%,Bet365,win,2.2,1.2
+2023-10-19 05:16:33,WLDs,T1,Team Liquid,1,over,total_kills 22.5,9.80%,Bet365,win,1.83,0.83
+2023-10-19 05:16:33,WLDs,T1,Team Liquid,1,over,game_duration 26.5,46.40%,Bet365,win,1.83,0.83
+2023-10-19 05:16:33,WLDs,T1,Team Liquid,1,under,total_inhibitors 1.5,5.00%,Bet365,win,2.0,1.0
+2023-10-19 05:16:33,WLDs,T1,Team Liquid,1,over,total_barons 1.5,94.85%,Bet365,win,4.33,3.33
+2023-10-20 08:29:39,WLDs,Fnatic,GAM Esports,1,over,total_kills 26.5,20.51%,Dafabet,loss,1.854,-1.0
+2023-10-20 08:29:39,WLDs,Fnatic,GAM Esports,1,under,game_duration 31.0,11.81%,Dafabet,win,1.789,0.79
+2023-10-20 08:29:39,WLDs,Fnatic,GAM Esports,1,under,total_barons 1.5,13.20%,Dafabet,win,1.677,0.68
+2023-10-20 11:23:33,WLDs,JD Gaming,Bilibili Gaming,1,over,total_kills 26.5,8.16%,Dafabet,loss,1.881,-1.0
+2023-10-20 11:23:33,WLDs,JD Gaming,Bilibili Gaming,1,under,game_duration 30.0,19.14%,Dafabet,win,2.072,1.07
+2023-10-20 11:23:33,WLDs,JD Gaming,Bilibili Gaming,1,under,total_barons 1.5,30.83%,Dafabet,win,1.869,0.87
+2023-10-20 07:32:53,WLDs,MAD Lions,Team BDS,1,under,total_kills 25.5,5.27%,Dafabet,loss,1.914,-1.0
+2023-10-20 07:32:53,WLDs,MAD Lions,Team BDS,1,under,game_duration 31.0,15.14%,Dafabet,loss,2.07,-1.0
+2023-10-20 07:32:53,WLDs,MAD Lions,Team BDS,1,under,total_barons 1.5,8.41%,Dafabet,loss,1.77,-1.0
+2023-10-20 10:16:29,WLDs,G2 Esports,Weibo Gaming,1,under,game_duration 32.0,28.66%,Dafabet,loss,1.838,-1.0
+2023-10-20 10:16:29,WLDs,G2 Esports,Weibo Gaming,1,under,total_barons 1.5,18.81%,Dafabet,loss,1.901,-1.0
+2023-10-20 08:29:39,WLDs,Fnatic,GAM Esports,1,under,total_dragons 4.5,8.75%,Bet365,win,1.5,0.5
+2023-10-20 08:29:39,WLDs,Fnatic,GAM Esports,1,over,total_kills 26.5,30.00%,Bet365,loss,2.0,-1.0
+2023-10-20 08:29:39,WLDs,Fnatic,GAM Esports,1,over,game_duration 28.5,5.22%,Bet365,loss,1.83,-1.0
+2023-10-20 08:29:39,WLDs,Fnatic,GAM Esports,1,under,total_inhibitors 1.5,15.50%,Bet365,win,2.1,1.1
+2023-10-20 08:29:39,WLDs,Fnatic,GAM Esports,1,under,total_barons 1.5,5.98%,Bet365,win,1.57,0.57
 2023-10-20 10:16:29,WLDs,G2 Esports,Weibo Gaming,1,under,total_dragons 4.5,16.10%,Bet365,loss,1.72,-1.0
 2023-10-20 10:16:29,WLDs,G2 Esports,Weibo Gaming,1,under,game_duration 31.5,23.53%,Bet365,loss,1.83,-1.0
 2023-10-20 10:16:29,WLDs,G2 Esports,Weibo Gaming,1,under,total_barons 1.5,31.25%,Bet365,loss,2.1,-1.0
+2023-10-20 09:21:32,WLDs,Gen.G,T1,1,under,total_dragons 4.5,12.05%,Bet365,loss,1.66,-1.0
+2023-10-20 09:21:32,WLDs,Gen.G,T1,1,under,total_kills 30.5,41.83%,Bet365,win,1.83,0.83
+2023-10-20 09:21:32,WLDs,Gen.G,T1,1,under,game_duration 31.5,14.38%,Bet365,win,1.83,0.83
+2023-10-20 09:21:32,WLDs,Gen.G,T1,1,under,total_inhibitors 1.5,46.25%,Bet365,win,2.25,1.25
 2023-10-20 11:23:33,WLDs,JD Gaming,Bilibili Gaming,1,under,total_dragons 4.5,24.50%,Bet365,win,1.66,0.66
 2023-10-20 11:23:33,WLDs,JD Gaming,Bilibili Gaming,1,under,total_towers 12.5,39.50%,Bet365,win,1.8,0.8
 2023-10-20 11:23:33,WLDs,JD Gaming,Bilibili Gaming,1,under,game_duration 30.5,9.80%,Bet365,win,1.83,0.83
 2023-10-20 11:23:33,WLDs,JD Gaming,Bilibili Gaming,1,under,total_inhibitors 1.5,41.75%,Bet365,loss,2.1,-1.0
 2023-10-20 11:23:33,WLDs,JD Gaming,Bilibili Gaming,1,under,total_barons 1.5,26.00%,Bet365,win,1.8,0.8
-2023-10-20 09:21:32,WLDs,Gen.G,T1,1,under,total_dragons 4.5,12.05%,Bet365,loss,1.66,-1.0
-2023-10-20 09:21:32,WLDs,Gen.G,T1,1,under,total_kills 30.5,41.83%,Bet365,win,1.83,0.83
-2023-10-20 09:21:32,WLDs,Gen.G,T1,1,under,game_duration 31.5,14.38%,Bet365,win,1.83,0.83
-2023-10-20 09:21:32,WLDs,Gen.G,T1,1,under,total_inhibitors 1.5,46.25%,Bet365,win,2.25,1.25
-2023-10-20 05:11:30,WLDs,NRG,Team Liquid,1,under,total_towers 12.5,10.00%,Bet365,win,2.0,1.0
-2023-10-20 05:11:30,WLDs,NRG,Team Liquid,1,under,total_kills 26.5,5.22%,Bet365,win,1.83,0.83
-2023-10-20 05:11:30,WLDs,NRG,Team Liquid,1,over,total_barons 1.5,5.98%,Bet365,loss,1.57,-1.0
 2023-10-20 12:12:39,WLDs,Dplus KIA,KT Rolster,1,over,game_duration 31.5,5.22%,Bet365,win,1.83,0.83
 2023-10-20 07:32:53,WLDs,MAD Lions,Team BDS,1,under,total_dragons 4.5,23.53%,Bet365,loss,1.83,-1.0
 2023-10-20 07:32:53,WLDs,MAD Lions,Team BDS,1,under,total_towers 12.5,16.25%,Bet365,win,2.0,1.0
@@ -267,24 +276,9 @@ date,league,t1,t2,game,bet_type,bet_line,ROI,House,status,odds,profit
 2023-10-20 07:32:53,WLDs,MAD Lions,Team BDS,1,under,game_duration 31.5,11.62%,Bet365,loss,1.9,-1.0
 2023-10-20 07:32:53,WLDs,MAD Lions,Team BDS,1,under,total_inhibitors 1.5,27.97%,Bet365,win,2.25,1.25
 2023-10-20 07:32:53,WLDs,MAD Lions,Team BDS,1,under,total_barons 1.5,22.50%,Bet365,loss,2.0,-1.0
-2023-10-20 08:29:39,WLDs,Fnatic,GAM Esports,1,under,total_dragons 4.5,8.75%,Bet365,win,1.5,0.5
-2023-10-20 08:29:39,WLDs,Fnatic,GAM Esports,1,over,total_kills 26.5,30.00%,Bet365,loss,2.0,-1.0
-2023-10-20 08:29:39,WLDs,Fnatic,GAM Esports,1,over,game_duration 28.5,5.22%,Bet365,loss,1.83,-1.0
-2023-10-20 08:29:39,WLDs,Fnatic,GAM Esports,1,under,total_inhibitors 1.5,15.50%,Bet365,win,2.1,1.1
-2023-10-20 08:29:39,WLDs,Fnatic,GAM Esports,1,under,total_barons 1.5,5.98%,Bet365,win,1.57,0.57
-2023-10-20 07:32:53,WLDs,MAD Lions,Team BDS,1,under,total_kills 25.5,5.27%,Dafabet,loss,1.914,-1.0
-2023-10-20 07:32:53,WLDs,MAD Lions,Team BDS,1,under,game_duration 31.0,15.14%,Dafabet,loss,2.07,-1.0
-2023-10-20 07:32:53,WLDs,MAD Lions,Team BDS,1,under,total_barons 1.5,8.41%,Dafabet,loss,1.77,-1.0
-2023-10-20 08:29:39,WLDs,Fnatic,GAM Esports,1,over,total_kills 26.5,20.51%,Dafabet,loss,1.854,-1.0
-2023-10-20 08:29:39,WLDs,Fnatic,GAM Esports,1,under,game_duration 31.0,11.81%,Dafabet,win,1.789,0.79
-2023-10-20 08:29:39,WLDs,Fnatic,GAM Esports,1,under,total_barons 1.5,13.20%,Dafabet,win,1.677,0.68
-2023-10-20 10:16:29,WLDs,G2 Esports,Weibo Gaming,1,under,game_duration 32.0,28.66%,Dafabet,loss,1.838,-1.0
-2023-10-20 10:16:29,WLDs,G2 Esports,Weibo Gaming,1,under,total_barons 1.5,18.81%,Dafabet,loss,1.901,-1.0
-2023-10-20 11:23:33,WLDs,JD Gaming,Bilibili Gaming,1,over,total_kills 26.5,8.16%,Dafabet,loss,1.881,-1.0
-2023-10-20 11:23:33,WLDs,JD Gaming,Bilibili Gaming,1,under,game_duration 30.0,19.14%,Dafabet,win,2.072,1.07
-2023-10-20 11:23:33,WLDs,JD Gaming,Bilibili Gaming,1,under,total_barons 1.5,30.83%,Dafabet,win,1.869,0.87
-2023-10-31 17:04:25,IC,Movistar Riders,Kawaii Kiwis,1,FD,first_dragon Kawaii Kiwis,66.75%,Dafabet,loss,2.263,-1.0
-2023-10-31 17:50:52,IC,Movistar Riders,Kawaii Kiwis,2,FD,first_dragon Kawaii Kiwis,66.75%,Dafabet,win,2.263,1.26
+2023-10-20 05:11:30,WLDs,NRG,Team Liquid,1,under,total_towers 12.5,10.00%,Bet365,win,2.0,1.0
+2023-10-20 05:11:30,WLDs,NRG,Team Liquid,1,under,total_kills 26.5,5.22%,Bet365,win,1.83,0.83
+2023-10-20 05:11:30,WLDs,NRG,Team Liquid,1,over,total_barons 1.5,5.98%,Bet365,loss,1.57,-1.0
 2023-10-21 07:11:26,WLDs,JD Gaming,LNG Esports,1,under,total_kills 26.5,29.78%,Dafabet,win,1.854,0.85
 2023-10-21 07:58:13,WLDs,LNG Esports,JD Gaming,2,under,total_kills 26.5,29.78%,Dafabet,win,1.854,0.85
 2023-10-21 08:47:41,WLDs,JD Gaming,LNG Esports,3,under,total_kills 26.5,29.78%,Dafabet,win,1.854,0.85
@@ -294,29 +288,12 @@ date,league,t1,t2,game,bet_type,bet_line,ROI,House,status,odds,profit
 2023-10-21 07:11:26,WLDs,JD Gaming,LNG Esports,1,under,total_barons 1.5,29.85%,Dafabet,win,1.855,0.85
 2023-10-21 07:58:13,WLDs,LNG Esports,JD Gaming,2,under,total_barons 1.5,29.85%,Dafabet,win,1.855,0.85
 2023-10-21 08:47:41,WLDs,JD Gaming,LNG Esports,3,under,total_barons 1.5,29.85%,Dafabet,win,1.855,0.85
-2023-10-22 09:08:52,WLDs,Bilibili Gaming,Fnatic,1,over,total_kills 26.5,27.33%,Dafabet,loss,1.819,-1.0
-2023-10-22 09:08:52,WLDs,Bilibili Gaming,Fnatic,1,under,game_duration 31.0,23.38%,Dafabet,loss,1.974,-1.0
-2023-10-22 09:08:52,WLDs,Bilibili Gaming,Fnatic,1,under,total_barons 1.5,16.56%,Dafabet,win,1.865,0.86
-2023-10-22 10:06:38,WLDs,KT Rolster,Weibo Gaming,1,under,total_kills 25.5,6.55%,Dafabet,loss,1.853,-1.0
-2023-10-22 10:06:38,WLDs,KT Rolster,Weibo Gaming,1,under,game_duration 32.0,17.44%,Dafabet,loss,1.879,-1.0
-2023-10-22 10:06:38,WLDs,KT Rolster,Weibo Gaming,1,under,total_barons 1.5,7.47%,Dafabet,loss,1.869,-1.0
-2023-10-23 09:51:41,WLDs,Dplus KIA,Team BDS,1,under,total_kills 24.5,8.30%,Dafabet,win,1.969,0.97
-2023-10-23 10:36:07,WLDs,Team BDS,Dplus KIA,2,under,total_kills 24.5,8.30%,Dafabet,win,1.969,0.97
-2023-10-23 09:51:41,WLDs,Dplus KIA,Team BDS,1,FD,first_dragon Team BDS,31.82%,Dafabet,win,2.197,1.2
-2023-10-23 10:36:07,WLDs,Team BDS,Dplus KIA,2,FD,first_dragon Team BDS,31.82%,Dafabet,loss,2.197,-1.0
-2023-10-23 09:51:41,WLDs,Dplus KIA,Team BDS,1,over,game_duration 31.0,27.27%,Dafabet,loss,1.958,-1.0
-2023-10-23 10:36:07,WLDs,Team BDS,Dplus KIA,2,over,game_duration 31.0,27.27%,Dafabet,loss,1.958,-1.0
-2023-10-23 09:51:41,WLDs,Dplus KIA,Team BDS,1,over,total_barons 1.5,12.59%,Dafabet,loss,2.047,-1.0
-2023-10-23 10:36:07,WLDs,Team BDS,Dplus KIA,2,over,total_barons 1.5,12.59%,Dafabet,loss,2.047,-1.0
-2023-10-23 07:12:04,WLDs,Team Liquid,GAM Esports,1,under,total_kills 26.5,13.34%,Dafabet,win,1.889,0.89
-2023-10-23 08:01:39,WLDs,Team Liquid,GAM Esports,2,under,total_kills 26.5,13.34%,Dafabet,win,1.889,0.89
-2023-10-23 08:46:50,WLDs,GAM Esports,Team Liquid,3,under,total_kills 26.5,13.34%,Dafabet,win,1.889,0.89
-2023-10-23 07:12:04,WLDs,Team Liquid,GAM Esports,1,FD,first_dragon Team Liquid,24.13%,Dafabet,win,1.655,0.66
-2023-10-23 08:01:39,WLDs,Team Liquid,GAM Esports,2,FD,first_dragon Team Liquid,24.13%,Dafabet,loss,1.655,-1.0
-2023-10-23 08:46:50,WLDs,GAM Esports,Team Liquid,3,FD,first_dragon Team Liquid,24.13%,Dafabet,loss,1.655,-1.0
-2023-10-23 07:12:04,WLDs,Team Liquid,GAM Esports,1,under,total_barons 1.5,12.14%,Dafabet,win,1.869,0.87
-2023-10-23 08:01:39,WLDs,Team Liquid,GAM Esports,2,under,total_barons 1.5,12.14%,Dafabet,win,1.869,0.87
-2023-10-23 08:46:50,WLDs,GAM Esports,Team Liquid,3,under,total_barons 1.5,12.14%,Dafabet,loss,1.869,-1.0
+2023-10-21 09:38:23,WLDs,G2 Esports,Gen.G,1,over,total_towers 12.5,5.00%,Bet365,win,2.1,1.1
+2023-10-21 10:28:40,WLDs,G2 Esports,Gen.G,2,over,total_towers 12.5,5.00%,Bet365,loss,2.1,-1.0
+2023-10-21 09:38:23,WLDs,G2 Esports,Gen.G,1,over,total_kills 25.5,14.38%,Bet365,loss,1.83,-1.0
+2023-10-21 10:28:40,WLDs,G2 Esports,Gen.G,2,over,total_kills 25.5,14.38%,Bet365,win,1.83,0.83
+2023-10-21 09:38:23,WLDs,G2 Esports,Gen.G,1,over,game_duration 29.5,9.80%,Bet365,win,1.83,0.83
+2023-10-21 10:28:40,WLDs,G2 Esports,Gen.G,2,over,game_duration 29.5,9.80%,Bet365,win,1.83,0.83
 2023-10-21 07:11:26,WLDs,JD Gaming,LNG Esports,1,under,total_dragons 4.5,24.78%,Bet365,win,1.61,0.61
 2023-10-21 07:58:13,WLDs,LNG Esports,JD Gaming,2,under,total_dragons 4.5,24.78%,Bet365,win,1.61,0.61
 2023-10-21 08:47:41,WLDs,JD Gaming,LNG Esports,3,under,total_dragons 4.5,24.78%,Bet365,win,1.61,0.61
@@ -335,20 +312,12 @@ date,league,t1,t2,game,bet_type,bet_line,ROI,House,status,odds,profit
 2023-10-21 07:11:26,WLDs,JD Gaming,LNG Esports,1,under,total_barons 1.5,26.00%,Bet365,win,1.8,0.8
 2023-10-21 07:58:13,WLDs,LNG Esports,JD Gaming,2,under,total_barons 1.5,26.00%,Bet365,win,1.8,0.8
 2023-10-21 08:47:41,WLDs,JD Gaming,LNG Esports,3,under,total_barons 1.5,26.00%,Bet365,win,1.8,0.8
-2023-10-21 09:38:23,WLDs,G2 Esports,Gen.G,1,over,total_towers 12.5,5.00%,Bet365,win,2.1,1.1
-2023-10-21 10:28:40,WLDs,G2 Esports,Gen.G,2,over,total_towers 12.5,5.00%,Bet365,loss,2.1,-1.0
-2023-10-21 09:38:23,WLDs,G2 Esports,Gen.G,1,over,total_kills 25.5,14.38%,Bet365,loss,1.83,-1.0
-2023-10-21 10:28:40,WLDs,G2 Esports,Gen.G,2,over,total_kills 25.5,14.38%,Bet365,win,1.83,0.83
-2023-10-21 09:38:23,WLDs,G2 Esports,Gen.G,1,over,game_duration 29.5,9.80%,Bet365,win,1.83,0.83
-2023-10-21 10:28:40,WLDs,G2 Esports,Gen.G,2,over,game_duration 29.5,9.80%,Bet365,win,1.83,0.83
-2023-10-22 07:11:08,WLDs,T1,Cloud9,1,over,total_dragons 3.5,22.50%,Bet365,loss,1.4,-1.0
-2023-10-22 07:11:08,WLDs,T1,Cloud9,1,over,total_kills 23.5,8.00%,Bet365,loss,1.8,-1.0
-2023-10-22 07:11:08,WLDs,T1,Cloud9,1,under,total_inhibitors 1.5,9.25%,Bet365,loss,1.9,-1.0
-2023-10-22 07:11:08,WLDs,T1,Cloud9,1,over,total_barons 1.5,37.50%,Bet365,loss,2.75,-1.0
-2023-10-22 07:58:04,WLDs,NRG,MAD Lions,1,under,total_towers 12.5,14.26%,Bet365,loss,2.1,-1.0
-2023-10-22 07:58:04,WLDs,NRG,MAD Lions,1,over,total_kills 24.5,23.26%,Bet365,win,1.83,0.83
-2023-10-22 07:58:04,WLDs,NRG,MAD Lions,1,under,game_duration 32.5,6.57%,Bet365,loss,1.83,-1.0
-2023-10-22 07:58:04,WLDs,NRG,MAD Lions,1,under,total_inhibitors 1.5,5.06%,Bet365,loss,1.9,-1.0
+2023-10-22 09:08:52,WLDs,Bilibili Gaming,Fnatic,1,over,total_kills 26.5,27.33%,Dafabet,loss,1.819,-1.0
+2023-10-22 09:08:52,WLDs,Bilibili Gaming,Fnatic,1,under,game_duration 31.0,23.38%,Dafabet,loss,1.974,-1.0
+2023-10-22 09:08:52,WLDs,Bilibili Gaming,Fnatic,1,under,total_barons 1.5,16.56%,Dafabet,win,1.865,0.86
+2023-10-22 10:06:38,WLDs,KT Rolster,Weibo Gaming,1,under,total_kills 25.5,6.55%,Dafabet,loss,1.853,-1.0
+2023-10-22 10:06:38,WLDs,KT Rolster,Weibo Gaming,1,under,game_duration 32.0,17.44%,Dafabet,loss,1.879,-1.0
+2023-10-22 10:06:38,WLDs,KT Rolster,Weibo Gaming,1,under,total_barons 1.5,7.47%,Dafabet,loss,1.869,-1.0
 2023-10-22 09:08:52,WLDs,Bilibili Gaming,Fnatic,1,over,total_dragons 3.5,5.00%,Bet365,win,1.4,0.4
 2023-10-22 09:08:52,WLDs,Bilibili Gaming,Fnatic,1,under,total_towers 11.5,10.00%,Bet365,loss,2.0,-1.0
 2023-10-22 09:08:52,WLDs,Bilibili Gaming,Fnatic,1,over,total_kills 25.5,32.68%,Bet365,loss,1.83,-1.0
@@ -356,9 +325,37 @@ date,league,t1,t2,game,bet_type,bet_line,ROI,House,status,odds,profit
 2023-10-22 09:08:52,WLDs,Bilibili Gaming,Fnatic,1,under,total_inhibitors 1.5,18.75%,Bet365,loss,1.9,-1.0
 2023-10-22 10:06:38,WLDs,KT Rolster,Weibo Gaming,1,under,game_duration 31.5,14.38%,Bet365,loss,1.83,-1.0
 2023-10-22 10:06:38,WLDs,KT Rolster,Weibo Gaming,1,under,total_barons 1.5,15.00%,Bet365,loss,2.0,-1.0
-2023-10-23 07:12:04,WLDs,Team Liquid,GAM Esports,1,under,total_kills 27.5,14.38%,Bet365,win,1.83,0.83
-2023-10-23 08:01:39,WLDs,Team Liquid,GAM Esports,2,under,total_kills 27.5,14.38%,Bet365,win,1.83,0.83
-2023-10-23 08:46:50,WLDs,GAM Esports,Team Liquid,3,under,total_kills 27.5,14.38%,Bet365,win,1.83,0.83
+2023-10-22 10:06:38,WLDs,KT Rolster,Weibo Gaming,1,over,total_towers 12.5,5.22%,Bet365,loss,1.83,-1.0
+2023-10-22 07:58:04,WLDs,NRG,MAD Lions,1,under,total_towers 12.5,14.26%,Bet365,loss,2.1,-1.0
+2023-10-22 07:58:04,WLDs,NRG,MAD Lions,1,over,total_kills 24.5,23.26%,Bet365,win,1.83,0.83
+2023-10-22 07:58:04,WLDs,NRG,MAD Lions,1,under,game_duration 32.5,6.57%,Bet365,loss,1.83,-1.0
+2023-10-22 07:58:04,WLDs,NRG,MAD Lions,1,under,total_inhibitors 1.5,5.06%,Bet365,loss,1.9,-1.0
+2023-10-22 07:58:04,WLDs,NRG,MAD Lions,1,under,total_dragons 4.5,24.41%,Bet365,loss,2.25,-1.0
+2023-10-22 07:11:08,WLDs,T1,Cloud9,1,over,total_dragons 3.5,22.50%,Bet365,loss,1.4,-1.0
+2023-10-22 07:11:08,WLDs,T1,Cloud9,1,over,total_kills 23.5,8.00%,Bet365,loss,1.8,-1.0
+2023-10-22 07:11:08,WLDs,T1,Cloud9,1,under,total_inhibitors 1.5,9.25%,Bet365,loss,1.9,-1.0
+2023-10-22 07:11:08,WLDs,T1,Cloud9,1,over,total_barons 1.5,37.50%,Bet365,loss,2.75,-1.0
+2023-10-22 07:11:08,WLDs,T1,Cloud9,1,over,total_dragons 4.5,42.50%,Bet365,loss,3.0,-1.0
+2023-10-22 07:11:08,WLDs,T1,Cloud9,1,over,game_duration 29.5,28.10%,Bet365,loss,1.83,-1.0
+2023-10-23 09:51:41,WLDs,Dplus KIA,Team BDS,1,under,total_kills 24.5,8.30%,Dafabet,win,1.969,0.97
+2023-10-23 10:36:07,WLDs,Team BDS,Dplus KIA,2,under,total_kills 24.5,8.30%,Dafabet,win,1.969,0.97
+2023-10-23 09:51:41,WLDs,Dplus KIA,Team BDS,1,FD,first_dragon Team BDS,31.82%,Dafabet,win,2.197,1.2
+2023-10-23 10:36:07,WLDs,Team BDS,Dplus KIA,2,FD,first_dragon Team BDS,31.82%,Dafabet,loss,2.197,-1.0
+2023-10-23 09:51:41,WLDs,Dplus KIA,Team BDS,1,over,game_duration 31.0,27.27%,Dafabet,loss,1.958,-1.0
+2023-10-23 10:36:07,WLDs,Team BDS,Dplus KIA,2,over,game_duration 31.0,27.27%,Dafabet,loss,1.958,-1.0
+2023-10-23 09:51:41,WLDs,Dplus KIA,Team BDS,1,over,total_barons 1.5,12.59%,Dafabet,loss,2.047,-1.0
+2023-10-23 10:36:07,WLDs,Team BDS,Dplus KIA,2,over,total_barons 1.5,12.59%,Dafabet,loss,2.047,-1.0
+2023-10-23 09:51:41,WLDs,Dplus KIA,Team BDS,1,under,total_kills 23.5,7.57%,Dafabet,loss,2.049,-1.0
+2023-10-23 10:36:07,WLDs,Team BDS,Dplus KIA,2,under,total_kills 23.5,7.57%,Dafabet,win,2.049,1.05
+2023-10-23 07:12:04,WLDs,Team Liquid,GAM Esports,1,under,total_kills 26.5,13.34%,Dafabet,win,1.889,0.89
+2023-10-23 08:01:39,WLDs,Team Liquid,GAM Esports,2,under,total_kills 26.5,13.34%,Dafabet,win,1.889,0.89
+2023-10-23 08:46:50,WLDs,GAM Esports,Team Liquid,3,under,total_kills 26.5,13.34%,Dafabet,win,1.889,0.89
+2023-10-23 07:12:04,WLDs,Team Liquid,GAM Esports,1,FD,first_dragon Team Liquid,24.13%,Dafabet,win,1.655,0.66
+2023-10-23 08:01:39,WLDs,Team Liquid,GAM Esports,2,FD,first_dragon Team Liquid,24.13%,Dafabet,loss,1.655,-1.0
+2023-10-23 08:46:50,WLDs,GAM Esports,Team Liquid,3,FD,first_dragon Team Liquid,24.13%,Dafabet,loss,1.655,-1.0
+2023-10-23 07:12:04,WLDs,Team Liquid,GAM Esports,1,under,total_barons 1.5,12.14%,Dafabet,win,1.869,0.87
+2023-10-23 08:01:39,WLDs,Team Liquid,GAM Esports,2,under,total_barons 1.5,12.14%,Dafabet,win,1.869,0.87
+2023-10-23 08:46:50,WLDs,GAM Esports,Team Liquid,3,under,total_barons 1.5,12.14%,Dafabet,loss,1.869,-1.0
 2023-10-23 09:51:41,WLDs,Dplus KIA,Team BDS,1,over,total_dragons 3.5,15.60%,Bet365,loss,1.36,-1.0
 2023-10-23 10:36:07,WLDs,Team BDS,Dplus KIA,2,over,total_dragons 3.5,15.60%,Bet365,loss,1.36,-1.0
 2023-10-23 09:51:41,WLDs,Dplus KIA,Team BDS,1,over,total_towers 11.5,11.80%,Bet365,win,1.72,0.72
@@ -367,19 +364,34 @@ date,league,t1,t2,game,bet_type,bet_line,ROI,House,status,odds,profit
 2023-10-23 10:36:07,WLDs,Team BDS,Dplus KIA,2,over,game_duration 30.5,18.95%,Bet365,loss,1.83,-1.0
 2023-10-23 09:51:41,WLDs,Dplus KIA,Team BDS,1,over,total_barons 1.5,51.25%,Bet365,loss,2.75,-1.0
 2023-10-23 10:36:07,WLDs,Team BDS,Dplus KIA,2,over,total_barons 1.5,51.25%,Bet365,loss,2.75,-1.0
-2023-10-22 07:11:08,WLDs,T1,Cloud9,1,over,total_dragons 4.5,42.50%,Bet365,loss,3.0,-1.0
-2023-10-22 07:11:08,WLDs,T1,Cloud9,1,over,game_duration 29.5,28.10%,Bet365,loss,1.83,-1.0
-2023-10-22 07:58:04,WLDs,NRG,MAD Lions,1,under,total_dragons 4.5,24.41%,Bet365,loss,2.25,-1.0
-2023-10-22 10:06:38,WLDs,KT Rolster,Weibo Gaming,1,over,total_towers 12.5,5.22%,Bet365,loss,1.83,-1.0
 2023-10-23 09:51:41,WLDs,Dplus KIA,Team BDS,1,over,total_dragons 4.5,50.00%,Bet365,loss,3.0,-1.0
 2023-10-23 10:36:07,WLDs,Team BDS,Dplus KIA,2,over,total_dragons 4.5,50.00%,Bet365,loss,3.0,-1.0
+2023-10-23 09:51:41,WLDs,Dplus KIA,Team BDS,1,over,game_duration 31.5,18.95%,Bet365,loss,1.83,-1.0
+2023-10-23 10:36:07,WLDs,Team BDS,Dplus KIA,2,over,game_duration 31.5,18.95%,Bet365,loss,1.83,-1.0
+2023-10-23 07:12:04,WLDs,Team Liquid,GAM Esports,1,under,total_kills 27.5,14.38%,Bet365,win,1.83,0.83
+2023-10-23 08:01:39,WLDs,Team Liquid,GAM Esports,2,under,total_kills 27.5,14.38%,Bet365,win,1.83,0.83
+2023-10-23 08:46:50,WLDs,GAM Esports,Team Liquid,3,under,total_kills 27.5,14.38%,Bet365,win,1.83,0.83
 2023-10-23 07:12:04,WLDs,Team Liquid,GAM Esports,1,under,game_duration 31.5,9.80%,Bet365,win,1.83,0.83
 2023-10-23 08:01:39,WLDs,Team Liquid,GAM Esports,2,under,game_duration 31.5,9.80%,Bet365,win,1.83,0.83
 2023-10-23 08:46:50,WLDs,GAM Esports,Team Liquid,3,under,game_duration 31.5,9.80%,Bet365,loss,1.83,-1.0
-2023-10-23 09:51:41,WLDs,Dplus KIA,Team BDS,1,over,game_duration 31.5,18.95%,Bet365,loss,1.83,-1.0
-2023-10-23 10:36:07,WLDs,Team BDS,Dplus KIA,2,over,game_duration 31.5,18.95%,Bet365,loss,1.83,-1.0
-2023-10-23 09:51:41,WLDs,Dplus KIA,Team BDS,1,under,total_kills 23.5,7.57%,Dafabet,loss,2.049,-1.0
-2023-10-23 10:36:07,WLDs,Team BDS,Dplus KIA,2,under,total_kills 23.5,7.57%,Dafabet,win,2.049,1.05
+2023-10-24 16:04:21,IC,Finetwork KOI,BWE Esports,1,FD,first_dragon Finetwork KOI,10.39%,Dafabet,loss,1.577,-1.0
+2023-10-24 16:59:07,IC,Finetwork KOI,BWE Esports,2,FD,first_dragon Finetwork KOI,10.39%,Dafabet,loss,1.577,-1.0
+2023-10-24 16:04:21,IC,Finetwork KOI,BWE Esports,1,under,total_kills 30.5,32.09%,Dafabet,win,1.851,0.85
+2023-10-24 16:59:07,IC,Finetwork KOI,BWE Esports,2,under,total_kills 30.5,32.09%,Dafabet,win,1.851,0.85
+2023-10-24 17:50:21,IC,Ramboot Club,UCAM Tokiers,1,under,game_duration 31.0,20.83%,Dafabet,loss,1.79,-1.0
+2023-10-24 18:46:29,IC,UCAM Tokiers,Ramboot Club,2,under,game_duration 31.0,20.83%,Dafabet,win,1.79,0.79
+2023-10-25 16:05:40,IC,Los Heretics,Wizards,1,over,game_duration 29.0,63.49%,Dafabet,win,2.102,1.1
+2023-10-25 16:58:26,IC,Los Heretics,Wizards,2,over,game_duration 29.0,63.49%,Dafabet,loss,2.102,-1.0
+2023-10-25 17:52:06,IC,White Dragons,Rebels Gaming,1,FD,first_dragon White Dragons,38.51%,Dafabet,loss,2.131,-1.0
+2023-10-25 18:40:11,IC,Rebels Gaming,White Dragons,2,FD,first_dragon White Dragons,38.51%,Dafabet,loss,2.131,-1.0
+2023-10-25 17:52:06,IC,White Dragons,Rebels Gaming,1,under,total_kills 30.5,31.11%,Dafabet,win,1.851,0.85
+2023-10-25 18:40:11,IC,Rebels Gaming,White Dragons,2,under,total_kills 30.5,31.11%,Dafabet,win,1.851,0.85
+2023-10-26 09:58:42,WLDs,MAD Lions,Weibo Gaming,1,over,total_kills 23.5,17.29%,Dafabet,win,1.852,0.85
+2023-10-26 10:55:24,WLDs,MAD Lions,Weibo Gaming,2,over,total_kills 23.5,17.29%,Dafabet,win,1.852,0.85
+2023-10-26 09:58:42,WLDs,MAD Lions,Weibo Gaming,1,over,total_kills 24.5,21.09%,Dafabet,win,1.912,0.91
+2023-10-26 10:55:24,WLDs,MAD Lions,Weibo Gaming,2,over,total_kills 24.5,21.09%,Dafabet,loss,1.912,-1.0
+2023-10-26 09:58:42,WLDs,MAD Lions,Weibo Gaming,1,over,game_duration 29.0,12.86%,Dafabet,win,1.782,0.78
+2023-10-26 10:55:24,WLDs,MAD Lions,Weibo Gaming,2,over,game_duration 29.0,12.86%,Dafabet,loss,1.782,-1.0
 2023-10-26 07:10:58,WLDs,Cloud9,Fnatic,1,under,total_dragons 4.5,14.38%,Bet365,loss,1.83,-1.0
 2023-10-26 08:12:12,WLDs,Fnatic,Cloud9,2,under,total_dragons 4.5,14.38%,Bet365,win,1.83,0.83
 2023-10-26 08:59:34,WLDs,Cloud9,Fnatic,3,under,total_dragons 4.5,14.38%,Bet365,loss,1.83,-1.0
@@ -403,37 +415,6 @@ date,league,t1,t2,game,bet_type,bet_line,ROI,House,status,odds,profit
 2023-10-26 10:55:24,WLDs,MAD Lions,Weibo Gaming,2,under,total_inhibitors 1.5,10.83%,Bet365,loss,1.9,-1.0
 2023-10-26 09:58:42,WLDs,MAD Lions,Weibo Gaming,1,over,total_barons 1.5,22.99%,Bet365,loss,2.75,-1.0
 2023-10-26 10:55:24,WLDs,MAD Lions,Weibo Gaming,2,over,total_barons 1.5,22.99%,Bet365,win,2.75,1.75
-2023-10-27 07:12:51,WLDs,Dplus KIA,GAM Esports,1,over,total_dragons 3.5,35.00%,Bet365,win,1.8,0.8
-2023-10-27 08:00:54,WLDs,GAM Esports,Dplus KIA,2,over,total_dragons 3.5,35.00%,Bet365,win,1.8,0.8
-2023-10-27 07:12:51,WLDs,Dplus KIA,GAM Esports,1,over,total_towers 11.5,26.00%,Bet365,loss,2.1,-1.0
-2023-10-27 08:00:54,WLDs,GAM Esports,Dplus KIA,2,over,total_towers 11.5,26.00%,Bet365,loss,2.1,-1.0
-2023-10-27 07:12:51,WLDs,Dplus KIA,GAM Esports,1,over,total_kills 22.5,28.10%,Bet365,loss,1.83,-1.0
-2023-10-27 08:00:54,WLDs,GAM Esports,Dplus KIA,2,over,total_kills 22.5,28.10%,Bet365,win,1.83,0.83
-2023-10-27 07:12:51,WLDs,Dplus KIA,GAM Esports,1,over,game_duration 27.5,28.10%,Bet365,loss,1.83,-1.0
-2023-10-27 08:00:54,WLDs,GAM Esports,Dplus KIA,2,over,game_duration 27.5,28.10%,Bet365,loss,1.83,-1.0
-2023-10-27 07:12:51,WLDs,Dplus KIA,GAM Esports,1,over,total_barons 1.5,68.75%,Bet365,loss,3.75,-1.0
-2023-10-27 08:00:54,WLDs,GAM Esports,Dplus KIA,2,over,total_barons 1.5,68.75%,Bet365,loss,3.75,-1.0
-2023-10-27 08:51:38,WLDs,KT Rolster,LNG Esports,1,under,total_kills 24.5,23.53%,Bet365,win,1.83,0.83
-2023-10-27 09:46:51,WLDs,KT Rolster,LNG Esports,2,under,total_kills 24.5,23.53%,Bet365,win,1.83,0.83
-2023-10-27 10:40:01,WLDs,LNG Esports,KT Rolster,3,under,total_kills 24.5,23.53%,Bet365,win,1.83,0.83
-2023-10-27 08:51:38,WLDs,KT Rolster,LNG Esports,1,under,game_duration 31.5,18.95%,Bet365,loss,1.83,-1.0
-2023-10-27 09:46:51,WLDs,KT Rolster,LNG Esports,2,under,game_duration 31.5,18.95%,Bet365,loss,1.83,-1.0
-2023-10-27 10:40:01,WLDs,LNG Esports,KT Rolster,3,under,game_duration 31.5,18.95%,Bet365,win,1.83,0.83
-2023-10-27 08:51:38,WLDs,KT Rolster,LNG Esports,1,under,total_inhibitors 1.5,18.75%,Bet365,loss,1.9,-1.0
-2023-10-27 09:46:51,WLDs,KT Rolster,LNG Esports,2,under,total_inhibitors 1.5,18.75%,Bet365,loss,1.9,-1.0
-2023-10-27 10:40:01,WLDs,LNG Esports,KT Rolster,3,under,total_inhibitors 1.5,18.75%,Bet365,win,1.9,0.9
-2023-10-28 07:11:53,WLDs,NRG,G2 Esports,1,over,total_dragons 4.5,12.50%,Bet365,loss,2.25,-1.0
-2023-10-28 08:04:52,WLDs,G2 Esports,NRG,2,over,total_dragons 4.5,12.50%,Bet365,loss,2.25,-1.0
-2023-10-28 07:11:53,WLDs,NRG,G2 Esports,1,over,total_towers 12.5,23.75%,Bet365,loss,2.25,-1.0
-2023-10-28 08:04:52,WLDs,G2 Esports,NRG,2,over,total_towers 12.5,23.75%,Bet365,loss,2.25,-1.0
-2023-10-28 07:11:53,WLDs,NRG,G2 Esports,1,over,total_kills 25.5,18.95%,Bet365,win,1.83,0.83
-2023-10-28 08:04:52,WLDs,G2 Esports,NRG,2,over,total_kills 25.5,18.95%,Bet365,win,1.83,0.83
-2023-10-28 07:11:53,WLDs,NRG,G2 Esports,1,over,game_duration 29.5,18.95%,Bet365,win,1.83,0.83
-2023-10-28 08:04:52,WLDs,G2 Esports,NRG,2,over,game_duration 29.5,18.95%,Bet365,loss,1.83,-1.0
-2023-10-28 07:11:53,WLDs,NRG,G2 Esports,1,over,total_barons 1.5,36.27%,Bet365,loss,2.37,-1.0
-2023-10-28 08:04:52,WLDs,G2 Esports,NRG,2,over,total_barons 1.5,36.27%,Bet365,loss,2.37,-1.0
-2023-10-26 09:58:42,WLDs,MAD Lions,Weibo Gaming,1,over,total_kills 23.5,17.29%,Dafabet,win,1.852,0.85
-2023-10-26 10:55:24,WLDs,MAD Lions,Weibo Gaming,2,over,total_kills 23.5,17.29%,Dafabet,win,1.852,0.85
 2023-10-27 07:12:51,WLDs,Dplus KIA,GAM Esports,1,over,game_duration 28.0,30.48%,Dafabet,loss,1.933,-1.0
 2023-10-27 08:00:54,WLDs,GAM Esports,Dplus KIA,2,over,game_duration 28.0,30.48%,Dafabet,loss,1.933,-1.0
 2023-10-27 07:12:51,WLDs,Dplus KIA,GAM Esports,1,over,total_barons 1.5,19.38%,Dafabet,loss,2.653,-1.0
@@ -447,49 +428,72 @@ date,league,t1,t2,game,bet_type,bet_line,ROI,House,status,odds,profit
 2023-10-27 08:51:38,WLDs,KT Rolster,LNG Esports,1,under,total_barons 1.5,6.60%,Dafabet,loss,1.854,-1.0
 2023-10-27 09:46:51,WLDs,KT Rolster,LNG Esports,2,under,total_barons 1.5,6.60%,Dafabet,loss,1.854,-1.0
 2023-10-27 10:40:01,WLDs,LNG Esports,KT Rolster,3,under,total_barons 1.5,6.60%,Dafabet,win,1.854,0.85
+2023-10-27 07:12:51,WLDs,Dplus KIA,GAM Esports,1,over,total_dragons 3.5,35.00%,Bet365,win,1.8,0.8
+2023-10-27 08:00:54,WLDs,GAM Esports,Dplus KIA,2,over,total_dragons 3.5,35.00%,Bet365,win,1.8,0.8
+2023-10-27 07:12:51,WLDs,Dplus KIA,GAM Esports,1,over,total_towers 11.5,26.00%,Bet365,loss,2.1,-1.0
+2023-10-27 08:00:54,WLDs,GAM Esports,Dplus KIA,2,over,total_towers 11.5,26.00%,Bet365,loss,2.1,-1.0
+2023-10-27 07:12:51,WLDs,Dplus KIA,GAM Esports,1,over,total_kills 22.5,28.10%,Bet365,loss,1.83,-1.0
+2023-10-27 08:00:54,WLDs,GAM Esports,Dplus KIA,2,over,total_kills 22.5,28.10%,Bet365,win,1.83,0.83
+2023-10-27 07:12:51,WLDs,Dplus KIA,GAM Esports,1,over,game_duration 27.5,28.10%,Bet365,loss,1.83,-1.0
+2023-10-27 08:00:54,WLDs,GAM Esports,Dplus KIA,2,over,game_duration 27.5,28.10%,Bet365,loss,1.83,-1.0
+2023-10-27 07:12:51,WLDs,Dplus KIA,GAM Esports,1,over,total_barons 1.5,68.75%,Bet365,loss,3.75,-1.0
+2023-10-27 08:00:54,WLDs,GAM Esports,Dplus KIA,2,over,total_barons 1.5,68.75%,Bet365,loss,3.75,-1.0
+2023-10-27 07:12:51,WLDs,Dplus KIA,GAM Esports,1,over,total_kills 23.5,5.22%,Bet365,loss,1.83,-1.0
+2023-10-27 08:00:54,WLDs,GAM Esports,Dplus KIA,2,over,total_kills 23.5,5.22%,Bet365,win,1.83,0.83
+2023-10-27 07:12:51,WLDs,Dplus KIA,GAM Esports,1,under,total_inhibitors 1.5,6.65%,Bet365,loss,2.37,-1.0
+2023-10-27 08:00:54,WLDs,GAM Esports,Dplus KIA,2,under,total_inhibitors 1.5,6.65%,Bet365,win,2.37,1.37
+2023-10-27 08:51:38,WLDs,KT Rolster,LNG Esports,1,under,total_kills 24.5,23.53%,Bet365,win,1.83,0.83
+2023-10-27 09:46:51,WLDs,KT Rolster,LNG Esports,2,under,total_kills 24.5,23.53%,Bet365,win,1.83,0.83
+2023-10-27 10:40:01,WLDs,LNG Esports,KT Rolster,3,under,total_kills 24.5,23.53%,Bet365,win,1.83,0.83
+2023-10-27 08:51:38,WLDs,KT Rolster,LNG Esports,1,under,game_duration 31.5,18.95%,Bet365,loss,1.83,-1.0
+2023-10-27 09:46:51,WLDs,KT Rolster,LNG Esports,2,under,game_duration 31.5,18.95%,Bet365,loss,1.83,-1.0
+2023-10-27 10:40:01,WLDs,LNG Esports,KT Rolster,3,under,game_duration 31.5,18.95%,Bet365,win,1.83,0.83
+2023-10-27 08:51:38,WLDs,KT Rolster,LNG Esports,1,under,total_inhibitors 1.5,18.75%,Bet365,loss,1.9,-1.0
+2023-10-27 09:46:51,WLDs,KT Rolster,LNG Esports,2,under,total_inhibitors 1.5,18.75%,Bet365,loss,1.9,-1.0
+2023-10-27 10:40:01,WLDs,LNG Esports,KT Rolster,3,under,total_inhibitors 1.5,18.75%,Bet365,win,1.9,0.9
+2023-10-27 08:51:38,WLDs,KT Rolster,LNG Esports,1,over,game_duration 29.5,14.38%,Bet365,win,1.83,0.83
+2023-10-27 09:46:51,WLDs,KT Rolster,LNG Esports,2,over,game_duration 29.5,14.38%,Bet365,win,1.83,0.83
+2023-10-27 10:40:01,WLDs,LNG Esports,KT Rolster,3,over,game_duration 29.5,14.38%,Bet365,loss,1.83,-1.0
 2023-10-28 08:57:01,WLDs,T1,Bilibili Gaming,1,over,total_kills 25.5,13.56%,Dafabet,loss,1.817,-1.0
 2023-10-28 09:44:55,WLDs,Bilibili Gaming,T1,2,over,total_kills 25.5,13.56%,Dafabet,loss,1.817,-1.0
 2023-10-28 08:57:01,WLDs,T1,Bilibili Gaming,1,under,total_barons 1.5,15.62%,Dafabet,win,1.85,0.85
 2023-10-28 09:44:55,WLDs,Bilibili Gaming,T1,2,under,total_barons 1.5,15.62%,Dafabet,win,1.85,0.85
-2023-10-24 16:04:21,IC,Finetwork KOI,BWE Esports,1,under,total_kills 30.5,32.09%,Dafabet,win,1.851,0.85
-2023-10-24 16:59:07,IC,Finetwork KOI,BWE Esports,2,under,total_kills 30.5,32.09%,Dafabet,win,1.851,0.85
-2023-10-24 17:50:21,IC,Ramboot Club,UCAM Tokiers,1,under,game_duration 31.0,20.83%,Dafabet,loss,1.79,-1.0
-2023-10-24 18:46:29,IC,UCAM Tokiers,Ramboot Club,2,under,game_duration 31.0,20.83%,Dafabet,win,1.79,0.79
-2023-10-25 16:05:40,IC,Los Heretics,Wizards,1,over,game_duration 29.0,63.49%,Dafabet,win,2.102,1.1
-2023-10-25 16:58:26,IC,Los Heretics,Wizards,2,over,game_duration 29.0,63.49%,Dafabet,loss,2.102,-1.0
-2023-10-25 17:52:06,IC,White Dragons,Rebels Gaming,1,under,total_kills 30.5,31.11%,Dafabet,win,1.851,0.85
-2023-10-25 18:40:11,IC,Rebels Gaming,White Dragons,2,under,total_kills 30.5,31.11%,Dafabet,win,1.851,0.85
-2023-10-27 07:12:51,WLDs,Dplus KIA,GAM Esports,1,over,total_kills 23.5,5.22%,Bet365,loss,1.83,-1.0
-2023-10-27 08:00:54,WLDs,GAM Esports,Dplus KIA,2,over,total_kills 23.5,5.22%,Bet365,win,1.83,0.83
-2023-10-27 08:51:38,WLDs,KT Rolster,LNG Esports,1,over,game_duration 29.5,14.38%,Bet365,win,1.83,0.83
-2023-10-27 09:46:51,WLDs,KT Rolster,LNG Esports,2,over,game_duration 29.5,14.38%,Bet365,win,1.83,0.83
-2023-10-27 10:40:01,WLDs,LNG Esports,KT Rolster,3,over,game_duration 29.5,14.38%,Bet365,loss,1.83,-1.0
+2023-10-28 08:57:01,WLDs,T1,Bilibili Gaming,1,under,game_duration 31.0,5.38%,Dafabet,win,1.916,0.92
+2023-10-28 09:44:55,WLDs,Bilibili Gaming,T1,2,under,game_duration 31.0,5.38%,Dafabet,loss,1.916,-1.0
+2023-10-28 08:57:01,WLDs,T1,Bilibili Gaming,1,FD,first_dragon T1,10.94%,Dafabet,win,1.849,0.85
+2023-10-28 09:44:55,WLDs,Bilibili Gaming,T1,2,FD,first_dragon T1,10.94%,Dafabet,loss,1.849,-1.0
+2023-10-28 05:12:34,LAS,Hanwha Life Esports Academy,OKSavingsBank BRION Academy,1,FD,first_dragon OKSavingsBank BRION Academy,24.25%,Dafabet,loss,1.988,-1.0
+2023-10-28 06:05:34,LAS,OKSavingsBank BRION Academy,Hanwha Life Esports Academy,2,FD,first_dragon OKSavingsBank BRION Academy,24.25%,Dafabet,win,1.988,0.99
+2023-10-28 07:11:53,WLDs,NRG,G2 Esports,1,over,total_dragons 4.5,12.50%,Bet365,loss,2.25,-1.0
+2023-10-28 08:04:52,WLDs,G2 Esports,NRG,2,over,total_dragons 4.5,12.50%,Bet365,loss,2.25,-1.0
+2023-10-28 07:11:53,WLDs,NRG,G2 Esports,1,over,total_towers 12.5,23.75%,Bet365,loss,2.25,-1.0
+2023-10-28 08:04:52,WLDs,G2 Esports,NRG,2,over,total_towers 12.5,23.75%,Bet365,loss,2.25,-1.0
+2023-10-28 07:11:53,WLDs,NRG,G2 Esports,1,over,total_kills 25.5,18.95%,Bet365,win,1.83,0.83
+2023-10-28 08:04:52,WLDs,G2 Esports,NRG,2,over,total_kills 25.5,18.95%,Bet365,win,1.83,0.83
+2023-10-28 07:11:53,WLDs,NRG,G2 Esports,1,over,game_duration 29.5,18.95%,Bet365,win,1.83,0.83
+2023-10-28 08:04:52,WLDs,G2 Esports,NRG,2,over,game_duration 29.5,18.95%,Bet365,loss,1.83,-1.0
+2023-10-28 07:11:53,WLDs,NRG,G2 Esports,1,over,total_barons 1.5,36.27%,Bet365,loss,2.37,-1.0
+2023-10-28 08:04:52,WLDs,G2 Esports,NRG,2,over,total_barons 1.5,36.27%,Bet365,loss,2.37,-1.0
 2023-10-28 07:11:53,WLDs,NRG,G2 Esports,1,over,total_kills 24.5,37.25%,Bet365,win,1.83,0.83
 2023-10-28 08:04:52,WLDs,G2 Esports,NRG,2,over,total_kills 24.5,37.25%,Bet365,win,1.83,0.83
 2023-10-28 07:11:53,WLDs,NRG,G2 Esports,1,over,game_duration 30.5,9.80%,Bet365,win,1.83,0.83
 2023-10-28 08:04:52,WLDs,G2 Esports,NRG,2,over,game_duration 30.5,9.80%,Bet365,loss,1.83,-1.0
-2023-10-28 08:57:01,WLDs,T1,Bilibili Gaming,1,under,total_inhibitors 1.5,23.50%,Bet365,loss,1.9,-1.0
-2023-10-28 09:44:55,WLDs,Bilibili Gaming,T1,2,under,total_inhibitors 1.5,23.50%,Bet365,win,1.9,0.9
-2023-10-26 09:58:42,WLDs,MAD Lions,Weibo Gaming,1,over,total_kills 24.5,21.09%,Dafabet,win,1.912,0.91
-2023-10-26 10:55:24,WLDs,MAD Lions,Weibo Gaming,2,over,total_kills 24.5,21.09%,Dafabet,loss,1.912,-1.0
-2023-10-26 09:58:42,WLDs,MAD Lions,Weibo Gaming,1,over,game_duration 29.0,12.86%,Dafabet,win,1.782,0.78
-2023-10-26 10:55:24,WLDs,MAD Lions,Weibo Gaming,2,over,game_duration 29.0,12.86%,Dafabet,loss,1.782,-1.0
-2023-10-28 08:57:01,WLDs,T1,Bilibili Gaming,1,under,game_duration 31.0,5.38%,Dafabet,win,1.916,0.92
-2023-10-28 09:44:55,WLDs,Bilibili Gaming,T1,2,under,game_duration 31.0,5.38%,Dafabet,loss,1.916,-1.0
-2023-11-01 17:04:23,IC,UCAM Tokiers,Finetwork KOI,1,FD,first_dragon Finetwork KOI,5.28%,Dafabet,loss,1.627,-1.0
-2023-11-01 17:54:18,IC,Finetwork KOI,UCAM Tokiers,2,FD,first_dragon Finetwork KOI,5.28%,Dafabet,loss,1.627,-1.0
-2023-10-27 07:12:51,WLDs,Dplus KIA,GAM Esports,1,under,total_inhibitors 1.5,6.65%,Bet365,loss,2.37,-1.0
-2023-10-27 08:00:54,WLDs,GAM Esports,Dplus KIA,2,under,total_inhibitors 1.5,6.65%,Bet365,win,2.37,1.37
 2023-10-28 07:11:53,WLDs,NRG,G2 Esports,1,over,total_towers 11.5,12.70%,Bet365,loss,1.61,-1.0
 2023-10-28 08:04:52,WLDs,G2 Esports,NRG,2,over,total_towers 11.5,12.70%,Bet365,loss,1.61,-1.0
 2023-10-28 07:11:53,WLDs,NRG,G2 Esports,1,over,total_kills 26.5,5.22%,Bet365,loss,1.83,-1.0
 2023-10-28 08:04:52,WLDs,G2 Esports,NRG,2,over,total_kills 26.5,5.22%,Bet365,win,1.83,0.83
+2023-10-28 08:57:01,WLDs,T1,Bilibili Gaming,1,under,total_inhibitors 1.5,23.50%,Bet365,loss,1.9,-1.0
+2023-10-28 09:44:55,WLDs,Bilibili Gaming,T1,2,under,total_inhibitors 1.5,23.50%,Bet365,win,1.9,0.9
 2023-10-28 08:57:01,WLDs,T1,Bilibili Gaming,1,under,total_dragons 4.5,7.50%,Bet365,win,1.72,0.72
 2023-10-28 09:44:55,WLDs,Bilibili Gaming,T1,2,under,total_dragons 4.5,7.50%,Bet365,loss,1.72,-1.0
 2023-10-28 08:57:01,WLDs,T1,Bilibili Gaming,1,under,total_towers 12.5,11.80%,Bet365,win,1.72,0.72
 2023-10-28 09:44:55,WLDs,Bilibili Gaming,T1,2,under,total_towers 12.5,11.80%,Bet365,win,1.72,0.72
 2023-10-28 08:57:01,WLDs,T1,Bilibili Gaming,1,over,total_kills 24.5,18.95%,Bet365,loss,1.83,-1.0
 2023-10-28 09:44:55,WLDs,Bilibili Gaming,T1,2,over,total_kills 24.5,18.95%,Bet365,loss,1.83,-1.0
+2023-10-31 18:44:30,IC,Los Heretics,Case Esports,1,FD,first_dragon Case Esports,102.40%,Dafabet,loss,2.024,-1.0
+2023-10-31 19:39:53,IC,Case Esports,Los Heretics,2,FD,first_dragon Case Esports,102.40%,Dafabet,loss,2.024,-1.0
+2023-10-31 17:04:25,IC,Movistar Riders,Kawaii Kiwis,1,FD,first_dragon Kawaii Kiwis,66.75%,Dafabet,loss,2.263,-1.0
+2023-10-31 17:50:52,IC,Movistar Riders,Kawaii Kiwis,2,FD,first_dragon Kawaii Kiwis,66.75%,Dafabet,win,2.263,1.26
 2023-10-31 18:44:30,IC,Los Heretics,Case Esports,1,over,total_dragons 4.5,14.27%,Bet365,win,2.37,1.37
 2023-10-31 19:39:53,IC,Case Esports,Los Heretics,2,over,total_dragons 4.5,14.27%,Bet365,loss,2.37,-1.0
 2023-10-31 18:44:30,IC,Los Heretics,Case Esports,1,over,game_duration 29.5,18.73%,Bet365,win,1.83,0.83
@@ -498,6 +502,17 @@ date,league,t1,t2,game,bet_type,bet_line,ROI,House,status,odds,profit
 2023-10-31 19:39:53,IC,Case Esports,Los Heretics,2,under,total_inhibitors 1.5,12.50%,Bet365,loss,2.25,-1.0
 2023-10-31 18:44:30,IC,Los Heretics,Case Esports,1,over,total_barons 1.5,17.09%,Bet365,win,2.37,1.37
 2023-10-31 19:39:53,IC,Case Esports,Los Heretics,2,over,total_barons 1.5,17.09%,Bet365,loss,2.37,-1.0
+2023-11-01 17:04:23,IC,UCAM Tokiers,Finetwork KOI,1,FD,first_dragon Finetwork KOI,5.28%,Dafabet,loss,1.627,-1.0
+2023-11-01 17:54:18,IC,Finetwork KOI,UCAM Tokiers,2,FD,first_dragon Finetwork KOI,5.28%,Dafabet,loss,1.627,-1.0
+2023-11-01 17:04:23,IC,UCAM Tokiers,Finetwork KOI,1,over,game_duration 31.0,17.17%,Dafabet,loss,1.897,-1.0
+2023-11-01 17:54:18,IC,Finetwork KOI,UCAM Tokiers,2,over,game_duration 31.0,17.17%,Dafabet,win,1.897,0.9
+2023-11-01 17:04:23,IC,UCAM Tokiers,Finetwork KOI,1,over,total_barons 1.5,36.19%,Dafabet,win,2.437,1.44
+2023-11-01 17:54:18,IC,Finetwork KOI,UCAM Tokiers,2,over,total_barons 1.5,36.19%,Dafabet,win,2.437,1.44
+2023-11-01 17:04:23,IC,UCAM Tokiers,Finetwork KOI,1,FD,first_dragon UCAM Tokiers,7.40%,Dafabet,win,2.148,1.15
+2023-11-01 17:54:18,IC,Finetwork KOI,UCAM Tokiers,2,FD,first_dragon UCAM Tokiers,7.40%,Dafabet,win,2.148,1.15
+2023-11-01 18:50:08,IC,Giants,Rebels Gaming,1,FD,first_dragon Rebels Gaming,25.82%,Dafabet,win,1.73,0.73
+2023-11-01 19:41:35,IC,Giants,Rebels Gaming,2,FD,first_dragon Rebels Gaming,25.82%,Dafabet,win,1.73,0.73
+2023-11-01 20:30:15,IC,Rebels Gaming,Giants,3,FD,first_dragon Rebels Gaming,25.82%,Dafabet,loss,1.73,-1.0
 2023-11-01 18:50:08,IC,Giants,Rebels Gaming,1,under,total_towers 12.5,5.40%,Bet365,win,1.57,0.57
 2023-11-01 19:41:35,IC,Giants,Rebels Gaming,2,under,total_towers 12.5,5.40%,Bet365,win,1.57,0.57
 2023-11-01 20:30:15,IC,Rebels Gaming,Giants,3,under,total_towers 12.5,5.40%,Bet365,win,1.57,0.57
@@ -516,15 +531,6 @@ date,league,t1,t2,game,bet_type,bet_line,ROI,House,status,odds,profit
 2023-11-01 18:50:08,IC,Giants,Rebels Gaming,1,under,total_kills 29.5,35.65%,Bet365,loss,1.83,-1.0
 2023-11-01 19:41:35,IC,Giants,Rebels Gaming,2,under,total_kills 29.5,35.65%,Bet365,loss,1.83,-1.0
 2023-11-01 20:30:15,IC,Rebels Gaming,Giants,3,under,total_kills 29.5,35.65%,Bet365,loss,1.83,-1.0
-2023-10-28 08:57:01,WLDs,T1,Bilibili Gaming,1,FD,first_dragon T1,10.94%,Dafabet,win,1.849,0.85
-2023-10-28 09:44:55,WLDs,Bilibili Gaming,T1,2,FD,first_dragon T1,10.94%,Dafabet,loss,1.849,-1.0
-2023-10-31 18:44:30,IC,Los Heretics,Case Esports,1,FD,first_dragon Case Esports,102.40%,Dafabet,loss,2.024,-1.0
-2023-10-31 19:39:53,IC,Case Esports,Los Heretics,2,FD,first_dragon Case Esports,102.40%,Dafabet,loss,2.024,-1.0
-2023-11-01 18:50:08,IC,Giants,Rebels Gaming,1,FD,first_dragon Rebels Gaming,25.82%,Dafabet,win,1.73,0.73
-2023-11-01 19:41:35,IC,Giants,Rebels Gaming,2,FD,first_dragon Rebels Gaming,25.82%,Dafabet,win,1.73,0.73
-2023-11-01 20:30:15,IC,Rebels Gaming,Giants,3,FD,first_dragon Rebels Gaming,25.82%,Dafabet,loss,1.73,-1.0
-2023-10-28 05:12:34,LAS,Hanwha Life Esports Academy,OKSavingsBank BRION Academy,1,FD,first_dragon OKSavingsBank BRION Academy,24.25%,Dafabet,loss,1.988,-1.0
-2023-10-28 06:05:34,LAS,OKSavingsBank BRION Academy,Hanwha Life Esports Academy,2,FD,first_dragon OKSavingsBank BRION Academy,24.25%,Dafabet,win,1.988,0.99
 2023-11-02 08:13:28,WLDs,NRG,Weibo Gaming,1,over,total_dragons 4.5,25.00%,Bet365,win,2.5,1.5
 2023-11-02 09:12:07,WLDs,NRG,Weibo Gaming,2,over,total_dragons 4.5,25.00%,Bet365,win,2.5,1.5
 2023-11-02 10:05:45,WLDs,NRG,Weibo Gaming,3,over,total_dragons 4.5,25.00%,Bet365,loss,2.5,-1.0
@@ -537,30 +543,6 @@ date,league,t1,t2,game,bet_type,bet_line,ROI,House,status,odds,profit
 2023-11-02 08:13:28,WLDs,NRG,Weibo Gaming,1,over,total_barons 1.5,35.00%,Bet365,win,2.25,1.25
 2023-11-02 09:12:07,WLDs,NRG,Weibo Gaming,2,over,total_barons 1.5,35.00%,Bet365,win,2.25,1.25
 2023-11-02 10:05:45,WLDs,NRG,Weibo Gaming,3,over,total_barons 1.5,35.00%,Bet365,loss,2.25,-1.0
-2023-11-04 08:13:16,WLDs,JD Gaming,KT Rolster,1,under,total_kills 24.5,32.02%,Dafabet,win,1.886,0.89
-2023-11-04 09:02:07,WLDs,JD Gaming,KT Rolster,2,under,total_kills 24.5,32.02%,Dafabet,win,1.886,0.89
-2023-11-04 09:47:52,WLDs,KT Rolster,JD Gaming,3,under,total_kills 24.5,32.02%,Dafabet,win,1.886,0.89
-2023-11-04 10:34:13,WLDs,KT Rolster,JD Gaming,4,under,total_kills 24.5,32.02%,Dafabet,loss,1.886,-1.0
-2023-11-04 08:13:16,WLDs,JD Gaming,KT Rolster,1,under,game_duration 31.0,7.82%,Dafabet,win,1.797,0.8
-2023-11-04 09:02:07,WLDs,JD Gaming,KT Rolster,2,under,game_duration 31.0,7.82%,Dafabet,win,1.797,0.8
-2023-11-04 09:47:52,WLDs,KT Rolster,JD Gaming,3,under,game_duration 31.0,7.82%,Dafabet,win,1.797,0.8
-2023-11-04 10:34:13,WLDs,KT Rolster,JD Gaming,4,under,game_duration 31.0,7.82%,Dafabet,loss,1.797,-1.0
-2023-11-04 08:13:16,WLDs,JD Gaming,KT Rolster,1,under,total_barons 1.5,16.81%,Dafabet,win,1.869,0.87
-2023-11-04 09:02:07,WLDs,JD Gaming,KT Rolster,2,under,total_barons 1.5,16.81%,Dafabet,win,1.869,0.87
-2023-11-04 09:47:52,WLDs,KT Rolster,JD Gaming,3,under,total_barons 1.5,16.81%,Dafabet,win,1.869,0.87
-2023-11-04 10:34:13,WLDs,KT Rolster,JD Gaming,4,under,total_barons 1.5,16.81%,Dafabet,loss,1.869,-1.0
-2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,under,total_kills 24.5,27.61%,Dafabet,win,1.823,0.82
-2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,under,total_kills 24.5,27.61%,Dafabet,win,1.823,0.82
-2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,under,total_kills 24.5,27.61%,Dafabet,win,1.823,0.82
-2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,FD,first_dragon T1,6.38%,Dafabet,win,1.773,0.77
-2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,FD,first_dragon T1,6.38%,Dafabet,win,1.773,0.77
-2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,FD,first_dragon T1,6.38%,Dafabet,win,1.773,0.77
-2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,under,game_duration 31.0,25.52%,Dafabet,win,1.931,0.93
-2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,under,game_duration 31.0,25.52%,Dafabet,loss,1.931,-1.0
-2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,under,game_duration 31.0,25.52%,Dafabet,win,1.931,0.93
-2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,under,total_barons 1.5,21.48%,Dafabet,win,1.869,0.87
-2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,under,total_barons 1.5,21.48%,Dafabet,win,1.869,0.87
-2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,under,total_barons 1.5,21.48%,Dafabet,win,1.869,0.87
 2023-11-03 08:12:32,WLDs,Gen.G,Bilibili Gaming,1,under,total_dragons 4.5,12.70%,Bet365,loss,1.61,-1.0
 2023-11-03 09:05:56,WLDs,Bilibili Gaming,Gen.G,2,under,total_dragons 4.5,12.70%,Bet365,win,1.61,0.61
 2023-11-03 09:53:00,WLDs,Gen.G,Bilibili Gaming,3,under,total_dragons 4.5,12.70%,Bet365,loss,1.61,-1.0
@@ -586,100 +568,6 @@ date,league,t1,t2,game,bet_type,bet_line,ROI,House,status,odds,profit
 2023-11-03 09:53:00,WLDs,Gen.G,Bilibili Gaming,3,under,total_barons 1.5,14.38%,Bet365,loss,1.83,-1.0
 2023-11-03 10:59:02,WLDs,Bilibili Gaming,Gen.G,4,under,total_barons 1.5,14.38%,Bet365,loss,1.83,-1.0
 2023-11-03 11:54:23,WLDs,Bilibili Gaming,Gen.G,5,under,total_barons 1.5,14.38%,Bet365,loss,1.83,-1.0
-2023-11-04 08:13:16,WLDs,JD Gaming,KT Rolster,1,under,total_kills 23.5,23.53%,Bet365,win,1.83,0.83
-2023-11-04 09:02:07,WLDs,JD Gaming,KT Rolster,2,under,total_kills 23.5,23.53%,Bet365,win,1.83,0.83
-2023-11-04 09:47:52,WLDs,KT Rolster,JD Gaming,3,under,total_kills 23.5,23.53%,Bet365,win,1.83,0.83
-2023-11-04 10:34:13,WLDs,KT Rolster,JD Gaming,4,under,total_kills 23.5,23.53%,Bet365,loss,1.83,-1.0
-2023-11-04 08:13:16,WLDs,JD Gaming,KT Rolster,1,under,total_inhibitors 1.5,5.00%,Bet365,win,2.0,1.0
-2023-11-04 09:02:07,WLDs,JD Gaming,KT Rolster,2,under,total_inhibitors 1.5,5.00%,Bet365,loss,2.0,-1.0
-2023-11-04 09:47:52,WLDs,KT Rolster,JD Gaming,3,under,total_inhibitors 1.5,5.00%,Bet365,win,2.0,1.0
-2023-11-04 10:34:13,WLDs,KT Rolster,JD Gaming,4,under,total_inhibitors 1.5,5.00%,Bet365,loss,2.0,-1.0
-2023-11-04 08:13:16,WLDs,JD Gaming,KT Rolster,1,under,total_barons 1.5,7.50%,Bet365,win,1.72,0.72
-2023-11-04 09:02:07,WLDs,JD Gaming,KT Rolster,2,under,total_barons 1.5,7.50%,Bet365,win,1.72,0.72
-2023-11-04 09:47:52,WLDs,KT Rolster,JD Gaming,3,under,total_barons 1.5,7.50%,Bet365,win,1.72,0.72
-2023-11-04 10:34:13,WLDs,KT Rolster,JD Gaming,4,under,total_barons 1.5,7.50%,Bet365,loss,1.72,-1.0
-2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,under,total_dragons 4.5,33.00%,Bet365,win,1.9,0.9
-2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,under,total_dragons 4.5,33.00%,Bet365,win,1.9,0.9
-2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,under,total_dragons 4.5,33.00%,Bet365,win,1.9,0.9
-2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,under,total_towers 12.5,5.98%,Bet365,win,1.57,0.57
-2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,under,total_towers 12.5,5.98%,Bet365,win,1.57,0.57
-2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,under,total_towers 12.5,5.98%,Bet365,win,1.57,0.57
-2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,under,total_kills 23.5,26.00%,Bet365,win,1.8,0.8
-2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,under,total_kills 23.5,26.00%,Bet365,win,1.8,0.8
-2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,under,total_kills 23.5,26.00%,Bet365,win,1.8,0.8
-2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,under,game_duration 31.5,32.67%,Bet365,win,1.83,0.83
-2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,under,game_duration 31.5,32.67%,Bet365,loss,1.83,-1.0
-2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,under,game_duration 31.5,32.67%,Bet365,win,1.83,0.83
-2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,under,total_inhibitors 1.5,40.00%,Bet365,win,2.0,1.0
-2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,under,total_inhibitors 1.5,40.00%,Bet365,win,2.0,1.0
-2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,under,total_inhibitors 1.5,40.00%,Bet365,loss,2.0,-1.0
-2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,under,total_barons 1.5,18.95%,Bet365,win,1.83,0.83
-2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,under,total_barons 1.5,18.95%,Bet365,win,1.83,0.83
-2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,under,total_barons 1.5,18.95%,Bet365,win,1.83,0.83
-2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,under,total_kills 23.5,31.39%,Dafabet,win,1.877,0.88
-2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,under,total_kills 23.5,31.39%,Dafabet,win,1.877,0.88
-2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,under,total_kills 23.5,31.39%,Dafabet,win,1.877,0.88
-2023-11-01 17:04:23,IC,UCAM Tokiers,Finetwork KOI,1,over,game_duration 31.0,17.17%,Dafabet,loss,1.897,-1.0
-2023-11-01 17:54:18,IC,Finetwork KOI,UCAM Tokiers,2,over,game_duration 31.0,17.17%,Dafabet,win,1.897,0.9
-2023-11-01 17:04:23,IC,UCAM Tokiers,Finetwork KOI,1,over,total_barons 1.5,36.19%,Dafabet,win,2.437,1.44
-2023-11-01 17:54:18,IC,Finetwork KOI,UCAM Tokiers,2,over,total_barons 1.5,36.19%,Dafabet,win,2.437,1.44
-2023-11-04 08:13:16,WLDs,JD Gaming,KT Rolster,1,under,total_kills 20.5,46.85%,Pinnacle,win,2.67,1.67
-2023-11-04 09:02:07,WLDs,JD Gaming,KT Rolster,2,under,total_kills 20.5,46.85%,Pinnacle,loss,2.67,-1.0
-2023-11-04 09:47:52,WLDs,KT Rolster,JD Gaming,3,under,total_kills 20.5,46.85%,Pinnacle,win,2.67,1.67
-2023-11-04 10:34:13,WLDs,KT Rolster,JD Gaming,4,under,total_kills 20.5,46.85%,Pinnacle,loss,2.67,-1.0
-2023-11-04 08:13:16,WLDs,JD Gaming,KT Rolster,1,under,total_barons 1.5,6.19%,Pinnacle,win,1.699,0.7
-2023-11-04 09:02:07,WLDs,JD Gaming,KT Rolster,2,under,total_barons 1.5,6.19%,Pinnacle,win,1.699,0.7
-2023-11-04 09:47:52,WLDs,KT Rolster,JD Gaming,3,under,total_barons 1.5,6.19%,Pinnacle,win,1.699,0.7
-2023-11-04 10:34:13,WLDs,KT Rolster,JD Gaming,4,under,total_barons 1.5,6.19%,Pinnacle,loss,1.699,-1.0
-2023-11-04 08:13:16,WLDs,JD Gaming,KT Rolster,1,under,total_kills 21.5,23.20%,Pinnacle,win,2.24,1.24
-2023-11-04 09:02:07,WLDs,JD Gaming,KT Rolster,2,under,total_kills 21.5,23.20%,Pinnacle,loss,2.24,-1.0
-2023-11-04 09:47:52,WLDs,KT Rolster,JD Gaming,3,under,total_kills 21.5,23.20%,Pinnacle,win,2.24,1.24
-2023-11-04 10:34:13,WLDs,KT Rolster,JD Gaming,4,under,total_kills 21.5,23.20%,Pinnacle,loss,2.24,-1.0
-2023-11-01 17:04:23,IC,UCAM Tokiers,Finetwork KOI,1,FD,first_dragon UCAM Tokiers,7.40%,Dafabet,win,2.148,1.15
-2023-11-01 17:54:18,IC,Finetwork KOI,UCAM Tokiers,2,FD,first_dragon UCAM Tokiers,7.40%,Dafabet,win,2.148,1.15
-2023-11-04 08:13:16,WLDs,JD Gaming,KT Rolster,1,under,total_kills 23.5,21.50%,Pinnacle,win,1.8,0.8
-2023-11-04 09:02:07,WLDs,JD Gaming,KT Rolster,2,under,total_kills 23.5,21.50%,Pinnacle,win,1.8,0.8
-2023-11-04 09:47:52,WLDs,KT Rolster,JD Gaming,3,under,total_kills 23.5,21.50%,Pinnacle,win,1.8,0.8
-2023-11-04 10:34:13,WLDs,KT Rolster,JD Gaming,4,under,total_kills 23.5,21.50%,Pinnacle,loss,1.8,-1.0
-2023-11-04 08:13:16,WLDs,JD Gaming,KT Rolster,1,under,total_dragons 4.5,5.17%,Pinnacle,win,1.558,0.56
-2023-11-04 09:02:07,WLDs,JD Gaming,KT Rolster,2,under,total_dragons 4.5,5.17%,Pinnacle,win,1.558,0.56
-2023-11-04 09:47:52,WLDs,KT Rolster,JD Gaming,3,under,total_dragons 4.5,5.17%,Pinnacle,win,1.558,0.56
-2023-11-04 10:34:13,WLDs,KT Rolster,JD Gaming,4,under,total_dragons 4.5,5.17%,Pinnacle,loss,1.558,-1.0
-2023-11-04 08:13:16,WLDs,JD Gaming,KT Rolster,1,under,game_duration 30.0,6.05%,Pinnacle,win,2.02,1.02
-2023-11-04 09:02:07,WLDs,JD Gaming,KT Rolster,2,under,game_duration 30.0,6.05%,Pinnacle,win,2.02,1.02
-2023-11-04 09:47:52,WLDs,KT Rolster,JD Gaming,3,under,game_duration 30.0,6.05%,Pinnacle,win,2.02,1.02
-2023-11-04 10:34:13,WLDs,KT Rolster,JD Gaming,4,under,game_duration 30.0,6.05%,Pinnacle,loss,2.02,-1.0
-2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,under,total_dragons 4.5,26.00%,Pinnacle,win,1.8,0.8
-2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,under,total_dragons 4.5,26.00%,Pinnacle,win,1.8,0.8
-2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,under,total_dragons 4.5,26.00%,Pinnacle,win,1.8,0.8
-2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,under,total_towers 12.5,9.89%,Pinnacle,win,1.628,0.63
-2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,under,total_towers 12.5,9.89%,Pinnacle,win,1.628,0.63
-2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,under,total_towers 12.5,9.89%,Pinnacle,win,1.628,0.63
-2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,under,total_kills 25.5,6.79%,Pinnacle,win,1.473,0.47
-2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,under,total_kills 25.5,6.79%,Pinnacle,win,1.473,0.47
-2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,under,total_kills 25.5,6.79%,Pinnacle,win,1.473,0.47
-2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,under,game_duration 31.0,40.40%,Pinnacle,win,2.16,1.16
-2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,under,game_duration 31.0,40.40%,Pinnacle,loss,2.16,-1.0
-2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,under,game_duration 31.0,40.40%,Pinnacle,win,2.16,1.16
-2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,under,total_barons 1.5,20.05%,Pinnacle,win,1.847,0.85
-2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,under,total_barons 1.5,20.05%,Pinnacle,win,1.847,0.85
-2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,under,total_barons 1.5,20.05%,Pinnacle,win,1.847,0.85
-2023-11-04 08:13:16,WLDs,JD Gaming,KT Rolster,1,under,total_kills 22.5,30.00%,Pinnacle,win,2.0,1.0
-2023-11-04 09:02:07,WLDs,JD Gaming,KT Rolster,2,under,total_kills 22.5,30.00%,Pinnacle,win,2.0,1.0
-2023-11-04 09:47:52,WLDs,KT Rolster,JD Gaming,3,under,total_kills 22.5,30.00%,Pinnacle,win,2.0,1.0
-2023-11-04 10:34:13,WLDs,KT Rolster,JD Gaming,4,under,total_kills 22.5,30.00%,Pinnacle,loss,2.0,-1.0
-2023-11-04 08:13:16,WLDs,JD Gaming,KT Rolster,1,under,total_dragons 4.5,10.92%,Bet365,win,1.53,0.53
-2023-11-04 09:02:07,WLDs,JD Gaming,KT Rolster,2,under,total_dragons 4.5,10.92%,Bet365,win,1.53,0.53
-2023-11-04 09:47:52,WLDs,KT Rolster,JD Gaming,3,under,total_dragons 4.5,10.92%,Bet365,win,1.53,0.53
-2023-11-04 10:34:13,WLDs,KT Rolster,JD Gaming,4,under,total_dragons 4.5,10.92%,Bet365,loss,1.53,-1.0
-2023-11-04 08:13:16,WLDs,JD Gaming,KT Rolster,1,under,total_towers 12.5,5.98%,Bet365,win,1.57,0.57
-2023-11-04 09:02:07,WLDs,JD Gaming,KT Rolster,2,under,total_towers 12.5,5.98%,Bet365,win,1.57,0.57
-2023-11-04 09:47:52,WLDs,KT Rolster,JD Gaming,3,under,total_towers 12.5,5.98%,Bet365,win,1.57,0.57
-2023-11-04 10:34:13,WLDs,KT Rolster,JD Gaming,4,under,total_towers 12.5,5.98%,Bet365,loss,1.57,-1.0
-2023-11-04 08:13:16,WLDs,JD Gaming,KT Rolster,1,under,game_duration 30.5,14.38%,Bet365,win,1.83,0.83
-2023-11-04 09:02:07,WLDs,JD Gaming,KT Rolster,2,under,game_duration 30.5,14.38%,Bet365,win,1.83,0.83
-2023-11-04 09:47:52,WLDs,KT Rolster,JD Gaming,3,under,game_duration 30.5,14.38%,Bet365,win,1.83,0.83
-2023-11-04 10:34:13,WLDs,KT Rolster,JD Gaming,4,under,game_duration 30.5,14.38%,Bet365,loss,1.83,-1.0
 2023-11-03 08:12:32,WLDs,Gen.G,Bilibili Gaming,1,under,total_towers 12.5,5.63%,Pinnacle,win,1.625,0.62
 2023-11-03 09:05:56,WLDs,Bilibili Gaming,Gen.G,2,under,total_towers 12.5,5.63%,Pinnacle,win,1.625,0.62
 2023-11-03 09:53:00,WLDs,Gen.G,Bilibili Gaming,3,under,total_towers 12.5,5.63%,Pinnacle,loss,1.625,-1.0
@@ -700,15 +588,171 @@ date,league,t1,t2,game,bet_type,bet_line,ROI,House,status,odds,profit
 2023-11-03 09:53:00,WLDs,Gen.G,Bilibili Gaming,3,under,total_kills 21.5,20.70%,Pinnacle,loss,2.84,-1.0
 2023-11-03 10:59:02,WLDs,Bilibili Gaming,Gen.G,4,under,total_kills 21.5,20.70%,Pinnacle,loss,2.84,-1.0
 2023-11-03 11:54:23,WLDs,Bilibili Gaming,Gen.G,5,under,total_kills 21.5,20.70%,Pinnacle,win,2.84,1.84
-2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,under,total_kills 21.5,41.87%,Pinnacle,win,2.27,1.27
-2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,under,total_kills 21.5,41.87%,Pinnacle,win,2.27,1.27
-2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,under,total_kills 21.5,41.87%,Pinnacle,win,2.27,1.27
 2023-11-03 08:12:32,WLDs,Gen.G,Bilibili Gaming,1,under,total_kills 24.5,9.14%,Pinnacle,win,1.819,0.82
 2023-11-03 09:05:56,WLDs,Bilibili Gaming,Gen.G,2,under,total_kills 24.5,9.14%,Pinnacle,win,1.819,0.82
 2023-11-03 09:53:00,WLDs,Gen.G,Bilibili Gaming,3,under,total_kills 24.5,9.14%,Pinnacle,win,1.819,0.82
 2023-11-03 10:59:02,WLDs,Bilibili Gaming,Gen.G,4,under,total_kills 24.5,9.14%,Pinnacle,loss,1.819,-1.0
 2023-11-03 11:54:23,WLDs,Bilibili Gaming,Gen.G,5,under,total_kills 24.5,9.14%,Pinnacle,win,1.819,0.82
+2023-11-04 08:13:16,WLDs,JD Gaming,KT Rolster,1,under,total_kills 24.5,32.02%,Dafabet,win,1.886,0.89
+2023-11-04 09:02:07,WLDs,JD Gaming,KT Rolster,2,under,total_kills 24.5,32.02%,Dafabet,win,1.886,0.89
+2023-11-04 09:47:52,WLDs,KT Rolster,JD Gaming,3,under,total_kills 24.5,32.02%,Dafabet,win,1.886,0.89
+2023-11-04 10:34:13,WLDs,KT Rolster,JD Gaming,4,under,total_kills 24.5,32.02%,Dafabet,loss,1.886,-1.0
+2023-11-04 08:13:16,WLDs,JD Gaming,KT Rolster,1,under,game_duration 31.0,7.82%,Dafabet,win,1.797,0.8
+2023-11-04 09:02:07,WLDs,JD Gaming,KT Rolster,2,under,game_duration 31.0,7.82%,Dafabet,win,1.797,0.8
+2023-11-04 09:47:52,WLDs,KT Rolster,JD Gaming,3,under,game_duration 31.0,7.82%,Dafabet,win,1.797,0.8
+2023-11-04 10:34:13,WLDs,KT Rolster,JD Gaming,4,under,game_duration 31.0,7.82%,Dafabet,loss,1.797,-1.0
+2023-11-04 08:13:16,WLDs,JD Gaming,KT Rolster,1,under,total_barons 1.5,16.81%,Dafabet,win,1.869,0.87
+2023-11-04 09:02:07,WLDs,JD Gaming,KT Rolster,2,under,total_barons 1.5,16.81%,Dafabet,win,1.869,0.87
+2023-11-04 09:47:52,WLDs,KT Rolster,JD Gaming,3,under,total_barons 1.5,16.81%,Dafabet,win,1.869,0.87
+2023-11-04 10:34:13,WLDs,KT Rolster,JD Gaming,4,under,total_barons 1.5,16.81%,Dafabet,loss,1.869,-1.0
 2023-11-04 08:13:16,WLDs,JD Gaming,KT Rolster,1,under,total_kills 23.5,32.77%,Dafabet,win,1.967,0.97
 2023-11-04 09:02:07,WLDs,JD Gaming,KT Rolster,2,under,total_kills 23.5,32.77%,Dafabet,win,1.967,0.97
 2023-11-04 09:47:52,WLDs,KT Rolster,JD Gaming,3,under,total_kills 23.5,32.77%,Dafabet,win,1.967,0.97
 2023-11-04 10:34:13,WLDs,KT Rolster,JD Gaming,4,under,total_kills 23.5,32.77%,Dafabet,loss,1.967,-1.0
+2023-11-04 08:13:16,WLDs,JD Gaming,KT Rolster,1,under,total_kills 23.5,23.53%,Bet365,win,1.83,0.83
+2023-11-04 09:02:07,WLDs,JD Gaming,KT Rolster,2,under,total_kills 23.5,23.53%,Bet365,win,1.83,0.83
+2023-11-04 09:47:52,WLDs,KT Rolster,JD Gaming,3,under,total_kills 23.5,23.53%,Bet365,win,1.83,0.83
+2023-11-04 10:34:13,WLDs,KT Rolster,JD Gaming,4,under,total_kills 23.5,23.53%,Bet365,loss,1.83,-1.0
+2023-11-04 08:13:16,WLDs,JD Gaming,KT Rolster,1,under,total_inhibitors 1.5,5.00%,Bet365,win,2.0,1.0
+2023-11-04 09:02:07,WLDs,JD Gaming,KT Rolster,2,under,total_inhibitors 1.5,5.00%,Bet365,loss,2.0,-1.0
+2023-11-04 09:47:52,WLDs,KT Rolster,JD Gaming,3,under,total_inhibitors 1.5,5.00%,Bet365,win,2.0,1.0
+2023-11-04 10:34:13,WLDs,KT Rolster,JD Gaming,4,under,total_inhibitors 1.5,5.00%,Bet365,loss,2.0,-1.0
+2023-11-04 08:13:16,WLDs,JD Gaming,KT Rolster,1,under,total_barons 1.5,7.50%,Bet365,win,1.72,0.72
+2023-11-04 09:02:07,WLDs,JD Gaming,KT Rolster,2,under,total_barons 1.5,7.50%,Bet365,win,1.72,0.72
+2023-11-04 09:47:52,WLDs,KT Rolster,JD Gaming,3,under,total_barons 1.5,7.50%,Bet365,win,1.72,0.72
+2023-11-04 10:34:13,WLDs,KT Rolster,JD Gaming,4,under,total_barons 1.5,7.50%,Bet365,loss,1.72,-1.0
+2023-11-04 08:13:16,WLDs,JD Gaming,KT Rolster,1,under,total_dragons 4.5,10.92%,Bet365,win,1.53,0.53
+2023-11-04 09:02:07,WLDs,JD Gaming,KT Rolster,2,under,total_dragons 4.5,10.92%,Bet365,win,1.53,0.53
+2023-11-04 09:47:52,WLDs,KT Rolster,JD Gaming,3,under,total_dragons 4.5,10.92%,Bet365,win,1.53,0.53
+2023-11-04 10:34:13,WLDs,KT Rolster,JD Gaming,4,under,total_dragons 4.5,10.92%,Bet365,loss,1.53,-1.0
+2023-11-04 08:13:16,WLDs,JD Gaming,KT Rolster,1,under,total_towers 12.5,5.98%,Bet365,win,1.57,0.57
+2023-11-04 09:02:07,WLDs,JD Gaming,KT Rolster,2,under,total_towers 12.5,5.98%,Bet365,win,1.57,0.57
+2023-11-04 09:47:52,WLDs,KT Rolster,JD Gaming,3,under,total_towers 12.5,5.98%,Bet365,win,1.57,0.57
+2023-11-04 10:34:13,WLDs,KT Rolster,JD Gaming,4,under,total_towers 12.5,5.98%,Bet365,loss,1.57,-1.0
+2023-11-04 08:13:16,WLDs,JD Gaming,KT Rolster,1,under,game_duration 30.5,14.38%,Bet365,win,1.83,0.83
+2023-11-04 09:02:07,WLDs,JD Gaming,KT Rolster,2,under,game_duration 30.5,14.38%,Bet365,win,1.83,0.83
+2023-11-04 09:47:52,WLDs,KT Rolster,JD Gaming,3,under,game_duration 30.5,14.38%,Bet365,win,1.83,0.83
+2023-11-04 10:34:13,WLDs,KT Rolster,JD Gaming,4,under,game_duration 30.5,14.38%,Bet365,loss,1.83,-1.0
+2023-11-04 08:13:16,WLDs,JD Gaming,KT Rolster,1,under,total_kills 20.5,46.85%,Pinnacle,win,2.67,1.67
+2023-11-04 09:02:07,WLDs,JD Gaming,KT Rolster,2,under,total_kills 20.5,46.85%,Pinnacle,loss,2.67,-1.0
+2023-11-04 09:47:52,WLDs,KT Rolster,JD Gaming,3,under,total_kills 20.5,46.85%,Pinnacle,win,2.67,1.67
+2023-11-04 10:34:13,WLDs,KT Rolster,JD Gaming,4,under,total_kills 20.5,46.85%,Pinnacle,loss,2.67,-1.0
+2023-11-04 08:13:16,WLDs,JD Gaming,KT Rolster,1,under,total_barons 1.5,6.19%,Pinnacle,win,1.699,0.7
+2023-11-04 09:02:07,WLDs,JD Gaming,KT Rolster,2,under,total_barons 1.5,6.19%,Pinnacle,win,1.699,0.7
+2023-11-04 09:47:52,WLDs,KT Rolster,JD Gaming,3,under,total_barons 1.5,6.19%,Pinnacle,win,1.699,0.7
+2023-11-04 10:34:13,WLDs,KT Rolster,JD Gaming,4,under,total_barons 1.5,6.19%,Pinnacle,loss,1.699,-1.0
+2023-11-04 08:13:16,WLDs,JD Gaming,KT Rolster,1,under,total_kills 21.5,23.20%,Pinnacle,win,2.24,1.24
+2023-11-04 09:02:07,WLDs,JD Gaming,KT Rolster,2,under,total_kills 21.5,23.20%,Pinnacle,loss,2.24,-1.0
+2023-11-04 09:47:52,WLDs,KT Rolster,JD Gaming,3,under,total_kills 21.5,23.20%,Pinnacle,win,2.24,1.24
+2023-11-04 10:34:13,WLDs,KT Rolster,JD Gaming,4,under,total_kills 21.5,23.20%,Pinnacle,loss,2.24,-1.0
+2023-11-04 08:13:16,WLDs,JD Gaming,KT Rolster,1,under,total_kills 23.5,21.50%,Pinnacle,win,1.8,0.8
+2023-11-04 09:02:07,WLDs,JD Gaming,KT Rolster,2,under,total_kills 23.5,21.50%,Pinnacle,win,1.8,0.8
+2023-11-04 09:47:52,WLDs,KT Rolster,JD Gaming,3,under,total_kills 23.5,21.50%,Pinnacle,win,1.8,0.8
+2023-11-04 10:34:13,WLDs,KT Rolster,JD Gaming,4,under,total_kills 23.5,21.50%,Pinnacle,loss,1.8,-1.0
+2023-11-04 08:13:16,WLDs,JD Gaming,KT Rolster,1,under,total_dragons 4.5,5.17%,Pinnacle,win,1.558,0.56
+2023-11-04 09:02:07,WLDs,JD Gaming,KT Rolster,2,under,total_dragons 4.5,5.17%,Pinnacle,win,1.558,0.56
+2023-11-04 09:47:52,WLDs,KT Rolster,JD Gaming,3,under,total_dragons 4.5,5.17%,Pinnacle,win,1.558,0.56
+2023-11-04 10:34:13,WLDs,KT Rolster,JD Gaming,4,under,total_dragons 4.5,5.17%,Pinnacle,loss,1.558,-1.0
+2023-11-04 08:13:16,WLDs,JD Gaming,KT Rolster,1,under,game_duration 30.0,6.05%,Pinnacle,win,2.02,1.02
+2023-11-04 09:02:07,WLDs,JD Gaming,KT Rolster,2,under,game_duration 30.0,6.05%,Pinnacle,win,2.02,1.02
+2023-11-04 09:47:52,WLDs,KT Rolster,JD Gaming,3,under,game_duration 30.0,6.05%,Pinnacle,win,2.02,1.02
+2023-11-04 10:34:13,WLDs,KT Rolster,JD Gaming,4,under,game_duration 30.0,6.05%,Pinnacle,loss,2.02,-1.0
+2023-11-04 08:13:16,WLDs,JD Gaming,KT Rolster,1,under,total_kills 22.5,30.00%,Pinnacle,win,2.0,1.0
+2023-11-04 09:02:07,WLDs,JD Gaming,KT Rolster,2,under,total_kills 22.5,30.00%,Pinnacle,win,2.0,1.0
+2023-11-04 09:47:52,WLDs,KT Rolster,JD Gaming,3,under,total_kills 22.5,30.00%,Pinnacle,win,2.0,1.0
+2023-11-04 10:34:13,WLDs,KT Rolster,JD Gaming,4,under,total_kills 22.5,30.00%,Pinnacle,loss,2.0,-1.0
+2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,under,total_kills 24.5,27.61%,Dafabet,win,1.823,0.82
+2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,under,total_kills 24.5,27.61%,Dafabet,win,1.823,0.82
+2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,under,total_kills 24.5,27.61%,Dafabet,win,1.823,0.82
+2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,FD,first_dragon T1,6.38%,Dafabet,win,1.773,0.77
+2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,FD,first_dragon T1,6.38%,Dafabet,win,1.773,0.77
+2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,FD,first_dragon T1,6.38%,Dafabet,win,1.773,0.77
+2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,under,game_duration 31.0,25.52%,Dafabet,win,1.931,0.93
+2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,under,game_duration 31.0,25.52%,Dafabet,loss,1.931,-1.0
+2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,under,game_duration 31.0,25.52%,Dafabet,win,1.931,0.93
+2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,under,total_barons 1.5,21.48%,Dafabet,win,1.869,0.87
+2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,under,total_barons 1.5,21.48%,Dafabet,win,1.869,0.87
+2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,under,total_barons 1.5,21.48%,Dafabet,win,1.869,0.87
+2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,under,total_kills 23.5,31.39%,Dafabet,win,1.877,0.88
+2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,under,total_kills 23.5,31.39%,Dafabet,win,1.877,0.88
+2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,under,total_kills 23.5,31.39%,Dafabet,win,1.877,0.88
+2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,under,total_dragons 4.5,33.00%,Bet365,win,1.9,0.9
+2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,under,total_dragons 4.5,33.00%,Bet365,win,1.9,0.9
+2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,under,total_dragons 4.5,33.00%,Bet365,win,1.9,0.9
+2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,under,total_towers 12.5,5.98%,Bet365,win,1.57,0.57
+2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,under,total_towers 12.5,5.98%,Bet365,win,1.57,0.57
+2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,under,total_towers 12.5,5.98%,Bet365,win,1.57,0.57
+2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,under,total_kills 23.5,26.00%,Bet365,win,1.8,0.8
+2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,under,total_kills 23.5,26.00%,Bet365,win,1.8,0.8
+2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,under,total_kills 23.5,26.00%,Bet365,win,1.8,0.8
+2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,under,game_duration 31.5,32.67%,Bet365,win,1.83,0.83
+2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,under,game_duration 31.5,32.67%,Bet365,loss,1.83,-1.0
+2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,under,game_duration 31.5,32.67%,Bet365,win,1.83,0.83
+2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,under,total_inhibitors 1.5,40.00%,Bet365,win,2.0,1.0
+2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,under,total_inhibitors 1.5,40.00%,Bet365,win,2.0,1.0
+2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,under,total_inhibitors 1.5,40.00%,Bet365,loss,2.0,-1.0
+2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,under,total_barons 1.5,18.95%,Bet365,win,1.83,0.83
+2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,under,total_barons 1.5,18.95%,Bet365,win,1.83,0.83
+2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,under,total_barons 1.5,18.95%,Bet365,win,1.83,0.83
+2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,under,total_dragons 4.5,26.00%,Pinnacle,win,1.8,0.8
+2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,under,total_dragons 4.5,26.00%,Pinnacle,win,1.8,0.8
+2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,under,total_dragons 4.5,26.00%,Pinnacle,win,1.8,0.8
+2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,under,total_towers 12.5,9.89%,Pinnacle,win,1.628,0.63
+2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,under,total_towers 12.5,9.89%,Pinnacle,win,1.628,0.63
+2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,under,total_towers 12.5,9.89%,Pinnacle,win,1.628,0.63
+2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,under,total_kills 25.5,6.79%,Pinnacle,win,1.473,0.47
+2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,under,total_kills 25.5,6.79%,Pinnacle,win,1.473,0.47
+2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,under,total_kills 25.5,6.79%,Pinnacle,win,1.473,0.47
+2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,under,game_duration 31.0,40.40%,Pinnacle,win,2.16,1.16
+2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,under,game_duration 31.0,40.40%,Pinnacle,loss,2.16,-1.0
+2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,under,game_duration 31.0,40.40%,Pinnacle,win,2.16,1.16
+2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,under,total_barons 1.5,20.05%,Pinnacle,win,1.847,0.85
+2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,under,total_barons 1.5,20.05%,Pinnacle,win,1.847,0.85
+2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,under,total_barons 1.5,20.05%,Pinnacle,win,1.847,0.85
+2023-11-05 08:12:27,WLDs,LNG Esports,T1,1,under,total_kills 21.5,41.87%,Pinnacle,win,2.27,1.27
+2023-11-05 08:58:21,WLDs,LNG Esports,T1,2,under,total_kills 21.5,41.87%,Pinnacle,win,2.27,1.27
+2023-11-05 09:49:56,WLDs,LNG Esports,T1,3,under,total_kills 21.5,41.87%,Pinnacle,win,2.27,1.27
+2023-11-06 17:03:41,IC,Movistar Riders,Los Heretics,1,under,total_dragons 4.5,65.00%,Bet365,win,2.2,1.2
+2023-11-06 17:55:38,IC,Los Heretics,Movistar Riders,2,under,total_dragons 4.5,65.00%,Bet365,win,2.2,1.2
+2023-11-06 18:47:06,IC,Los Heretics,Movistar Riders,3,under,total_dragons 4.5,65.00%,Bet365,loss,2.2,-1.0
+2023-11-06 19:40:06,IC,Los Heretics,Movistar Riders,4,under,total_dragons 4.5,65.00%,Bet365,loss,2.2,-1.0
+2023-11-06 17:03:41,IC,Movistar Riders,Los Heretics,1,under,total_towers 12.5,10.56%,Bet365,win,1.83,0.83
+2023-11-06 17:55:38,IC,Los Heretics,Movistar Riders,2,under,total_towers 12.5,10.56%,Bet365,loss,1.83,-1.0
+2023-11-06 18:47:06,IC,Los Heretics,Movistar Riders,3,under,total_towers 12.5,10.56%,Bet365,win,1.83,0.83
+2023-11-06 19:40:06,IC,Los Heretics,Movistar Riders,4,under,total_towers 12.5,10.56%,Bet365,loss,1.83,-1.0
+2023-11-06 17:03:41,IC,Movistar Riders,Los Heretics,1,over,total_kills 29.5,22.00%,Bet365,win,1.83,0.83
+2023-11-06 17:55:38,IC,Los Heretics,Movistar Riders,2,over,total_kills 29.5,22.00%,Bet365,win,1.83,0.83
+2023-11-06 18:47:06,IC,Los Heretics,Movistar Riders,3,over,total_kills 29.5,22.00%,Bet365,win,1.83,0.83
+2023-11-06 19:40:06,IC,Los Heretics,Movistar Riders,4,over,total_kills 29.5,22.00%,Bet365,win,1.83,0.83
+2023-11-06 17:03:41,IC,Movistar Riders,Los Heretics,1,under,game_duration 32.5,48.69%,Bet365,win,1.83,0.83
+2023-11-06 17:55:38,IC,Los Heretics,Movistar Riders,2,under,game_duration 32.5,48.69%,Bet365,win,1.83,0.83
+2023-11-06 18:47:06,IC,Los Heretics,Movistar Riders,3,under,game_duration 32.5,48.69%,Bet365,win,1.83,0.83
+2023-11-06 19:40:06,IC,Los Heretics,Movistar Riders,4,under,game_duration 32.5,48.69%,Bet365,loss,1.83,-1.0
+2023-11-06 17:03:41,IC,Movistar Riders,Los Heretics,1,under,total_inhibitors 1.5,25.00%,Bet365,win,2.5,1.5
+2023-11-06 17:55:38,IC,Los Heretics,Movistar Riders,2,under,total_inhibitors 1.5,25.00%,Bet365,loss,2.5,-1.0
+2023-11-06 18:47:06,IC,Los Heretics,Movistar Riders,3,under,total_inhibitors 1.5,25.00%,Bet365,win,2.5,1.5
+2023-11-06 19:40:06,IC,Los Heretics,Movistar Riders,4,under,total_inhibitors 1.5,25.00%,Bet365,loss,2.5,-1.0
+2023-11-06 17:03:41,IC,Movistar Riders,Los Heretics,1,under,total_barons 1.5,92.56%,Bet365,win,2.37,1.37
+2023-11-06 17:55:38,IC,Los Heretics,Movistar Riders,2,under,total_barons 1.5,92.56%,Bet365,win,2.37,1.37
+2023-11-06 18:47:06,IC,Los Heretics,Movistar Riders,3,under,total_barons 1.5,92.56%,Bet365,loss,2.37,-1.0
+2023-11-06 19:40:06,IC,Los Heretics,Movistar Riders,4,under,total_barons 1.5,92.56%,Bet365,loss,2.37,-1.0
+2023-11-07 17:04:53,IC,Finetwork KOI,Rebels Gaming,1,FD,first_dragon Rebels Gaming,42.03%,Dafabet,win,1.657,0.66
+2023-11-07 17:51:42,IC,Rebels Gaming,Finetwork KOI,2,FD,first_dragon Rebels Gaming,42.03%,Dafabet,win,1.657,0.66
+2023-11-07 18:56:56,IC,Finetwork KOI,Rebels Gaming,3,FD,first_dragon Rebels Gaming,42.03%,Dafabet,win,1.657,0.66
+2023-11-07 19:50:00,IC,Rebels Gaming,Finetwork KOI,4,FD,first_dragon Rebels Gaming,42.03%,Dafabet,loss,1.657,-1.0
+2023-11-07 17:36:37,ESLOL,A One Man Army,mCon esports,1,under,total_kills 36.5,8.66%,Bet365,win,1.83,0.83
+2023-11-07 18:32:41,ESLOL,mCon esports,A One Man Army,2,under,total_kills 36.5,8.66%,Bet365,loss,1.83,-1.0
+2023-11-07 19:28:15,ESLOL,A One Man Army,mCon esports,3,under,total_kills 36.5,8.66%,Bet365,win,1.83,0.83
+2023-11-07 20:11:50,ESLOL,A One Man Army,mCon esports,4,under,total_kills 36.5,8.66%,Bet365,loss,1.83,-1.0
+2023-11-07 17:45:25,ESLOL,HEET,Myth Esports,1,under,total_kills 35.5,30.71%,Bet365,win,1.83,0.83
+2023-11-07 18:36:58,ESLOL,HEET,Myth Esports,2,under,total_kills 35.5,30.71%,Bet365,win,1.83,0.83
+2023-11-07 19:24:03,ESLOL,Myth Esports,HEET,3,under,total_kills 35.5,30.71%,Bet365,win,1.83,0.83
+2023-11-07 20:14:21,ESLOL,HEET,Myth Esports,4,under,total_kills 35.5,30.71%,Bet365,win,1.83,0.83
+2023-11-06 17:03:41,IC,Movistar Riders,Los Heretics,1,under,game_duration 31.5,48.69%,Bet365,win,1.83,0.83
+2023-11-06 17:55:38,IC,Los Heretics,Movistar Riders,2,under,game_duration 31.5,48.69%,Bet365,win,1.83,0.83
+2023-11-06 18:47:06,IC,Los Heretics,Movistar Riders,3,under,game_duration 31.5,48.69%,Bet365,loss,1.83,-1.0
+2023-11-06 19:40:06,IC,Los Heretics,Movistar Riders,4,under,game_duration 31.5,48.69%,Bet365,loss,1.83,-1.0
+2023-11-06 17:03:41,IC,Movistar Riders,Los Heretics,1,under,game_duration 30.5,37.25%,Bet365,win,1.83,0.83
+2023-11-06 17:55:38,IC,Los Heretics,Movistar Riders,2,under,game_duration 30.5,37.25%,Bet365,win,1.83,0.83
+2023-11-06 18:47:06,IC,Los Heretics,Movistar Riders,3,under,game_duration 30.5,37.25%,Bet365,loss,1.83,-1.0
+2023-11-06 19:40:06,IC,Los Heretics,Movistar Riders,4,under,game_duration 30.5,37.25%,Bet365,loss,1.83,-1.0

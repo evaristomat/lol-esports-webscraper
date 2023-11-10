@@ -49,7 +49,11 @@ def remove_old_pending_bets(csv_path, days_threshold=3):
         
         filtered_df.to_csv(csv_path, index=False)
 
-def process_json_files(data_folder, processed_files_log, csv_path, filename):
+def is_teamname_in_database(team_name, teams_data) -> bool:
+    """Check if the team name exists in the database."""
+    return any(teams_data['t1'].eq(team_name) | teams_data['t2'].eq(team_name))
+
+def process_json_files(data_folder, processed_files_log, csv_path, filename, teams_data):
     project_root = Path(__file__).parent.parent
     data_folder = project_root / 'data'
     processed_files = pd.read_csv(processed_files_log, header=None, names=['file']).squeeze('columns').tolist() if processed_files_log.is_file() else []
@@ -83,55 +87,64 @@ def process_json_files(data_folder, processed_files_log, csv_path, filename):
             logging.info(Fore.YELLOW + f"Checking bets for match - {teamA} vs {teamB}" + Fore.RESET)
 
             comparator = OddsComparator(filename, game_data)
-            best_bets = [
-                comparator.compare_dragon(),
-                comparator.compare_tower(),
-                comparator.compare_kills(),
-                comparator.compare_first_drake(),
-                comparator.compare_game_duration(),
-                comparator.compare_total_inhibitor(),
-                comparator.compare_total_barons()
-            ]
-            bet_line_keys = [
-                'total_dragons',
-                'total_towers',
-                'total_kills',
-                'first_dragon',
-                'game_duration',
-                'total_inhibitors',
-                'total_barons'
-            ]
 
-            for bet, bet_line_key in zip(best_bets, bet_line_keys):
-                if bet:
-                    row = build_row(bet, bet_line_key)
-                    row['House'] = house_name
+            # Assuming teams_data is your dataframe containing teams' information
+            if not is_teamname_in_database(teamA, teams_data) or not is_teamname_in_database(teamB, teams_data):
+                #logging.info(Fore.RED + f"One or both of the teams: {teamA}, {teamB} are not in the database. Skipping to next game."  + Fore.RESET)
+                continue
+            
+            try:
+                best_bets = [
+                    comparator.compare_dragon(),
+                    comparator.compare_tower(),
+                    comparator.compare_kills(),
+                    comparator.compare_first_drake(),
+                    comparator.compare_game_duration(),
+                    comparator.compare_total_inhibitor(),
+                    comparator.compare_total_barons()
+                ]
 
-                    # Ensure the row columns match the CSV file's columns
-                    correct_order = ['date', 'league', 't1', 't2', 'bet_type', 'bet_line', 'ROI', 'fair_odds', 'odds', 'House', 'url', 'status']
-                    row = row[correct_order]
-                    
-                    # Calculate identifier for the new row
-                    identifier = row_identifier(row.iloc[0])
-                    #print(identifier)
-                    try:
-                        roi_value = float(row['ROI'].iloc[0].replace('%', '').strip())
-                        if roi_value < ROI_THRESHOLD:
-                            logging.info(f"Skipping bet with ROI {roi_value}% which is less than {ROI_THRESHOLD}%.")
+                bet_line_keys = [
+                    'total_dragons',
+                    'total_towers',
+                    'total_kills',
+                    'first_dragon',
+                    'game_duration',
+                    'total_inhibitors',
+                    'total_barons'
+                ]
+                
+                for bet, bet_line_key in zip(best_bets, bet_line_keys):
+                    if bet:
+                        row = build_row(bet, bet_line_key)
+                        row['House'] = house_name
+
+                        # Ensure the row columns match the CSV file's columns
+                        correct_order = ['date', 'league', 't1', 't2', 'bet_type', 'bet_line', 'ROI', 'fair_odds', 'odds', 'House', 'url', 'status']
+                        row = row[correct_order]
+                        
+                        # Calculate identifier for the new row
+                        identifier = row_identifier(row.iloc[0])
+                        #print(identifier)
+                        try:
+                            roi_value = float(row['ROI'].iloc[0].replace('%', '').strip())
+                            if roi_value < ROI_THRESHOLD:
+                                logging.info(f"Skipping bet with ROI {roi_value}% which is less than {ROI_THRESHOLD}%.")
+                                continue
+                        except ValueError:
+                            logging.warning(f"Invalid ROI value: {row['ROI']}. Skipping bet.")
                             continue
-                    except ValueError:
-                        logging.warning(f"Invalid ROI value: {row['ROI']}. Skipping bet.")
-                        continue
-                            
-                    if identifier not in existing_identifiers:
-                        logging.info(Fore.GREEN + f"Best bet found for {bet_line_key}" + Fore.RESET)
-                        all_new_rows.append(row)
-                        existing_identifiers.add(identifier)
+                                
+                        if identifier not in existing_identifiers:
+                            logging.info(Fore.GREEN + f"Best bet found for {bet_line_key}" + Fore.RESET)
+                            all_new_rows.append(row)
+                            existing_identifiers.add(identifier)
+                        else:
+                            logging.info(Fore.MAGENTA + f"Row already exists for {row['bet_line'][0]}" + Fore.RESET)
                     else:
-                        logging.info(Fore.MAGENTA + f"Row already exists for {row['bet_line'][0]}" + Fore.RESET)
-                else:
-                    logging.info(f"No best bet found for {bet_line_key}")
-
+                        logging.info(f"No best bet found for {bet_line_key}")
+            except:
+                continue            
         # Append to processed files log
         with open(processed_files_log, 'a') as log_file:
             log_file.write(str(json_file_path) + '\n')
@@ -150,11 +163,14 @@ def main():
     # Ensure CSV folder exists
     csv_path.parent.mkdir(parents=True, exist_ok=True)
 
+    # Load teams data
+    teams_data = pd.read_csv(filename)
+
     # Before adding new rows, clean up old 'pending' rows
     remove_old_pending_bets(csv_path)
 
     # Process JSON files and update CSV
-    process_json_files(project_root / 'data', processed_files_log, csv_path, filename)
+    process_json_files(project_root / 'data', processed_files_log, csv_path, filename, teams_data)
 
 if __name__ == "__main__":
     main()

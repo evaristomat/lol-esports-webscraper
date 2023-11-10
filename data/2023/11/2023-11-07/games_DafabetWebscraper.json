@@ -1,0 +1,197 @@
+[
+    {
+        "overview": {
+            "game_date": 1699689600.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231106200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "2023 World Championship",
+            "home_team": "Bilibili Gaming",
+            "away_team": "Weibo Gaming"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.655,
+                "away_team_score": 2.217
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.853,
+                "away_team_score": 1.903
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.78,
+                "away_team_score": 1.967
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.8,
+                "away_team_score": 1.906
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.99,
+                "away_team_score": 1.793
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 23.5,
+                "home_team_score": 1.862,
+                "away_team_score": 1.912
+            }
+        ],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.848,
+                "away_team_score": 1.89
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.777,
+                "away_team_score": 1.933
+            }
+        ],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.945,
+                "away_team_score": 1.798
+            }
+        ],
+        "total_inhibitors": [],
+        "game_duration": [
+            {
+                "total_amount": 32.0,
+                "home_team_score": 1.995,
+                "away_team_score": 1.789
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1699776000.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231106200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "2023 World Championship",
+            "home_team": "JD Gaming",
+            "away_team": "T1"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.78,
+                "away_team_score": 2.027
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.824,
+                "away_team_score": 1.934
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.703,
+                "away_team_score": 2.071
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.692,
+                "away_team_score": 2.044
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.886,
+                "away_team_score": 1.886
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 21.5,
+                "home_team_score": 1.824,
+                "away_team_score": 1.953
+            }
+        ],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.879,
+                "away_team_score": 1.859
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.897,
+                "away_team_score": 1.808
+            }
+        ],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 2.107,
+                "away_team_score": 1.679
+            }
+        ],
+        "total_inhibitors": [],
+        "game_duration": [
+            {
+                "total_amount": 31.0,
+                "home_team_score": 1.818,
+                "away_team_score": 1.96
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1699378200.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231106200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "Elite Series",
+            "home_team": "HEET",
+            "away_team": "Myth Esports"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.493,
+                "away_team_score": 2.529
+            }
+        ],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    }
+]

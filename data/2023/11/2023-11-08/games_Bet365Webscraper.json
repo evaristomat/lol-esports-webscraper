@@ -1,0 +1,527 @@
+[
+    {
+        "overview": {
+            "game_date": 1699462800.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20923820/D19/E18291406/F19/",
+            "league": "LOL - Ultraliga Super Puchar",
+            "home_team": "Alior Bank Team",
+            "away_team": "Duma Easta"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.16,
+                "away_team_score": 4.5
+            }
+        ],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1699473600.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20923820/D19/E18291405/F19/",
+            "league": "LOL - Ultraliga Super Puchar",
+            "home_team": "Zero Tenacity",
+            "away_team": "Illuminar Gaming"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.25,
+                "away_team_score": 3.75
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.66,
+                "away_team_score": 2.1
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.36,
+                "away_team_score": 3.0
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.28,
+                "away_team_score": 3.5
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 8.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 29.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 12.5,
+                "home_team_score": 2.2,
+                "away_team_score": 1.61
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 2.25,
+                "away_team_score": 1.57
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 2.5,
+                "away_team_score": 1.5
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.66,
+                "away_team_score": 2.1
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 29.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1699549200.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20923820/D19/E18300376/F19/",
+            "league": "LOL - Ultraliga Super Puchar",
+            "home_team": "Forsaken",
+            "away_team": "B2TG Outlaws"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.61,
+                "away_team_score": 2.2
+            }
+        ],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1699560000.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20923820/D19/E18300377/F19/",
+            "league": "LOL - Ultraliga Super Puchar",
+            "home_team": "LODIS",
+            "away_team": "Orbit Anonymo"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 6.5,
+                "away_team_score": 1.1
+            }
+        ],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1699693200.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20902720/D19/E18262904/F19/",
+            "league": "LOL - World Champs",
+            "home_team": "Bilibili Gaming",
+            "away_team": "Weibo Gaming"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.57,
+                "away_team_score": 2.25
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.8,
+                "away_team_score": 1.9
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.66,
+                "away_team_score": 2.1
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.57,
+                "away_team_score": 2.25
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 5.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 23.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 12.5,
+                "home_team_score": 2.1,
+                "away_team_score": 1.66
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.9,
+                "away_team_score": 1.8
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.72,
+                "away_team_score": 2.0
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.72,
+                "away_team_score": 2.0
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 32.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1699779600.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20902720/D19/E18275493/F19/",
+            "league": "LOL - World Champs",
+            "home_team": "JD Gaming",
+            "away_team": "T1"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.72,
+                "away_team_score": 2.0
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.8,
+                "away_team_score": 1.9
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.8,
+                "away_team_score": 1.9
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 21.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 11.5,
+                "home_team_score": 1.57,
+                "away_team_score": 2.25
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 2.1,
+                "away_team_score": 1.66
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 2.1,
+                "away_team_score": 1.66
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 30.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1699725600.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20924101/D19/E18300379/F19/",
+            "league": "LOL - Iberian Cup",
+            "home_team": "Los Heretics",
+            "away_team": "KOI Academy"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.66,
+                "away_team_score": 2.1
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.8,
+                "away_team_score": 1.9
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.72,
+                "away_team_score": 2.0
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.66,
+                "away_team_score": 2.1
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 29.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 12.5,
+                "home_team_score": 2.25,
+                "away_team_score": 1.57
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 2.1,
+                "away_team_score": 1.66
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 2.1,
+                "away_team_score": 1.66
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.66,
+                "away_team_score": 2.1
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 31.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1699727400.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20924102/D19/E18300387/F19/",
+            "league": "LOL - Elite Series Benelux Masters",
+            "home_team": "Meow Gaming Club",
+            "away_team": "A One Man Army"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.66,
+                "away_team_score": 2.1
+            }
+        ],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [
+            {
+                "total_amount": 6.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 33.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1699727400.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20924102/D19/E18300387/F19/",
+            "league": "LOL - Elite Series Benelux Masters",
+            "home_team": "ZennIT",
+            "away_team": "Myth Esports"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.66,
+                "away_team_score": 2.1
+            }
+        ],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [
+            {
+                "total_amount": 6.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 33.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    }
+]

@@ -107,7 +107,7 @@ async def process_bets(mode):
     if mode == "pending":
         bets = df_bets[df_bets['status'] == 'pending']
         for _, bet in bets.iterrows():
-            filtered_bets = filtered_bets = filter_bets(df_track, bet)
+            filtered_bets = filter_bets(df_track, bet)
             if not filtered_bets.empty and filtered_bets['message_sent'].iloc[0] == 1:
                 continue
             message = format_csv_data_to_message(bet)
@@ -145,17 +145,24 @@ def format_csv_data_to_message(row, status="pending"):
     
     shortened_url = shorten_url(row['url'])
 
+    roi_text = row['ROI']
+    # Extract the numeric value from the ROI string
+    roi_value = float(roi_text.strip('%'))
+    if roi_value >= 30:
+        roi_text += " 🚨"
+    elif roi_value > 20:
+        roi_text += " ⚠️"
+
     message = (f"{prefix} {emoji}\n"
-               f"📅 Date: {row['date']}\n"
-               f"🏆 League: {row['league']}\n"
-               f"🥇 Team 1: {row['t1']}\n"
-               f"🥈 Team 2: {row['t2']}\n\n"
-               f"🎲 TIP: {row['bet_type']} - {row['bet_line']}\n"
-               f"📊 ROI: {row['ROI']}\n"
-               f"📉 Fair Odds: {row['fair_odds']}\n"
-               f"🔢 Odds: {row['odds']}\n"
-               f"🏠 Betting House: {row['House']}\n"
-               f"🔗 {shortened_url}")
+            f"📅 Date: {row['date']}\n"
+            f"🏆 League: {row['league']}\n"
+            f"🥇 Team 1: {row['t1']}\n"
+            f"🥈 Team 2: {row['t2']}\n\n"
+            f"🎲 TIP: {row['bet_type']} - {row['bet_line']}\n"
+            f"📊 ROI: {roi_text}\n"
+            f"🔢 Odds: {row['odds']} | Fair Odds: {row['fair_odds']}\n"
+            f"🏠 Betting House: {row['House']}\n"
+            f"🔗 {shortened_url}")
     return message
 
 def get_daily_summary():
@@ -183,16 +190,20 @@ def get_daily_summary():
     
     return summary
 
-async def send_summary(mode="daily"):
-    if mode == "daily":
-        summary_msg = get_daily_summary()
-    elif mode == "yesterday":
-        summary_msg = get_yesterdays_summary()
-    else:  # Assumes mode == "monthly"
-        summary_msg = get_monthly_summary()
+async def send_summary():
+    # Retrieve all the summaries.
+    daily_summary_msg = get_daily_summary()
+    yesterdays_summary_msg = get_yesterdays_summary()
+    monthly_summary_msg = get_monthly_summary()
     
+    # Combine all summaries into one message.
+    combined_summary = (f"{daily_summary_msg}\n\n"
+                        f"{yesterdays_summary_msg}\n\n"
+                        f"{monthly_summary_msg}")
+    
+    # Initialize the bot with the token and send the combined message.
     bot = Bot(token=TOKEN)
-    await bot.send_message(chat_id=CHAT_ID, text=summary_msg, parse_mode='Markdown')
+    await bot.send_message(chat_id=CHAT_ID, text=combined_summary, parse_mode='Markdown')
 
 def get_yesterdays_summary():
     df = safe_read_csv(CSV_FILE_PATH)
@@ -244,7 +255,7 @@ def get_monthly_summary():
     
     profit_emoji = "🚀" if df['profit'].sum() > 0 else "💔"
     
-    summary_msg = (f"📊 *Monthly Summary for {current_month}*\n\n"
+    summary_msg = (f"📊 *Monthly Summary for {current_month}*\n"
                    f"🎲 *Total Bets:* {total_bets}\n"
                    f"✅ *Wins:* {wins} ({win_rate:.2f}% win rate)\n"
                    f"❌ *Losses:* {losses}\n"
@@ -258,14 +269,8 @@ async def main():
     await process_bets("changed")
     
     if MESSAGES_SENT:
-        print("Printing Yesterday's Summary")
-        await send_summary(mode="yesterday")
-
-        print("Printing Daily Summary")
-        await send_summary(mode="daily")        
-        
-        print("Printing Monthly Summary")
-        await send_summary(mode="monthly")
+        print("Printing Combined Summary")
+        await send_summary()
 
 if __name__ == "__main__":
     asyncio.run(main())

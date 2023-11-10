@@ -118,10 +118,30 @@ combined_bets_df = pd.concat([existing_bets_df, bets_df], ignore_index=True)
 combined_bets_df['team_combined'] = combined_bets_df[['t1', 't2']].apply(lambda x: ' vs '.join(sorted(x)), axis=1)
 
 # Drop duplicates based on specific columns
-combined_bets_df = combined_bets_df.drop_duplicates(subset=['date', 'league', 'team_combined', 'bet_type', 'bet_line', 'ROI', 'odds', 'House', 'status'])
+combined_bets_df = combined_bets_df.drop_duplicates(subset=['date', 'league', 'team_combined', 'bet_type', 'bet_line', 'ROI', 'odds', 'House'],  keep='last')
 
 # Drop the combined team column if it's not needed
 combined_bets_df = combined_bets_df.drop(columns=['team_combined'])
 
 # Save the updated combined bets DataFrame
 combined_bets_df.to_csv(bets_path, index=False)
+
+def save_results(results_path, results_df):
+    try:
+        # Load existing results if available
+        existing_results_df = pd.read_csv(results_path)
+        combined_results_df = pd.concat([existing_results_df, results_df], ignore_index=True)
+        unique_columns = ['date', 'league', 't1', 't2', 'bet_type','bet_line', 'ROI', 'House', 'game']
+        # Remove duplicates with the same identifier in the existing data
+        updated_results_df = combined_results_df.drop_duplicates(subset=unique_columns, keep='last')
+    except FileNotFoundError:
+        # If there is no existing file, just save the new results
+        results_df.to_csv(results_path, index=False)
+        print(f"Results saved to {results_path}")
+        return
+
+    # Save the updated results, which now includes the new unique rows
+    updated_results_df.to_csv(results_path, index=False)
+    print(f"Updated results saved to {results_path}")
+
+save_results(results_path, results_df)

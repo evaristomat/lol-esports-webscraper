@@ -1,13 +1,28 @@
 import datetime
-from team_stats_calculator import TeamStatsCalculator
+from team_stats_calculator import TeamStatsCalculator, TeamNameError 
 from db_loader import DatabaseLoader
 from match_odds import MatchOdds
 import json
+import logging
+from colorama import init, Fore
 
 class OddsComparator:   
     def __init__(self, filename, game_data):
         self.filename = filename
         self.game_data = game_data
+        self.data_loader = DatabaseLoader(self.filename)
+        self.game = MatchOdds(self.game_data)
+        self.team_stats_calculators = {}
+
+        # Initialize team stats calculators for both teams
+        for team in [self.game.home_team(), self.game.away_team()]:
+            try:
+                self.team_stats_calculators[team] = TeamStatsCalculator(team, self.data_loader)
+            except TeamNameError as e:
+                # Log the error message without the traceback
+                logging.error(Fore.RED + f"Error in Team Name: {team} - {e}" + Fore.RESET)
+                # Decide how to handle this error. You could raise a new error or return.
+                #continue
 
     @staticmethod
     def calculate_roi(probability, odds):
@@ -35,24 +50,23 @@ class OddsComparator:
     def game_url(self):
         league = self.game_data["overview"]["url"]
         return league
-        
+    
     def _compare(self, compare_func, line_key, line_value_func):
-        game = MatchOdds(self.game_data)
-        data_loader = DatabaseLoader(self.filename)
-        home_team, away_team = game.home_team(), game.away_team()
+        home_team, away_team = self.game.home_team(), self.game.away_team(),
 
-        try:
-            #print(f"Category: {line_key}")            
+        # Use the pre-initialized team stats calculators
+        home_team_stats = self.team_stats_calculators.get(home_team)
+        away_team_stats = self.team_stats_calculators.get(away_team)
+        
+        try:   
 
             if line_key == 'first_dragon':
-                team_stats_dict = {}
-                # Calculate stats (probability) for each team
-                for team in [home_team, away_team]:
-                    team_all_stats = TeamStatsCalculator(team, data_loader)
-                    stats = team_all_stats.total_fd()
-                    team_stats_dict[team] = stats / 100
+                team_stats_dict = {
+                home_team: home_team_stats.total_fd() / 100,
+                away_team: away_team_stats.total_fd() / 100
+            }
 
-                dragon_odds = game.first_dragon()
+                dragon_odds = self.game.first_dragon()
                 if None in dragon_odds.values():
                     #print(f"No odds available for {team}'s {line_key}.")
                     return None
@@ -79,12 +93,12 @@ class OddsComparator:
                 
             else:
                 combined_stats = 0    
-                line_value_dict = line_value_func()[line_key]
-                for team in [home_team, away_team]:
-                    team_all_stats = TeamStatsCalculator(team, data_loader)
-                    stats = compare_func(team_all_stats, line_value_dict)
-                    combined_stats += stats / 200  # Same as (stats / 100) / 2
-
+                line_value_dict = line_value_func().get(line_key)
+                if line_value_dict is None:
+                    raise ValueError(f"No odds available for {line_key}")
+                # Use the pre-initialized team stats calculators
+                combined_stats += compare_func(home_team_stats, line_value_dict) / 200
+                combined_stats += compare_func(away_team_stats, line_value_dict) / 200
                 line_match = line_value_func()
 
                 #print(f"Over Stats: {combined_stats * 100}%")
@@ -117,9 +131,8 @@ class OddsComparator:
                             "url": self.game_url
                         }
                     
-        except Exception as e:
-            #print(f"Error in _compare for {line_key}: {e}")
-            return None
+        except ValueError as e:
+            return None 
 
     def compare_dragon(self):
         return self._compare(
@@ -173,10 +186,10 @@ class OddsComparator:
 if __name__ == "__main__":
     filename = '../database/data_transformed.csv'
     
-    with open(r'..\data\2023-10-17\games_DafabetWebscraper.json', 'r', encoding='utf-8') as file:
+    with open(r'..\data\2023\11\2023-11-09\games_Bet365Webscraper.json', 'r', encoding='utf-8') as file:
         games = json.load(file)
     
-    game_data = games[13]
+    game_data = games[2]
     timestamp = game_data['overview']['game_date']
     date = datetime.datetime.utcfromtimestamp(timestamp)
     formatted_date = date.strftime('%Y-%m-%d')
