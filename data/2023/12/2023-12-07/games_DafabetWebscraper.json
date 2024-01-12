@@ -1,0 +1,875 @@
+[
+    {
+        "overview": {
+            "game_date": 1702112400.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231206200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "LPL All Star 2023",
+            "home_team": "ZIKA",
+            "away_team": "PPGOD"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.533,
+                "away_team_score": 2.451
+            }
+        ],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1702114200.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231206200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "LPL All Star 2023",
+            "home_team": "TANGYUAN",
+            "away_team": "The Kings Moon"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.742,
+                "away_team_score": 2.057
+            }
+        ],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1702116000.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231206200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "LPL All Star 2023",
+            "home_team": "CRISP",
+            "away_team": "JIEJIE"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.954,
+                "away_team_score": 1.823
+            }
+        ],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1702117800.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231206200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "LPL All Star 2023",
+            "home_team": "Tian",
+            "away_team": "MISSING"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.733,
+                "away_team_score": 2.07
+            }
+        ],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1702195200.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231206200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "LPL All Star 2023",
+            "home_team": "Team 2023",
+            "away_team": "Team 2022"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.711,
+                "away_team_score": 2.062
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.814,
+                "away_team_score": 1.905
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.708,
+                "away_team_score": 2.021
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.692,
+                "away_team_score": 2.044
+            }
+        ],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.742,
+                "away_team_score": 1.991
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.791,
+                "away_team_score": 1.898
+            }
+        ],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1702198800.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231206200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "LPL All Star 2023",
+            "home_team": "Team 2023",
+            "away_team": "Team 2022"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.711,
+                "away_team_score": 2.062
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.814,
+                "away_team_score": 1.905
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.708,
+                "away_team_score": 2.021
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.692,
+                "away_team_score": 2.044
+            }
+        ],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.742,
+                "away_team_score": 1.991
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.791,
+                "away_team_score": 1.898
+            }
+        ],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1702209600.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231206200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "LPL All Star 2023",
+            "home_team": "Team TheShy",
+            "away_team": "Team Rookie"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.936,
+                "away_team_score": 1.809
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.858,
+                "away_team_score": 1.858
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.851,
+                "away_team_score": 1.851
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.851,
+                "away_team_score": 1.851
+            }
+        ],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.858,
+                "away_team_score": 1.858
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.843,
+                "away_team_score": 1.843
+            }
+        ],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1702213200.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231206200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "LPL All Star 2023",
+            "home_team": "Team TheShy",
+            "away_team": "Team Rookie"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.903,
+                "away_team_score": 1.839
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.858,
+                "away_team_score": 1.858
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.851,
+                "away_team_score": 1.851
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.851,
+                "away_team_score": 1.851
+            }
+        ],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.858,
+                "away_team_score": 1.858
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.843,
+                "away_team_score": 1.843
+            }
+        ],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1702216800.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231206200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "LPL All Star 2023",
+            "home_team": "Team TheShy",
+            "away_team": "Team Rookie"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.903,
+                "away_team_score": 1.839
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.858,
+                "away_team_score": 1.858
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.851,
+                "away_team_score": 1.851
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.851,
+                "away_team_score": 1.851
+            }
+        ],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.858,
+                "away_team_score": 1.858
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.843,
+                "away_team_score": 1.843
+            }
+        ],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1702123200.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231206200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "Red Bull League of Its Own",
+            "home_team": "BIG",
+            "away_team": "Eintracht Spandau"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.878,
+                "away_team_score": 1.859
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.902,
+                "away_team_score": 1.804
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.911,
+                "away_team_score": 1.795
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.919,
+                "away_team_score": 1.788
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 2.017,
+                "away_team_score": 1.711
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 27.5,
+                "home_team_score": 1.782,
+                "away_team_score": 1.927
+            }
+        ],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.791,
+                "away_team_score": 1.916
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.908,
+                "away_team_score": 1.798
+            }
+        ],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": [
+            {
+                "total_amount": 34.0,
+                "home_team_score": 1.913,
+                "away_team_score": 1.794
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1702132200.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231206200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "Red Bull League of Its Own",
+            "home_team": "T1",
+            "away_team": "No Need Orga"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.014,
+                "away_team_score": 11.833
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.485,
+                "away_team_score": 2.459
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.114,
+                "away_team_score": 5.46
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.063,
+                "away_team_score": 7.176
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.79,
+                "away_team_score": 1.917
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 23.5,
+                "home_team_score": 1.662,
+                "away_team_score": 2.089
+            }
+        ],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.22,
+                "away_team_score": 3.836
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.53,
+                "away_team_score": 2.343
+            }
+        ],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": [
+            {
+                "total_amount": 28.0,
+                "home_team_score": 1.874,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1702136700.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231206200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "Red Bull League of Its Own",
+            "home_team": "Karmine Corp",
+            "away_team": "No Need Orga"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.498,
+                "away_team_score": 2.483
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.733,
+                "away_team_score": 1.987
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.55,
+                "away_team_score": 2.299
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.589,
+                "away_team_score": 2.218
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.851,
+                "away_team_score": 1.851
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 26.5,
+                "home_team_score": 1.755,
+                "away_team_score": 1.959
+            }
+        ],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.673,
+                "away_team_score": 2.072
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 2.039,
+                "away_team_score": 1.695
+            }
+        ],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": [
+            {
+                "total_amount": 32.0,
+                "home_team_score": 1.915,
+                "away_team_score": 1.792
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1702141200.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231206200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "Red Bull League of Its Own",
+            "home_team": "T1",
+            "away_team": "Karmine Corp"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.069,
+                "away_team_score": 7.401
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.516,
+                "away_team_score": 2.377
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.16,
+                "away_team_score": 4.579
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.104,
+                "away_team_score": 5.728
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.851,
+                "away_team_score": 1.851
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 23.5,
+                "home_team_score": 1.73,
+                "away_team_score": 1.992
+            }
+        ],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.26,
+                "away_team_score": 3.487
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.497,
+                "away_team_score": 2.424
+            }
+        ],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": [
+            {
+                "total_amount": 29.0,
+                "home_team_score": 2.028,
+                "away_team_score": 1.703
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1702145700.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231206200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "Red Bull League of Its Own",
+            "home_team": "T1",
+            "away_team": "Team Heretics"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.076,
+                "away_team_score": 7.089
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.522,
+                "away_team_score": 2.363
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.164,
+                "away_team_score": 4.526
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.112,
+                "away_team_score": 5.524
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.851,
+                "away_team_score": 1.851
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 23.5,
+                "home_team_score": 1.684,
+                "away_team_score": 2.056
+            }
+        ],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.265,
+                "away_team_score": 3.448
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.556,
+                "away_team_score": 2.286
+            }
+        ],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": [
+            {
+                "total_amount": 30.0,
+                "home_team_score": 1.916,
+                "away_team_score": 1.791
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1702152000.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231206200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "Red Bull League of Its Own",
+            "home_team": "T1",
+            "away_team": "G2 Esports"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.255,
+                "away_team_score": 3.654
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.611,
+                "away_team_score": 2.176
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.288,
+                "away_team_score": 3.288
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.249,
+                "away_team_score": 3.577
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.761,
+                "away_team_score": 1.951
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 23.5,
+                "home_team_score": 1.782,
+                "away_team_score": 1.927
+            }
+        ],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.397,
+                "away_team_score": 2.743
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.515,
+                "away_team_score": 2.379
+            }
+        ],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": [
+            {
+                "total_amount": 30.0,
+                "home_team_score": 1.851,
+                "away_team_score": 1.851
+            }
+        ]
+    }
+]

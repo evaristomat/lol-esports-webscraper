@@ -1,0 +1,94 @@
+[
+    {
+        "overview": {
+            "game_date": 1700636400.0,
+            "url": "https://www.bet365.com/#/AC/B151/C1/D50/E3/F163/",
+            "league": "LOL - NEST",
+            "home_team": "EDward Gaming",
+            "away_team": "OMG"
+        },
+        "winner": [],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1700640000.0,
+            "url": "https://www.bet365.com/#/AC/B151/C1/D50/E3/F163/",
+            "league": "LOL - NEST",
+            "home_team": "LGD Gaming",
+            "away_team": "Ninjas in Pyjamas"
+        },
+        "winner": [],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1700643600.0,
+            "url": "https://www.bet365.com/#/AC/B151/C1/D50/E3/F163/",
+            "league": "LOL - NEST",
+            "home_team": "LNG Esports",
+            "away_team": "ThunderTalk Gaming"
+        },
+        "winner": [],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1700647200.0,
+            "url": "https://www.bet365.com/#/AC/B151/C1/D50/E3/F163/",
+            "league": "LOL - NEST",
+            "home_team": "Rare Atom",
+            "away_team": "JD Gaming"
+        },
+        "winner": [],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    }
+]

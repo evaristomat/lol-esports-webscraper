@@ -1,0 +1,256 @@
+[
+    {
+        "overview": {
+            "game_date": 1701495000.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231130200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "2023 NEST",
+            "home_team": "Team WE",
+            "away_team": "JD Gaming"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.72,
+                "away_team_score": 2.05
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.809,
+                "away_team_score": 1.91
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.72,
+                "away_team_score": 2.004
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.762,
+                "away_team_score": 1.95
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.885,
+                "away_team_score": 1.822
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 27.5,
+                "home_team_score": 1.818,
+                "away_team_score": 1.889
+            }
+        ],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.763,
+                "away_team_score": 1.965
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.646,
+                "away_team_score": 2.092
+            }
+        ],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 2.232,
+                "away_team_score": 1.582
+            }
+        ],
+        "total_inhibitors": [],
+        "game_duration": [
+            {
+                "total_amount": 30.0,
+                "home_team_score": 1.719,
+                "away_team_score": 2.01
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1701504000.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231130200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "2023 NEST",
+            "home_team": "FunPlus Phoenix",
+            "away_team": "Oh My God"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.509,
+                "away_team_score": 2.459
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.725,
+                "away_team_score": 2.013
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.538,
+                "away_team_score": 2.324
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.453,
+                "away_team_score": 2.551
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.853,
+                "away_team_score": 1.853
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 30.5,
+                "home_team_score": 1.853,
+                "away_team_score": 1.853
+            }
+        ],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.581,
+                "away_team_score": 2.254
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.641,
+                "away_team_score": 2.1
+            }
+        ],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": [
+            {
+                "total_amount": 30.0,
+                "home_team_score": 1.792,
+                "away_team_score": 1.919
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1701447600.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231130200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "Cbol\u00e3o Season 6",
+            "home_team": "LEC Team",
+            "away_team": "Sem Peitim"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.131,
+                "away_team_score": 5.515
+            }
+        ],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.851,
+                "away_team_score": 1.851
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 26.5,
+                "home_team_score": 1.806,
+                "away_team_score": 1.899
+            }
+        ],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": [
+            {
+                "total_amount": 28.0,
+                "home_team_score": 1.883,
+                "away_team_score": 1.821
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1701450000.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231130200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "Cbol\u00e3o Season 6",
+            "home_team": "Near Airport",
+            "away_team": "Full Clear Mentality"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.131,
+                "away_team_score": 5.515
+            }
+        ],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.851,
+                "away_team_score": 1.851
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 28.5,
+                "home_team_score": 1.784,
+                "away_team_score": 1.924
+            }
+        ],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": [
+            {
+                "total_amount": 28.0,
+                "home_team_score": 1.898,
+                "away_team_score": 1.807
+            }
+        ]
+    }
+]

@@ -57,7 +57,7 @@ class DafabetWebscraper(Webscraper):
 
     @staticmethod
     def get_url() -> str:
-        return "https://esports.e1q1j0ov.com/esport.aspx?LanguageCode=en&token=&merchantScrollOnly=1"
+        return "https://esports.e1q1j0ov.com/esportsite/index.html?v=231219200001&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/"
 
     def fetch_games(self) -> List[GameDetailDto]:
         wait = WebDriverWait(self.driver, 10)
@@ -97,6 +97,7 @@ class DafabetWebscraper(Webscraper):
                 elements = self.driver.find_elements(By.XPATH, "//div[@id='scrContainer']/div/div/a")
                 for element in elements:
                     dto = self.map_element_to_detail_dto(league, element)
+                    print(dto)
                     if dto is None:
                         continue
                     detail_dtos.append(dto)
@@ -131,8 +132,9 @@ class DafabetWebscraper(Webscraper):
         time.sleep(random.random() * 5 + 1)  # Add some random delay
 
         overview_dto = self.map_element_to_overview_dto(league, element)
-        if overview_dto.game_date <= datetime.now():
-            return None
+        # logging.debug(f"Overview DTO: {overview_dto}")
+        # if overview_dto.game_date <= datetime.now():
+        #     return None
 
         main_window_handle = self.driver.current_window_handle
         ActionChains(self.driver).key_down(Keys.CONTROL).click(element).key_up(Keys.CONTROL).perform()

@@ -4,10 +4,10 @@
 . env/Scripts/activate
 
 # Start telegram service
-docker-compose -f ./docker-compose-telegram.yml up -d
+#docker-compose -f ./docker-compose-telegram.yml up -d
 
 # Run the scraping script
-python ./scrap_headful.py
+#python ./scrap_headful.py
 
 # Start webscraper service and abort if any container exits
 docker-compose -f ./docker-compose-webscraper.yml up --abort-on-container-exit
@@ -28,4 +28,4 @@ python ./stats/best.py
 python ./bets/get_results.py
 
 # Send telegram bets
-python ./telegram_bot/test.py
+python ./telegram_bot/main.py

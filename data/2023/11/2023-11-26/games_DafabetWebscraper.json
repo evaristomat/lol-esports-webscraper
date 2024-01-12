@@ -1,0 +1,418 @@
+[
+    {
+        "overview": {
+            "game_date": 1701018000.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231125200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "NLC",
+            "home_team": "Fritt Fall",
+            "away_team": "JD Gaming"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.784,
+                "away_team_score": 1.981
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.82,
+                "away_team_score": 1.902
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.766,
+                "away_team_score": 1.965
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.755,
+                "away_team_score": 1.979
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.851,
+                "away_team_score": 1.851
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 35.5,
+                "home_team_score": 1.817,
+                "away_team_score": 1.887
+            },
+            {
+                "total_amount": 34.5,
+                "home_team_score": 1.677,
+                "away_team_score": 2.067
+            },
+            {
+                "total_amount": 36.5,
+                "home_team_score": 1.983,
+                "away_team_score": 1.736
+            }
+        ],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.794,
+                "away_team_score": 1.931
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.821,
+                "away_team_score": 1.882
+            }
+        ],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.99,
+                "away_team_score": 1.73
+            }
+        ],
+        "total_inhibitors": [],
+        "game_duration": [
+            {
+                "total_amount": 31.0,
+                "home_team_score": 1.761,
+                "away_team_score": 1.951
+            },
+            {
+                "total_amount": 30.0,
+                "home_team_score": 1.582,
+                "away_team_score": 2.232
+            },
+            {
+                "total_amount": 32.0,
+                "home_team_score": 1.987,
+                "away_team_score": 1.733
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1701021600.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231125200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "NLC",
+            "home_team": "Berlin International Gaming",
+            "away_team": "Epic Avalanche"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.787,
+                "away_team_score": 1.977
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.83,
+                "away_team_score": 1.891
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.789,
+                "away_team_score": 1.937
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.781,
+                "away_team_score": 1.947
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.851,
+                "away_team_score": 1.851
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 35.5,
+                "home_team_score": 1.821,
+                "away_team_score": 1.883
+            },
+            {
+                "total_amount": 34.5,
+                "home_team_score": 1.68,
+                "away_team_score": 2.061
+            },
+            {
+                "total_amount": 36.5,
+                "home_team_score": 1.988,
+                "away_team_score": 1.733
+            }
+        ],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.811,
+                "away_team_score": 1.912
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.829,
+                "away_team_score": 1.874
+            }
+        ],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 2.024,
+                "away_team_score": 1.706
+            }
+        ],
+        "total_inhibitors": [],
+        "game_duration": [
+            {
+                "total_amount": 32.0,
+                "home_team_score": 2.102,
+                "away_team_score": 1.654
+            },
+            {
+                "total_amount": 30.0,
+                "home_team_score": 1.654,
+                "away_team_score": 2.102
+            },
+            {
+                "total_amount": 31.0,
+                "home_team_score": 1.851,
+                "away_team_score": 1.851
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1701025200.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231125200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "NLC",
+            "home_team": "JD Gaming",
+            "away_team": "Fritt Fall"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.493,
+                "away_team_score": 2.529
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.717,
+                "away_team_score": 2.029
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.547,
+                "away_team_score": 2.331
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.516,
+                "away_team_score": 2.407
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.927,
+                "away_team_score": 1.782
+            },
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.742,
+                "away_team_score": 1.976
+            },
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.589,
+                "away_team_score": 2.218
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 36.5,
+                "home_team_score": 1.997,
+                "away_team_score": 1.725
+            },
+            {
+                "total_amount": 35.5,
+                "home_team_score": 1.829,
+                "away_team_score": 1.874
+            },
+            {
+                "total_amount": 34.5,
+                "home_team_score": 1.687,
+                "away_team_score": 2.051
+            }
+        ],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.633,
+                "away_team_score": 2.16
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.742,
+                "away_team_score": 1.975
+            }
+        ],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": [
+            {
+                "total_amount": 31.0,
+                "home_team_score": 2.168,
+                "away_team_score": 1.615
+            },
+            {
+                "total_amount": 30.0,
+                "home_team_score": 1.902,
+                "away_team_score": 1.803
+            },
+            {
+                "total_amount": 29.0,
+                "home_team_score": 1.695,
+                "away_team_score": 2.04
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1701028800.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231125200000&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "NLC",
+            "home_team": "E WIE EINFACH E-SPORTS",
+            "away_team": "Berlin International Gaming"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.787,
+                "away_team_score": 1.977
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.83,
+                "away_team_score": 1.891
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.789,
+                "away_team_score": 1.937
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.781,
+                "away_team_score": 1.947
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.851,
+                "away_team_score": 1.851
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 35.5,
+                "home_team_score": 1.851,
+                "away_team_score": 1.851
+            },
+            {
+                "total_amount": 36.5,
+                "home_team_score": 2.024,
+                "away_team_score": 1.706
+            },
+            {
+                "total_amount": 34.5,
+                "home_team_score": 1.706,
+                "away_team_score": 2.024
+            }
+        ],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.811,
+                "away_team_score": 1.912
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.829,
+                "away_team_score": 1.874
+            }
+        ],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 2.024,
+                "away_team_score": 1.706
+            }
+        ],
+        "total_inhibitors": [],
+        "game_duration": [
+            {
+                "total_amount": 32.0,
+                "home_team_score": 2.024,
+                "away_team_score": 1.706
+            },
+            {
+                "total_amount": 30.0,
+                "home_team_score": 1.605,
+                "away_team_score": 2.187
+            },
+            {
+                "total_amount": 31.0,
+                "home_team_score": 1.79,
+                "away_team_score": 1.917
+            }
+        ]
+    }
+]

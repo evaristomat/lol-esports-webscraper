@@ -54,7 +54,7 @@ def read_stamp(date_string: str):
         "Sep": 9,
         "Out": 10,
         "Nov": 11,
-        "Dec": 12,
+        "Dez": 12,
     }
     current_year = datetime.now().year
     day, month_abbr = date_string.split()
