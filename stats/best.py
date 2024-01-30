@@ -125,7 +125,7 @@ def process_json_files(data_folder, processed_files_log, csv_path, filename, tea
                         
                         # Calculate identifier for the new row
                         identifier = row_identifier(row.iloc[0])
-                        #print(identifier)
+                        print(identifier)
                         try:
                             roi_value = float(row['ROI'].iloc[0].replace('%', '').strip())
                             if roi_value < ROI_THRESHOLD:

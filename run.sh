@@ -6,14 +6,14 @@
 # Start telegram service
 #docker-compose -f ./docker-compose-telegram.yml up -d
 
-# Run the scraping script
-#python ./scrap_headful.py
+# 365 SCRIPT
+python ./scrap_headful.py
 
 # Start webscraper service and abort if any container exits
 docker-compose -f ./docker-compose-webscraper.yml up --abort-on-container-exit
 
 # Run update db
-python ./database/update.py
+# python ./database/update.py
 
 # Run update db transformed
 python ./database/data_transformation.py

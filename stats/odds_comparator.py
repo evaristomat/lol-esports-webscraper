@@ -94,21 +94,20 @@ class OddsComparator:
             else:
                 combined_stats = 0    
                 line_value_dict = line_value_func().get(line_key)
+                
                 if line_value_dict is None:
                     raise ValueError(f"No odds available for {line_key}")
                 # Use the pre-initialized team stats calculators
                 combined_stats += compare_func(home_team_stats, line_value_dict) / 200
                 combined_stats += compare_func(away_team_stats, line_value_dict) / 200
                 line_match = line_value_func()
+                print(line_match)
 
-                #print(f"Over Stats: {combined_stats * 100}%")
-                #print(line_match)
-
-                if combined_stats > 0:
+                if combined_stats > -1:
                     roi_over_combined = self.calculate_roi(combined_stats, line_match['over'])
                     roi_under_combined = self.calculate_roi(1 - combined_stats, line_match['under'])
-                    #print(f"ROI over: {round(roi_over_combined, 2)}")
-                    #print(f"ROI under: {round(roi_under_combined, 2)}")
+                    print(f"ROI over: {round(roi_over_combined, 2)}")
+                    print(f"ROI under: {round(roi_under_combined, 2)}")
 
                     fair_odds_over = self.calculate_fair_odds(combined_stats)
                     fair_odds_under = self.calculate_fair_odds(1 - combined_stats)
@@ -186,23 +185,24 @@ class OddsComparator:
 if __name__ == "__main__":
     filename = '../database/data_transformed.csv'
     
-    with open(r'..\data\2023\11\2023-11-09\games_Bet365Webscraper.json', 'r', encoding='utf-8') as file:
+    with open(r'..\data\2024\01\2024-01-17\games_Bet365Webscraper.json', 'r', encoding='utf-8') as file:
         games = json.load(file)
     
-    game_data = games[2]
+    game_data = games[-19]
     timestamp = game_data['overview']['game_date']
     date = datetime.datetime.utcfromtimestamp(timestamp)
     formatted_date = date.strftime('%Y-%m-%d')
     print(formatted_date)
     
     comparator = OddsComparator(filename, game_data)
-    best = comparator.compare_dragon()
-    print(best)
+    # best = comparator.compare_dragon()
+    # print(best)
+    print("Comparing Tower")
     best = comparator.compare_tower()
     print(best)
-    best = comparator.compare_kills()
-    print(best)
-    best = comparator.compare_first_drake()
-    print(best)
-    best = comparator.compare_total_barons()
-    print(best)
+    # best = comparator.compare_kills()
+    # print(best)
+    # best = comparator.compare_first_drake()
+    # print(best)
+    # best = comparator.compare_total_barons()
+    # print(best)

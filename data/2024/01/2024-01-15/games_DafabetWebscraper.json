@@ -1,0 +1,897 @@
+[
+    {
+        "overview": {
+            "game_date": 1705766400.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231219200001&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "CBLOL 2024 Split 1",
+            "home_team": "KaBuM! eSports",
+            "away_team": "LOUD"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.849,
+                "away_team_score": 1.906
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.879,
+                "away_team_score": 1.841
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.838,
+                "away_team_score": 1.882
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.947,
+                "away_team_score": 1.781
+            }
+        ],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.863,
+                "away_team_score": 1.857
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.91,
+                "away_team_score": 1.796
+            }
+        ],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1705770000.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231219200001&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "CBLOL 2024 Split 1",
+            "home_team": "Vivo Keyd Stars",
+            "away_team": "Los Grandes"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.394,
+                "away_team_score": 2.873
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.682,
+                "away_team_score": 2.08
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.417,
+                "away_team_score": 2.704
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.401,
+                "away_team_score": 2.767
+            }
+        ],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.567,
+                "away_team_score": 2.287
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.852,
+                "away_team_score": 1.85
+            }
+        ],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1705773600.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231219200001&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "CBLOL 2024 Split 1",
+            "home_team": "FURIA",
+            "away_team": "Fluxo"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.448,
+                "away_team_score": 2.668
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.738,
+                "away_team_score": 2.0
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.509,
+                "away_team_score": 2.423
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.489,
+                "away_team_score": 2.478
+            }
+        ],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.604,
+                "away_team_score": 2.214
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.77,
+                "away_team_score": 1.94
+            }
+        ],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1705777200.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231219200001&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "CBLOL 2024 Split 1",
+            "home_team": "INTZ",
+            "away_team": "Liberty"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.71,
+                "away_team_score": 2.082
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.816,
+                "away_team_score": 1.907
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.687,
+                "away_team_score": 2.072
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.646,
+                "away_team_score": 2.139
+            }
+        ],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.71,
+                "away_team_score": 2.039
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.918,
+                "away_team_score": 1.789
+            }
+        ],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1705780800.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231219200001&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "CBLOL 2024 Split 1",
+            "home_team": "paiN Gaming",
+            "away_team": "RED Canids"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.592,
+                "away_team_score": 2.288
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.774,
+                "away_team_score": 1.955
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.706,
+                "away_team_score": 2.045
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.688,
+                "away_team_score": 2.071
+            }
+        ],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.721,
+                "away_team_score": 2.024
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.942,
+                "away_team_score": 1.769
+            }
+        ],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1705852800.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231219200001&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "CBLOL 2024 Split 1",
+            "home_team": "Los Grandes",
+            "away_team": "Fluxo"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.612,
+                "away_team_score": 2.248
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.797,
+                "away_team_score": 1.927
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.628,
+                "away_team_score": 2.169
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.665,
+                "away_team_score": 2.107
+            }
+        ],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.708,
+                "away_team_score": 2.041
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.839,
+                "away_team_score": 1.864
+            }
+        ],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1705856400.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231219200001&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "CBLOL 2024 Split 1",
+            "home_team": "RED Canids",
+            "away_team": "INTZ"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.288,
+                "away_team_score": 3.464
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.644,
+                "away_team_score": 2.142
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.342,
+                "away_team_score": 3.028
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.307,
+                "away_team_score": 3.224
+            }
+        ],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.485,
+                "away_team_score": 2.489
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.518,
+                "away_team_score": 2.373
+            }
+        ],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1705860000.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231219200001&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "CBLOL 2024 Split 1",
+            "home_team": "KaBuM! eSports",
+            "away_team": "Vivo Keyd Stars"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.622,
+                "away_team_score": 2.229
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.778,
+                "away_team_score": 1.95
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.655,
+                "away_team_score": 2.122
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.633,
+                "away_team_score": 2.16
+            }
+        ],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.714,
+                "away_team_score": 2.032
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.783,
+                "away_team_score": 1.925
+            }
+        ],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1705863600.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231219200001&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "CBLOL 2024 Split 1",
+            "home_team": "FURIA",
+            "away_team": "Liberty"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.424,
+                "away_team_score": 2.754
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.735,
+                "away_team_score": 2.005
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.476,
+                "away_team_score": 2.513
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.427,
+                "away_team_score": 2.672
+            }
+        ],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.558,
+                "away_team_score": 2.307
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.719,
+                "away_team_score": 2.006
+            }
+        ],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1705867200.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231219200001&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "CBLOL 2024 Split 1",
+            "home_team": "LOUD",
+            "away_team": "paiN Gaming"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.766,
+                "away_team_score": 2.004
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.8,
+                "away_team_score": 1.924
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.746,
+                "away_team_score": 1.989
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.712,
+                "away_team_score": 2.036
+            }
+        ],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.767,
+                "away_team_score": 1.964
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.823,
+                "away_team_score": 1.88
+            }
+        ],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1706029200.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231219200001&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "Greek Legends League 2024 Spring",
+            "home_team": "Team Mythic",
+            "away_team": "Team Refuse"
+        },
+        "winner": [],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1706032800.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231219200001&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "Greek Legends League 2024 Spring",
+            "home_team": "Team Phantasma",
+            "away_team": "Hell Zerolag Esports"
+        },
+        "winner": [],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1706036400.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231219200001&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "Greek Legends League 2024 Spring",
+            "home_team": "Gamespace Mediterranean College Esports",
+            "away_team": "Wild Panthers Esports"
+        },
+        "winner": [],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1706040000.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231219200001&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "Greek Legends League 2024 Spring",
+            "home_team": "Anorthosis Famagusta Esports",
+            "away_team": "WLGaming Esports"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.403,
+                "away_team_score": 2.836
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.677,
+                "away_team_score": 2.088
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.47,
+                "away_team_score": 2.531
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.433,
+                "away_team_score": 2.651
+            }
+        ],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.573,
+                "away_team_score": 2.275
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.711,
+                "away_team_score": 2.017
+            }
+        ],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1706115600.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231219200001&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "Greek Legends League 2024 Spring",
+            "home_team": "Wild Panthers Esports",
+            "away_team": "Team Mythic"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.745,
+                "away_team_score": 2.031
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.816,
+                "away_team_score": 1.907
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.756,
+                "away_team_score": 1.977
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.744,
+                "away_team_score": 1.993
+            }
+        ],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.787,
+                "away_team_score": 1.939
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.818,
+                "away_team_score": 1.886
+            }
+        ],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1706119200.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231219200001&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "Greek Legends League 2024 Spring",
+            "home_team": "Team Refuse",
+            "away_team": "Hell Zerolag Esports"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.507,
+                "away_team_score": 2.49
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.723,
+                "away_team_score": 2.021
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.559,
+                "away_team_score": 2.305
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.528,
+                "away_team_score": 2.376
+            }
+        ],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.704,
+                "away_team_score": 2.047
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.747,
+                "away_team_score": 1.969
+            }
+        ],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1706122800.0,
+            "url": "https://esports.e1q1j0ov.com/esportsite/index.html?v=231219200001&id=1032&token=&languageCode=0&liveStream=1&theme=default&streamer=1&streamerLiveStream=1#/",
+            "league": "Greek Legends League 2024 Spring",
+            "home_team": "Anorthosis Famagusta Esports",
+            "away_team": "Gamespace Mediterranean College Esports"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.805,
+                "away_team_score": 1.956
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.818,
+                "away_team_score": 1.904
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.875,
+                "away_team_score": 1.845
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.903,
+                "away_team_score": 1.819
+            }
+        ],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.838,
+                "away_team_score": 1.883
+            }
+        ],
+        "total_dragons": [],
+        "first_dragon": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.782,
+                "away_team_score": 1.927
+            }
+        ],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    }
+]

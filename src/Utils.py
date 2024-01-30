@@ -44,7 +44,7 @@ def click_element(driver, element):
 def read_stamp(date_string: str):
     month_map = {
         "Jan": 1,
-        "Feb": 2,
+        "Fev": 2,
         "Mar": 3,
         "Apr": 4,
         "May": 5,

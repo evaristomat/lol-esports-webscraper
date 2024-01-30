@@ -83,12 +83,12 @@ class MatchOdds:
         
 
 if __name__ == "__main__": 
-    with open(r'..\data\2023\11\2023-11-08\games_Bet365Webscraper.json', 'r', encoding='utf-8') as file:
+    with open(r'..\data\2024\01\2024-01-17\games_Bet365Webscraper.json', 'r', encoding='utf-8') as file:
         games = json.load(file)
     
-    game_data = games[1]  # or whatever index or method you're using to select the game
+    game_data = games[-19]  # or whatever index or method you're using to select the game
     #print(game_data)
     test = MatchOdds(game_data)
-    print(test.total_barons())
+    print(test.total_towers())
 
     # '{'total_dragons': 4.5, 'over': 1.57, 'under': 2.25}'

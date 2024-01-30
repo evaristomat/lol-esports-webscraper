@@ -4,6 +4,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 from colorama import init, Fore
 
+
 # Initialize colorama
 init(autoreset=True)
 

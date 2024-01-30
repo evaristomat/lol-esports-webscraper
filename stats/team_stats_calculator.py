@@ -89,7 +89,7 @@ class TeamStatsCalculator:
 
 if __name__ == "__main__":
     filename = '../database/data_transformed.csv'
-    team = "Back2TheGame Outlaws"
+    team = "Dynamo Eclot"
 
     try:
         data_loader = DatabaseLoader(filename)

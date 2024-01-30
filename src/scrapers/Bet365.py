@@ -187,9 +187,15 @@ class Bet365Webscraper(Webscraper):
         return "https://www.bet365.com/#/AC/B151/C1/D50/E3/F163/"
 
     def fetch_games(self) -> List[GameDetailDto]:
-        league_games = self.driver.find_elements(
-            By.CLASS_NAME, "src-CompetitionMarketGroup"
-        )
+        # Define the list of leagues you want to scrape
+        # target_leagues = ["LOL - LEC Winter","LOL - Ultraliga", "LOL - LLA Opening", "LOL - LCK CL Spring",
+        #                    "LOL - LCK Spring", "LOL - LFL Spring","LOL - LVP Superliga Spring",
+        #                 "LOL- Prime League Spring","LOL - PCS Spring", "LOL - TCL Winter", "LOL - LPL Spring", "LOL - LJL Spring"]  # Add your target leagues here
+
+        #target_leagues = ["LOL - LCK CL Spring"]
+        target_leagues = ["LOL - LCS Spring"]
+        
+        league_games = self.driver.find_elements(By.CLASS_NAME, "src-CompetitionMarketGroup")
         print(f"[DEBUG] Leagues: {len(league_games)}")
         games: List[GameDetailDto] = []
         league_game_idx = 0
@@ -197,9 +203,13 @@ class Bet365Webscraper(Webscraper):
             while league_game_idx < len(league_games):
                 league_game = league_games[league_game_idx]
 
-                league = league_game.find_element(
-                    By.CLASS_NAME, "rcl-CompetitionMarketGroupButton"
-                ).text
+                league = league_game.find_element(By.CLASS_NAME, "rcl-CompetitionMarketGroupButton").text
+
+                # Check if the league is in your list of target leagues
+                if league not in target_leagues:
+                    league_game_idx += 1
+                    continue
+
                 match_ups = league_game.find_elements(
                     By.CSS_SELECTOR,
                     "div.gl-MarketGroupContainer > div:nth-child(1) > div",
