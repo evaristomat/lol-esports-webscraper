@@ -1,0 +1,358 @@
+[
+    {
+        "overview": {
+            "game_date": 1706979600.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20942938/D19/E18916677/F19/",
+            "league": "LOL - LEC Winter - Playoffs",
+            "home_team": "Team BDS",
+            "away_team": "Team Heretics"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.44,
+                "away_team_score": 2.62
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.72,
+                "away_team_score": 2.0
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.57,
+                "away_team_score": 2.25
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.5,
+                "away_team_score": 2.5
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 6.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 25.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 12.5,
+                "home_team_score": 2.37,
+                "away_team_score": 1.53
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.72,
+                "away_team_score": 2.0
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.72,
+                "away_team_score": 2.0
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.44,
+                "away_team_score": 2.62
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 32.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1706990400.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20942938/D19/E18916678/F19/",
+            "league": "LOL - LEC Winter - Playoffs",
+            "home_team": "G2 Esports",
+            "away_team": "GiantX"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.2,
+                "away_team_score": 4.33
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.61,
+                "away_team_score": 2.2
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.33,
+                "away_team_score": 3.25
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.22,
+                "away_team_score": 4.0
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 8.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 25.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 12.5,
+                "home_team_score": 2.62,
+                "away_team_score": 1.44
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 2.5,
+                "away_team_score": 1.5
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 2.62,
+                "away_team_score": 1.44
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.61,
+                "away_team_score": 2.2
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 29.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1707066000.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20942938/D19/E18916679/F19/",
+            "league": "LOL - LEC Winter - Playoffs",
+            "home_team": "SK Gaming",
+            "away_team": "Team Vitality"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 3.5,
+                "home_team_score": 2.0,
+                "away_team_score": 1.72
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 27.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 12.5,
+                "home_team_score": 1.72,
+                "away_team_score": 2.0
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.66,
+                "away_team_score": 2.1
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.8,
+                "away_team_score": 1.9
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.61,
+                "away_team_score": 2.2
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 32.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1707076800.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20942938/D19/E18916680/F19/",
+            "league": "LOL - LEC Winter - Playoffs",
+            "home_team": "MAD Lions KOI",
+            "away_team": "Fnatic"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 2.37,
+                "away_team_score": 1.53
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.9,
+                "away_team_score": 1.8
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.2,
+                "away_team_score": 1.61
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.37,
+                "away_team_score": 1.53
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 6.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 29.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 12.5,
+                "home_team_score": 1.66,
+                "away_team_score": 2.1
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.61,
+                "away_team_score": 2.2
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.44,
+                "away_team_score": 2.62
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 32.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    }
+]

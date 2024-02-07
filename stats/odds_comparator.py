@@ -13,11 +13,17 @@ class OddsComparator:
         self.data_loader = DatabaseLoader(self.filename)
         self.game = MatchOdds(self.game_data)
         self.team_stats_calculators = {}
+        self.last_n_games_counts = {}
 
         # Initialize team stats calculators for both teams
         for team in [self.game.home_team(), self.game.away_team()]:
             try:
+                team_stats_calculator = TeamStatsCalculator(team, self.data_loader)
                 self.team_stats_calculators[team] = TeamStatsCalculator(team, self.data_loader)
+                # Fetch and store the last N games count for each team
+                self.last_n_games_counts[team] = team_stats_calculator.get_last_n_games_count()
+                # Debug logging for the number of games considered
+                logging.error(Fore.CYAN + f"Last N games count for {team}: {self.last_n_games_counts[team]}" + Fore.RESET)
             except TeamNameError as e:
                 # Log the error message without the traceback
                 logging.error(Fore.RED + f"Error in Team Name: {team} - {e}" + Fore.RESET)

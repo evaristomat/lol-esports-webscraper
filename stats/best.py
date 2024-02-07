@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 init(autoreset=True)
 
 # Global variable for ROI threshold
-ROI_THRESHOLD = 5.0  # 5%
+ROI_THRESHOLD = 10.0  # 5%
 
 def build_row(best_bet, bet_line_key):
     """Build row DataFrame from the best_bet dictionary."""

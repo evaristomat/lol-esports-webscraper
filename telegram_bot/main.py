@@ -1,4 +1,5 @@
 import os
+import sys
 import pandas as pd
 from telegram import Bot
 import asyncio
@@ -6,6 +7,29 @@ import logging
 from datetime import datetime, timedelta
 import pyshorteners
 
+class DatabaseLoader:   
+    def __init__(self, filename: str) -> None:
+        self._filename = filename
+        self._load_data()
+
+    def _load_data(self) -> None:
+        try:
+            self._teams_data = pd.read_csv(self._filename)
+        except FileNotFoundError:
+            raise FileNotFoundError(f"The file {self._filename} does not exist")
+        except pd.errors.EmptyDataError:
+            raise ValueError(f"The file {self._filename} is empty")
+        
+        required_columns = {'t1', 't2', 'total_towers', 'total_dragons', 'total_barons', 'total_kills', 'league', 'year'}
+        if not required_columns.issubset(self._teams_data.columns):
+            missing_columns = required_columns - set(self._teams_data.columns)
+            raise ValueError(f"The CSV file does not have the expected columns. Missing columns: {', '.join(missing_columns)}")
+
+    def get_data(self) -> pd.DataFrame:
+        return self._teams_data
+    
+
+data_loader = DatabaseLoader('database\data_transformed.csv')
 
 TOKEN = '6475025056:AAE1jWC2aHVMpZVBAyAjFumimwnyTG2iuQo'
 CHAT_ID = -1001891859269
@@ -26,7 +50,6 @@ def shorten_url(url):
         return s.tinyurl.short(url)
     else:
         return ""
-
 
 def safe_read_csv(filepath):
     if filepath == BET_TRACK_PATH:
@@ -165,8 +188,11 @@ async def process_bets(mode):
             for _, bet in bets_group.iterrows():
                 update_or_log_bet_status(bet.to_dict(), "settle")
 
-def reformat_game_messages(game_messages, game_url, betting_house, status=None):
+def get_team_game_count(team_name, database):
+    team_games = database.query(f't1 == "{team_name}" or t2 == "{team_name}"')
+    return len(team_games)
 
+def reformat_game_messages(game_messages, game_url, betting_house, status=None):
     if status == "changed":
         combined_message = ""
         for msg in game_messages:
@@ -185,6 +211,10 @@ def reformat_game_messages(game_messages, game_url, betting_house, status=None):
     return combined_message
     
 def format_csv_data_to_message(row, status="pending"):
+    # Fetch game counts for both teams
+    team_a_game_count = get_team_game_count(row['t1'], data_loader.get_data())
+    team_b_game_count = get_team_game_count(row['t2'], data_loader.get_data())
+    
     # Emoji and unit change based on status
     if status == "win":
         emoji = "✅"
@@ -213,9 +243,8 @@ def format_csv_data_to_message(row, status="pending"):
     message = (f"{prefix} {emoji}\n"
             f"📅 Date: {row['date']}\n"
             f"🏆 League: {row['league']}\n"
-            f"🥇 Match: {row['t1']} vs {row['t2']}\n"
-            # f"🥇 Team 1: {row['t1']}\n"
-            # f"🥈 Team 2: {row['t2']}\n\n"
+            f"🥇 Match: {row['t1']} ({team_a_game_count} games) vs {row['t2']} ({team_b_game_count} games)\n"
+            #f"🥇 Match: {row['t1']} vs {row['t2']}\n"
             f"\n🎲 TIP: {row['bet_type']} - {row['bet_line']}\n"
             f"📊 ROI: {roi_text}\n"
             # Place 'Fair Odds' and 'Odds' in the same line

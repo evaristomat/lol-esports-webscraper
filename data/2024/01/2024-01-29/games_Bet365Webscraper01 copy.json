@@ -1,0 +1,91 @@
+[
+    {
+        "overview": {
+            "game_date": 1706522400.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20932178/D19/E18871682/F19/",
+            "league": "LOL - LPL Spring",
+            "home_team": "FunPlus Phoenix",
+            "away_team": "Team WE"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 2.25,
+                "away_team_score": 1.57
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.9,
+                "away_team_score": 1.8
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.1,
+                "away_team_score": 1.66
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.25,
+                "away_team_score": 1.57
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 5.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 24.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 12.5,
+                "home_team_score": 2.25,
+                "away_team_score": 1.57
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 2.2,
+                "away_team_score": 1.61
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.53,
+                "away_team_score": 2.37
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 31.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    }
+]

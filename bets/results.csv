@@ -246,6 +246,26 @@ date,league,t1,t2,game,bet_type,bet_line,ROI,House,status,odds,profit
 2024-01-28 17:25:54,LEC,Rogue,Team BDS,1,under,total_towers 12.5,20.75%,Bet365,loss,1.61,-1.0
 2024-01-28 17:25:54,LEC,Rogue,Team BDS,1,under,game_duration 31.5,5.00%,Bet365,loss,1.8,-1.0
 2024-01-28 17:25:54,LEC,Rogue,Team BDS,1,under,total_inhibitors 1.5,25.00%,Bet365,loss,2.5,-1.0
+2024-01-29 20:01:35,LEC,Team Vitality,MAD Lions KOI,1,under,total_towers 12.5,7.33%,Bet365,win,1.61,0.61
+2024-01-29 20:01:35,LEC,Team Vitality,MAD Lions KOI,1,over,total_kills 27.5,6.75%,Bet365,win,1.83,0.83
+2024-01-29 20:01:35,LEC,Team Vitality,MAD Lions KOI,1,under,game_duration 32.5,22.00%,Bet365,win,1.83,0.83
+2024-01-29 20:01:35,LEC,Team Vitality,MAD Lions KOI,1,under,total_inhibitors 1.5,25.00%,Bet365,win,2.5,1.5
+2024-01-29 17:08:29,LEC,Team BDS,Karmine Corp,1,over,total_dragons 4.5,7.33%,Bet365,loss,1.61,-1.0
+2024-01-29 17:08:29,LEC,Team BDS,Karmine Corp,1,under,total_towers 12.5,37.25%,Bet365,win,1.83,0.83
+2024-01-29 17:08:29,LEC,Team BDS,Karmine Corp,1,over,total_kills 24.5,22.00%,Bet365,loss,1.83,-1.0
+2024-01-29 17:08:29,LEC,Team BDS,Karmine Corp,1,over,game_duration 31.5,6.75%,Bet365,loss,1.83,-1.0
+2024-01-29 17:08:29,LEC,Team BDS,Karmine Corp,1,under,total_inhibitors 1.5,25.00%,Bet365,win,2.5,1.5
+2024-01-29 17:58:56,LEC,Fnatic,Team Heretics,1,under,total_dragons 4.5,10.00%,Bet365,loss,2.2,-1.0
+2024-01-29 17:58:56,LEC,Fnatic,Team Heretics,1,under,total_towers 12.5,6.75%,Bet365,win,1.83,0.83
+2024-01-29 17:58:56,LEC,Fnatic,Team Heretics,1,under,total_kills 24.5,52.50%,Bet365,loss,1.83,-1.0
+2024-01-29 17:58:56,LEC,Fnatic,Team Heretics,1,under,game_duration 31.5,22.00%,Bet365,loss,1.83,-1.0
+2024-01-29 17:58:56,LEC,Fnatic,Team Heretics,1,over,total_inhibitors 1.5,12.50%,Bet365,win,1.5,0.5
+2024-01-29 18:55:12,LEC,SK Gaming,G2 Esports,1,over,total_dragons 4.5,28.33%,Bet365,loss,2.2,-1.0
+2024-01-29 18:55:12,LEC,SK Gaming,G2 Esports,1,under,total_towers 12.5,7.33%,Bet365,win,1.61,0.61
+2024-01-29 18:55:12,LEC,SK Gaming,G2 Esports,1,under,total_kills 25.5,6.75%,Bet365,win,1.83,0.83
+2024-01-29 18:55:12,LEC,SK Gaming,G2 Esports,1,under,game_duration 31.5,6.75%,Bet365,win,1.83,0.83
+2024-01-29 18:55:12,LEC,SK Gaming,G2 Esports,1,under,total_inhibitors 1.5,45.83%,Bet365,win,2.5,1.5
+2024-01-29 18:55:12,LEC,SK Gaming,G2 Esports,1,over,total_barons 1.5,45.83%,Bet365,loss,2.5,-1.0
 2024-01-25 01:13:31,LLA,INFINITY,All Knights,1,under,total_dragons 4.5,38.33%,Bet365,loss,1.66,-1.0
 2024-01-25 01:13:31,LLA,INFINITY,All Knights,1,over,total_towers 12.5,31.25%,Bet365,loss,2.25,-1.0
 2024-01-25 01:13:31,LLA,INFINITY,All Knights,1,under,total_kills 23.5,22.00%,Bet365,win,1.83,0.83
@@ -294,6 +314,10 @@ date,league,t1,t2,game,bet_type,bet_line,ROI,House,status,odds,profit
 2024-01-27 19:09:31,LEC,G2 Esports,GiantX,1,over,total_barons 1.5,75.00%,Bet365,loss,3.0,-1.0
 2024-01-28 19:30:54,LEC,GiantX,MAD Lions KOI,1,over,total_dragons 4.5,25.00%,Bet365,loss,2.5,-1.0
 2024-01-28 19:30:54,LEC,GiantX,MAD Lions KOI,1,over,total_barons 1.5,45.83%,Bet365,loss,2.5,-1.0
+2024-01-29 16:08:13,LEC,GiantX,Rogue,1,over,total_towers 12.5,10.00%,Bet365,win,2.2,1.2
+2024-01-29 16:08:13,LEC,GiantX,Rogue,1,under,total_kills 23.5,37.25%,Bet365,loss,1.83,-1.0
+2024-01-29 17:08:29,LEC,Team BDS,Karmine Corp,1,over,total_kills 27.5,6.75%,Bet365,loss,1.83,-1.0
+2024-01-29 17:08:29,LEC,Team BDS,Karmine Corp,1,over,total_barons 1.5,5.00%,Bet365,loss,2.1,-1.0
 2024-01-27 06:08:42,LCK,Gen.G,Dplus KIA,1,under,total_inhibitors 1.5,18.50%,Bet365,win,2.37,1.37
 2024-01-27 07:09:38,LCK,Gen.G,Dplus KIA,2,under,total_inhibitors 1.5,18.50%,Bet365,loss,2.37,-1.0
 2024-01-27 08:14:12,LCK,Dplus KIA,Gen.G,3,under,total_inhibitors 1.5,18.50%,Bet365,win,2.37,1.37
@@ -320,6 +344,15 @@ date,league,t1,t2,game,bet_type,bet_line,ROI,House,status,odds,profit
 2024-01-28 10:40:23,LCK,Hanwha Life Esports,T1,2,under,total_towers 12.5,24.29%,Bet365,win,1.57,0.57
 2024-01-28 09:43:00,LCK,Hanwha Life Esports,T1,1,under,total_inhibitors 1.5,40.62%,Bet365,win,2.25,1.25
 2024-01-28 10:40:23,LCK,Hanwha Life Esports,T1,2,under,total_inhibitors 1.5,40.62%,Bet365,loss,2.25,-1.0
+2024-01-31 21:02:28,LFL,Team GO,GameWard,1,over,total_dragons 4.5,17.75%,Bet365,win,1.57,0.57
+2024-01-31 21:02:28,LFL,Team GO,GameWard,1,over,total_towers 12.5,40.88%,Bet365,win,1.61,0.61
+2024-01-31 21:02:28,LFL,Team GO,GameWard,1,over,game_duration 33.5,14.38%,Bet365,win,1.83,0.83
+2024-01-31 21:02:28,LFL,Team GO,GameWard,1,over,total_inhibitors 1.5,31.25%,Bet365,win,1.5,0.5
+2024-01-31 20:05:38,LFL,Solary,Team BDS Academy,1,over,total_dragons 4.5,29.00%,Bet365,win,1.72,0.72
+2024-01-31 20:05:38,LFL,Solary,Team BDS Academy,1,over,total_towers 12.5,41.67%,Bet365,win,2.0,1.0
+2024-01-31 20:05:38,LFL,Solary,Team BDS Academy,1,under,total_kills 24.5,29.63%,Bet365,win,1.83,0.83
+2024-01-31 20:05:38,LFL,Solary,Team BDS Academy,1,over,game_duration 32.5,37.25%,Bet365,loss,1.83,-1.0
+2024-01-31 20:05:38,LFL,Solary,Team BDS Academy,1,under,total_inhibitors 1.5,14.58%,Bet365,win,2.5,1.5
 2024-01-28 06:05:40,LCK,DRX,OKSavingsBank BRION,1,under,total_dragons 4.5,6.48%,Bet365,loss,1.72,-1.0
 2024-01-28 07:00:51,LCK,OKSavingsBank BRION,DRX,2,under,total_dragons 4.5,6.48%,Bet365,loss,1.72,-1.0
 2024-01-28 07:59:35,LCK,DRX,OKSavingsBank BRION,3,under,total_dragons 4.5,6.48%,Bet365,loss,1.72,-1.0
@@ -328,6 +361,112 @@ date,league,t1,t2,game,bet_type,bet_line,ROI,House,status,odds,profit
 2024-01-28 07:59:35,LCK,DRX,OKSavingsBank BRION,3,under,total_barons 1.5,6.48%,Bet365,win,1.72,0.72
 2024-01-28 16:13:20,LEC,Team Heretics,Team Vitality,1,under,game_duration 33.5,56.86%,Bet365,loss,1.83,-1.0
 2024-01-28 16:13:20,LEC,Team Heretics,Team Vitality,1,under,total_inhibitors 1.5,7.14%,Bet365,loss,2.5,-1.0
+2024-01-29 20:01:35,LEC,Team Vitality,MAD Lions KOI,1,over,total_barons 1.5,5.00%,Bet365,win,2.1,1.1
+2024-01-29 17:58:56,LEC,Fnatic,Team Heretics,1,over,total_dragons 4.5,10.00%,Bet365,win,2.2,1.2
+2024-01-29 17:58:56,LEC,Fnatic,Team Heretics,1,under,total_kills 25.5,30.71%,Bet365,loss,1.83,-1.0
+2024-01-29 17:58:56,LEC,Fnatic,Team Heretics,1,over,total_barons 1.5,25.00%,Bet365,loss,2.5,-1.0
+2024-01-30 22:07:07,LLA,Six Karma,INFINITY,1,under,total_dragons 4.5,28.57%,Bet365,loss,2.0,-1.0
+2024-01-30 23:00:36,LLA,INFINITY,Six Karma,2,under,total_dragons 4.5,28.57%,Bet365,loss,2.0,-1.0
+2024-01-30 22:07:07,LLA,Six Karma,INFINITY,1,under,total_towers 12.5,5.00%,Bet365,loss,2.1,-1.0
+2024-01-30 23:00:36,LLA,INFINITY,Six Karma,2,under,total_towers 12.5,5.00%,Bet365,win,2.1,1.1
+2024-01-30 22:07:07,LLA,Six Karma,INFINITY,1,under,total_kills 25.5,30.71%,Bet365,win,1.83,0.83
+2024-01-30 23:00:36,LLA,INFINITY,Six Karma,2,under,total_kills 25.5,30.71%,Bet365,win,1.83,0.83
+2024-01-30 22:07:07,LLA,Six Karma,INFINITY,1,under,total_barons 1.5,35.14%,Bet365,loss,1.72,-1.0
+2024-01-30 23:00:36,LLA,INFINITY,Six Karma,2,under,total_barons 1.5,35.14%,Bet365,win,1.72,0.72
+2024-01-31 00:01:59,LLA,Isurus,Estral Esports,1,under,total_dragons 4.5,20.75%,Bet365,win,1.61,0.61
+2024-01-31 00:44:06,LLA,Estral Esports,Isurus,2,under,total_dragons 4.5,20.75%,Bet365,win,1.61,0.61
+2024-01-31 00:01:59,LLA,Isurus,Estral Esports,1,under,total_kills 24.5,22.00%,Bet365,loss,1.83,-1.0
+2024-01-31 00:44:06,LLA,Estral Esports,Isurus,2,under,total_kills 24.5,22.00%,Bet365,loss,1.83,-1.0
+2024-01-31 00:01:59,LLA,Isurus,Estral Esports,1,under,game_duration 30.5,6.75%,Bet365,win,1.83,0.83
+2024-01-31 00:44:06,LLA,Estral Esports,Isurus,2,under,game_duration 30.5,6.75%,Bet365,win,1.83,0.83
+2024-01-31 00:01:59,LLA,Isurus,Estral Esports,1,under,total_barons 1.5,17.75%,Bet365,win,1.57,0.57
+2024-01-31 00:44:06,LLA,Estral Esports,Isurus,2,under,total_barons 1.5,17.75%,Bet365,win,1.57,0.57
+2024-01-31 22:06:31,LLA,Estral Esports,All Knights,1,under,total_dragons 4.5,31.15%,Bet365,loss,1.83,-1.0
+2024-01-31 23:00:27,LLA,All Knights,Estral Esports,2,under,total_dragons 4.5,31.15%,Bet365,win,1.83,0.83
+2024-01-31 22:06:31,LLA,Estral Esports,All Knights,1,over,total_towers 12.5,26.67%,Bet365,win,2.0,1.0
+2024-01-31 23:00:27,LLA,All Knights,Estral Esports,2,over,total_towers 12.5,26.67%,Bet365,loss,2.0,-1.0
+2024-01-31 22:06:31,LLA,Estral Esports,All Knights,1,under,game_duration 32.5,31.15%,Bet365,loss,1.83,-1.0
+2024-01-31 23:00:27,LLA,All Knights,Estral Esports,2,under,game_duration 32.5,31.15%,Bet365,win,1.83,0.83
+2024-01-31 22:06:31,LLA,Estral Esports,All Knights,1,over,total_inhibitors 1.5,10.00%,Bet365,win,1.5,0.5
+2024-01-31 23:00:27,LLA,All Knights,Estral Esports,2,over,total_inhibitors 1.5,10.00%,Bet365,loss,1.5,-1.0
+2024-01-31 22:06:31,LLA,Estral Esports,All Knights,1,under,total_barons 1.5,31.48%,Bet365,loss,1.61,-1.0
+2024-01-31 23:00:27,LLA,All Knights,Estral Esports,2,under,total_barons 1.5,31.48%,Bet365,win,1.61,0.61
+2024-01-31 08:08:09,LCK,Kwangdong Freecs,Dplus KIA,1,over,total_dragons 4.5,34.17%,Bet365,win,2.1,1.1
+2024-01-31 09:10:02,LCK,Kwangdong Freecs,Dplus KIA,2,over,total_dragons 4.5,34.17%,Bet365,win,2.1,1.1
+2024-01-31 10:53:30,LCK,KT Rolster,OKSavingsBank BRION,1,over,total_dragons 4.5,25.15%,Bet365,win,2.1,1.1
+2024-01-31 11:45:22,LCK,KT Rolster,OKSavingsBank BRION,2,over,total_dragons 4.5,25.15%,Bet365,loss,2.1,-1.0
+2024-01-31 10:53:30,LCK,KT Rolster,OKSavingsBank BRION,1,under,total_kills 23.5,6.29%,Bet365,win,1.83,0.83
+2024-01-31 11:45:22,LCK,KT Rolster,OKSavingsBank BRION,2,under,total_kills 23.5,6.29%,Bet365,loss,1.83,-1.0
+2024-02-01 08:05:09,LCK,T1,DRX,1,under,total_dragons 4.5,18.50%,Bet365,win,2.37,1.37
+2024-02-01 08:56:49,LCK,DRX,T1,2,under,total_dragons 4.5,18.50%,Bet365,win,2.37,1.37
+2024-02-01 08:05:09,LCK,T1,DRX,1,under,total_towers 12.5,32.80%,Bet365,win,1.66,0.66
+2024-02-01 08:56:49,LCK,DRX,T1,2,under,total_towers 12.5,32.80%,Bet365,win,1.66,0.66
+2024-02-01 08:05:09,LCK,T1,DRX,1,under,game_duration 33.5,18.95%,Bet365,win,1.83,0.83
+2024-02-01 08:56:49,LCK,DRX,T1,2,under,game_duration 33.5,18.95%,Bet365,win,1.83,0.83
+2024-02-01 08:05:09,LCK,T1,DRX,1,under,total_inhibitors 1.5,50.00%,Bet365,win,2.5,1.5
+2024-02-01 08:56:49,LCK,DRX,T1,2,under,total_inhibitors 1.5,50.00%,Bet365,loss,2.5,-1.0
+2024-02-01 08:05:09,LCK,T1,DRX,1,under,total_barons 1.5,23.50%,Bet365,loss,1.9,-1.0
+2024-02-01 08:56:49,LCK,DRX,T1,2,under,total_barons 1.5,23.50%,Bet365,win,1.9,0.9
+2024-02-01 10:35:28,LCK,FearX,Nongshim RedForce,1,under,total_dragons 4.5,66.23%,Bet365,loss,2.37,-1.0
+2024-02-01 11:36:14,LCK,Nongshim RedForce,FearX,2,under,total_dragons 4.5,66.23%,Bet365,loss,2.37,-1.0
+2024-02-01 12:31:35,LCK,FearX,Nongshim RedForce,3,under,total_dragons 4.5,66.23%,Bet365,win,2.37,1.37
+2024-02-01 10:35:28,LCK,FearX,Nongshim RedForce,1,under,total_towers 12.5,55.62%,Bet365,loss,1.66,-1.0
+2024-02-01 11:36:14,LCK,Nongshim RedForce,FearX,2,under,total_towers 12.5,55.62%,Bet365,loss,1.66,-1.0
+2024-02-01 12:31:35,LCK,FearX,Nongshim RedForce,3,under,total_towers 12.5,55.62%,Bet365,loss,1.66,-1.0
+2024-02-01 10:35:28,LCK,FearX,Nongshim RedForce,1,under,game_duration 33.5,28.35%,Bet365,loss,1.83,-1.0
+2024-02-01 11:36:14,LCK,Nongshim RedForce,FearX,2,under,game_duration 33.5,28.35%,Bet365,win,1.83,0.83
+2024-02-01 12:31:35,LCK,FearX,Nongshim RedForce,3,under,game_duration 33.5,28.35%,Bet365,loss,1.83,-1.0
+2024-02-01 10:35:28,LCK,FearX,Nongshim RedForce,1,under,total_inhibitors 1.5,63.19%,Bet365,loss,2.5,-1.0
+2024-02-01 11:36:14,LCK,Nongshim RedForce,FearX,2,under,total_inhibitors 1.5,63.19%,Bet365,loss,2.5,-1.0
+2024-02-01 12:31:35,LCK,FearX,Nongshim RedForce,3,under,total_inhibitors 1.5,63.19%,Bet365,loss,2.5,-1.0
+2024-02-01 10:35:28,LCK,FearX,Nongshim RedForce,1,under,total_barons 1.5,45.14%,Bet365,loss,1.9,-1.0
+2024-02-01 11:36:14,LCK,Nongshim RedForce,FearX,2,under,total_barons 1.5,45.14%,Bet365,loss,1.9,-1.0
+2024-02-01 12:31:35,LCK,FearX,Nongshim RedForce,3,under,total_barons 1.5,45.14%,Bet365,loss,1.9,-1.0
+2024-02-02 08:06:17,LCK,Kwangdong Freecs,Gen.G,1,over,total_dragons 4.5,59.72%,Bet365,win,2.5,1.5
+2024-02-02 09:01:32,LCK,Kwangdong Freecs,Gen.G,2,over,total_dragons 4.5,59.72%,Bet365,loss,2.5,-1.0
+2024-02-02 08:06:17,LCK,Kwangdong Freecs,Gen.G,1,over,total_towers 11.5,41.67%,Bet365,loss,2.5,-1.0
+2024-02-02 09:01:32,LCK,Kwangdong Freecs,Gen.G,2,over,total_towers 11.5,41.67%,Bet365,loss,2.5,-1.0
+2024-02-02 08:06:17,LCK,Kwangdong Freecs,Gen.G,1,over,game_duration 30.5,16.92%,Bet365,win,1.83,0.83
+2024-02-02 09:01:32,LCK,Kwangdong Freecs,Gen.G,2,over,game_duration 30.5,16.92%,Bet365,loss,1.83,-1.0
+2024-02-02 08:06:17,LCK,Kwangdong Freecs,Gen.G,1,over,total_barons 1.5,43.56%,Bet365,loss,3.4,-1.0
+2024-02-02 09:01:32,LCK,Kwangdong Freecs,Gen.G,2,over,total_barons 1.5,43.56%,Bet365,loss,3.4,-1.0
+2024-02-02 10:37:05,LCK,Dplus KIA,Hanwha Life Esports,1,under,total_dragons 4.5,25.00%,Bet365,win,2.5,1.5
+2024-02-02 11:28:11,LCK,Dplus KIA,Hanwha Life Esports,2,under,total_dragons 4.5,25.00%,Bet365,loss,2.5,-1.0
+2024-02-02 10:37:05,LCK,Dplus KIA,Hanwha Life Esports,1,under,total_kills 20.5,8.00%,Bet365,loss,1.8,-1.0
+2024-02-02 11:28:11,LCK,Dplus KIA,Hanwha Life Esports,2,under,total_kills 20.5,8.00%,Bet365,win,1.8,0.8
+2024-02-02 10:37:05,LCK,Dplus KIA,Hanwha Life Esports,1,under,game_duration 33.5,14.38%,Bet365,win,1.83,0.83
+2024-02-02 11:28:11,LCK,Dplus KIA,Hanwha Life Esports,2,under,game_duration 33.5,14.38%,Bet365,loss,1.83,-1.0
+2024-02-02 10:37:05,LCK,Dplus KIA,Hanwha Life Esports,1,under,total_inhibitors 1.5,25.00%,Bet365,loss,2.5,-1.0
+2024-02-02 11:28:11,LCK,Dplus KIA,Hanwha Life Esports,2,under,total_inhibitors 1.5,25.00%,Bet365,loss,2.5,-1.0
+2024-02-02 10:37:05,LCK,Dplus KIA,Hanwha Life Esports,1,under,total_barons 1.5,74.79%,Bet365,win,2.37,1.37
+2024-02-02 11:28:11,LCK,Dplus KIA,Hanwha Life Esports,2,under,total_barons 1.5,74.79%,Bet365,win,2.37,1.37
+2024-02-03 06:07:06,LCK,DRX,KT Rolster,1,under,total_towers 11.5,5.55%,Bet365,loss,1.72,-1.0
+2024-02-03 07:05:14,LCK,KT Rolster,DRX,2,under,total_towers 11.5,5.55%,Bet365,win,1.72,0.72
+2024-02-03 07:52:59,LCK,DRX,KT Rolster,3,under,total_towers 11.5,5.55%,Bet365,loss,1.72,-1.0
+2024-02-03 06:07:06,LCK,DRX,KT Rolster,1,under,total_inhibitors 1.5,17.61%,Bet365,loss,2.25,-1.0
+2024-02-03 07:05:14,LCK,KT Rolster,DRX,2,under,total_inhibitors 1.5,17.61%,Bet365,win,2.25,1.25
+2024-02-03 07:52:59,LCK,DRX,KT Rolster,3,under,total_inhibitors 1.5,17.61%,Bet365,loss,2.25,-1.0
+2024-02-03 06:07:06,LCK,DRX,KT Rolster,1,under,total_barons 1.5,13.64%,Bet365,loss,2.0,-1.0
+2024-02-03 07:05:14,LCK,KT Rolster,DRX,2,under,total_barons 1.5,13.64%,Bet365,win,2.0,1.0
+2024-02-03 07:52:59,LCK,DRX,KT Rolster,3,under,total_barons 1.5,13.64%,Bet365,loss,2.0,-1.0
+2024-02-03 09:41:13,LCK,T1,OKSavingsBank BRION,1,over,total_dragons 4.5,13.23%,Bet365,loss,2.37,-1.0
+2024-02-03 10:26:36,LCK,OKSavingsBank BRION,T1,2,over,total_dragons 4.5,13.23%,Bet365,loss,2.37,-1.0
+2024-02-03 09:41:13,LCK,T1,OKSavingsBank BRION,1,over,total_towers 11.5,8.33%,Bet365,loss,2.5,-1.0
+2024-02-03 10:26:36,LCK,OKSavingsBank BRION,T1,2,over,total_towers 11.5,8.33%,Bet365,loss,2.5,-1.0
+2024-02-03 09:41:13,LCK,T1,OKSavingsBank BRION,1,over,total_inhibitors 1.5,18.89%,Bet365,loss,2.0,-1.0
+2024-02-03 10:26:36,LCK,OKSavingsBank BRION,T1,2,over,total_inhibitors 1.5,18.89%,Bet365,win,2.0,1.0
+2024-02-03 09:41:13,LCK,T1,OKSavingsBank BRION,1,over,total_barons 1.5,9.56%,Bet365,loss,3.4,-1.0
+2024-02-03 10:26:36,LCK,OKSavingsBank BRION,T1,2,over,total_barons 1.5,9.56%,Bet365,win,3.4,2.4
+2024-02-04 06:05:32,LCK,Nongshim RedForce,Hanwha Life Esports,1,under,total_inhibitors 1.5,14.38%,Bet365,win,1.83,0.83
+2024-02-04 06:52:59,LCK,Nongshim RedForce,Hanwha Life Esports,2,under,total_inhibitors 1.5,14.38%,Bet365,loss,1.83,-1.0
+2024-02-04 07:51:11,LCK,Hanwha Life Esports,Nongshim RedForce,3,under,total_inhibitors 1.5,14.38%,Bet365,win,1.83,0.83
+2024-02-04 06:05:32,LCK,Nongshim RedForce,Hanwha Life Esports,1,under,total_barons 1.5,10.50%,Bet365,win,1.36,0.36
+2024-02-04 06:52:59,LCK,Nongshim RedForce,Hanwha Life Esports,2,under,total_barons 1.5,10.50%,Bet365,win,1.36,0.36
+2024-02-04 07:51:11,LCK,Hanwha Life Esports,Nongshim RedForce,3,under,total_barons 1.5,10.50%,Bet365,win,1.36,0.36
+2024-02-04 09:19:54,LCK,FearX,Gen.G,1,under,total_kills 23.5,9.78%,Bet365,loss,1.9,-1.0
+2024-02-04 10:13:23,LCK,Gen.G,FearX,2,under,total_kills 23.5,9.78%,Bet365,win,1.9,0.9
+2024-02-04 09:19:54,LCK,FearX,Gen.G,1,over,game_duration 29.5,5.73%,Bet365,win,1.83,0.83
+2024-02-04 10:13:23,LCK,Gen.G,FearX,2,over,game_duration 29.5,5.73%,Bet365,loss,1.83,-1.0
 2024-01-29 09:20:11,LPL,FunPlus Phoenix,Team WE,1,over,total_towers 12.5,12.50%,Bet365,win,2.25,1.25
 2024-01-29 10:12:39,LPL,Team WE,FunPlus Phoenix,2,over,total_towers 12.5,12.50%,Bet365,win,2.25,1.25
 2024-01-29 11:04:29,LPL,Team WE,FunPlus Phoenix,3,over,total_towers 12.5,12.50%,Bet365,win,2.25,1.25
@@ -340,9 +479,657 @@ date,league,t1,t2,game,bet_type,bet_line,ROI,House,status,odds,profit
 2024-01-29 09:20:11,LPL,FunPlus Phoenix,Team WE,1,over,total_barons 1.5,37.50%,Bet365,loss,2.2,-1.0
 2024-01-29 10:12:39,LPL,Team WE,FunPlus Phoenix,2,over,total_barons 1.5,37.50%,Bet365,win,2.2,1.2
 2024-01-29 11:04:29,LPL,Team WE,FunPlus Phoenix,3,over,total_barons 1.5,37.50%,Bet365,win,2.2,1.2
+2024-01-29 11:19:33,LPL,Bilibili Gaming,Anyone's Legend,1,under,total_barons 1.5,12.82%,Bet365,win,1.36,0.36
+2024-01-29 12:17:11,LPL,Bilibili Gaming,Anyone's Legend,2,under,total_barons 1.5,12.82%,Bet365,win,1.36,0.36
+2024-01-30 09:19:49,LPL,Royal Never Give Up,Ultra Prime,1,over,total_dragons 4.5,125.00%,Bet365,loss,2.5,-1.0
+2024-01-30 10:07:53,LPL,Ultra Prime,Royal Never Give Up,2,over,total_dragons 4.5,125.00%,Bet365,win,2.5,1.5
+2024-01-30 09:19:49,LPL,Royal Never Give Up,Ultra Prime,1,over,total_towers 11.5,46.40%,Bet365,win,1.83,0.83
+2024-01-30 10:07:53,LPL,Ultra Prime,Royal Never Give Up,2,over,total_towers 11.5,46.40%,Bet365,win,1.83,0.83
+2024-01-30 09:19:49,LPL,Royal Never Give Up,Ultra Prime,1,under,total_kills 26.5,46.40%,Bet365,win,1.83,0.83
+2024-01-30 10:07:53,LPL,Ultra Prime,Royal Never Give Up,2,under,total_kills 26.5,46.40%,Bet365,win,1.83,0.83
+2024-01-30 09:19:49,LPL,Royal Never Give Up,Ultra Prime,1,over,game_duration 29.5,64.70%,Bet365,loss,1.83,-1.0
+2024-01-30 10:07:53,LPL,Ultra Prime,Royal Never Give Up,2,over,game_duration 29.5,64.70%,Bet365,win,1.83,0.83
+2024-01-30 09:19:49,LPL,Royal Never Give Up,Ultra Prime,1,under,total_inhibitors 1.5,18.50%,Bet365,loss,2.37,-1.0
+2024-01-30 10:07:53,LPL,Ultra Prime,Royal Never Give Up,2,under,total_inhibitors 1.5,18.50%,Bet365,loss,2.37,-1.0
+2024-01-30 09:19:49,LPL,Royal Never Give Up,Ultra Prime,1,over,total_barons 1.5,65.00%,Bet365,loss,2.75,-1.0
+2024-01-30 10:07:53,LPL,Ultra Prime,Royal Never Give Up,2,over,total_barons 1.5,65.00%,Bet365,win,2.75,1.75
+2024-01-30 11:30:50,LPL,LGD Gaming,EDward Gaming,1,over,total_dragons 4.5,35.00%,Bet365,win,2.25,1.25
+2024-01-30 12:32:13,LPL,LGD Gaming,EDward Gaming,2,over,total_dragons 4.5,35.00%,Bet365,loss,2.25,-1.0
+2024-01-30 11:30:50,LPL,LGD Gaming,EDward Gaming,1,over,total_towers 11.5,9.90%,Bet365,win,1.57,0.57
+2024-01-30 12:32:13,LPL,LGD Gaming,EDward Gaming,2,over,total_towers 11.5,9.90%,Bet365,win,1.57,0.57
+2024-01-30 11:30:50,LPL,LGD Gaming,EDward Gaming,1,under,total_kills 26.5,46.40%,Bet365,loss,1.83,-1.0
+2024-01-30 12:32:13,LPL,LGD Gaming,EDward Gaming,2,under,total_kills 26.5,46.40%,Bet365,win,1.83,0.83
+2024-01-30 11:30:50,LPL,LGD Gaming,EDward Gaming,1,over,game_duration 30.5,28.10%,Bet365,win,1.83,0.83
+2024-01-30 12:32:13,LPL,LGD Gaming,EDward Gaming,2,over,game_duration 30.5,28.10%,Bet365,win,1.83,0.83
+2024-01-30 11:30:50,LPL,LGD Gaming,EDward Gaming,1,over,total_barons 1.5,25.00%,Bet365,loss,2.5,-1.0
+2024-01-30 12:32:13,LPL,LGD Gaming,EDward Gaming,2,over,total_barons 1.5,25.00%,Bet365,win,2.5,1.5
+2024-01-31 09:17:44,LPL,Rare Atom,Invictus Gaming,1,under,total_towers 12.5,23.10%,Bet365,win,1.57,0.57
+2024-01-31 10:04:55,LPL,Invictus Gaming,Rare Atom,2,under,total_towers 12.5,23.10%,Bet365,win,1.57,0.57
+2024-01-31 09:17:44,LPL,Rare Atom,Invictus Gaming,1,under,total_kills 27.5,51.81%,Bet365,win,1.83,0.83
+2024-01-31 10:04:55,LPL,Invictus Gaming,Rare Atom,2,under,total_kills 27.5,51.81%,Bet365,win,1.83,0.83
+2024-01-31 09:17:44,LPL,Rare Atom,Invictus Gaming,1,over,game_duration 30.5,12.30%,Bet365,loss,1.83,-1.0
+2024-01-31 10:04:55,LPL,Invictus Gaming,Rare Atom,2,over,game_duration 30.5,12.30%,Bet365,win,1.83,0.83
+2024-01-31 09:17:44,LPL,Rare Atom,Invictus Gaming,1,under,total_barons 1.5,11.60%,Bet365,win,1.61,0.61
+2024-01-31 10:04:55,LPL,Invictus Gaming,Rare Atom,2,under,total_barons 1.5,11.60%,Bet365,loss,1.61,-1.0
+2024-01-31 11:20:42,LPL,Ninjas in Pyjamas,JD Gaming,1,under,total_dragons 4.5,22.22%,Bet365,loss,1.66,-1.0
+2024-01-31 12:18:04,LPL,JD Gaming,Ninjas in Pyjamas,2,under,total_dragons 4.5,22.22%,Bet365,loss,1.66,-1.0
+2024-01-31 11:20:42,LPL,Ninjas in Pyjamas,JD Gaming,1,under,total_towers 12.5,39.75%,Bet365,loss,1.57,-1.0
+2024-01-31 12:18:04,LPL,JD Gaming,Ninjas in Pyjamas,2,under,total_towers 12.5,39.75%,Bet365,win,1.57,0.57
+2024-01-31 11:20:42,LPL,Ninjas in Pyjamas,JD Gaming,1,under,game_duration 31.5,14.63%,Bet365,loss,1.83,-1.0
+2024-01-31 12:18:04,LPL,JD Gaming,Ninjas in Pyjamas,2,under,game_duration 31.5,14.63%,Bet365,loss,1.83,-1.0
+2024-01-31 11:20:42,LPL,Ninjas in Pyjamas,JD Gaming,1,under,total_inhibitors 1.5,6.78%,Bet365,loss,2.37,-1.0
+2024-01-31 12:18:04,LPL,JD Gaming,Ninjas in Pyjamas,2,under,total_inhibitors 1.5,6.78%,Bet365,loss,2.37,-1.0
+2024-01-31 11:20:42,LPL,Ninjas in Pyjamas,JD Gaming,1,under,total_barons 1.5,24.73%,Bet365,loss,1.61,-1.0
+2024-01-31 12:18:04,LPL,JD Gaming,Ninjas in Pyjamas,2,under,total_barons 1.5,24.73%,Bet365,loss,1.61,-1.0
+2024-02-01 09:17:46,LPL,ThunderTalk Gaming,Oh My God,1,over,total_dragons 4.5,31.25%,Bet365,loss,2.1,-1.0
+2024-02-01 10:02:26,LPL,Oh My God,ThunderTalk Gaming,2,over,total_dragons 4.5,31.25%,Bet365,win,2.1,1.1
+2024-02-01 09:17:46,LPL,ThunderTalk Gaming,Oh My God,1,under,total_kills 25.5,22.00%,Bet365,win,1.83,0.83
+2024-02-01 10:02:26,LPL,Oh My God,ThunderTalk Gaming,2,under,total_kills 25.5,22.00%,Bet365,win,1.83,0.83
+2024-02-01 09:17:46,LPL,ThunderTalk Gaming,Oh My God,1,over,game_duration 30.5,52.50%,Bet365,loss,1.83,-1.0
+2024-02-01 10:02:26,LPL,Oh My God,ThunderTalk Gaming,2,over,game_duration 30.5,52.50%,Bet365,win,1.83,0.83
+2024-02-01 09:17:46,LPL,ThunderTalk Gaming,Oh My God,1,over,total_barons 1.5,55.83%,Bet365,loss,2.2,-1.0
+2024-02-01 10:02:26,LPL,Oh My God,ThunderTalk Gaming,2,over,total_barons 1.5,55.83%,Bet365,win,2.2,1.2
+2024-02-01 11:21:23,LPL,LNG Esports,Weibo Gaming,1,over,total_dragons 4.5,5.00%,Bet365,win,2.1,1.1
+2024-02-01 12:27:43,LPL,Weibo Gaming,LNG Esports,2,over,total_dragons 4.5,5.00%,Bet365,win,2.1,1.1
+2024-02-01 13:21:53,LPL,LNG Esports,Weibo Gaming,3,over,total_dragons 4.5,5.00%,Bet365,win,2.1,1.1
+2024-02-01 11:21:23,LPL,LNG Esports,Weibo Gaming,1,under,total_kills 25.5,32.17%,Bet365,loss,1.83,-1.0
+2024-02-01 12:27:43,LPL,Weibo Gaming,LNG Esports,2,under,total_kills 25.5,32.17%,Bet365,win,1.83,0.83
+2024-02-01 13:21:53,LPL,LNG Esports,Weibo Gaming,3,under,total_kills 25.5,32.17%,Bet365,loss,1.83,-1.0
+2024-02-01 11:21:23,LPL,LNG Esports,Weibo Gaming,1,over,game_duration 31.5,11.83%,Bet365,win,1.83,0.83
+2024-02-01 12:27:43,LPL,Weibo Gaming,LNG Esports,2,over,game_duration 31.5,11.83%,Bet365,loss,1.83,-1.0
+2024-02-01 13:21:53,LPL,LNG Esports,Weibo Gaming,3,over,game_duration 31.5,11.83%,Bet365,win,1.83,0.83
+2024-02-01 11:21:23,LPL,LNG Esports,Weibo Gaming,1,under,total_inhibitors 1.5,84.33%,Bet365,loss,2.37,-1.0
+2024-02-01 12:27:43,LPL,Weibo Gaming,LNG Esports,2,under,total_inhibitors 1.5,84.33%,Bet365,win,2.37,1.37
+2024-02-01 13:21:53,LPL,LNG Esports,Weibo Gaming,3,under,total_inhibitors 1.5,84.33%,Bet365,loss,2.37,-1.0
+2024-02-01 11:21:23,LPL,LNG Esports,Weibo Gaming,1,over,total_barons 1.5,10.00%,Bet365,win,2.2,1.2
+2024-02-01 12:27:43,LPL,Weibo Gaming,LNG Esports,2,over,total_barons 1.5,10.00%,Bet365,loss,2.2,-1.0
+2024-02-01 13:21:53,LPL,LNG Esports,Weibo Gaming,3,over,total_barons 1.5,10.00%,Bet365,win,2.2,1.2
+2024-02-02 07:23:41,LPL,Ninjas in Pyjamas,Team WE,1,under,total_dragons 4.5,21.79%,Bet365,loss,2.2,-1.0
+2024-02-02 08:21:58,LPL,Ninjas in Pyjamas,Team WE,2,under,total_dragons 4.5,21.79%,Bet365,win,2.2,1.2
+2024-02-02 09:12:12,LPL,Ninjas in Pyjamas,Team WE,3,under,total_dragons 4.5,21.79%,Bet365,win,2.2,1.2
+2024-02-02 07:23:41,LPL,Ninjas in Pyjamas,Team WE,1,under,total_towers 12.5,6.54%,Bet365,loss,1.57,-1.0
+2024-02-02 08:21:58,LPL,Ninjas in Pyjamas,Team WE,2,under,total_towers 12.5,6.54%,Bet365,loss,1.57,-1.0
+2024-02-02 09:12:12,LPL,Ninjas in Pyjamas,Team WE,3,under,total_towers 12.5,6.54%,Bet365,win,1.57,0.57
+2024-02-02 07:23:41,LPL,Ninjas in Pyjamas,Team WE,1,under,game_duration 33.5,24.18%,Bet365,loss,1.83,-1.0
+2024-02-02 08:21:58,LPL,Ninjas in Pyjamas,Team WE,2,under,game_duration 33.5,24.18%,Bet365,win,1.83,0.83
+2024-02-02 09:12:12,LPL,Ninjas in Pyjamas,Team WE,3,under,game_duration 33.5,24.18%,Bet365,win,1.83,0.83
+2024-02-02 07:23:41,LPL,Ninjas in Pyjamas,Team WE,1,over,total_inhibitors 1.5,12.02%,Bet365,win,1.53,0.53
+2024-02-02 08:21:58,LPL,Ninjas in Pyjamas,Team WE,2,over,total_inhibitors 1.5,12.02%,Bet365,loss,1.53,-1.0
+2024-02-02 09:12:12,LPL,Ninjas in Pyjamas,Team WE,3,over,total_inhibitors 1.5,12.02%,Bet365,loss,1.53,-1.0
+2024-02-02 09:17:28,LPL,Ultra Prime,FunPlus Phoenix,1,over,total_dragons 4.5,7.50%,Bet365,loss,1.72,-1.0
+2024-02-02 10:03:46,LPL,FunPlus Phoenix,Ultra Prime,2,over,total_dragons 4.5,7.50%,Bet365,loss,1.72,-1.0
+2024-02-02 10:49:45,LPL,Ultra Prime,FunPlus Phoenix,3,over,total_dragons 4.5,7.50%,Bet365,loss,1.72,-1.0
+2024-02-02 09:17:28,LPL,Ultra Prime,FunPlus Phoenix,1,over,total_towers 11.5,16.25%,Bet365,win,1.5,0.5
+2024-02-02 10:03:46,LPL,FunPlus Phoenix,Ultra Prime,2,over,total_towers 11.5,16.25%,Bet365,win,1.5,0.5
+2024-02-02 10:49:45,LPL,Ultra Prime,FunPlus Phoenix,3,over,total_towers 11.5,16.25%,Bet365,win,1.5,0.5
+2024-02-02 09:17:28,LPL,Ultra Prime,FunPlus Phoenix,1,over,total_inhibitors 1.5,7.10%,Bet365,win,1.53,0.53
+2024-02-02 10:03:46,LPL,FunPlus Phoenix,Ultra Prime,2,over,total_inhibitors 1.5,7.10%,Bet365,win,1.53,0.53
+2024-02-02 10:49:45,LPL,Ultra Prime,FunPlus Phoenix,3,over,total_inhibitors 1.5,7.10%,Bet365,win,1.53,0.53
+2024-02-02 09:17:28,LPL,Ultra Prime,FunPlus Phoenix,1,over,total_barons 1.5,10.00%,Bet365,loss,2.0,-1.0
+2024-02-02 10:03:46,LPL,FunPlus Phoenix,Ultra Prime,2,over,total_barons 1.5,10.00%,Bet365,loss,2.0,-1.0
+2024-02-02 10:49:45,LPL,Ultra Prime,FunPlus Phoenix,3,over,total_barons 1.5,10.00%,Bet365,loss,2.0,-1.0
+2024-02-02 12:05:16,LPL,Anyone's Legend,LGD Gaming,1,over,total_dragons 4.5,7.90%,Bet365,win,1.66,0.66
+2024-02-02 13:04:24,LPL,LGD Gaming,Anyone's Legend,2,over,total_dragons 4.5,7.90%,Bet365,win,1.66,0.66
+2024-02-02 14:02:30,LPL,Anyone's Legend,LGD Gaming,3,over,total_dragons 4.5,7.90%,Bet365,loss,1.66,-1.0
+2024-02-03 07:17:30,LPL,Top Esports,Rare Atom,1,under,total_inhibitors 1.5,15.00%,Bet365,win,2.2,1.2
+2024-02-03 08:05:38,LPL,Rare Atom,Top Esports,2,under,total_inhibitors 1.5,15.00%,Bet365,win,2.2,1.2
+2024-02-03 07:17:30,LPL,Top Esports,Rare Atom,1,under,total_barons 1.5,7.73%,Bet365,win,1.5,0.5
+2024-02-03 08:05:38,LPL,Rare Atom,Top Esports,2,under,total_barons 1.5,7.73%,Bet365,win,1.5,0.5
+2024-02-03 09:20:06,LPL,Invictus Gaming,ThunderTalk Gaming,1,under,total_towers 11.5,25.00%,Bet365,win,2.5,1.5
+2024-02-03 10:12:00,LPL,ThunderTalk Gaming,Invictus Gaming,2,under,total_towers 11.5,25.00%,Bet365,win,2.5,1.5
+2024-02-03 11:08:22,LPL,Invictus Gaming,ThunderTalk Gaming,3,under,total_towers 11.5,25.00%,Bet365,loss,2.5,-1.0
+2024-02-04 07:19:41,LPL,Oh My God,Ninjas in Pyjamas,1,under,total_dragons 4.5,35.71%,Bet365,loss,2.0,-1.0
+2024-02-04 08:13:22,LPL,Ninjas in Pyjamas,Oh My God,2,under,total_dragons 4.5,35.71%,Bet365,win,2.0,1.0
+2024-02-04 07:19:41,LPL,Oh My God,Ninjas in Pyjamas,1,under,total_towers 11.5,20.54%,Bet365,win,2.25,1.25
+2024-02-04 08:13:22,LPL,Ninjas in Pyjamas,Oh My God,2,under,total_towers 11.5,20.54%,Bet365,win,2.25,1.25
+2024-02-04 07:19:41,LPL,Oh My God,Ninjas in Pyjamas,1,under,game_duration 33.5,39.43%,Bet365,win,1.83,0.83
+2024-02-04 08:13:22,LPL,Ninjas in Pyjamas,Oh My God,2,under,game_duration 33.5,39.43%,Bet365,win,1.83,0.83
+2024-02-04 07:19:41,LPL,Oh My God,Ninjas in Pyjamas,1,over,total_inhibitors 1.5,11.17%,Bet365,loss,1.61,-1.0
+2024-02-04 08:13:22,LPL,Ninjas in Pyjamas,Oh My God,2,over,total_inhibitors 1.5,11.17%,Bet365,loss,1.61,-1.0
+2024-02-04 07:19:41,LPL,Oh My God,Ninjas in Pyjamas,1,under,total_barons 1.5,8.93%,Bet365,win,1.83,0.83
+2024-02-04 08:13:22,LPL,Ninjas in Pyjamas,Oh My God,2,under,total_barons 1.5,8.93%,Bet365,win,1.83,0.83
+2024-02-04 09:20:18,LPL,JD Gaming,LNG Esports,1,under,total_towers 11.5,42.81%,Bet365,loss,2.37,-1.0
+2024-02-04 10:11:34,LPL,LNG Esports,JD Gaming,2,under,total_towers 11.5,42.81%,Bet365,loss,2.37,-1.0
+2024-02-04 11:00:02,LPL,JD Gaming,LNG Esports,3,under,total_towers 11.5,42.81%,Bet365,win,2.37,1.37
+2024-02-04 09:20:18,LPL,JD Gaming,LNG Esports,1,under,game_duration 33.5,7.14%,Bet365,win,1.83,0.83
+2024-02-04 10:11:34,LPL,LNG Esports,JD Gaming,2,under,game_duration 33.5,7.14%,Bet365,win,1.83,0.83
+2024-02-04 11:00:02,LPL,JD Gaming,LNG Esports,3,under,game_duration 33.5,7.14%,Bet365,loss,1.83,-1.0
+2024-02-04 09:20:18,LPL,JD Gaming,LNG Esports,1,under,total_inhibitors 1.5,28.80%,Bet365,win,2.2,1.2
+2024-02-04 10:11:34,LPL,LNG Esports,JD Gaming,2,under,total_inhibitors 1.5,28.80%,Bet365,loss,2.2,-1.0
+2024-02-04 11:00:02,LPL,JD Gaming,LNG Esports,3,under,total_inhibitors 1.5,28.80%,Bet365,win,2.2,1.2
+2024-02-04 09:20:18,LPL,JD Gaming,LNG Esports,1,under,total_barons 1.5,22.31%,Bet365,win,1.8,0.8
+2024-02-04 10:11:34,LPL,LNG Esports,JD Gaming,2,under,total_barons 1.5,22.31%,Bet365,win,1.8,0.8
+2024-02-04 11:00:02,LPL,JD Gaming,LNG Esports,3,under,total_barons 1.5,22.31%,Bet365,loss,1.8,-1.0
+2024-02-04 11:19:49,LPL,Royal Never Give Up,Weibo Gaming,1,under,total_towers 12.5,30.83%,Bet365,loss,1.57,-1.0
+2024-02-04 12:35:51,LPL,Weibo Gaming,Royal Never Give Up,2,under,total_towers 12.5,30.83%,Bet365,win,1.57,0.57
+2024-02-04 11:19:49,LPL,Royal Never Give Up,Weibo Gaming,1,under,total_kills 25.5,15.90%,Bet365,win,1.83,0.83
+2024-02-04 12:35:51,LPL,Weibo Gaming,Royal Never Give Up,2,under,total_kills 25.5,15.90%,Bet365,win,1.83,0.83
+2024-02-04 11:19:49,LPL,Royal Never Give Up,Weibo Gaming,1,over,game_duration 33.5,15.90%,Bet365,win,1.83,0.83
+2024-02-04 12:35:51,LPL,Weibo Gaming,Royal Never Give Up,2,over,game_duration 33.5,15.90%,Bet365,loss,1.83,-1.0
+2024-02-04 11:19:49,LPL,Royal Never Give Up,Weibo Gaming,1,under,total_inhibitors 1.5,65.90%,Bet365,loss,2.37,-1.0
+2024-02-04 12:35:51,LPL,Weibo Gaming,Royal Never Give Up,2,under,total_inhibitors 1.5,65.90%,Bet365,loss,2.37,-1.0
+2024-02-04 11:19:49,LPL,Royal Never Give Up,Weibo Gaming,1,over,total_barons 1.5,15.90%,Bet365,win,1.83,0.83
+2024-02-04 12:35:51,LPL,Weibo Gaming,Royal Never Give Up,2,over,total_barons 1.5,15.90%,Bet365,win,1.83,0.83
+2024-01-29 16:08:13,LEC,GiantX,Rogue,1,under,total_dragons 4.5,14.29%,Bet365,loss,2.0,-1.0
+2024-01-30 19:05:58,UL,Back2TheGame,Forsaken,1,over,total_dragons 4.5,60.13%,Bet365,win,1.83,0.83
+2024-01-30 19:05:58,UL,Back2TheGame,Forsaken,1,over,total_towers 11.5,14.75%,Bet365,loss,1.53,-1.0
+2024-01-30 19:05:58,UL,Back2TheGame,Forsaken,1,over,game_duration 32.5,14.38%,Bet365,loss,1.83,-1.0
+2024-01-30 19:05:58,UL,Back2TheGame,Forsaken,1,over,total_barons 1.5,5.00%,Bet365,loss,2.1,-1.0
+2024-01-30 20:05:51,UL,devils.one,Zero Tenacity,1,under,total_kills 24.5,22.00%,Bet365,win,1.83,0.83
+2024-01-31 18:06:03,UL,Forsaken,Team ESCA Gaming,1,over,total_dragons 4.5,25.00%,Bet365,win,2.0,1.0
+2024-01-31 18:06:03,UL,Forsaken,Team ESCA Gaming,1,over,total_towers 11.5,20.75%,Bet365,win,1.61,0.61
+2024-01-31 18:06:03,UL,Forsaken,Team ESCA Gaming,1,under,total_inhibitors 1.5,5.00%,Bet365,win,2.1,1.1
+2024-01-31 18:06:03,UL,Forsaken,Team ESCA Gaming,1,over,total_barons 1.5,12.50%,Bet365,loss,2.25,-1.0
+2024-01-31 19:01:38,UL,Zero Tenacity,GRP Esports,1,under,total_kills 24.5,14.38%,Bet365,win,1.83,0.83
+2024-01-31 19:57:17,UL,devils.one,Orbit Anonymo Esports,1,over,total_dragons 4.5,59.37%,Bet365,win,2.25,1.25
+2024-01-31 19:57:17,UL,devils.one,Orbit Anonymo Esports,1,over,total_towers 11.5,10.83%,Bet365,win,1.9,0.9
+2024-01-31 19:57:17,UL,devils.one,Orbit Anonymo Esports,1,over,total_kills 24.5,6.75%,Bet365,win,1.83,0.83
+2024-01-31 19:57:17,UL,devils.one,Orbit Anonymo Esports,1,over,game_duration 29.5,29.62%,Bet365,win,1.83,0.83
+2024-01-31 19:57:17,UL,devils.one,Orbit Anonymo Esports,1,over,total_inhibitors 1.5,38.33%,Bet365,win,1.66,0.66
+2024-02-01 08:05:09,LCK,T1,DRX,1,over,total_dragons 4.5,25.00%,Bet365,loss,2.5,-1.0
+2024-02-01 08:56:49,LCK,DRX,T1,2,over,total_dragons 4.5,25.00%,Bet365,loss,2.5,-1.0
+2024-02-01 08:05:09,LCK,T1,DRX,1,over,total_barons 1.5,22.50%,Bet365,win,3.5,2.5
+2024-02-01 08:56:49,LCK,DRX,T1,2,over,total_barons 1.5,22.50%,Bet365,loss,3.5,-1.0
+2024-01-31 18:00:48,LFL,Team du Sud,Gentle Mates,1,over,total_dragons 4.5,12.50%,Bet365,win,1.5,0.5
+2024-01-31 18:00:48,LFL,Team du Sud,Gentle Mates,1,over,total_towers 12.5,20.75%,Bet365,loss,1.61,-1.0
+2024-01-31 18:00:48,LFL,Team du Sud,Gentle Mates,1,over,game_duration 33.5,14.38%,Bet365,win,1.83,0.83
+2024-01-31 18:00:48,LFL,Team du Sud,Gentle Mates,1,over,total_inhibitors 1.5,31.25%,Bet365,loss,1.5,-1.0
+2024-01-31 18:00:48,LFL,Team du Sud,Gentle Mates,1,over,total_barons 1.5,12.50%,Bet365,win,1.5,0.5
+2024-01-31 17:05:18,LVP SL,Barça eSports,Guasones,1,over,total_dragons 4.5,25.00%,Bet365,loss,2.5,-1.0
+2024-01-31 17:05:18,LVP SL,Barça eSports,Guasones,1,over,total_towers 12.5,65.00%,Bet365,loss,2.2,-1.0
+2024-01-31 17:05:18,LVP SL,Barça eSports,Guasones,1,under,total_inhibitors 1.5,31.00%,Bet365,win,2.62,1.62
+2024-01-31 17:53:07,LVP SL,ZETA,GIANTX Pride,1,under,total_kills 28.5,14.38%,Bet365,win,1.83,0.83
+2024-01-31 17:53:07,LVP SL,ZETA,GIANTX Pride,1,over,game_duration 32.5,14.38%,Bet365,loss,1.83,-1.0
+2024-01-31 17:53:07,LVP SL,ZETA,GIANTX Pride,1,over,total_barons 1.5,18.75%,Bet365,loss,1.9,-1.0
+2024-01-31 19:35:45,LVP SL,Movistar KOI,Ramboot Club,1,under,total_dragons 4.5,68.75%,Bet365,loss,2.25,-1.0
+2024-01-31 19:35:45,LVP SL,Movistar KOI,Ramboot Club,1,under,total_towers 12.5,65.00%,Bet365,loss,2.2,-1.0
+2024-01-31 19:35:45,LVP SL,Movistar KOI,Ramboot Club,1,under,total_kills 28.5,14.38%,Bet365,loss,1.83,-1.0
+2024-01-31 19:35:45,LVP SL,Movistar KOI,Ramboot Club,1,under,game_duration 31.5,37.25%,Bet365,loss,1.83,-1.0
+2024-01-31 19:35:45,LVP SL,Movistar KOI,Ramboot Club,1,under,total_barons 1.5,37.25%,Bet365,win,1.83,0.83
+2024-01-31 18:38:43,LVP SL,Rebels Gaming,Case Esports,1,over,total_dragons 4.5,12.50%,Bet365,win,2.25,1.25
+2024-02-02 09:11:07,PCS,HELL PIGS,Deep Cross Gaming,1,over,total_dragons 3.5,49.50%,Bet365,win,1.61,0.61
+2024-02-02 10:02:02,PCS,Deep Cross Gaming,HELL PIGS,2,over,total_dragons 3.5,49.50%,Bet365,loss,1.61,-1.0
+2024-02-02 09:11:07,PCS,HELL PIGS,Deep Cross Gaming,1,over,total_towers 11.5,62.86%,Bet365,loss,1.9,-1.0
+2024-02-02 10:02:02,PCS,Deep Cross Gaming,HELL PIGS,2,over,total_towers 11.5,62.86%,Bet365,loss,1.9,-1.0
+2024-02-02 09:11:07,PCS,HELL PIGS,Deep Cross Gaming,1,over,game_duration 29.5,33.98%,Bet365,loss,1.83,-1.0
+2024-02-02 10:02:02,PCS,Deep Cross Gaming,HELL PIGS,2,over,game_duration 29.5,33.98%,Bet365,loss,1.83,-1.0
+2024-02-02 09:11:07,PCS,HELL PIGS,Deep Cross Gaming,1,over,total_barons 1.5,33.48%,Bet365,loss,3.25,-1.0
+2024-02-02 10:02:02,PCS,Deep Cross Gaming,HELL PIGS,2,over,total_barons 1.5,33.48%,Bet365,loss,3.25,-1.0
+2024-02-02 11:26:45,PCS,CTBC Flying Oyster,J Team,1,over,total_dragons 4.5,15.36%,Bet365,loss,1.9,-1.0
+2024-02-02 12:16:52,PCS,J Team,CTBC Flying Oyster,2,over,total_dragons 4.5,15.36%,Bet365,loss,1.9,-1.0
+2024-02-02 11:26:45,PCS,CTBC Flying Oyster,J Team,1,under,total_towers 11.5,10.04%,Bet365,win,2.37,1.37
+2024-02-02 12:16:52,PCS,J Team,CTBC Flying Oyster,2,under,total_towers 11.5,10.04%,Bet365,win,2.37,1.37
+2024-02-02 11:26:45,PCS,CTBC Flying Oyster,J Team,1,over,total_inhibitors 1.5,21.49%,Bet365,loss,1.57,-1.0
+2024-02-02 12:16:52,PCS,J Team,CTBC Flying Oyster,2,over,total_inhibitors 1.5,21.49%,Bet365,win,1.57,0.57
+2024-02-02 11:26:45,PCS,CTBC Flying Oyster,J Team,1,under,total_barons 1.5,14.29%,Bet365,win,1.5,0.5
+2024-02-02 12:16:52,PCS,J Team,CTBC Flying Oyster,2,under,total_barons 1.5,14.29%,Bet365,win,1.5,0.5
+2024-02-04 09:10:17,PCS,CTBC Flying Oyster,HELL PIGS,1,under,total_kills 25.5,11.11%,Bet365,loss,1.83,-1.0
+2024-02-04 10:00:07,PCS,CTBC Flying Oyster,HELL PIGS,2,under,total_kills 25.5,11.11%,Bet365,win,1.83,0.83
+2024-02-04 11:07:20,PCS,J Team,Deep Cross Gaming,1,over,total_dragons 4.5,9.29%,Bet365,win,1.8,0.8
+2024-02-04 12:07:51,PCS,Deep Cross Gaming,J Team,2,over,total_dragons 4.5,9.29%,Bet365,loss,1.8,-1.0
+2024-02-04 12:59:49,PCS,J Team,Deep Cross Gaming,3,over,total_dragons 4.5,9.29%,Bet365,win,1.8,0.8
+2024-02-04 11:07:20,PCS,J Team,Deep Cross Gaming,1,under,total_towers 12.5,10.27%,Bet365,win,1.57,0.57
+2024-02-04 12:07:51,PCS,Deep Cross Gaming,J Team,2,under,total_towers 12.5,10.27%,Bet365,win,1.57,0.57
+2024-02-04 12:59:49,PCS,J Team,Deep Cross Gaming,3,under,total_towers 12.5,10.27%,Bet365,win,1.57,0.57
+2024-02-04 11:07:20,PCS,J Team,Deep Cross Gaming,1,over,total_kills 27.5,13.29%,Bet365,loss,1.83,-1.0
+2024-02-04 12:07:51,PCS,Deep Cross Gaming,J Team,2,over,total_kills 27.5,13.29%,Bet365,win,1.83,0.83
+2024-02-04 12:59:49,PCS,J Team,Deep Cross Gaming,3,over,total_kills 27.5,13.29%,Bet365,win,1.83,0.83
+2024-02-04 11:07:20,PCS,J Team,Deep Cross Gaming,1,over,game_duration 32.5,11.11%,Bet365,win,1.83,0.83
+2024-02-04 12:07:51,PCS,Deep Cross Gaming,J Team,2,over,game_duration 32.5,11.11%,Bet365,loss,1.83,-1.0
+2024-02-04 12:59:49,PCS,J Team,Deep Cross Gaming,3,over,game_duration 32.5,11.11%,Bet365,win,1.83,0.83
+2024-02-04 11:07:20,PCS,J Team,Deep Cross Gaming,1,over,total_inhibitors 1.5,10.27%,Bet365,win,1.57,0.57
+2024-02-04 12:07:51,PCS,Deep Cross Gaming,J Team,2,over,total_inhibitors 1.5,10.27%,Bet365,loss,1.57,-1.0
+2024-02-04 12:59:49,PCS,J Team,Deep Cross Gaming,3,over,total_inhibitors 1.5,10.27%,Bet365,win,1.57,0.57
+2024-02-02 16:04:39,TCL,Dark Passage,BoostGate Esports,1,over,total_dragons 4.5,17.75%,Bet365,win,1.57,0.57
+2024-02-02 16:04:39,TCL,Dark Passage,BoostGate Esports,1,over,total_towers 12.5,18.50%,Bet365,win,2.37,1.37
+2024-02-02 16:04:39,TCL,Dark Passage,BoostGate Esports,1,under,total_kills 27.5,37.25%,Bet365,win,1.83,0.83
+2024-02-02 16:04:39,TCL,Dark Passage,BoostGate Esports,1,over,total_inhibitors 1.5,14.75%,Bet365,loss,1.53,-1.0
+2024-02-02 17:08:38,TCL,Papara SuperMassive,FUT Esports,1,over,total_dragons 4.5,37.25%,Bet365,win,1.83,0.83
+2024-02-02 17:08:38,TCL,Papara SuperMassive,FUT Esports,1,under,total_towers 11.5,87.50%,Bet365,loss,2.5,-1.0
+2024-02-02 17:08:38,TCL,Papara SuperMassive,FUT Esports,1,over,total_kills 26.5,83.00%,Bet365,win,1.83,0.83
+2024-02-02 17:08:38,TCL,Papara SuperMassive,FUT Esports,1,over,game_duration 31.5,37.25%,Bet365,loss,1.83,-1.0
+2024-02-02 17:08:38,TCL,Papara SuperMassive,FUT Esports,1,under,total_inhibitors 1.5,10.00%,Bet365,loss,2.2,-1.0
+2024-02-02 17:08:38,TCL,Papara SuperMassive,FUT Esports,1,under,total_barons 1.5,17.75%,Bet365,win,1.57,0.57
+2024-02-02 19:05:26,TCL,NASR eSports Turkey,Galakticos,1,over,total_dragons 4.5,12.50%,Bet365,win,2.25,1.25
+2024-02-02 19:05:26,TCL,NASR eSports Turkey,Galakticos,1,over,total_towers 11.5,18.50%,Bet365,win,2.37,1.37
+2024-02-02 19:05:26,TCL,NASR eSports Turkey,Galakticos,1,over,total_barons 1.5,50.00%,Bet365,win,3.0,2.0
+2024-02-03 08:18:18,LJL,Burning Core Toyama,V3 Esports,1,over,total_towers 12.5,18.13%,Bet365,loss,2.1,-1.0
+2024-02-03 09:10:48,LJL,V3 Esports,Burning Core Toyama,2,over,total_towers 12.5,18.13%,Bet365,loss,2.1,-1.0
+2024-02-03 08:18:18,LJL,Burning Core Toyama,V3 Esports,1,over,total_kills 28.5,25.81%,Bet365,loss,1.83,-1.0
+2024-02-03 09:10:48,LJL,V3 Esports,Burning Core Toyama,2,over,total_kills 28.5,25.81%,Bet365,loss,1.83,-1.0
+2024-02-03 08:18:18,LJL,Burning Core Toyama,V3 Esports,1,over,total_inhibitors 1.5,21.88%,Bet365,loss,1.5,-1.0
+2024-02-03 09:10:48,LJL,V3 Esports,Burning Core Toyama,2,over,total_inhibitors 1.5,21.88%,Bet365,win,1.5,0.5
+2024-02-03 12:30:58,LJL,DetonatioN FocusMe,Sengoku Gaming,1,over,total_dragons 4.5,65.00%,Bet365,loss,2.2,-1.0
+2024-02-03 13:18:13,LJL,Sengoku Gaming,DetonatioN FocusMe,2,over,total_dragons 4.5,65.00%,Bet365,loss,2.2,-1.0
+2024-02-03 12:30:58,LJL,DetonatioN FocusMe,Sengoku Gaming,1,over,total_towers 11.5,82.81%,Bet365,loss,2.25,-1.0
+2024-02-03 13:18:13,LJL,Sengoku Gaming,DetonatioN FocusMe,2,over,total_towers 11.5,82.81%,Bet365,win,2.25,1.25
+2024-02-03 12:30:58,LJL,DetonatioN FocusMe,Sengoku Gaming,1,over,game_duration 31.5,25.81%,Bet365,loss,1.83,-1.0
+2024-02-03 13:18:13,LJL,Sengoku Gaming,DetonatioN FocusMe,2,over,game_duration 31.5,25.81%,Bet365,loss,1.83,-1.0
+2024-02-03 12:30:58,LJL,DetonatioN FocusMe,Sengoku Gaming,1,over,total_inhibitors 1.5,7.94%,Bet365,loss,1.57,-1.0
+2024-02-03 13:18:13,LJL,Sengoku Gaming,DetonatioN FocusMe,2,over,total_inhibitors 1.5,7.94%,Bet365,loss,1.57,-1.0
+2024-02-03 12:30:58,LJL,DetonatioN FocusMe,Sengoku Gaming,1,over,total_barons 1.5,37.50%,Bet365,loss,2.75,-1.0
+2024-02-03 13:18:13,LJL,Sengoku Gaming,DetonatioN FocusMe,2,over,total_barons 1.5,37.50%,Bet365,loss,2.75,-1.0
+2024-02-04 08:13:18,LJL,Burning Core Toyama,Sengoku Gaming,1,over,total_dragons 4.5,37.25%,Bet365,loss,1.83,-1.0
+2024-02-04 09:05:07,LJL,Sengoku Gaming,Burning Core Toyama,2,over,total_dragons 4.5,37.25%,Bet365,win,1.83,0.83
+2024-02-04 08:13:18,LJL,Burning Core Toyama,Sengoku Gaming,1,over,total_towers 12.5,42.50%,Bet365,win,1.9,0.9
+2024-02-04 09:05:07,LJL,Sengoku Gaming,Burning Core Toyama,2,over,total_towers 12.5,42.50%,Bet365,loss,1.9,-1.0
+2024-02-04 08:13:18,LJL,Burning Core Toyama,Sengoku Gaming,1,over,total_kills 28.5,14.38%,Bet365,win,1.83,0.83
+2024-02-04 09:05:07,LJL,Sengoku Gaming,Burning Core Toyama,2,over,total_kills 28.5,14.38%,Bet365,loss,1.83,-1.0
+2024-02-04 08:13:18,LJL,Burning Core Toyama,Sengoku Gaming,1,over,total_inhibitors 1.5,21.88%,Bet365,win,1.5,0.5
+2024-02-04 09:05:07,LJL,Sengoku Gaming,Burning Core Toyama,2,over,total_inhibitors 1.5,21.88%,Bet365,loss,1.5,-1.0
+2024-02-04 12:17:51,LJL,V3 Esports,AXIZ CREST,1,over,total_dragons 4.5,29.00%,Bet365,win,1.72,0.72
+2024-02-04 13:17:11,LJL,AXIZ CREST,V3 Esports,2,over,total_dragons 4.5,29.00%,Bet365,loss,1.72,-1.0
+2024-02-04 12:17:51,LJL,V3 Esports,AXIZ CREST,1,over,total_towers 12.5,37.50%,Bet365,loss,2.2,-1.0
+2024-02-04 13:17:11,LJL,AXIZ CREST,V3 Esports,2,over,total_towers 12.5,37.50%,Bet365,win,2.2,1.2
+2024-02-04 12:17:51,LJL,V3 Esports,AXIZ CREST,1,over,total_kills 27.5,14.38%,Bet365,loss,1.83,-1.0
+2024-02-04 13:17:11,LJL,AXIZ CREST,V3 Esports,2,over,total_kills 27.5,14.38%,Bet365,loss,1.83,-1.0
+2024-02-04 12:17:51,LJL,V3 Esports,AXIZ CREST,1,over,total_inhibitors 1.5,12.50%,Bet365,loss,1.5,-1.0
+2024-02-04 13:17:11,LJL,AXIZ CREST,V3 Esports,2,over,total_inhibitors 1.5,12.50%,Bet365,win,1.5,0.5
 2024-01-29 10:23:27,LCKC,T1 Esports Academy,DRX Challengers,1,over,total_dragons 4.5,5.33%,Bet365,win,2.37,1.37
 2024-01-29 11:17:54,LCKC,DRX Challengers,T1 Esports Academy,2,over,total_dragons 4.5,5.33%,Bet365,win,2.37,1.37
 2024-01-29 12:14:13,LCKC,T1 Esports Academy,DRX Challengers,3,over,total_dragons 4.5,5.33%,Bet365,win,2.37,1.37
 2024-01-29 10:23:27,LCKC,T1 Esports Academy,DRX Challengers,1,under,total_towers 12.5,5.11%,Bet365,loss,1.72,-1.0
 2024-01-29 11:17:54,LCKC,DRX Challengers,T1 Esports Academy,2,under,total_towers 12.5,5.11%,Bet365,loss,1.72,-1.0
 2024-01-29 12:14:13,LCKC,T1 Esports Academy,DRX Challengers,3,under,total_towers 12.5,5.11%,Bet365,loss,1.72,-1.0
+2024-01-30 11:11:54,LCKC,Nongshim Esports Academy,Dplus KIA Challengers,1,over,total_dragons 4.5,17.75%,Bet365,win,1.57,0.57
+2024-01-30 12:04:20,LCKC,Nongshim Esports Academy,Dplus KIA Challengers,2,over,total_dragons 4.5,17.75%,Bet365,loss,1.57,-1.0
+2024-01-30 11:11:54,LCKC,Nongshim Esports Academy,Dplus KIA Challengers,1,under,total_towers 12.5,18.97%,Bet365,win,1.66,0.66
+2024-01-30 12:04:20,LCKC,Nongshim Esports Academy,Dplus KIA Challengers,2,under,total_towers 12.5,18.97%,Bet365,win,1.66,0.66
+2024-01-30 11:11:54,LCKC,Nongshim Esports Academy,Dplus KIA Challengers,1,over,game_duration 33.5,37.25%,Bet365,loss,1.83,-1.0
+2024-01-30 12:04:20,LCKC,Nongshim Esports Academy,Dplus KIA Challengers,2,over,game_duration 33.5,37.25%,Bet365,loss,1.83,-1.0
+2024-01-30 11:11:54,LCKC,Nongshim Esports Academy,Dplus KIA Challengers,1,under,total_inhibitors 1.5,42.20%,Bet365,win,2.37,1.37
+2024-01-30 12:04:20,LCKC,Nongshim Esports Academy,Dplus KIA Challengers,2,under,total_inhibitors 1.5,42.20%,Bet365,win,2.37,1.37
+2024-01-30 11:11:54,LCKC,Nongshim Esports Academy,Dplus KIA Challengers,1,over,total_barons 1.5,9.80%,Bet365,loss,1.83,-1.0
+2024-01-30 12:04:20,LCKC,Nongshim Esports Academy,Dplus KIA Challengers,2,over,total_barons 1.5,9.80%,Bet365,loss,1.83,-1.0
+2024-02-01 05:06:29,LCKC,OKSavingsBank BRION Challengers,DRX Challengers,1,over,total_dragons 4.5,16.58%,Bet365,win,1.72,0.72
+2024-02-01 06:04:44,LCKC,DRX Challengers,OKSavingsBank BRION Challengers,2,over,total_dragons 4.5,16.58%,Bet365,loss,1.72,-1.0
+2024-02-01 07:02:00,LCKC,OKSavingsBank BRION Challengers,DRX Challengers,3,over,total_dragons 4.5,16.58%,Bet365,win,1.72,0.72
+2024-02-01 05:06:29,LCKC,OKSavingsBank BRION Challengers,DRX Challengers,1,under,total_towers 12.5,5.73%,Bet365,win,1.83,0.83
+2024-02-01 06:04:44,LCKC,DRX Challengers,OKSavingsBank BRION Challengers,2,under,total_towers 12.5,5.73%,Bet365,loss,1.83,-1.0
+2024-02-01 07:02:00,LCKC,OKSavingsBank BRION Challengers,DRX Challengers,3,under,total_towers 12.5,5.73%,Bet365,loss,1.83,-1.0
+2024-02-01 05:06:29,LCKC,OKSavingsBank BRION Challengers,DRX Challengers,1,over,game_duration 33.5,5.73%,Bet365,win,1.83,0.83
+2024-02-01 06:04:44,LCKC,DRX Challengers,OKSavingsBank BRION Challengers,2,over,game_duration 33.5,5.73%,Bet365,loss,1.83,-1.0
+2024-02-01 07:02:00,LCKC,OKSavingsBank BRION Challengers,DRX Challengers,3,over,game_duration 33.5,5.73%,Bet365,win,1.83,0.83
+2024-02-01 05:06:29,LCKC,OKSavingsBank BRION Challengers,DRX Challengers,1,under,total_inhibitors 1.5,13.23%,Bet365,win,2.37,1.37
+2024-02-01 06:04:44,LCKC,DRX Challengers,OKSavingsBank BRION Challengers,2,under,total_inhibitors 1.5,13.23%,Bet365,loss,2.37,-1.0
+2024-02-01 07:02:00,LCKC,OKSavingsBank BRION Challengers,DRX Challengers,3,under,total_inhibitors 1.5,13.23%,Bet365,loss,2.37,-1.0
+2024-02-02 21:12:22,LCS,Cloud9,Immortals,1,over,total_dragons 4.5,25.00%,Bet365,win,2.5,1.5
+2024-02-02 21:12:22,LCS,Cloud9,Immortals,1,over,total_towers 11.5,37.25%,Bet365,win,1.83,0.83
+2024-02-02 21:12:22,LCS,Cloud9,Immortals,1,over,game_duration 29.5,37.25%,Bet365,win,1.83,0.83
+2024-02-02 21:12:22,LCS,Cloud9,Immortals,1,under,total_inhibitors 1.5,40.62%,Bet365,win,2.25,1.25
+2024-02-02 21:12:22,LCS,Cloud9,Immortals,1,over,total_barons 1.5,31.25%,Bet365,loss,3.5,-1.0
+2024-02-02 22:07:07,LCS,Team Liquid,NRG,1,over,total_dragons 4.5,7.50%,Bet365,win,1.72,0.72
+2024-02-02 22:07:07,LCS,Team Liquid,NRG,1,over,total_towers 12.5,10.00%,Bet365,win,2.2,1.2
+2024-02-02 22:07:07,LCS,Team Liquid,NRG,1,over,game_duration 32.5,14.38%,Bet365,win,1.83,0.83
+2024-02-02 22:07:07,LCS,Team Liquid,NRG,1,over,total_inhibitors 1.5,57.00%,Bet365,win,1.57,0.57
+2024-02-02 23:05:57,LCS,Shopify Rebellion,Dignitas,1,under,total_towers 12.5,20.75%,Bet365,win,1.61,0.61
+2024-02-02 23:05:57,LCS,Shopify Rebellion,Dignitas,1,over,total_kills 25.5,14.38%,Bet365,win,1.83,0.83
+2024-02-02 23:05:57,LCS,Shopify Rebellion,Dignitas,1,under,game_duration 32.5,14.38%,Bet365,win,1.83,0.83
+2024-02-02 23:05:57,LCS,Shopify Rebellion,Dignitas,1,under,total_inhibitors 1.5,12.50%,Bet365,win,2.25,1.25
+2024-02-02 23:05:57,LCS,Shopify Rebellion,Dignitas,1,under,total_barons 1.5,31.25%,Bet365,win,1.5,0.5
+2024-02-03 21:06:24,LCS,Dignitas,Team Liquid,1,over,total_dragons 4.5,37.25%,Bet365,loss,1.83,-1.0
+2024-02-03 21:06:24,LCS,Dignitas,Team Liquid,1,over,total_towers 12.5,48.13%,Bet365,win,2.37,1.37
+2024-02-03 21:06:24,LCS,Dignitas,Team Liquid,1,over,game_duration 31.5,37.25%,Bet365,win,1.83,0.83
+2024-02-03 21:06:24,LCS,Dignitas,Team Liquid,1,over,total_inhibitors 1.5,37.38%,Bet365,win,1.57,0.57
+2024-02-03 21:06:24,LCS,Dignitas,Team Liquid,1,under,total_barons 1.5,8.00%,Bet365,win,1.44,0.44
+2024-02-03 21:58:53,LCS,FlyQuest,Cloud9,1,under,total_dragons 4.5,50.00%,Bet365,loss,2.0,-1.0
+2024-02-03 21:58:53,LCS,FlyQuest,Cloud9,1,under,total_towers 12.5,20.75%,Bet365,loss,1.61,-1.0
+2024-02-03 21:58:53,LCS,FlyQuest,Cloud9,1,under,total_kills 24.5,37.25%,Bet365,win,1.83,0.83
+2024-02-03 21:58:53,LCS,FlyQuest,Cloud9,1,under,game_duration 32.5,60.13%,Bet365,win,1.83,0.83
+2024-02-03 21:58:53,LCS,FlyQuest,Cloud9,1,under,total_inhibitors 1.5,12.50%,Bet365,loss,2.25,-1.0
+2024-02-03 21:58:53,LCS,FlyQuest,Cloud9,1,under,total_barons 1.5,12.50%,Bet365,win,1.5,0.5
+2024-02-03 22:48:07,LCS,Immortals,100 Thieves,1,over,total_dragons 4.5,50.50%,Bet365,loss,1.72,-1.0
+2024-02-03 22:48:07,LCS,Immortals,100 Thieves,1,over,total_towers 12.5,10.00%,Bet365,loss,2.2,-1.0
+2024-02-03 22:48:07,LCS,Immortals,100 Thieves,1,over,total_kills 24.5,14.38%,Bet365,win,1.83,0.83
+2024-02-03 22:48:07,LCS,Immortals,100 Thieves,1,over,game_duration 32.5,14.38%,Bet365,win,1.83,0.83
+2024-02-03 22:48:07,LCS,Immortals,100 Thieves,1,under,total_inhibitors 1.5,12.50%,Bet365,win,2.25,1.25
+2024-02-03 22:48:07,LCS,Immortals,100 Thieves,1,under,total_barons 1.5,12.50%,Bet365,win,1.5,0.5
+2024-01-31 17:05:55,PRM,Eintracht Spandau,FC Schalke 04 Esports,1,under,total_towers 12.5,17.75%,Bet365,win,1.57,0.57
+2024-01-31 17:05:55,PRM,Eintracht Spandau,FC Schalke 04 Esports,1,over,total_kills 26.5,14.38%,Bet365,loss,1.83,-1.0
+2024-01-31 17:05:55,PRM,Eintracht Spandau,FC Schalke 04 Esports,1,over,game_duration 33.5,14.38%,Bet365,loss,1.83,-1.0
+2024-01-31 17:05:55,PRM,Eintracht Spandau,FC Schalke 04 Esports,1,under,total_inhibitors 1.5,40.62%,Bet365,loss,2.25,-1.0
+2024-01-31 17:05:55,PRM,Eintracht Spandau,FC Schalke 04 Esports,1,over,total_barons 1.5,25.00%,Bet365,loss,2.5,-1.0
+2024-01-31 18:24:11,PRM,E WIE EINFACH E-SPORTS,Unicorns of Love Sexy Edition,1,over,total_dragons 4.5,12.50%,Bet365,win,1.8,0.8
+2024-01-31 18:24:11,PRM,E WIE EINFACH E-SPORTS,Unicorns of Love Sexy Edition,1,over,total_towers 12.5,57.50%,Bet365,win,2.1,1.1
+2024-01-31 18:24:11,PRM,E WIE EINFACH E-SPORTS,Unicorns of Love Sexy Edition,1,over,total_kills 30.5,14.38%,Bet365,win,1.83,0.83
+2024-01-31 18:24:11,PRM,E WIE EINFACH E-SPORTS,Unicorns of Love Sexy Edition,1,under,game_duration 32.5,14.38%,Bet365,loss,1.83,-1.0
+2024-01-31 18:24:11,PRM,E WIE EINFACH E-SPORTS,Unicorns of Love Sexy Edition,1,over,total_barons 1.5,10.00%,Bet365,win,2.2,1.2
+2024-01-31 19:30:51,PRM,SK Gaming Prime,Eintracht Frankfurt,1,under,game_duration 32.5,14.38%,Bet365,loss,1.83,-1.0
+2024-01-31 19:30:51,PRM,SK Gaming Prime,Eintracht Frankfurt,1,over,total_inhibitors 1.5,37.38%,Bet365,loss,1.57,-1.0
+2024-01-31 19:30:51,PRM,SK Gaming Prime,Eintracht Frankfurt,1,over,total_barons 1.5,48.13%,Bet365,loss,2.37,-1.0
+2024-01-31 21:23:00,PRM,NNO Prime,Berlin International Gaming,1,over,total_dragons 4.5,20.75%,Bet365,loss,1.61,-1.0
+2024-01-31 21:23:00,PRM,NNO Prime,Berlin International Gaming,1,over,total_towers 12.5,10.00%,Bet365,loss,2.2,-1.0
+2024-01-31 21:23:00,PRM,NNO Prime,Berlin International Gaming,1,under,total_kills 28.5,14.38%,Bet365,loss,1.83,-1.0
+2024-01-31 21:23:00,PRM,NNO Prime,Berlin International Gaming,1,under,game_duration 33.5,14.38%,Bet365,win,1.83,0.83
+2024-01-31 21:23:00,PRM,NNO Prime,Berlin International Gaming,1,over,total_inhibitors 1.5,17.75%,Bet365,loss,1.57,-1.0
+2024-01-31 21:23:00,PRM,NNO Prime,Berlin International Gaming,1,over,total_barons 1.5,35.00%,Bet365,loss,1.8,-1.0
+2024-02-01 16:11:55,TCL,Dark Passage,NASR eSports Turkey,1,over,total_dragons 4.5,29.00%,Bet365,win,1.72,0.72
+2024-02-01 16:11:55,TCL,Dark Passage,NASR eSports Turkey,1,over,total_towers 11.5,20.75%,Bet365,win,1.61,0.61
+2024-02-01 16:11:55,TCL,Dark Passage,NASR eSports Turkey,1,under,total_kills 27.5,37.25%,Bet365,loss,1.83,-1.0
+2024-02-01 16:11:55,TCL,Dark Passage,NASR eSports Turkey,1,under,game_duration 33.5,37.25%,Bet365,loss,1.83,-1.0
+2024-02-01 16:11:55,TCL,Dark Passage,NASR eSports Turkey,1,under,total_inhibitors 1.5,10.00%,Bet365,loss,2.2,-1.0
+2024-02-01 16:11:55,TCL,Dark Passage,NASR eSports Turkey,1,over,total_barons 1.5,5.00%,Bet365,win,2.1,1.1
+2024-02-01 18:31:05,TCL,BoostGate Esports,FUT Esports,1,over,total_dragons 4.5,29.00%,Bet365,win,1.72,0.72
+2024-02-01 18:31:05,TCL,BoostGate Esports,FUT Esports,1,under,total_towers 12.5,10.00%,Bet365,loss,2.2,-1.0
+2024-02-01 18:31:05,TCL,BoostGate Esports,FUT Esports,1,over,total_kills 26.5,37.25%,Bet365,win,1.83,0.83
+2024-02-01 18:31:05,TCL,BoostGate Esports,FUT Esports,1,over,total_inhibitors 1.5,61.00%,Bet365,win,1.61,0.61
+2024-02-01 18:31:05,TCL,BoostGate Esports,FUT Esports,1,over,total_barons 1.5,5.00%,Bet365,loss,2.1,-1.0
+2024-02-01 19:29:24,TCL,Galakticos,Misa Esports,1,under,total_towers 11.5,25.00%,Bet365,loss,2.5,-1.0
+2024-02-01 19:29:24,TCL,Galakticos,Misa Esports,1,over,total_kills 29.5,37.25%,Bet365,loss,1.83,-1.0
+2024-02-01 19:29:24,TCL,Galakticos,Misa Esports,1,under,game_duration 33.5,37.25%,Bet365,win,1.83,0.83
+2024-02-01 19:29:24,TCL,Galakticos,Misa Esports,1,under,total_inhibitors 1.5,65.00%,Bet365,loss,2.2,-1.0
+2024-02-01 19:29:24,TCL,Galakticos,Misa Esports,1,over,total_barons 1.5,12.50%,Bet365,loss,2.25,-1.0
+2024-02-02 17:08:38,TCL,Papara SuperMassive,FUT Esports,1,under,total_towers 12.5,14.75%,Bet365,loss,1.53,-1.0
+2024-02-02 17:08:38,TCL,Papara SuperMassive,FUT Esports,1,under,game_duration 33.5,37.25%,Bet365,win,1.83,0.83
+2024-02-01 17:05:38,PRM,SK Gaming Prime,FC Schalke 04 Esports,1,over,game_duration 33.5,9.80%,Bet365,loss,1.83,-1.0
+2024-02-01 17:51:45,PRM,Eintracht Frankfurt,E WIE EINFACH E-SPORTS,1,over,total_kills 29.5,9.80%,Bet365,win,1.83,0.83
+2024-02-01 17:51:45,PRM,Eintracht Frankfurt,E WIE EINFACH E-SPORTS,1,under,game_duration 32.5,9.80%,Bet365,win,1.83,0.83
+2024-02-01 17:51:45,PRM,Eintracht Frankfurt,E WIE EINFACH E-SPORTS,1,over,total_barons 1.5,10.00%,Bet365,win,2.2,1.2
+2024-02-01 20:09:25,PRM,Unicorns of Love Sexy Edition,MOUZ NXT,1,over,total_dragons 4.5,25.00%,Bet365,win,2.5,1.5
+2024-02-01 20:09:25,PRM,Unicorns of Love Sexy Edition,MOUZ NXT,1,over,total_kills 29.5,28.10%,Bet365,win,1.83,0.83
+2024-02-01 20:09:25,PRM,Unicorns of Love Sexy Edition,MOUZ NXT,1,under,game_duration 32.5,9.80%,Bet365,loss,1.83,-1.0
+2024-02-01 20:09:25,PRM,Unicorns of Love Sexy Edition,MOUZ NXT,1,under,total_inhibitors 1.5,35.00%,Bet365,loss,2.25,-1.0
+2024-02-01 20:09:25,PRM,Unicorns of Love Sexy Edition,MOUZ NXT,1,over,total_barons 1.5,50.00%,Bet365,win,3.0,2.0
+2024-02-01 19:08:18,LPLOL,Odivelas Sports Club,White Dragons,1,under,total_dragons 4.5,12.50%,Bet365,win,2.25,1.25
+2024-02-01 19:08:18,LPLOL,Odivelas Sports Club,White Dragons,1,under,total_towers 11.5,87.50%,Bet365,win,2.5,1.5
+2024-02-01 19:08:18,LPLOL,Odivelas Sports Club,White Dragons,1,under,total_kills 24.5,37.25%,Bet365,win,1.83,0.83
+2024-02-01 19:08:18,LPLOL,Odivelas Sports Club,White Dragons,1,under,total_inhibitors 1.5,68.75%,Bet365,win,2.25,1.25
+2024-02-01 19:08:18,LPLOL,Odivelas Sports Club,White Dragons,1,under,total_barons 1.5,37.25%,Bet365,win,1.83,0.83
+2024-02-01 20:09:01,LPLOL,BWE Esports,SAW,1,over,total_dragons 4.5,83.00%,Bet365,loss,1.83,-1.0
+2024-02-01 20:09:01,LPLOL,BWE Esports,SAW,1,over,total_towers 11.5,12.50%,Bet365,loss,1.5,-1.0
+2024-02-01 20:09:01,LPLOL,BWE Esports,SAW,1,under,total_inhibitors 1.5,12.50%,Bet365,loss,2.25,-1.0
+2024-02-01 20:09:01,LPLOL,BWE Esports,SAW,1,over,total_barons 1.5,155.00%,Bet365,loss,3.4,-1.0
+2024-02-01 21:07:20,LPLOL,Keypulse Esports,Hurricane of Feathers,1,over,total_dragons 4.5,137.00%,Bet365,win,2.37,1.37
+2024-02-01 21:07:20,LPLOL,Keypulse Esports,Hurricane of Feathers,1,over,game_duration 33.5,83.00%,Bet365,win,1.83,0.83
+2024-02-01 21:07:20,LPLOL,Keypulse Esports,Hurricane of Feathers,1,under,total_inhibitors 1.5,65.00%,Bet365,loss,2.2,-1.0
+2024-02-01 22:07:46,LPLOL,EGN Esports,GTZ Esports,1,over,total_dragons 4.5,68.75%,Bet365,loss,2.25,-1.0
+2024-02-01 22:07:46,LPLOL,EGN Esports,GTZ Esports,1,over,total_towers 11.5,12.50%,Bet365,win,1.5,0.5
+2024-02-01 22:07:46,LPLOL,EGN Esports,GTZ Esports,1,over,game_duration 30.5,37.25%,Bet365,loss,1.83,-1.0
+2024-02-01 22:07:46,LPLOL,EGN Esports,GTZ Esports,1,under,total_inhibitors 1.5,83.00%,Bet365,loss,1.83,-1.0
+2024-02-01 22:07:46,LPLOL,EGN Esports,GTZ Esports,1,under,total_barons 1.5,5.00%,Bet365,win,1.4,0.4
+2024-02-02 19:05:47,LPLOL,EGN Esports,Keypulse Esports,1,over,total_dragons 4.5,87.50%,Bet365,win,2.5,1.5
+2024-02-02 19:05:47,LPLOL,EGN Esports,Keypulse Esports,1,over,total_towers 11.5,12.50%,Bet365,loss,2.25,-1.0
+2024-02-02 19:05:47,LPLOL,EGN Esports,Keypulse Esports,1,over,game_duration 28.5,37.25%,Bet365,win,1.83,0.83
+2024-02-02 19:05:47,LPLOL,EGN Esports,Keypulse Esports,1,under,total_inhibitors 1.5,80.00%,Bet365,loss,1.8,-1.0
+2024-02-02 20:04:49,LPLOL,Odivelas Sports Club,GTZ Esports,1,over,total_dragons 4.5,137.00%,Bet365,loss,2.37,-1.0
+2024-02-02 20:04:49,LPLOL,Odivelas Sports Club,GTZ Esports,1,over,total_towers 11.5,68.75%,Bet365,win,2.25,1.25
+2024-02-02 20:04:49,LPLOL,Odivelas Sports Club,GTZ Esports,1,over,game_duration 33.5,37.25%,Bet365,loss,1.83,-1.0
+2024-02-02 20:04:49,LPLOL,Odivelas Sports Club,GTZ Esports,1,under,total_inhibitors 1.5,29.00%,Bet365,win,1.72,0.72
+2024-02-02 20:04:49,LPLOL,Odivelas Sports Club,GTZ Esports,1,under,total_barons 1.5,12.50%,Bet365,win,1.5,0.5
+2024-02-02 21:05:07,LPLOL,White Dragons,BWE Esports,1,under,total_dragons 4.5,25.00%,Bet365,loss,2.5,-1.0
+2024-02-02 21:05:07,LPLOL,White Dragons,BWE Esports,1,under,total_towers 11.5,87.50%,Bet365,loss,2.5,-1.0
+2024-02-02 21:05:07,LPLOL,White Dragons,BWE Esports,1,under,total_inhibitors 1.5,77.75%,Bet365,loss,2.37,-1.0
+2024-02-02 21:05:07,LPLOL,White Dragons,BWE Esports,1,under,total_barons 1.5,87.50%,Bet365,loss,2.5,-1.0
+2024-02-02 22:11:44,LPLOL,SAW,Hurricane of Feathers,1,over,total_dragons 4.5,50.00%,Bet365,win,1.5,0.5
+2024-02-02 22:11:44,LPLOL,SAW,Hurricane of Feathers,1,under,total_towers 12.5,12.50%,Bet365,win,1.5,0.5
+2024-02-02 22:11:44,LPLOL,SAW,Hurricane of Feathers,1,under,total_kills 28.5,42.50%,Bet365,win,1.9,0.9
+2024-02-02 22:11:44,LPLOL,SAW,Hurricane of Feathers,1,under,total_inhibitors 1.5,18.50%,Bet365,loss,2.37,-1.0
+2024-02-02 22:11:44,LPLOL,SAW,Hurricane of Feathers,1,over,total_barons 1.5,12.50%,Bet365,win,1.5,0.5
+2024-02-01 22:06:31,LLA,All Knights,Movistar R7,1,under,total_dragons 4.5,9.52%,Bet365,win,1.5,0.5
+2024-02-01 22:52:05,LLA,All Knights,Movistar R7,2,under,total_dragons 4.5,9.52%,Bet365,win,1.5,0.5
+2024-02-01 22:06:31,LLA,All Knights,Movistar R7,1,over,total_towers 11.5,5.40%,Bet365,win,1.66,0.66
+2024-02-01 22:52:05,LLA,All Knights,Movistar R7,2,over,total_towers 11.5,5.40%,Bet365,win,1.66,0.66
+2024-02-01 22:06:31,LLA,All Knights,Movistar R7,1,under,total_kills 26.5,13.29%,Bet365,loss,1.83,-1.0
+2024-02-01 22:52:05,LLA,All Knights,Movistar R7,2,under,total_kills 26.5,13.29%,Bet365,win,1.83,0.83
+2024-02-01 22:06:31,LLA,All Knights,Movistar R7,1,under,game_duration 31.5,33.62%,Bet365,win,1.83,0.83
+2024-02-01 22:52:05,LLA,All Knights,Movistar R7,2,under,game_duration 31.5,33.62%,Bet365,win,1.83,0.83
+2024-02-01 22:06:31,LLA,All Knights,Movistar R7,1,under,total_barons 1.5,23.43%,Bet365,win,1.44,0.44
+2024-02-01 22:52:05,LLA,All Knights,Movistar R7,2,under,total_barons 1.5,23.43%,Bet365,win,1.44,0.44
+2024-02-01 17:08:54,LFL,GameWard,Solary,1,over,total_dragons 4.5,35.00%,Bet365,win,1.5,0.5
+2024-02-01 17:08:54,LFL,GameWard,Solary,1,over,total_towers 12.5,45.25%,Bet365,loss,1.66,-1.0
+2024-02-01 17:08:54,LFL,GameWard,Solary,1,under,total_kills 26.5,5.22%,Bet365,loss,1.83,-1.0
+2024-02-01 17:08:54,LFL,GameWard,Solary,1,over,game_duration 33.5,23.53%,Bet365,win,1.83,0.83
+2024-02-01 20:17:23,LFL,Vitality.Bee,Gentle Mates,1,under,total_kills 28.5,28.10%,Bet365,win,1.83,0.83
+2024-02-01 20:17:23,LFL,Vitality.Bee,Gentle Mates,1,over,game_duration 32.5,9.80%,Bet365,loss,1.83,-1.0
+2024-02-01 20:17:23,LFL,Vitality.Bee,Gentle Mates,1,over,total_inhibitors 1.5,5.00%,Bet365,loss,1.5,-1.0
+2024-02-01 17:56:16,LVP SL,Guasones,Rebels Gaming,1,over,total_dragons 4.5,31.00%,Bet365,win,2.62,1.62
+2024-02-01 17:56:16,LVP SL,Guasones,Rebels Gaming,1,under,total_inhibitors 1.5,31.00%,Bet365,win,2.62,1.62
+2024-02-01 17:56:16,LVP SL,Guasones,Rebels Gaming,1,over,total_barons 1.5,20.00%,Bet365,win,3.0,2.0
+2024-02-01 19:00:03,LVP SL,Case Esports,Ramboot Club,1,over,total_dragons 4.5,5.00%,Bet365,win,2.1,1.1
+2024-02-01 19:00:03,LVP SL,Case Esports,Ramboot Club,1,over,total_towers 12.5,14.00%,Bet365,win,1.9,0.9
+2024-02-01 19:00:03,LVP SL,Case Esports,Ramboot Club,1,under,total_kills 27.5,9.80%,Bet365,win,1.83,0.83
+2024-02-01 19:00:03,LVP SL,Case Esports,Ramboot Club,1,under,total_barons 1.5,7.10%,Bet365,loss,1.53,-1.0
+2024-02-01 18:13:31,LFL,Aegis,Team du Sud,1,over,total_towers 12.5,5.00%,Bet365,loss,2.1,-1.0
+2024-02-01 18:13:31,LFL,Aegis,Team du Sud,1,under,total_kills 26.5,26.00%,Bet365,win,1.8,0.8
+2024-02-01 18:13:31,LFL,Aegis,Team du Sud,1,under,total_inhibitors 1.5,25.00%,Bet365,win,2.5,1.5
+2024-02-01 18:13:31,LFL,Aegis,Team du Sud,1,under,total_barons 1.5,12.70%,Bet365,win,1.61,0.61
+2024-02-01 19:12:05,LFL,Team GO,Karmine Corp Blue,1,over,total_towers 12.5,28.65%,Bet365,loss,1.66,-1.0
+2024-02-01 19:12:05,LFL,Team GO,Karmine Corp Blue,1,over,total_kills 28.5,23.53%,Bet365,loss,1.83,-1.0
+2024-02-01 19:12:05,LFL,Team GO,Karmine Corp Blue,1,over,total_inhibitors 1.5,16.25%,Bet365,loss,1.5,-1.0
+2024-02-01 19:12:05,LFL,Team GO,Karmine Corp Blue,1,under,total_barons 1.5,15.00%,Bet365,win,2.0,1.0
+2024-02-01 21:12:10,LFL,Team BDS Academy,BK ROG Esports,1,over,total_towers 12.5,35.00%,Bet365,win,2.25,1.25
+2024-02-01 21:12:10,LFL,Team BDS Academy,BK ROG Esports,1,under,total_kills 27.5,28.10%,Bet365,loss,1.83,-1.0
+2024-02-01 21:12:10,LFL,Team BDS Academy,BK ROG Esports,1,under,game_duration 32.5,9.80%,Bet365,loss,1.83,-1.0
+2024-02-01 21:12:10,LFL,Team BDS Academy,BK ROG Esports,1,over,total_inhibitors 1.5,5.00%,Bet365,win,1.5,0.5
+2024-02-01 21:12:10,LFL,Team BDS Academy,BK ROG Esports,1,under,total_barons 1.5,20.40%,Bet365,win,1.72,0.72
+2024-02-01 19:55:55,LVP SL,Movistar KOI,GIANTX Pride,1,under,total_dragons 4.5,35.00%,Bet365,win,2.25,1.25
+2024-02-01 19:55:55,LVP SL,Movistar KOI,GIANTX Pride,1,over,total_towers 12.5,10.00%,Bet365,loss,2.2,-1.0
+2024-02-01 19:55:55,LVP SL,Movistar KOI,GIANTX Pride,1,over,total_kills 29.5,9.80%,Bet365,loss,1.83,-1.0
+2024-02-01 19:55:55,LVP SL,Movistar KOI,GIANTX Pride,1,under,total_inhibitors 1.5,31.00%,Bet365,win,2.62,1.62
+2024-02-06 17:03:04,UL,Back2TheGame,Team ESCA Gaming,1,under,total_towers 12.5,22.00%,Bet365,win,1.83,0.83
+2024-02-06 17:03:04,UL,Back2TheGame,Team ESCA Gaming,1,under,game_duration 32.5,22.00%,Bet365,win,1.83,0.83
+2024-02-06 17:03:04,UL,Back2TheGame,Team ESCA Gaming,1,under,total_barons 1.5,35.00%,Bet365,win,1.8,0.8
+2024-02-06 18:56:25,UL,Forsaken,devils.one,1,over,total_dragons 4.5,32.80%,Bet365,win,1.66,0.66
+2024-02-06 18:56:25,UL,Forsaken,devils.one,1,under,total_barons 1.5,17.00%,Bet365,loss,1.8,-1.0
+2024-02-06 20:07:15,UL,GRP Esports,Orbit Anonymo Esports,1,over,total_kills 27.5,6.75%,Bet365,win,1.83,0.83
+2024-02-02 21:12:22,LCS,Cloud9,Immortals,1,over,game_duration 28.5,37.25%,Bet365,win,1.83,0.83
+2024-02-03 16:13:05,CBLOL,INTZ,FURIA,1,under,total_towers 12.5,5.00%,Bet365,win,2.1,1.1
+2024-02-03 16:13:05,CBLOL,INTZ,FURIA,1,over,total_inhibitors 1.5,33.88%,Bet365,loss,1.53,-1.0
+2024-02-03 16:13:05,CBLOL,INTZ,FURIA,1,over,total_barons 1.5,12.50%,Bet365,loss,1.8,-1.0
+2024-02-03 17:06:49,CBLOL,LOUD,Fluxo,1,over,total_towers 12.5,31.25%,Bet365,loss,2.1,-1.0
+2024-02-03 17:06:49,CBLOL,LOUD,Fluxo,1,under,total_kills 28.5,14.38%,Bet365,win,1.83,0.83
+2024-02-03 17:06:49,CBLOL,LOUD,Fluxo,1,under,game_duration 30.5,14.38%,Bet365,win,1.83,0.83
+2024-02-03 17:06:49,CBLOL,LOUD,Fluxo,1,over,total_inhibitors 1.5,14.75%,Bet365,win,1.53,0.53
+2024-02-03 18:00:31,CBLOL,paiN Gaming,Los Grandes,1,under,total_towers 12.5,14.38%,Bet365,win,1.83,0.83
+2024-02-03 18:00:31,CBLOL,paiN Gaming,Los Grandes,1,under,total_kills 27.5,14.38%,Bet365,loss,1.83,-1.0
+2024-02-03 18:00:31,CBLOL,paiN Gaming,Los Grandes,1,under,game_duration 31.5,14.38%,Bet365,loss,1.83,-1.0
+2024-02-03 18:00:31,CBLOL,paiN Gaming,Los Grandes,1,under,total_inhibitors 1.5,38.25%,Bet365,loss,2.37,-1.0
+2024-02-03 19:07:56,CBLOL,Vivo Keyd Stars,RED Canids,1,over,total_dragons 4.5,7.50%,Bet365,loss,1.72,-1.0
+2024-02-03 19:07:56,CBLOL,Vivo Keyd Stars,RED Canids,1,under,total_towers 12.5,13.75%,Bet365,win,2.1,1.1
+2024-02-03 19:07:56,CBLOL,Vivo Keyd Stars,RED Canids,1,over,total_kills 27.5,14.38%,Bet365,loss,1.83,-1.0
+2024-02-03 19:07:56,CBLOL,Vivo Keyd Stars,RED Canids,1,over,total_inhibitors 1.5,8.37%,Bet365,loss,1.53,-1.0
+2024-02-03 19:07:56,CBLOL,Vivo Keyd Stars,RED Canids,1,over,total_barons 1.5,5.00%,Bet365,loss,1.8,-1.0
+2024-02-03 20:00:15,CBLOL,Liberty,KaBuM! Esports,1,under,game_duration 31.5,14.38%,Bet365,win,1.83,0.83
+2024-02-03 20:00:15,CBLOL,Liberty,KaBuM! Esports,1,over,total_barons 1.5,21.88%,Bet365,loss,3.25,-1.0
+2024-02-05 08:15:35,LCKC,Dplus KIA Challengers,OKSavingsBank BRION Challengers,1,under,total_towers 12.5,9.80%,Bet365,win,1.83,0.83
+2024-02-05 09:19:19,LCKC,OKSavingsBank BRION Challengers,Dplus KIA Challengers,2,under,total_towers 12.5,9.80%,Bet365,win,1.83,0.83
+2024-02-05 08:15:35,LCKC,Dplus KIA Challengers,OKSavingsBank BRION Challengers,1,under,total_inhibitors 1.5,5.00%,Bet365,win,2.1,1.1
+2024-02-05 09:19:19,LCKC,OKSavingsBank BRION Challengers,Dplus KIA Challengers,2,under,total_inhibitors 1.5,5.00%,Bet365,loss,2.1,-1.0
+2024-02-05 08:15:35,LCKC,Dplus KIA Challengers,OKSavingsBank BRION Challengers,1,under,total_barons 1.5,12.50%,Bet365,loss,2.25,-1.0
+2024-02-05 09:19:19,LCKC,OKSavingsBank BRION Challengers,Dplus KIA Challengers,2,under,total_barons 1.5,12.50%,Bet365,win,2.25,1.25
+2024-02-03 16:07:14,LEC,Team BDS,Team Heretics,1,under,total_dragons 4.5,11.11%,Bet365,loss,2.0,-1.0
+2024-02-03 16:57:46,LEC,Team BDS,Team Heretics,2,under,total_dragons 4.5,11.11%,Bet365,loss,2.0,-1.0
+2024-02-03 16:07:14,LEC,Team BDS,Team Heretics,1,under,total_towers 12.5,27.50%,Bet365,loss,1.53,-1.0
+2024-02-03 16:57:46,LEC,Team BDS,Team Heretics,2,under,total_towers 12.5,27.50%,Bet365,loss,1.53,-1.0
+2024-02-03 16:07:14,LEC,Team BDS,Team Heretics,1,under,game_duration 32.5,32.17%,Bet365,win,1.83,0.83
+2024-02-03 16:57:46,LEC,Team BDS,Team Heretics,2,under,game_duration 32.5,32.17%,Bet365,win,1.83,0.83
+2024-02-03 16:07:14,LEC,Team BDS,Team Heretics,1,under,total_inhibitors 1.5,16.44%,Bet365,loss,2.62,-1.0
+2024-02-03 16:57:46,LEC,Team BDS,Team Heretics,2,under,total_inhibitors 1.5,16.44%,Bet365,loss,2.62,-1.0
+2024-02-03 16:07:14,LEC,Team BDS,Team Heretics,1,under,total_barons 1.5,11.11%,Bet365,loss,2.0,-1.0
+2024-02-03 16:57:46,LEC,Team BDS,Team Heretics,2,under,total_barons 1.5,11.11%,Bet365,win,2.0,1.0
+2024-02-03 17:54:11,LEC,G2 Esports,GiantX,1,over,total_dragons 4.5,11.11%,Bet365,win,2.5,1.5
+2024-02-03 18:47:12,LEC,G2 Esports,GiantX,2,over,total_dragons 4.5,11.11%,Bet365,loss,2.5,-1.0
+2024-02-03 17:54:11,LEC,G2 Esports,GiantX,1,under,total_kills 25.5,22.00%,Bet365,loss,1.83,-1.0
+2024-02-03 18:47:12,LEC,G2 Esports,GiantX,2,under,total_kills 25.5,22.00%,Bet365,win,1.83,0.83
+2024-02-03 17:54:11,LEC,G2 Esports,GiantX,1,over,game_duration 29.5,11.83%,Bet365,win,1.83,0.83
+2024-02-03 18:47:12,LEC,G2 Esports,GiantX,2,over,game_duration 29.5,11.83%,Bet365,loss,1.83,-1.0
+2024-02-03 17:54:11,LEC,G2 Esports,GiantX,1,under,total_inhibitors 1.5,10.00%,Bet365,win,2.2,1.2
+2024-02-03 18:47:12,LEC,G2 Esports,GiantX,2,under,total_inhibitors 1.5,10.00%,Bet365,loss,2.2,-1.0
+2024-02-03 17:54:11,LEC,G2 Esports,GiantX,1,over,total_barons 1.5,16.44%,Bet365,win,2.62,1.62
+2024-02-03 18:47:12,LEC,G2 Esports,GiantX,2,over,total_barons 1.5,16.44%,Bet365,loss,2.62,-1.0
+2024-02-04 16:08:35,LEC,SK Gaming,Team Vitality,1,under,total_dragons 4.5,16.67%,Bet365,win,2.1,1.1
+2024-02-04 16:54:56,LEC,Team Vitality,SK Gaming,2,under,total_dragons 4.5,16.67%,Bet365,win,2.1,1.1
+2024-02-04 16:08:35,LEC,SK Gaming,Team Vitality,1,under,total_towers 12.5,33.33%,Bet365,win,2.0,1.0
+2024-02-04 16:54:56,LEC,Team Vitality,SK Gaming,2,under,total_towers 12.5,33.33%,Bet365,win,2.0,1.0
+2024-02-04 16:08:35,LEC,SK Gaming,Team Vitality,1,under,total_kills 27.5,22.00%,Bet365,win,1.83,0.83
+2024-02-04 16:54:56,LEC,Team Vitality,SK Gaming,2,under,total_kills 27.5,22.00%,Bet365,loss,1.83,-1.0
+2024-02-04 16:08:35,LEC,SK Gaming,Team Vitality,1,under,game_duration 32.5,22.00%,Bet365,win,1.83,0.83
+2024-02-04 16:54:56,LEC,Team Vitality,SK Gaming,2,under,game_duration 32.5,22.00%,Bet365,win,1.83,0.83
+2024-02-04 16:08:35,LEC,SK Gaming,Team Vitality,1,under,total_inhibitors 1.5,58.89%,Bet365,loss,2.2,-1.0
+2024-02-04 16:54:56,LEC,Team Vitality,SK Gaming,2,under,total_inhibitors 1.5,58.89%,Bet365,win,2.2,1.2
+2024-02-04 16:08:35,LEC,SK Gaming,Team Vitality,1,under,total_barons 1.5,5.56%,Bet365,win,1.9,0.9
+2024-02-04 16:54:56,LEC,Team Vitality,SK Gaming,2,under,total_barons 1.5,5.56%,Bet365,win,1.9,0.9
+2024-02-04 17:46:48,LEC,MAD Lions KOI,Fnatic,1,under,total_towers 12.5,28.33%,Bet365,win,2.1,1.1
+2024-02-04 18:32:22,LEC,MAD Lions KOI,Fnatic,2,under,total_towers 12.5,28.33%,Bet365,loss,2.1,-1.0
+2024-02-04 17:46:48,LEC,MAD Lions KOI,Fnatic,1,under,total_kills 29.5,11.83%,Bet365,win,1.83,0.83
+2024-02-04 18:32:22,LEC,MAD Lions KOI,Fnatic,2,under,total_kills 29.5,11.83%,Bet365,win,1.83,0.83
+2024-02-04 17:46:48,LEC,MAD Lions KOI,Fnatic,1,under,game_duration 32.5,22.00%,Bet365,win,1.83,0.83
+2024-02-04 18:32:22,LEC,MAD Lions KOI,Fnatic,2,under,game_duration 32.5,22.00%,Bet365,loss,1.83,-1.0
+2024-02-04 17:46:48,LEC,MAD Lions KOI,Fnatic,1,under,total_inhibitors 1.5,16.44%,Bet365,win,2.62,1.62
+2024-02-04 18:32:22,LEC,MAD Lions KOI,Fnatic,2,under,total_inhibitors 1.5,16.44%,Bet365,loss,2.62,-1.0
+2024-02-02 21:12:22,LCS,Cloud9,Immortals,1,under,total_kills 24.5,6.75%,Bet365,win,1.83,0.83
+2024-02-02 22:07:07,LCS,Team Liquid,NRG,1,over,total_kills 24.5,6.75%,Bet365,win,1.83,0.83
+2024-02-03 16:13:05,CBLOL,INTZ,FURIA,1,under,total_dragons 4.5,20.00%,Bet365,win,2.0,1.0
+2024-02-03 16:13:05,CBLOL,INTZ,FURIA,1,under,total_kills 28.5,9.80%,Bet365,win,1.83,0.83
+2024-02-03 16:13:05,CBLOL,INTZ,FURIA,1,under,game_duration 32.5,9.80%,Bet365,win,1.83,0.83
+2024-02-03 17:06:49,CBLOL,LOUD,Fluxo,1,under,total_dragons 4.5,16.20%,Bet365,win,1.66,0.66
+2024-02-03 17:06:49,CBLOL,LOUD,Fluxo,1,under,total_barons 1.5,12.70%,Bet365,win,1.61,0.61
+2024-02-03 18:00:31,CBLOL,paiN Gaming,Los Grandes,1,over,total_dragons 4.5,18.95%,Bet365,win,1.83,0.83
+2024-02-03 18:00:31,CBLOL,paiN Gaming,Los Grandes,1,over,total_barons 1.5,10.00%,Bet365,win,2.0,1.0
+2024-02-03 19:07:56,CBLOL,Vivo Keyd Stars,RED Canids,1,under,total_dragons 4.5,5.00%,Bet365,win,2.0,1.0
+2024-02-03 19:07:56,CBLOL,Vivo Keyd Stars,RED Canids,1,under,game_duration 33.5,18.95%,Bet365,win,1.83,0.83
+2024-02-03 19:07:56,CBLOL,Vivo Keyd Stars,RED Canids,1,under,total_inhibitors 1.5,6.65%,Bet365,win,2.37,1.37
+2024-02-03 20:00:15,CBLOL,Liberty,KaBuM! Esports,1,over,total_dragons 4.5,25.00%,Bet365,win,2.5,1.5
+2024-02-03 20:00:15,CBLOL,Liberty,KaBuM! Esports,1,over,total_towers 11.5,16.20%,Bet365,win,1.66,0.66
+2024-02-03 20:00:15,CBLOL,Liberty,KaBuM! Esports,1,over,total_kills 27.5,9.80%,Bet365,win,1.83,0.83
+2024-02-03 20:00:15,CBLOL,Liberty,KaBuM! Esports,1,over,total_inhibitors 1.5,7.10%,Bet365,win,1.53,0.53
+2024-02-04 16:12:34,CBLOL,RED Canids,Fluxo,1,over,total_dragons 4.5,20.75%,Bet365,win,2.1,1.1
+2024-02-04 16:12:34,CBLOL,RED Canids,Fluxo,1,over,game_duration 30.5,5.22%,Bet365,win,1.83,0.83
+2024-02-04 17:12:04,CBLOL,KaBuM! Esports,paiN Gaming,1,over,total_kills 27.5,9.80%,Bet365,loss,1.83,-1.0
+2024-02-04 17:12:04,CBLOL,KaBuM! Esports,paiN Gaming,1,under,game_duration 32.5,9.80%,Bet365,win,1.83,0.83
+2024-02-04 17:12:04,CBLOL,KaBuM! Esports,paiN Gaming,1,over,total_inhibitors 1.5,7.10%,Bet365,loss,1.53,-1.0
+2024-02-04 17:12:04,CBLOL,KaBuM! Esports,paiN Gaming,1,under,total_barons 1.5,14.00%,Bet365,win,1.9,0.9
+2024-02-04 18:04:17,CBLOL,INTZ,LOUD,1,under,total_dragons 4.5,28.10%,Bet365,loss,1.83,-1.0
+2024-02-04 18:04:17,CBLOL,INTZ,LOUD,1,under,total_kills 28.5,9.80%,Bet365,loss,1.83,-1.0
+2024-02-04 18:04:17,CBLOL,INTZ,LOUD,1,under,game_duration 31.5,28.10%,Bet365,loss,1.83,-1.0
+2024-02-04 18:04:17,CBLOL,INTZ,LOUD,1,over,total_inhibitors 1.5,7.10%,Bet365,win,1.53,0.53
+2024-02-04 19:00:48,CBLOL,Los Grandes,FURIA,1,under,total_dragons 4.5,10.00%,Bet365,loss,2.0,-1.0
+2024-02-04 19:00:48,CBLOL,Los Grandes,FURIA,1,under,total_towers 12.5,68.00%,Bet365,win,2.1,1.1
+2024-02-04 19:00:48,CBLOL,Los Grandes,FURIA,1,under,total_kills 27.5,23.53%,Bet365,win,1.83,0.83
+2024-02-04 19:00:48,CBLOL,Los Grandes,FURIA,1,under,game_duration 32.5,23.53%,Bet365,win,1.83,0.83
+2024-02-04 19:52:16,CBLOL,Vivo Keyd Stars,Liberty,1,under,total_towers 12.5,16.20%,Bet365,win,1.66,0.66
+2024-02-04 21:07:41,LCS,Dignitas,FlyQuest,1,under,total_dragons 4.5,16.67%,Bet365,win,2.0,1.0
+2024-02-04 21:07:41,LCS,Dignitas,FlyQuest,1,over,total_towers 12.5,10.00%,Bet365,win,2.2,1.2
+2024-02-04 21:07:41,LCS,Dignitas,FlyQuest,1,under,total_kills 24.5,6.75%,Bet365,win,1.83,0.83
+2024-02-04 21:07:41,LCS,Dignitas,FlyQuest,1,under,game_duration 32.5,37.25%,Bet365,win,1.83,0.83
+2024-02-04 21:07:41,LCS,Dignitas,FlyQuest,1,under,total_barons 1.5,25.00%,Bet365,win,1.5,0.5
+2024-02-04 21:51:39,LCS,Team Liquid,Cloud9,1,over,total_dragons 4.5,6.75%,Bet365,loss,1.83,-1.0
+2024-02-04 21:51:39,LCS,Team Liquid,Cloud9,1,over,total_towers 12.5,38.25%,Bet365,loss,2.37,-1.0
+2024-02-04 21:51:39,LCS,Team Liquid,Cloud9,1,under,total_kills 24.5,37.25%,Bet365,win,1.83,0.83
+2024-02-04 21:51:39,LCS,Team Liquid,Cloud9,1,over,game_duration 31.5,6.75%,Bet365,loss,1.83,-1.0
+2024-02-04 21:51:39,LCS,Team Liquid,Cloud9,1,over,total_inhibitors 1.5,17.75%,Bet365,loss,1.57,-1.0
+2024-02-04 21:51:39,LCS,Team Liquid,Cloud9,1,under,total_barons 1.5,8.00%,Bet365,win,1.44,0.44
+2024-02-05 16:06:56,LEC,Team BDS,Team Vitality,1,under,total_dragons 4.5,24.09%,Bet365,win,2.1,1.1
+2024-02-05 16:56:40,LEC,Team Vitality,Team BDS,2,under,total_dragons 4.5,24.09%,Bet365,loss,2.1,-1.0
+2024-02-05 16:06:56,LEC,Team BDS,Team Vitality,1,under,total_towers 12.5,22.73%,Bet365,loss,1.8,-1.0
+2024-02-05 16:56:40,LEC,Team Vitality,Team BDS,2,under,total_towers 12.5,22.73%,Bet365,win,1.8,0.8
+2024-02-05 16:06:56,LEC,Team BDS,Team Vitality,1,under,game_duration 32.5,24.77%,Bet365,win,1.83,0.83
+2024-02-05 16:56:40,LEC,Team Vitality,Team BDS,2,under,game_duration 32.5,24.77%,Bet365,loss,1.83,-1.0
+2024-02-05 16:06:56,LEC,Team BDS,Team Vitality,1,under,total_inhibitors 1.5,22.73%,Bet365,win,2.25,1.25
+2024-02-05 16:56:40,LEC,Team Vitality,Team BDS,2,under,total_inhibitors 1.5,22.73%,Bet365,win,2.25,1.25
+2024-02-05 16:06:56,LEC,Team BDS,Team Vitality,1,under,total_barons 1.5,16.45%,Bet365,win,1.83,0.83
+2024-02-05 16:56:40,LEC,Team Vitality,Team BDS,2,under,total_barons 1.5,16.45%,Bet365,loss,1.83,-1.0
+2024-02-05 17:52:26,LEC,G2 Esports,Fnatic,1,under,total_dragons 4.5,13.64%,Bet365,loss,2.5,-1.0
+2024-02-05 18:43:22,LEC,Fnatic,G2 Esports,2,under,total_dragons 4.5,13.64%,Bet365,win,2.5,1.5
+2024-02-05 19:33:15,LEC,G2 Esports,Fnatic,3,under,total_dragons 4.5,13.64%,Bet365,win,2.5,1.5
+2024-02-05 17:52:26,LEC,G2 Esports,Fnatic,1,under,total_towers 12.5,16.45%,Bet365,win,1.83,0.83
+2024-02-05 18:43:22,LEC,Fnatic,G2 Esports,2,under,total_towers 12.5,16.45%,Bet365,loss,1.83,-1.0
+2024-02-05 19:33:15,LEC,G2 Esports,Fnatic,3,under,total_towers 12.5,16.45%,Bet365,win,1.83,0.83
+2024-02-05 17:52:26,LEC,G2 Esports,Fnatic,1,under,game_duration 32.5,33.09%,Bet365,win,1.83,0.83
+2024-02-05 18:43:22,LEC,Fnatic,G2 Esports,2,under,game_duration 32.5,33.09%,Bet365,win,1.83,0.83
+2024-02-05 19:33:15,LEC,G2 Esports,Fnatic,3,under,game_duration 32.5,33.09%,Bet365,win,1.83,0.83
+2024-02-05 17:52:26,LEC,G2 Esports,Fnatic,1,under,total_inhibitors 1.5,19.09%,Bet365,win,2.62,1.62
+2024-02-05 18:43:22,LEC,Fnatic,G2 Esports,2,under,total_inhibitors 1.5,19.09%,Bet365,loss,2.62,-1.0
+2024-02-05 19:33:15,LEC,G2 Esports,Fnatic,3,under,total_inhibitors 1.5,19.09%,Bet365,win,2.62,1.62
+2024-02-05 09:21:53,LPL,Team WE,LGD Gaming,1,over,total_towers 12.5,35.00%,Bet365,loss,2.25,-1.0
+2024-02-05 10:31:55,LPL,LGD Gaming,Team WE,2,over,total_towers 12.5,35.00%,Bet365,loss,2.25,-1.0
+2024-02-05 11:22:47,LPL,Team WE,LGD Gaming,3,over,total_towers 12.5,35.00%,Bet365,loss,2.25,-1.0
+2024-02-05 09:21:53,LPL,Team WE,LGD Gaming,1,over,total_barons 1.5,18.95%,Bet365,win,1.83,0.83
+2024-02-05 10:31:55,LPL,LGD Gaming,Team WE,2,over,total_barons 1.5,18.95%,Bet365,loss,1.83,-1.0
+2024-02-05 11:22:47,LPL,Team WE,LGD Gaming,3,over,total_barons 1.5,18.95%,Bet365,loss,1.83,-1.0
+2024-02-05 11:20:03,LPL,Ultra Prime,Anyone's Legend,1,over,total_towers 11.5,11.35%,Bet365,loss,1.53,-1.0
+2024-02-05 12:07:51,LPL,Anyone's Legend,Ultra Prime,2,over,total_towers 11.5,11.35%,Bet365,win,1.53,0.53
+2024-02-05 13:14:29,LPL,Ultra Prime,Anyone's Legend,3,over,total_towers 11.5,11.35%,Bet365,loss,1.53,-1.0
+2024-02-05 11:20:03,LPL,Ultra Prime,Anyone's Legend,1,under,total_kills 24.5,24.03%,Bet365,win,1.83,0.83
+2024-02-05 12:07:51,LPL,Anyone's Legend,Ultra Prime,2,under,total_kills 24.5,24.03%,Bet365,loss,1.83,-1.0
+2024-02-05 13:14:29,LPL,Ultra Prime,Anyone's Legend,3,under,total_kills 24.5,24.03%,Bet365,win,1.83,0.83
+2024-02-05 11:20:03,LPL,Ultra Prime,Anyone's Legend,1,over,total_inhibitors 1.5,13.05%,Bet365,loss,1.53,-1.0
+2024-02-05 12:07:51,LPL,Anyone's Legend,Ultra Prime,2,over,total_inhibitors 1.5,13.05%,Bet365,loss,1.53,-1.0
+2024-02-05 13:14:29,LPL,Ultra Prime,Anyone's Legend,3,over,total_inhibitors 1.5,13.05%,Bet365,loss,1.53,-1.0
+2024-02-05 11:20:03,LPL,Ultra Prime,Anyone's Legend,1,under,total_barons 1.5,15.90%,Bet365,win,1.83,0.83
+2024-02-05 12:07:51,LPL,Anyone's Legend,Ultra Prime,2,under,total_barons 1.5,15.90%,Bet365,loss,1.83,-1.0
+2024-02-05 13:14:29,LPL,Ultra Prime,Anyone's Legend,3,under,total_barons 1.5,15.90%,Bet365,win,1.83,0.83
+2024-02-06 09:18:08,LPL,EDward Gaming,FunPlus Phoenix,1,under,total_dragons 4.5,65.00%,Bet365,win,2.25,1.25
+2024-02-06 10:06:43,LPL,FunPlus Phoenix,EDward Gaming,2,under,total_dragons 4.5,65.00%,Bet365,win,2.25,1.25
+2024-02-06 10:56:11,LPL,EDward Gaming,FunPlus Phoenix,3,under,total_dragons 4.5,65.00%,Bet365,win,2.25,1.25
+2024-02-06 09:18:08,LPL,EDward Gaming,FunPlus Phoenix,1,under,total_kills 25.5,14.00%,Bet365,win,1.8,0.8
+2024-02-06 10:06:43,LPL,FunPlus Phoenix,EDward Gaming,2,under,total_kills 25.5,14.00%,Bet365,loss,1.8,-1.0
+2024-02-06 10:56:11,LPL,EDward Gaming,FunPlus Phoenix,3,under,total_kills 25.5,14.00%,Bet365,win,1.8,0.8
+2024-02-06 09:18:08,LPL,EDward Gaming,FunPlus Phoenix,1,under,game_duration 32.5,24.03%,Bet365,win,1.83,0.83
+2024-02-06 10:06:43,LPL,FunPlus Phoenix,EDward Gaming,2,under,game_duration 32.5,24.03%,Bet365,win,1.83,0.83
+2024-02-06 10:56:11,LPL,EDward Gaming,FunPlus Phoenix,3,under,game_duration 32.5,24.03%,Bet365,loss,1.83,-1.0
+2024-02-06 09:18:08,LPL,EDward Gaming,FunPlus Phoenix,1,over,total_inhibitors 1.5,11.35%,Bet365,win,1.53,0.53
+2024-02-06 10:06:43,LPL,FunPlus Phoenix,EDward Gaming,2,over,total_inhibitors 1.5,11.35%,Bet365,win,1.53,0.53
+2024-02-06 10:56:11,LPL,EDward Gaming,FunPlus Phoenix,3,over,total_inhibitors 1.5,11.35%,Bet365,win,1.53,0.53
+2024-02-06 09:18:08,LPL,EDward Gaming,FunPlus Phoenix,1,under,total_barons 1.5,15.90%,Bet365,win,1.83,0.83
+2024-02-06 10:06:43,LPL,FunPlus Phoenix,EDward Gaming,2,under,total_barons 1.5,15.90%,Bet365,loss,1.83,-1.0
+2024-02-06 10:56:11,LPL,EDward Gaming,FunPlus Phoenix,3,under,total_barons 1.5,15.90%,Bet365,loss,1.83,-1.0
+2024-02-06 11:19:27,LPL,LNG Esports,Bilibili Gaming,1,under,total_towers 12.5,17.30%,Bet365,win,1.53,0.53
+2024-02-06 12:19:56,LPL,Bilibili Gaming,LNG Esports,2,under,total_towers 12.5,17.30%,Bet365,loss,1.53,-1.0
+2024-02-06 11:19:27,LPL,LNG Esports,Bilibili Gaming,1,under,game_duration 32.5,28.10%,Bet365,loss,1.83,-1.0
+2024-02-06 12:19:56,LPL,Bilibili Gaming,LNG Esports,2,under,game_duration 32.5,28.10%,Bet365,loss,1.83,-1.0
+2024-02-06 11:19:27,LPL,LNG Esports,Bilibili Gaming,1,under,total_inhibitors 1.5,10.60%,Bet365,win,2.37,1.37
+2024-02-06 12:19:56,LPL,Bilibili Gaming,LNG Esports,2,under,total_inhibitors 1.5,10.60%,Bet365,loss,2.37,-1.0
+2024-02-06 11:19:27,LPL,LNG Esports,Bilibili Gaming,1,under,total_barons 1.5,27.27%,Bet365,win,1.66,0.66
+2024-02-06 12:19:56,LPL,Bilibili Gaming,LNG Esports,2,under,total_barons 1.5,27.27%,Bet365,loss,1.66,-1.0
+2024-02-07 09:21:07,LPL,Invictus Gaming,Royal Never Give Up,1,under,total_towers 12.5,19.00%,Bet365,win,1.53,0.53
+2024-02-07 10:13:16,LPL,Royal Never Give Up,Invictus Gaming,2,under,total_towers 12.5,19.00%,Bet365,loss,1.53,-1.0
+2024-02-07 11:11:32,LPL,Invictus Gaming,Royal Never Give Up,3,under,total_towers 12.5,19.00%,Bet365,win,1.53,0.53
+2024-02-07 09:21:07,LPL,Invictus Gaming,Royal Never Give Up,1,over,game_duration 31.5,11.83%,Bet365,loss,1.83,-1.0
+2024-02-07 10:13:16,LPL,Royal Never Give Up,Invictus Gaming,2,over,game_duration 31.5,11.83%,Bet365,win,1.83,0.83
+2024-02-07 11:11:32,LPL,Invictus Gaming,Royal Never Give Up,3,over,game_duration 31.5,11.83%,Bet365,win,1.83,0.83
+2024-02-07 09:21:07,LPL,Invictus Gaming,Royal Never Give Up,1,over,total_inhibitors 1.5,10.50%,Bet365,loss,1.53,-1.0
+2024-02-07 10:13:16,LPL,Royal Never Give Up,Invictus Gaming,2,over,total_inhibitors 1.5,10.50%,Bet365,win,1.53,0.53
+2024-02-07 11:11:32,LPL,Invictus Gaming,Royal Never Give Up,3,over,total_inhibitors 1.5,10.50%,Bet365,loss,1.53,-1.0
+2024-02-07 09:21:07,LPL,Invictus Gaming,Royal Never Give Up,1,over,total_barons 1.5,11.11%,Bet365,loss,2.0,-1.0
+2024-02-07 10:13:16,LPL,Royal Never Give Up,Invictus Gaming,2,over,total_barons 1.5,11.11%,Bet365,win,2.0,1.0
+2024-02-07 11:11:32,LPL,Invictus Gaming,Royal Never Give Up,3,over,total_barons 1.5,11.11%,Bet365,loss,2.0,-1.0
+2024-02-06 18:06:14,ESLOL,Myth Esports,Once Upon A Team,1,FD,first_dragon Myth Esports,44.15%,Dafabet,loss,1.922,-1.0
+2024-02-06 15:26:46,HM,GLORE,BRUTE,1,FD,first_dragon BRUTE,44.98%,Dafabet,loss,1.933,-1.0
+2024-02-06 17:35:41,HM,Team UNiTY,eSuba,1,FD,first_dragon Team UNiTY,51.57%,Dafabet,loss,2.021,-1.0
+2024-02-05 08:15:35,LCKC,Dplus KIA Challengers,OKSavingsBank BRION Challengers,1,FD,first_dragon OKSavingsBank BRION Challengers,24.88%,Dafabet,win,1.93,0.93
+2024-02-05 09:19:19,LCKC,OKSavingsBank BRION Challengers,Dplus KIA Challengers,2,FD,first_dragon OKSavingsBank BRION Challengers,24.88%,Dafabet,win,1.93,0.93
+2024-02-06 08:06:03,LCKC,KT Rolster Challengers,DRX Challengers,1,FD,first_dragon KT Rolster Challengers,18.00%,Dafabet,win,1.77,0.77
+2024-02-06 08:59:51,LCKC,DRX Challengers,KT Rolster Challengers,2,FD,first_dragon KT Rolster Challengers,18.00%,Dafabet,loss,1.77,-1.0
+2024-02-06 09:49:46,LCKC,KT Rolster Challengers,DRX Challengers,3,FD,first_dragon KT Rolster Challengers,18.00%,Dafabet,win,1.77,0.77
+2024-02-06 07:05:40,LCO,ION Global Esports,Team Bliss,1,over,total_dragons 4.5,35.42%,Bet365,loss,2.5,-1.0
+2024-02-06 07:58:01,LCO,Team Bliss,ION Global Esports,2,over,total_dragons 4.5,35.42%,Bet365,loss,2.5,-1.0
+2024-02-06 07:05:40,LCO,ION Global Esports,Team Bliss,1,over,total_towers 12.5,35.42%,Bet365,loss,2.5,-1.0
+2024-02-06 07:58:01,LCO,Team Bliss,ION Global Esports,2,over,total_towers 12.5,35.42%,Bet365,loss,2.5,-1.0
+2024-02-06 07:05:40,LCO,ION Global Esports,Team Bliss,1,over,total_kills 29.5,29.62%,Bet365,loss,1.83,-1.0
+2024-02-06 07:58:01,LCO,Team Bliss,ION Global Esports,2,over,total_kills 29.5,29.62%,Bet365,loss,1.83,-1.0
+2024-02-06 07:05:40,LCO,ION Global Esports,Team Bliss,1,over,game_duration 29.5,14.38%,Bet365,loss,1.83,-1.0
+2024-02-06 07:58:01,LCO,Team Bliss,ION Global Esports,2,over,game_duration 29.5,14.38%,Bet365,loss,1.83,-1.0
+2024-02-06 07:05:40,LCO,ION Global Esports,Team Bliss,1,over,total_barons 1.5,14.58%,Bet365,loss,2.75,-1.0
+2024-02-06 07:58:01,LCO,Team Bliss,ION Global Esports,2,over,total_barons 1.5,14.58%,Bet365,loss,2.75,-1.0
+2024-02-06 09:07:20,LCO,Antic Esports,FURY Global,1,over,total_dragons 4.5,108.33%,Bet365,loss,2.5,-1.0
+2024-02-06 09:58:36,LCO,FURY Global,Antic Esports,2,over,total_dragons 4.5,108.33%,Bet365,loss,2.5,-1.0
+2024-02-06 09:07:20,LCO,Antic Esports,FURY Global,1,over,total_towers 12.5,87.50%,Bet365,win,2.5,1.5
+2024-02-06 09:58:36,LCO,FURY Global,Antic Esports,2,over,total_towers 12.5,87.50%,Bet365,win,2.5,1.5
+2024-02-06 09:07:20,LCO,Antic Esports,FURY Global,1,over,total_kills 29.5,52.50%,Bet365,loss,1.83,-1.0
+2024-02-06 09:58:36,LCO,FURY Global,Antic Esports,2,over,total_kills 29.5,52.50%,Bet365,win,1.83,0.83
+2024-02-06 09:07:20,LCO,Antic Esports,FURY Global,1,over,game_duration 29.5,52.50%,Bet365,loss,1.83,-1.0
+2024-02-06 09:58:36,LCO,FURY Global,Antic Esports,2,over,game_duration 29.5,52.50%,Bet365,loss,1.83,-1.0
+2024-02-06 09:07:20,LCO,Antic Esports,FURY Global,1,under,total_inhibitors 1.5,18.50%,Bet365,loss,2.37,-1.0
+2024-02-06 09:58:36,LCO,FURY Global,Antic Esports,2,under,total_inhibitors 1.5,18.50%,Bet365,loss,2.37,-1.0
+2024-02-06 09:07:20,LCO,Antic Esports,FURY Global,1,over,total_barons 1.5,14.58%,Bet365,loss,2.75,-1.0
+2024-02-06 09:58:36,LCO,FURY Global,Antic Esports,2,over,total_barons 1.5,14.58%,Bet365,loss,2.75,-1.0
+2024-02-07 07:06:23,LCO,Ground Zero Gaming,ION Global Esports,1,over,total_dragons 4.5,25.00%,Bet365,loss,2.0,-1.0
+2024-02-07 07:55:13,LCO,ION Global Esports,Ground Zero Gaming,2,over,total_dragons 4.5,25.00%,Bet365,loss,2.0,-1.0
+2024-02-06 22:07:07,LLA,All Knights,Isurus,1,under,total_dragons 4.5,17.58%,Bet365,win,1.66,0.66
+2024-02-06 22:59:27,LLA,All Knights,Isurus,2,under,total_dragons 4.5,17.58%,Bet365,win,1.66,0.66
+2024-02-06 22:07:07,LLA,All Knights,Isurus,1,under,game_duration 31.5,29.63%,Bet365,win,1.83,0.83
+2024-02-06 22:59:27,LLA,All Knights,Isurus,2,under,game_duration 31.5,29.63%,Bet365,win,1.83,0.83
+2024-02-06 22:07:07,LLA,All Knights,Isurus,1,under,total_barons 1.5,22.99%,Bet365,win,1.61,0.61
+2024-02-06 22:59:27,LLA,All Knights,Isurus,2,under,total_barons 1.5,22.99%,Bet365,win,1.61,0.61
+2024-02-07 00:43:24,LLA,Estral Esports,Six Karma,2,over,total_inhibitors 1.5,10.91%,Bet365,loss,1.61,-1.0

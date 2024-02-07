@@ -190,10 +190,13 @@ class Bet365Webscraper(Webscraper):
         # Define the list of leagues you want to scrape
         # target_leagues = ["LOL - LEC Winter","LOL - Ultraliga", "LOL - LLA Opening", "LOL - LCK CL Spring",
         #                    "LOL - LCK Spring", "LOL - LFL Spring","LOL - LVP Superliga Spring",
-        #                 "LOL- Prime League Spring","LOL - PCS Spring", "LOL - TCL Winter", "LOL - LPL Spring", "LOL - LJL Spring"]  # Add your target leagues here
-
-        #target_leagues = ["LOL - LCK CL Spring"]
-        target_leagues = ["LOL - LCS Spring"]
+        #                 "LOL - Prime League Spring","LOL - PCS Spring", "LOL - TCL Winter", "LOL - LPL Spring", "LOL - LJL Spring"]  # Add your target leagues here
+        #target_leagues = ["LOL - LPL Spring", "LOL - LCK Spring"]
+        #arget_leagues = ["LOL - LFL Spring", "LOL - LVP Superliga Spring", "LOL - TCL Winter","LOL - NLC Spring"]
+        #target_leagues = ["LOL - LEC Winter - Playoffs"]
+        target_leagues = ["LOL - Prime League Spring"]
+        #target_leagues = ["LOL - CBLOL Split 1", "LOL - LCS Spring"]
+        #arget_leagues = ["LOL - LCO Split 1", "LOL - LLA Opening", "LOL - LEC Winter - Playoffs"]
         
         league_games = self.driver.find_elements(By.CLASS_NAME, "src-CompetitionMarketGroup")
         print(f"[DEBUG] Leagues: {len(league_games)}")

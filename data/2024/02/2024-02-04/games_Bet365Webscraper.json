@@ -1,0 +1,2362 @@
+[
+    {
+        "overview": {
+            "game_date": 1707127200.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20932178/D19/E18930709/F19/",
+            "league": "LOL - LPL Spring",
+            "home_team": "Team WE",
+            "away_team": "LGD Gaming"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.44,
+                "away_team_score": 2.62
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.72,
+                "away_team_score": 2.0
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.57,
+                "away_team_score": 2.25
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.5,
+                "away_team_score": 2.5
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 6.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 23.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 12.5,
+                "home_team_score": 2.25,
+                "away_team_score": 1.57
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.66,
+                "away_team_score": 2.1
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.53,
+                "away_team_score": 2.37
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 33.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1707134400.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20932178/D19/E18930710/F19/",
+            "league": "LOL - LPL Spring",
+            "home_team": "Ultra Prime",
+            "away_team": "Anyone's Legend"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 2.62,
+                "away_team_score": 1.44
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.0,
+                "away_team_score": 1.72
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.25,
+                "away_team_score": 1.57
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.5,
+                "away_team_score": 1.5
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 6.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 24.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 11.5,
+                "home_team_score": 1.53,
+                "away_team_score": 2.37
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.53,
+                "away_team_score": 2.37
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 32.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1707213600.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20932178/D19/E18930711/F19/",
+            "league": "LOL - LPL Spring",
+            "home_team": "EDward Gaming",
+            "away_team": "FunPlus Phoenix"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.72,
+                "away_team_score": 2.0
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.8,
+                "away_team_score": 1.9
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.8,
+                "away_team_score": 1.9
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 25.5,
+                "home_team_score": 1.9,
+                "away_team_score": 1.8
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 12.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.57,
+                "away_team_score": 2.25
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.53,
+                "away_team_score": 2.37
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 32.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1707220800.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20932178/D19/E18930712/F19/",
+            "league": "LOL - LPL Spring",
+            "home_team": "LNG Esports",
+            "away_team": "Bilibili Gaming"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 2.75,
+                "away_team_score": 1.4
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.0,
+                "away_team_score": 1.72
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.37,
+                "away_team_score": 1.53
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.62,
+                "away_team_score": 1.44
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 6.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 23.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 12.5,
+                "home_team_score": 2.37,
+                "away_team_score": 1.53
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.8,
+                "away_team_score": 1.9
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 2.1,
+                "away_team_score": 1.66
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.53,
+                "away_team_score": 2.37
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 32.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1707300000.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20932178/D19/E18930713/F19/",
+            "league": "LOL - LPL Spring",
+            "home_team": "Invictus Gaming",
+            "away_team": "Royal Never Give Up"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 2.37,
+                "away_team_score": 1.53
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.9,
+                "away_team_score": 1.8
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.2,
+                "away_team_score": 1.61
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.37,
+                "away_team_score": 1.53
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 5.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 23.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 12.5,
+                "home_team_score": 2.37,
+                "away_team_score": 1.53
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.72,
+                "away_team_score": 2.0
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 2.0,
+                "away_team_score": 1.72
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.53,
+                "away_team_score": 2.37
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 31.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1707307200.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20932178/D19/E18930714/F19/",
+            "league": "LOL - LPL Spring",
+            "home_team": "Weibo Gaming",
+            "away_team": "Top Esports"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 2.2,
+                "away_team_score": 1.61
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.9,
+                "away_team_score": 1.8
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.1,
+                "away_team_score": 1.66
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.2,
+                "away_team_score": 1.61
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 24.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 12.5,
+                "home_team_score": 2.2,
+                "away_team_score": 1.61
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.57,
+                "away_team_score": 2.25
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.8,
+                "away_team_score": 1.9
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.53,
+                "away_team_score": 2.37
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 32.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1708243200.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20932178/D19/E18953738/F19/",
+            "league": "LOL - LPL Spring",
+            "home_team": "Ninjas in Pyjamas",
+            "away_team": "Ultra Prime"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.16,
+                "away_team_score": 4.5
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.61,
+                "away_team_score": 2.2
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.3,
+                "away_team_score": 3.4
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.2,
+                "away_team_score": 4.33
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 9.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 24.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 11.5,
+                "home_team_score": 2.37,
+                "away_team_score": 1.53
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 2.2,
+                "away_team_score": 1.61
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 3.0,
+                "away_team_score": 1.36
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.72,
+                "away_team_score": 2.0
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 30.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1708250400.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20932178/D19/E18953739/F19/",
+            "league": "LOL - LPL Spring",
+            "home_team": "Anyone's Legend",
+            "away_team": "Oh My God"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.9,
+                "away_team_score": 1.8
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.9,
+                "away_team_score": 1.8
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.9,
+                "away_team_score": 1.8
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 3.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 23.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 12.5,
+                "home_team_score": 2.0,
+                "away_team_score": 1.72
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.53,
+                "away_team_score": 2.37
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 2.0,
+                "away_team_score": 1.72
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.53,
+                "away_team_score": 2.37
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 32.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1708257600.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20932178/D19/E18953740/F19/",
+            "league": "LOL - LPL Spring",
+            "home_team": "ThunderTalk Gaming",
+            "away_team": "Rare Atom"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.53,
+                "away_team_score": 2.37
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.8,
+                "away_team_score": 1.9
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.61,
+                "away_team_score": 2.2
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.53,
+                "away_team_score": 2.37
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 5.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 23.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 12.5,
+                "home_team_score": 2.25,
+                "away_team_score": 1.57
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.5,
+                "away_team_score": 2.5
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.9,
+                "away_team_score": 1.8
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.53,
+                "away_team_score": 2.37
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 33.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1708336800.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20932178/D19/E18953741/F19/",
+            "league": "LOL - LPL Spring",
+            "home_team": "JD Gaming",
+            "away_team": "LGD Gaming"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.14,
+                "away_team_score": 5.0
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.57,
+                "away_team_score": 2.25
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.28,
+                "away_team_score": 3.5
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.16,
+                "away_team_score": 4.5
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 10.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 22.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 11.5,
+                "home_team_score": 2.37,
+                "away_team_score": 1.53
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 2.37,
+                "away_team_score": 1.53
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 3.4,
+                "away_team_score": 1.3
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.72,
+                "away_team_score": 2.0
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 30.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1708344000.0,
+            "url": "https://www.bet365.com/#/AC/B151/C1/D50/E3/F163/",
+            "league": "LOL - LPL Spring",
+            "home_team": "EDward Gaming",
+            "away_team": "Team WE"
+        },
+        "winner": [],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1708423200.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20932178/D19/E18953743/F19/",
+            "league": "LOL - LPL Spring",
+            "home_team": "FunPlus Phoenix",
+            "away_team": "LNG Esports"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 4.0,
+                "away_team_score": 1.22
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.1,
+                "away_team_score": 1.66
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 3.0,
+                "away_team_score": 1.36
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 3.75,
+                "away_team_score": 1.25
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 9.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 22.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 11.5,
+                "home_team_score": 2.1,
+                "away_team_score": 1.66
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 2.25,
+                "away_team_score": 1.57
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 3.4,
+                "away_team_score": 1.3
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.72,
+                "away_team_score": 2.0
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 30.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1708430400.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20932178/D19/E18953744/F19/",
+            "league": "LOL - LPL Spring",
+            "home_team": "Invictus Gaming",
+            "away_team": "Bilibili Gaming"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 6.0,
+                "away_team_score": 1.11
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.25,
+                "away_team_score": 1.57
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 3.75,
+                "away_team_score": 1.25
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 5.0,
+                "away_team_score": 1.14
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 10.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 23.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 11.5,
+                "home_team_score": 2.37,
+                "away_team_score": 1.53
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 2.75,
+                "away_team_score": 1.4
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 3.75,
+                "away_team_score": 1.25
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.72,
+                "away_team_score": 2.0
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 28.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1708509600.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20932178/D19/E18953745/F19/",
+            "league": "LOL - LPL Spring",
+            "home_team": "Ultra Prime",
+            "away_team": "Weibo Gaming"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 4.5,
+                "away_team_score": 1.16
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.2,
+                "away_team_score": 1.61
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 3.4,
+                "away_team_score": 1.3
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 4.33,
+                "away_team_score": 1.2
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 9.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 23.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 11.5,
+                "home_team_score": 2.1,
+                "away_team_score": 1.66
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 2.2,
+                "away_team_score": 1.61
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 3.0,
+                "away_team_score": 1.36
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.72,
+                "away_team_score": 2.0
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 30.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1708516800.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20932178/D19/E18953746/F19/",
+            "league": "LOL - LPL Spring",
+            "home_team": "Royal Never Give Up",
+            "away_team": "Top Esports"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 2.5,
+                "away_team_score": 1.5
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.0,
+                "away_team_score": 1.72
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.25,
+                "away_team_score": 1.57
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.5,
+                "away_team_score": 1.5
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 6.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 23.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 12.5,
+                "home_team_score": 2.25,
+                "away_team_score": 1.57
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.72,
+                "away_team_score": 2.0
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 2.2,
+                "away_team_score": 1.61
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.53,
+                "away_team_score": 2.37
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 32.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1708588800.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20932178/D19/E18953747/F19/",
+            "league": "LOL - LPL Spring",
+            "home_team": "ThunderTalk Gaming",
+            "away_team": "Anyone's Legend"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 2.1,
+                "away_team_score": 1.66
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.9,
+                "away_team_score": 1.8
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.0,
+                "away_team_score": 1.72
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.1,
+                "away_team_score": 1.66
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 23.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 12.5,
+                "home_team_score": 2.0,
+                "away_team_score": 1.72
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.5,
+                "away_team_score": 2.5
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.53,
+                "away_team_score": 2.37
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 33.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1708596000.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20932178/D19/E18953748/F19/",
+            "league": "LOL - LPL Spring",
+            "home_team": "Rare Atom",
+            "away_team": "Oh My God"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 2.62,
+                "away_team_score": 1.44
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.0,
+                "away_team_score": 1.72
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.25,
+                "away_team_score": 1.57
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.5,
+                "away_team_score": 1.5
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 7.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 22.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 12.5,
+                "home_team_score": 2.37,
+                "away_team_score": 1.53
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.66,
+                "away_team_score": 2.1
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 2.2,
+                "away_team_score": 1.61
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.57,
+                "away_team_score": 2.25
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 32.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1708603200.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20932178/D19/E18953749/F19/",
+            "league": "LOL - LPL Spring",
+            "home_team": "EDward Gaming",
+            "away_team": "Ninjas in Pyjamas"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 3.75,
+                "away_team_score": 1.25
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.1,
+                "away_team_score": 1.66
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 3.0,
+                "away_team_score": 1.36
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 3.5,
+                "away_team_score": 1.28
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 9.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 25.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 11.5,
+                "home_team_score": 2.25,
+                "away_team_score": 1.57
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 2.2,
+                "away_team_score": 1.61
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 3.0,
+                "away_team_score": 1.36
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.72,
+                "away_team_score": 2.0
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 30.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1707901200.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20930782/D19/E18953727/F19/",
+            "league": "LOL - LCK Spring",
+            "home_team": "KT Rolster",
+            "away_team": "Gen.G"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 3.4,
+                "away_team_score": 1.3
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.1,
+                "away_team_score": 1.66
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.62,
+                "away_team_score": 1.44
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 3.25,
+                "away_team_score": 1.33
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 7.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 24.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 11.5,
+                "home_team_score": 1.53,
+                "away_team_score": 2.37
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.5,
+                "away_team_score": 2.5
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 2.37,
+                "away_team_score": 1.53
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.57,
+                "away_team_score": 2.25
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 32.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1707910200.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20930782/D19/E18953728/F19/",
+            "league": "LOL - LCK Spring",
+            "home_team": "DRX",
+            "away_team": "Kwangdong Freecs"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 2.25,
+                "away_team_score": 1.57
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.9,
+                "away_team_score": 1.8
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.1,
+                "away_team_score": 1.66
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.25,
+                "away_team_score": 1.57
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 5.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 22.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 12.5,
+                "home_team_score": 2.25,
+                "away_team_score": 1.57
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.5,
+                "away_team_score": 2.5
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.66,
+                "away_team_score": 2.1
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.5,
+                "away_team_score": 2.5
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 33.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1707987600.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20930782/D19/E18953729/F19/",
+            "league": "LOL - LCK Spring",
+            "home_team": "T1",
+            "away_team": "Dplus KIA"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.36,
+                "away_team_score": 3.0
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.72,
+                "away_team_score": 2.0
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.5,
+                "away_team_score": 2.5
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.4,
+                "away_team_score": 2.75
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 6.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 22.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 11.5,
+                "home_team_score": 1.5,
+                "away_team_score": 2.5
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.57,
+                "away_team_score": 2.25
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 2.2,
+                "away_team_score": 1.61
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.53,
+                "away_team_score": 2.37
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 32.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1707996600.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20930782/D19/E18953730/F19/",
+            "league": "LOL - LCK Spring",
+            "home_team": "Hanwha Life Esports",
+            "away_team": "OKSavingsBank BRION"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.11,
+                "away_team_score": 6.0
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.57,
+                "away_team_score": 2.25
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.25,
+                "away_team_score": 3.75
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.14,
+                "away_team_score": 5.0
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 9.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 20.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 11.5,
+                "home_team_score": 2.5,
+                "away_team_score": 1.5
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 2.5,
+                "away_team_score": 1.5
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 3.4,
+                "away_team_score": 1.3
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 28.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1708074000.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20930782/D19/E18953731/F19/",
+            "league": "LOL - LCK Spring",
+            "home_team": "Nongshim RedForce",
+            "away_team": "KT Rolster"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 2.75,
+                "away_team_score": 1.4
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.0,
+                "away_team_score": 1.72
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.37,
+                "away_team_score": 1.53
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.62,
+                "away_team_score": 1.44
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 6.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 23.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 11.5,
+                "home_team_score": 1.5,
+                "away_team_score": 2.5
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.57,
+                "away_team_score": 2.25
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 2.1,
+                "away_team_score": 1.66
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.57,
+                "away_team_score": 2.25
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 32.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1708083000.0,
+            "url": "https://www.bet365.com/#/AC/B151/C1/D50/E3/F163/",
+            "league": "LOL - LCK Spring",
+            "home_team": "Kwangdong Freecs",
+            "away_team": "FearX"
+        },
+        "winner": [],
+        "first_blood": [],
+        "first_kill_baron": [],
+        "first_destroy_inhibitor": [],
+        "kill_handicap": [],
+        "total_kills": [],
+        "total_towers": [],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [],
+        "first_dragon": [],
+        "total_barons": [],
+        "total_inhibitors": [],
+        "game_duration": []
+    },
+    {
+        "overview": {
+            "game_date": 1708153200.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20930782/D19/E18953733/F19/",
+            "league": "LOL - LCK Spring",
+            "home_team": "Gen.G",
+            "away_team": "Hanwha Life Esports"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.61,
+                "away_team_score": 2.2
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.8,
+                "away_team_score": 1.9
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.66,
+                "away_team_score": 2.1
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.61,
+                "away_team_score": 2.2
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 22.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 12.5,
+                "home_team_score": 2.0,
+                "away_team_score": 1.72
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.5,
+                "away_team_score": 2.5
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.5,
+                "away_team_score": 2.5
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 32.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1708162200.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20930782/D19/E18953734/F19/",
+            "league": "LOL - LCK Spring",
+            "home_team": "Dplus KIA",
+            "away_team": "DRX"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.3,
+                "away_team_score": 3.4
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.66,
+                "away_team_score": 2.1
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.44,
+                "away_team_score": 2.62
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.33,
+                "away_team_score": 3.25
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 7.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 20.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 12.5,
+                "home_team_score": 2.2,
+                "away_team_score": 1.61
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 2.1,
+                "away_team_score": 1.66
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 2.37,
+                "away_team_score": 1.53
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.72,
+                "away_team_score": 2.0
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 32.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1708239600.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20930782/D19/E18953735/F19/",
+            "league": "LOL - LCK Spring",
+            "home_team": "FearX",
+            "away_team": "T1"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 6.0,
+                "away_team_score": 1.11
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.25,
+                "away_team_score": 1.57
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 3.75,
+                "away_team_score": 1.25
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 5.0,
+                "away_team_score": 1.14
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 9.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 23.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 11.5,
+                "home_team_score": 2.5,
+                "away_team_score": 1.5
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 2.1,
+                "away_team_score": 1.66
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 3.4,
+                "away_team_score": 1.3
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.72,
+                "away_team_score": 2.0
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 27.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1708248600.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20930782/D19/E18953736/F19/",
+            "league": "LOL - LCK Spring",
+            "home_team": "Nongshim RedForce",
+            "away_team": "OKSavingsBank BRION"
+        },
+        "winner": [
+            {
+                "total_amount": -1.0,
+                "home_team_score": 1.8,
+                "away_team_score": 1.9
+            }
+        ],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.8,
+                "away_team_score": 1.9
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.8,
+                "away_team_score": 1.9
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 3.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 22.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 12.5,
+                "home_team_score": 2.5,
+                "away_team_score": 1.5
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.5,
+                "away_team_score": 2.5
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.53,
+                "away_team_score": 2.37
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.53,
+                "away_team_score": 2.37
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 33.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    }
+]

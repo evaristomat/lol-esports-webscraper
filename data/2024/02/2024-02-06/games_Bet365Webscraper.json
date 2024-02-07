@@ -1,0 +1,832 @@
+[
+    {
+        "overview": {
+            "game_date": 1707328800.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20933012/D19/E18940717/F19/",
+            "league": "LOL - Prime League Spring",
+            "home_team": "Austrian Force willhaben",
+            "away_team": "Eintracht Spandau"
+        },
+        "winner": [],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.8,
+                "away_team_score": 1.9
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.8,
+                "away_team_score": 1.9
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 3.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 26.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 12.5,
+                "home_team_score": 2.5,
+                "away_team_score": 1.5
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.5,
+                "away_team_score": 2.5
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.66,
+                "away_team_score": 2.1
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.5,
+                "away_team_score": 2.5
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 33.5,
+                "home_team_score": 1.8,
+                "away_team_score": 1.9
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1707332400.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20933012/D19/E18940718/F19/",
+            "league": "LOL - Prime League Spring",
+            "home_team": "Unicorns of Love Sexy Edition",
+            "away_team": "Eintracht Frankfurt"
+        },
+        "winner": [],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.8,
+                "away_team_score": 1.9
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.61,
+                "away_team_score": 2.2
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.53,
+                "away_team_score": 2.37
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 5.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 29.5,
+                "home_team_score": 1.8,
+                "away_team_score": 1.9
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 11.5,
+                "home_team_score": 1.5,
+                "away_team_score": 2.5
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.53,
+                "away_team_score": 2.37
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.57,
+                "away_team_score": 2.25
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 33.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1707336000.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20933012/D19/E18940719/F19/",
+            "league": "LOL - Prime League Spring",
+            "home_team": "MOUZ NXT",
+            "away_team": "NNO Prime"
+        },
+        "winner": [],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.1,
+                "away_team_score": 1.66
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.75,
+                "away_team_score": 1.4
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 3.4,
+                "away_team_score": 1.3
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 8.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 28.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 11.5,
+                "home_team_score": 1.72,
+                "away_team_score": 2.0
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.53,
+                "away_team_score": 2.37
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.57,
+                "away_team_score": 2.25
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 32.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1707339600.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20933012/D19/E18940720/F19/",
+            "league": "LOL - Prime League Spring",
+            "home_team": "SK Gaming Prime",
+            "away_team": "Berlin International Gaming"
+        },
+        "winner": [],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.57,
+                "away_team_score": 2.25
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.25,
+                "away_team_score": 3.75
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.14,
+                "away_team_score": 5.0
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 10.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 27.5,
+                "home_team_score": 1.8,
+                "away_team_score": 1.9
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 11.5,
+                "home_team_score": 2.5,
+                "away_team_score": 1.5
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 2.5,
+                "away_team_score": 1.5
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 3.75,
+                "away_team_score": 1.25
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 28.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1707343200.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20933012/D19/E18940721/F19/",
+            "league": "LOL - Prime League Spring",
+            "home_team": "FC Schalke 04 Esports",
+            "away_team": "E WIE EINFACH E-SPORTS"
+        },
+        "winner": [],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.8,
+                "away_team_score": 1.9
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.72,
+                "away_team_score": 2.0
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.66,
+                "away_team_score": 2.1
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 29.5,
+                "home_team_score": 1.8,
+                "away_team_score": 1.9
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 12.5,
+                "home_team_score": 2.25,
+                "away_team_score": 1.57
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.5,
+                "away_team_score": 2.5
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.5,
+                "away_team_score": 2.5
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.5,
+                "away_team_score": 2.5
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 33.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1707415200.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20933012/D19/E18940722/F19/",
+            "league": "LOL - Prime League Spring",
+            "home_team": "FC Schalke 04 Esports",
+            "away_team": "Eintracht Frankfurt"
+        },
+        "winner": [],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.9,
+                "away_team_score": 1.8
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.0,
+                "away_team_score": 1.72
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.1,
+                "away_team_score": 1.66
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 27.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 12.5,
+                "home_team_score": 2.25,
+                "away_team_score": 1.57
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.5,
+                "away_team_score": 2.5
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.44,
+                "away_team_score": 2.62
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.5,
+                "away_team_score": 2.5
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 33.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1707418800.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20933012/D19/E18940723/F19/",
+            "league": "LOL - Prime League Spring",
+            "home_team": "SK Gaming Prime",
+            "away_team": "Austrian Force willhaben"
+        },
+        "winner": [],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.72,
+                "away_team_score": 2.0
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.5,
+                "away_team_score": 2.5
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.4,
+                "away_team_score": 2.75
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 6.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 29.5,
+                "home_team_score": 1.8,
+                "away_team_score": 1.9
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 11.5,
+                "home_team_score": 2.25,
+                "away_team_score": 1.57
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.57,
+                "away_team_score": 2.25
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.61,
+                "away_team_score": 2.2
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 32.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1707422400.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20933012/D19/E18940724/F19/",
+            "league": "LOL - Prime League Spring",
+            "home_team": "Unicorns of Love Sexy Edition",
+            "away_team": "NNO Prime"
+        },
+        "winner": [],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.72,
+                "away_team_score": 2.0
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.57,
+                "away_team_score": 2.25
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.5,
+                "away_team_score": 2.5
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 5.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 28.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 12.5,
+                "home_team_score": 2.5,
+                "away_team_score": 1.5
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.5,
+                "away_team_score": 2.5
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 2.1,
+                "away_team_score": 1.66
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.61,
+                "away_team_score": 2.2
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 33.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1707426000.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20933012/D19/E18940725/F19/",
+            "league": "LOL - Prime League Spring",
+            "home_team": "E WIE EINFACH E-SPORTS",
+            "away_team": "Berlin International Gaming"
+        },
+        "winner": [],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.8,
+                "away_team_score": 1.9
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.72,
+                "away_team_score": 2.0
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 1.66,
+                "away_team_score": 2.1
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 30.5,
+                "home_team_score": 1.8,
+                "away_team_score": 1.9
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 12.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 1.53,
+                "away_team_score": 2.37
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.44,
+                "away_team_score": 2.62
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.5,
+                "away_team_score": 2.5
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 33.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    },
+    {
+        "overview": {
+            "game_date": 1707429600.0,
+            "url": "https://www.bet365.com/#/AC/B151/C20933012/D19/E18940726/F19/",
+            "league": "LOL - Prime League Spring",
+            "home_team": "MOUZ NXT",
+            "away_team": "Eintracht Spandau"
+        },
+        "winner": [],
+        "first_blood": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 2.2,
+                "away_team_score": 1.61
+            }
+        ],
+        "first_kill_baron": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 3.4,
+                "away_team_score": 1.3
+            }
+        ],
+        "first_destroy_inhibitor": [
+            {
+                "total_amount": 1.0,
+                "home_team_score": 4.33,
+                "away_team_score": 1.2
+            }
+        ],
+        "kill_handicap": [
+            {
+                "total_amount": 9.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_kills": [
+            {
+                "total_amount": 27.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "total_towers": [
+            {
+                "total_amount": 11.5,
+                "home_team_score": 2.5,
+                "away_team_score": 1.5
+            }
+        ],
+        "tower_handicap": [],
+        "first_tower": [],
+        "total_dragons": [
+            {
+                "total_amount": 4.5,
+                "home_team_score": 2.5,
+                "away_team_score": 1.5
+            }
+        ],
+        "first_dragon": [],
+        "total_barons": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 3.4,
+                "away_team_score": 1.3
+            }
+        ],
+        "total_inhibitors": [
+            {
+                "total_amount": 1.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ],
+        "game_duration": [
+            {
+                "total_amount": 28.5,
+                "home_team_score": 1.83,
+                "away_team_score": 1.83
+            }
+        ]
+    }
+]
